@@ -35,7 +35,7 @@ A comprehensive semantic search system for Vietnamese traffic law violations and
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/dotrunghieu0903/vietnamese-traffic-law-qa.git
    cd vietnamese-traffic-law-qa
    ```
 
