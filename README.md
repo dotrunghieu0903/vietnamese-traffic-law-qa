@@ -108,7 +108,7 @@ print(f"Found {results['total_results']} violations")
 ## Project Structure
 
 ```
-VNI-TrafficLawQA/
+vietnamese-traffic-law-qa/
 ├── src/traffic_law_qa/          # Main application code
 │   ├── api/                     # FastAPI application
 │   ├── core/                    # Configuration and settings
