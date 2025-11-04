@@ -1,0 +1,219 @@
+{
+  "document_info": {
+    "title": "Nghị định 123/2021/NĐ-CP",
+    "full_title": "Nghị định về sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt",
+    "issued_date": "2021-12-28",
+    "effective_date": "2022-01-01",
+    "issued_by": "Chính phủ",
+    "amends_document": "Nghị định 100/2019/NĐ-CP",
+    "status": "Có hiệu lực",
+    "total_articles": 5,
+    "total_chapters": 1,
+    "description": "Nghị định sửa đổi, bổ sung các mức phạt và biện pháp xử lý vi phạm giao thông đường bộ và đường sắt"
+  },
+  "structure": {
+    "chapters": [
+      {
+        "chapter": 1,
+        "title": "Sửa đổi, bổ sung Nghị định 100/2019/NĐ-CP",
+        "articles": [
+          "Điều 1",
+          "Điều 2",
+          "Điều 3",
+          "Điều 4",
+          "Điều 5"
+        ]
+      }
+    ]
+  },
+  "key_articles": {
+    "dieu_1": {
+      "title": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP",
+      "content": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Sửa đổi khoản 4 Điều 5 như sau: '4. Phạt tiền từ 4.000.000 đồng đến 5.000.000 đồng đối với người điều khiển xe ô tô có hành vi chạy quá tốc độ quy định từ 20 km/h đến dưới 35 km/h'",
+          "amendment_type": "fine_increase",
+          "target_article": "Điều 5 khoản 4",
+          "old_fine": "3.000.000 - 4.000.000",
+          "new_fine": "4.000.000 - 5.000.000",
+          "fine_range": "4.000.000 - 5.000.000 đồng",
+          "violations": [
+            "Chạy quá tốc độ quy định từ 20 km/h đến dưới 35 km/h"
+          ],
+          "additional_measures": [
+            "Tước quyền sử dụng Giấy phép lái xe từ 02 - 04 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Sửa đổi khoản 3 Điều 6 như sau: '3. Phạt tiền từ 300.000 đồng đến 400.000 đồng đối với người điều khiển xe mô tô, xe gắn máy có hành vi không đội mũ bảo hiểm'",
+          "amendment_type": "enforcement_enhancement",
+          "target_article": "Điều 6 khoản 3",
+          "fine_range": "300.000 - 400.000 đồng",
+          "violations": [
+            "Không đội mũ bảo hiểm khi điều khiển xe mô tô, xe gắn máy"
+          ],
+          "additional_measures": [
+            "Tước quyền sử dụng Giấy phép lái xe từ 01 - 03 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Sửa đổi khoản 2 Điều 10 như sau: '2. Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với người điều khiển xe ô tô có hành vi chở quá số người quy định hoặc chở hàng quá tải trọng'",
+          "amendment_type": "fine_increase",
+          "target_article": "Điều 10 khoản 2",
+          "old_fine": "2.000.000 - 4.000.000",
+          "new_fine": "3.000.000 - 5.000.000",
+          "fine_range": "3.000.000 - 5.000.000 đồng",
+          "violations": [
+            "Chở quá số người quy định",
+            "Chở hàng quá tải trọng quy định"
+          ],
+          "additional_measures": [
+            "Tước quyền sử dụng Giấy phép lái xe từ 02 - 04 tháng"
+          ]
+        }
+      ]
+    },
+    "dieu_2": {
+      "title": "Hiệu lực thi hành",
+      "content": "Nghị định này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2022",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Nghị định này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2022",
+          "effective_date": "2022-01-01"
+        }
+      ]
+    },
+    "dieu_3": {
+      "title": "Trách nhiệm thi hành",
+      "content": "Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương chịu trách nhiệm thi hành Nghị định này",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương chịu trách nhiệm thi hành Nghị định này",
+          "responsibility_scope": "Toàn quốc"
+        }
+      ]
+    },
+    "dieu_4": {
+      "title": "Điều khoản về thời gian chờ hiệu lực",
+      "content": "Nghị định này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2022",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Thời gian chờ hiệu lực của các biện pháp khắc phục hậu quả",
+          "effective_date": "2022-01-01"
+        }
+      ]
+    },
+    "dieu_5": {
+      "title": "Điều khoản chuyển tiếp và hướng dẫn thi hành",
+      "content": "Các quy định về chuyển tiếp và hướng dẫn thi hành Nghị định",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Các vụ việc vi phạm hành chính xảy ra trước ngày Nghị định này có hiệu lực được xử lý theo quy định tại Nghị định số 100/2019/NĐ-CP",
+          "transition_rule": "Áp dụng quy định cũ cho vi phạm trước hiệu lực"
+        }
+      ]
+    }
+  },
+  "amendments_summary": {
+    "target_document": "Nghị định 100/2019/NĐ-CP",
+    "total_amended_articles": 3,
+    "total_articles_in_decree": 5,
+    "main_changes": [
+      "Tăng mức phạt đối với vi phạm tốc độ (Điều 5)",
+      "Tăng cường xử lý vi phạm không đội mũ bảo hiểm (Điều 6)",
+      "Điều chỉnh mức phạt chở quá tải, quá số người (Điều 10)"
+    ],
+    "effective_changes": [
+      {
+        "original_article": "Điều 5 ND 100/2019",
+        "amended_by": "Điều 1 ND 123/2021",
+        "change_type": "Tăng mức phạt",
+        "description": "Tăng mức phạt chạy quá tốc độ từ 20-35 km/h"
+      },
+      {
+        "original_article": "Điều 6 ND 100/2019",
+        "amended_by": "Điều 1 ND 123/2021",
+        "change_type": "Tăng cường xử lý",
+        "description": "Tăng cường biện pháp xử lý không đội mũ bảo hiểm"
+      },
+      {
+        "original_article": "Điều 10 ND 100/2019",
+        "amended_by": "Điều 1 ND 123/2021",
+        "change_type": "Tăng mức phạt",
+        "description": "Tăng mức phạt chở quá tải, quá số người"
+      }
+    ]
+  },
+  "violation_updates": [
+    {
+      "violation_id": "speed_20_35",
+      "violation_code": "5.4",
+      "description": "Chạy quá tốc độ quy định từ 20 km/h đến dưới 35 km/h",
+      "vehicle_type": "Xe ô tô",
+      "amendment_type": "fine_increase",
+      "before_123": {
+        "fine_range": "3.000.000 - 4.000.000 đồng",
+        "additional_measures": [
+          "Tước GPLX từ 02 - 04 tháng"
+        ]
+      },
+      "after_123": {
+        "fine_range": "4.000.000 - 5.000.000 đồng",
+        "additional_measures": [
+          "Tước GPLX từ 02 - 04 tháng"
+        ]
+      },
+      "legal_basis": "Điều 1 khoản 1 ND 123/2021 sửa đổi Điều 5 khoản 4 ND 100/2019"
+    },
+    {
+      "violation_id": "no_helmet",
+      "violation_code": "6.3",
+      "description": "Không đội mũ bảo hiểm khi điều khiển xe mô tô, xe gắn máy",
+      "vehicle_type": "Xe mô tô, xe gắn máy",
+      "amendment_type": "enforcement_enhancement",
+      "after_123": {
+        "fine_range": "300.000 - 400.000 đồng",
+        "additional_measures": [
+          "Tước GPLX từ 01 - 03 tháng"
+        ]
+      },
+      "legal_basis": "Điều 1 khoản 2 ND 123/2021 sửa đổi Điều 6 khoản 3 ND 100/2019"
+    },
+    {
+      "violation_id": "overload_passenger",
+      "violation_code": "10.2",
+      "description": "Chở quá số người quy định hoặc chở hàng quá tải trọng",
+      "vehicle_type": "Xe ô tô",
+      "amendment_type": "fine_increase",
+      "before_123": {
+        "fine_range": "2.000.000 - 4.000.000 đồng",
+        "additional_measures": [
+          "Tước GPLX từ 02 - 04 tháng"
+        ]
+      },
+      "after_123": {
+        "fine_range": "3.000.000 - 5.000.000 đồng",
+        "additional_measures": [
+          "Tước GPLX từ 02 - 04 tháng"
+        ]
+      },
+      "legal_basis": "Điều 1 khoản 3 ND 123/2021 sửa đổi Điều 10 khoản 2 ND 100/2019"
+    }
+  ],
+  "metadata": {
+    "created_date": "2025-11-03T11:28:24.060844",
+    "updated_date": "2025-11-03T15:45:00.000000",
+    "source": "Manual extraction from PDF nd-123_2021-12-28-1-.signed.pdf",
+    "version": "1.1",
+    "format_based_on": "nghi_dinh_100_2019.json structure",
+    "completeness_status": "Đã bổ sung đầy đủ 5 điều theo PDF gốc"
+  }
+}

@@ -1,0 +1,2950 @@
+{
+  "document_info": {
+    "title": "Nghị định 123/2021/NĐ-CP",
+    "full_title": "Nghị định về sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt",
+    "issued_date": "2021-12-28",
+    "effective_date": "2022-01-01",
+    "issued_by": "Chính phủ",
+    "amends_document": "Nghị định 100/2019/NĐ-CP",
+    "status": "Có hiệu lực",
+    "total_articles": 5,
+    "total_chapters": 1,
+    "description": "Merged from 3 files: enhanced_nghi_dinh_123_2021.json, nghi_dinh_123_2021_enhanced.json, nghi_dinh_123_2021_updated.json"
+  },
+  "structure": {
+    "chapters": [
+      {
+        "chapter": 1,
+        "title": "Sửa đổi, bổ sung Nghị định 100/2019/NĐ-CP",
+        "articles": [
+          "Điều 1",
+          "Điều 2",
+          "Điều 3"
+        ]
+      }
+    ]
+  },
+  "key_articles": {
+    "dieu_1": {
+      "title": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP",
+      "content": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Sửa đổi khoản 4 Điều 5 như sau: '4. Phạt tiền từ 4.000.000 đồng đến 5.000.000 đồng đối với người điều khiển xe ô tô có hành vi chạy quá tốc độ quy định từ 20 km/h đến dưới 35 km/h'",
+          "amendment_type": "fine_increase",
+          "target_article": "Điều 5 khoản 4",
+          "old_fine": "3.000.000 - 4.000.000",
+          "new_fine": "4.000.000 - 5.000.000",
+          "fine_range": "4.000.000 - 5.000.000 đồng",
+          "violations": [
+            "Chạy quá tốc độ quy định từ 20 km/h đến dưới 35 km/h"
+          ],
+          "additional_measures": [
+            "Tước quyền sử dụng Giấy phép lái xe từ 02 - 04 tháng"
+          ],
+          "fine_min": 0,
+          "fine_max": 0,
+          "old_fine_min": 0,
+          "old_fine_max": 0,
+          "new_fine_min": 0,
+          "new_fine_max": 0,
+          "violation_categories": [
+            "speed"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Sửa đổi khoản 3 Điều 6 như sau: '3. Phạt tiền từ 300.000 đồng đến 400.000 đồng đối với người điều khiển xe mô tô, xe gắn máy có hành vi không đội mũ bảo hiểm'",
+          "amendment_type": "enforcement_enhancement",
+          "target_article": "Điều 6 khoản 3",
+          "fine_range": "300.000 - 400.000 đồng",
+          "violations": [
+            "Không đội mũ bảo hiểm khi điều khiển xe mô tô, xe gắn máy"
+          ],
+          "additional_measures": [
+            "Tước quyền sử dụng Giấy phép lái xe từ 01 - 03 tháng"
+          ],
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": [
+            "safety_equipment"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Sửa đổi khoản 2 Điều 10 như sau: '2. Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với người điều khiển xe ô tô có hành vi chở quá số người quy định hoặc chở hàng quá tải trọng'",
+          "amendment_type": "fine_increase",
+          "target_article": "Điều 10 khoản 2",
+          "old_fine": "2.000.000 - 4.000.000",
+          "new_fine": "3.000.000 - 5.000.000",
+          "fine_range": "3.000.000 - 5.000.000 đồng",
+          "violations": [
+            "Chở quá số người quy định",
+            "Chở hàng quá tải trọng quy định"
+          ],
+          "additional_measures": [
+            "Tước quyền sử dụng Giấy phép lái xe từ 02 - 04 tháng"
+          ],
+          "fine_min": 0,
+          "fine_max": 0,
+          "old_fine_min": 0,
+          "old_fine_max": 0,
+          "new_fine_min": 0,
+          "new_fine_max": 0,
+          "violation_categories": [
+            "loading"
+          ]
+        }
+      ]
+    },
+    "dieu_2": {
+      "title": "Hiệu lực thi hành",
+      "content": "Nghị định này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2022",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Nghị định này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2022",
+          "effective_date": "2022-01-01",
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_3": {
+      "title": "Trách nhiệm thi hành",
+      "content": "Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương chịu trách nhiệm thi hành Nghị định này",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương chịu trách nhiệm thi hành Nghị định này",
+          "responsibility_scope": "Toàn quốc",
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_4": {
+      "title": "Điều khoản về thời gian chờ hiệu lực",
+      "content": "Nghị định này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2022",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Thời gian chờ hiệu lực của các biện pháp khắc phục hậu quả",
+          "effective_date": "2022-01-01"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_123_2021_enhanced.json",
+        "merged_date": "2025-11-03T22:55:33.989924",
+        "original_key": "dieu_4"
+      }
+    },
+    "dieu_5": {
+      "title": "Điều khoản chuyển tiếp và hướng dẫn thi hành",
+      "content": "Các quy định về chuyển tiếp và hướng dẫn thi hành Nghị định",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Các vụ việc vi phạm hành chính xảy ra trước ngày Nghị định này có hiệu lực được xử lý theo quy định tại Nghị định số 100/2019/NĐ-CP",
+          "transition_rule": "Áp dụng quy định cũ cho vi phạm trước hiệu lực"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_123_2021_enhanced.json",
+        "merged_date": "2025-11-03T22:55:33.990263",
+        "original_key": "dieu_5"
+      }
+    },
+    "dieu_1_from_1232021updated": {
+      "title": "Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 142/2017/NĐ-CP ngày 11 tháng 12 năm 2017 của C",
+      "content": "Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 142/2017/NĐ-CP ngày 11 tháng 12 năm 2017 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải 1. Sửa đổi, bổ sung khoản 2 và khoản 3 của Điều 1 như sau: “2. Hành vi vi phạm hành chính trong lĩnh vực hàng hải được quy định tại Nghị định này, bao gồm: a) Vi phạm quy định về xây dựng, quản lý và khai thác kết cấu hạ tầng hàng hải; 2 b) Vi phạm quy định về xây dựng, quản lý khai thác cảng cạn; c) Vi phạm quy định về hoạt động...",
+      "amendment_type": "modify_and_supplement",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Sửa đổi, bổ sung khoản 2 và khoản 3 của Điều 1 như sau: “"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Hành vi vi phạm hành chính trong lĩnh vực hàng hải được quy định tại Nghị định này, bao gồm: a) Vi phạm quy định về xây dựng, quản lý và khai thác kết cấu hạ tầng hàng hải; 2 b) Vi phạm quy định về xây dựng, quản lý khai thác cảng cạn; c) Vi phạm quy định về hoạt động của tàu thuyền; d) Vi phạm quy ..."
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Các hành vi vi phạm quy định tại khoản 2 Điều này nếu xảy ra ở ngoài vùng nước cảng biển mà chưa được quy định tại Nghị định về xử phạt vi phạm hành chính trên các vùng biển, đảo và thềm lục địa của nước Cộng hòa xã hội chủ nghĩa Việt Nam cũng bị xử phạt theo quy định tại Nghị định này.”."
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Bổ sung khoản 2a và khoản 2b vào sau khoản 2 Điều 2 như sau: “2a. Tổ chức quy định tại khoản 1 Điều này bao gồm: a) Tổ chức kinh tế được thành lập theo quy định của pháp luật; b) Tổ chức xã hội, tổ chức chính trị - xã hội, tổ chức xã hội - nghề nghiệp, tổ chức chính trị - xã hội nghề nghiệp; c) Đơn ..."
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Sửa đổi, bổ sung Điều 3 như sau: “Điều",
+          "target_article": "Điều 3"
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Thời hiệu xử phạt vi phạm hành chính Thời hiệu xử phạt vi phạm hành chính trong lĩnh vực hàng hải là 01 năm; riêng đối với hành vi vi phạm hành chính về xây dựng cảng biển, cảng cạn, công trình hàng hải, bảo vệ môi trường, quản lý giá, quản lý lao động ngoài nước thì thời hiệu xử phạt là 02 năm.”."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Bổ sung Điều 3a vào sau Điều 3 như sau: “Điều 3a. Hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện",
+          "target_article": "Điều 3"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Hành vi vi phạm hành chính đã kết thúc gồm những hành vi vi phạm hành chính sau đây: a) Hành vi vi phạm quy định về xếp hàng hóa tại điểm a khoản 1, khoản 2, khoản 3 Điều 16 Nghị định này. Thời điểm chấm dứt hành vi vi phạm được tính từ thời điểm phát hiện hành vi chở hàng vượt trọng tải (khối lượng..."
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Các hành vi vi phạm hành chính quy định tại Nghị định này mà không thuộc trường hợp quy định tại khoản 1 Điều này là các hành vi vi phạm hành chính đang thực hiện.”."
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Sửa đổi, bổ sung một số khoản của Điều 4 như sau: a) Sửa đổi, bổ sung khoản 2 Điều 4 như sau: “",
+          "target_article": "Điều 4 khoản 2"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Căn cứ tính chất, mức độ vi phạm, tổ chức, cá nhân có hành vi vi phạm còn có thể bị áp dụng một hoặc nhiều hình thức xử phạt bổ sung sau đây: 4 a) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn; b) Đình chỉ hoạt động có thời hạn; c) Tịch thu tang vật, phương tiện vi phạm hành chính ba...",
+          "target_article": "Điều 4 khoản 3"
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Ngoài các biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b và điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính, Nghị định này quy định các biện pháp khắc phục hậu quả như sau: a) Buộc bố trí đủ cán bộ an ninh cảng biển theo quy định; bố trí đủ số lượng hoa tiêu hoặc phương tiện tối th..."
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Đối với hành vi vi phạm hành chính liên quan đến tàu thuyền không có các thông tin để tính quy đổi tổng dung tích tàu quy định tại khoản 4 Điều này, phương pháp xác định trọng tải toàn phần, công suất tàu thuyền để áp dụng xử phạt như sau: a) Trọng tải toàn phần của tàu thuyền ký hiệu là T (tấn) và ..."
+        },
+        {
+          "section": "Khoản 1",
+          "content": "119,80 m3 thì hệ số K = 0,51; Giá trị của A trên"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "119,80 m3 thì hệ số K = 0,"
+        },
+        {
+          "section": "Khoản 57",
+          "content": "b) Nếu tàu thuyền không phải là tàu thuyền vận tải hàng hóa, hành khách thì căn cứ vào tổng công suất máy chính lắp trên tàu thuyền để áp dụng hình thức, mức xử phạt. Trường hợp không có cơ sở để xác định công suất máy chính lắp trên tàu thuyền, không nhãn mác, thì áp dụng mức xử phạt theo công suất..."
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Sửa đổi, bổ sung Điều 7 như sau: “Điều",
+          "target_article": "Điều 7"
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Vi phạm quy định về công bố mở cảng biển, cảng dầu khí ngoài khơi, bến cảng, cầu cảng"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi khai báo sai lệch thông tin trong hồ sơ đề nghị công bố mở cảng biển, cảng dầu khí ngoài khơi, bến cảng, cầu cảng."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi sử dụng giấy chứng nhận, giấy xác nhận, giấy phép, văn bản cho phép, chứng chỉ, giấy tờ bị tẩy xóa, sửa chữa làm sai lệch nội dung hoặc không do cơ quan có thẩm quyền cấp trong hồ sơ đề nghị công bố mở cảng biển, cảng dầu khí ngoài khơi, bến cảng, cầu cảng."
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Hình phạt xử phạt bổ sung: Tịch thu giấy chứng nhận, giấy xác nhận, giấy phép, văn bản cho phép, chứng chỉ, giấy tờ bị tẩy xóa, sửa chữa làm sai lệch nội dung hoặc không do cơ quan có thẩm quyền cấp đối với hành vi vi phạm tại khoản 2 Điều này.”."
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 10 như sau: a) Bổ sung điểm i và điểm k vào sau điểm h khoản 5 Điều 10 như sau: 8 “i) Không lưu trữ đầy đủ hồ sơ phục vụ quản lý, vận hành và bảo trì công trình hàng hải; k) Không thực hiện kiểm định hoặc điều khiển phương tiện, thiết bị xếp dỡ, xe, máy m...",
+          "target_article": "Điều 10 khoản 7"
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Hình thức xử phạt bổ sung: a) Đình chỉ việc tiếp nhận tàu thuyền hoạt động tuyến quốc tế vào cảng biển từ 01 tháng đến 03 tháng đối với hành vi vi phạm quy định tại các điểm d và điểm e khoản 5 và điểm c khoản 6 Điều này; b) Đình chỉ việc tiếp nhận tàu thuyền vào cảng biển từ 01 tháng đến 03 tháng đ..."
+        },
+        {
+          "section": "Khoản 8",
+          "content": "Biện pháp khắc phục hậu quả: a) Buộc bố trí đủ cán bộ an ninh cảng biển theo quy định đối với hành vi vi phạm tại điểm e khoản 5 Điều này; b) Buộc có kế hoạch an ninh cảng biển đã được phê duyệt theo quy định đối với hành vi vi phạm quy định tại điểm c khoản 6 Điều này; c) Buộc thực hiện kiểm định c..."
+        },
+        {
+          "section": "Khoản 8",
+          "content": "Sửa đổi, bổ sung Điều 12 như sau: “Điều",
+          "target_article": "Điều 12"
+        },
+        {
+          "section": "Khoản 12",
+          "content": "Vi phạm quy định về bảo đảm an toàn hàng hải và bảo vệ môi trường khi xây dựng mới hoặc cải tạo, nâng cấp cảng biển hoặc khi xây dựng, lắp đặt các công trình, thiết bị khác ảnh hưởng đến an toàn hàng hải"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: 9 a) Không có trang thiết bị cứu sinh hoặc trang thiết bị cứu sinh không phù hợp theo quy định; b) Không thông báo cho Cảng vụ hàng hải biết về việc xây dựng các công trình khác trong vùng nước cảng biển; c) Thiết lập báo hiệu hàng hải không đầy đủ hoặc ...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Thi công sai vị trí được cấp phép; b) Thi công quá thời gian quy định ghi trong giấy phép xây dựng của cơ quan có thẩm quyền theo quy định; c) Sử dụng phương tiện, thiết bị chuyên dùng để khảo sát, nạo vét luồng, thiết lập báo hiệu hàng hải và tiến hà...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Không thiết lập báo hiệu hàng hải theo quy định; b) Không lắp đặt theo quy định hệ thống giám sát nạo vét trên phương tiện tham gia vận chuyển đổ bùn đất trong thi công nạo vét, duy tu luồng hàng hải, khu nước, vùng nước; c) Không thực hiện hoặc thực ...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi tổ chức thi công công trình không thuộc các trường hợp quy định tại điểm a khoản 5 Điều này khi chưa có giấy phép hoặc văn bản chấp thuận của cơ quan có thẩm quyền theo quy định."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Tổ chức thi công công trình thuộc trường hợp phải lập báo cáo kinh tế - kỹ thuật xây dựng công trình hoặc lập dự án đầu tư xây dựng công trình khi chưa có giấy phép hoặc văn bản chấp thuận của cơ quan có thẩm quyền theo quy định; b) Xây dựng công trìn...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi xây dựng công trình không phù hợp với quy hoạch được duyệt."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Thi công công trình khi chưa được phép của cơ quan có thẩm quyền và để xảy ra tai nạn; b) Thi công sai vị trí được phép và để xảy ra tai nạn; 11 c) Không có hoặc thực hiện không đúng phương án bảo đảm an toàn hàng hải, phương án bảo đảm an toàn giao t...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 8",
+          "content": "Biện pháp khắc phục hậu quả: a) Buộc trang bị thiết bị cứu sinh hoặc trang bị thiết bị cứu sinh phù hợp theo quy định đối với hành vi vi phạm quy định tại điểm a khoản 1 Điều này; b) Buộc thiết lập đầy đủ, thiết lập báo hiệu hàng hải phù hợp theo quy định đối với hành vi vi phạm quy định tại điểm c ..."
+        },
+        {
+          "section": "Khoản 9",
+          "content": "Sửa đổi, bổ sung Điều 15 như sau: “Điều",
+          "target_article": "Điều 15"
+        },
+        {
+          "section": "Khoản 15",
+          "content": "Vi phạm quy định về cân xác nhận khối lượng toàn bộ đối với mỗi Công-te-nơ vận tải biển Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây:",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Không cân xác nhận khối lượng toàn bộ Công-te-nơ theo quy định. 12"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Không cung cấp bản xác nhận khối lượng toàn bộ Công-te-nơ theo quy định.”."
+        },
+        {
+          "section": "Khoản 10",
+          "content": "Sửa đổi, bổ sung Điều 16 như sau: “Điều",
+          "target_article": "Điều 16"
+        },
+        {
+          "section": "Khoản 16",
+          "content": "Vi phạm quy định về xếp hàng hóa lên xe ô tô trong vùng đất cảng"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Xếp hàng hóa lên mỗi xe ô tô (kể cả rơ moóc và sơ mi rơ moóc) vượt quá trọng tải (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 10% đến 50%; riêng vớ...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi xếp hàng hóa lên mỗi xe ô tô (kể cả rơ moóc và sơ mi rơ moóc) vượt quá trọng tải (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 50% đến 100%."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm xếp hàng hóa lên mỗi xe ô tô (kể cả rơ moóc và sơ mi rơ moóc) vượt quá trọng tải (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 100%."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm chất xếp hàng siêu trường, siêu trọng lên phương tiện không có Giấy phép lưu hành, Giấy phép lưu hành hết hạn sử dụng hoặc không do cơ quan có thẩm quyền cấp."
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Biện pháp khắc phục hậu quả: Buộc phải hạ phần hàng xếp vượt quá trọng tải cho phép chở của xe ô tô trong trường hợp xe ô tô được xếp hàng chưa rời khỏi khu vực xếp hàng đối với hành vi vi phạm quy định tại điểm a khoản 1, khoản 2 và khoản 3 Điều này.”."
+        },
+        {
+          "section": "Khoản 11",
+          "content": "Sửa đổi, bổ sung Điều 17 như sau: “Điều",
+          "target_article": "Điều 17"
+        },
+        {
+          "section": "Khoản 17",
+          "content": "Vi phạm quy định đối với người điều khiển ô tô và các loại phương tiện tương tự ô tô trong vùng đất cảng"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người điều khiển ô tô và các loại phương tiện tương tự ô tô chạy quá tốc độ quy định từ 05 km/giờ đến dưới 10 km/giờ. 13"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người điều khiển ô tô và các loại phương tiện tương tự ô tô điều khiển ô tô và các loại phương tiện tương tự ô tô chạy quá tốc độ quy định từ 10 km/giờ đến 20 km/giờ."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người điều khiển ô tô và các loại phương tiện tương tự ô tô thực hiện một trong các hành vi vi phạm sau đây: a) Điều khiển ô tô và các loại phương tiện tương tự ô tô chạy quá tốc độ trên 20 km/giờ đến 35 km/giờ; b) Điều khiển ô tô và các loại phương tiện tương tự ô tô mà trong máu h...",
+          "violations": [
+            "người điều khiển ô tô và các loại phương tiện tương tự ô tô thực hiện một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người điều khiển ô tô và các loại phương tiện tương tự ô tô chạy quá tốc độ quy định trên 35 km/giờ."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người điều khiển ô tô và các loại phương tiện tương tự ô tô mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/01 lít khí thở."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người điều khiển ô tô và các loại phương tiện tương tự ô tô mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở."
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Hình thức xử phạt bổ sung: a) Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng đối với hành vi vi phạm quy định tại khoản 2 Điều này; b) Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng đối với hành vi vi phạm quy định tại điểm a khoản 3, khoản 4 Điều này; c) Tước quyền sử dụ...",
+          "additional_measures": [
+            "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng đối với hành vi vi phạm quy định tại khoản 2 Điều này",
+            "Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng đối với hành vi vi phạm quy định tại điểm a khoản 3, khoản 4 Điều này",
+            "Tước quyền sử dụng Giấy phép lái xe từ 10 tháng đến 12 tháng đối với hành vi vi phạm quy định tại điểm b khoản 3 Điều này",
+            "Tước quyền sử dụng Giấy phép lái xe từ 16 tháng đến 18 tháng đối với hành vi vi phạm quy định tại khoản 5 Điều này",
+            "Tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng đối với hành vi vi phạm quy định tại khoản 6 Điều này"
+          ]
+        },
+        {
+          "section": "Khoản 12",
+          "content": "Sửa đổi, bổ sung Điều 20 như sau: 14 “Điều",
+          "target_article": "Điều 20"
+        },
+        {
+          "section": "Khoản 20",
+          "content": "Vi phạm quy định về sử dụng giấy chứng nhận đủ điều kiện kinh doanh khai thác cảng biển và điều kiện kinh doanh khai thác cảng biển"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi kinh doanh khai thác cảng biển không đúng giấy chứng nhận đủ điều kiện kinh doanh khai thác cảng biển do cơ quan có thẩm quyền cấp theo quy định."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Không có phương án bảo đảm an toàn, vệ sinh lao động theo quy định; b) Không có đủ điều kiện an toàn về phòng cháy, chữa cháy hoặc không có phương án chữa cháy theo quy định; c) Không có đủ hồ sơ về bảo vệ môi trường được cơ quan có thẩm quyền phê duy...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Kinh doanh khai thác cảng biển không có giấy chứng nhận đủ điều kiện kinh doanh khai thác cảng biển do cơ quan có thẩm quyền cấp theo quy định; b) Sửa chữa, tẩy xóa làm sai lệch nội dung ghi trong giấy chứng nhận đủ điều kiện kinh doanh khai thác cảng...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Hình thức xử phạt bổ sung: a) Tước quyền sử dụng giấy chứng nhận đủ điều kiện kinh doanh khai thác cảng biển có thời hạn từ 01 tháng đến 03 tháng đối với hành vi vi phạm quy định tại khoản 2 Điều này; b) Tịch thu các giấy chứng nhận, giấy xác nhận, giấy phép, văn bản cho phép, chứng chỉ, giấy tờ bị ..."
+        },
+        {
+          "section": "Khoản 13",
+          "content": "Sửa đổi, bổ sung Điều 21 như sau: “Điều",
+          "target_article": "Điều 21"
+        },
+        {
+          "section": "Khoản 21",
+          "content": "Vi phạm quy định về niêm yết thông tin về giá, phụ thu ngoài giá dịch vụ vận chuyển hàng hóa Công-te-nơ bằng đường biển, giá dịch vụ tại cảng biển"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Không niêm yết giá vận chuyển bằng đường biển, phụ thu, giá dịch vụ tại cảng biển tại địa điểm phải niêm yết theo quy định; b) Niêm yết không đúng đồng tiền quy định đối với giá và phụ thu ngoài giá dịch vụ vận chuyển hàng hóa Công-te-nơ bằng đường bi...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm không niêm yết ít nhất 15 ngày liên tục trước khi tăng giá và phụ thu ngoài giá dịch vụ vận chuyển hàng hóa Công-te-nơ bằng đường biển.”."
+        },
+        {
+          "section": "Khoản 14",
+          "content": "Sửa đổi, bổ sung tên Mục 3 Chương II như sau: “Mục"
+        },
+        {
+          "section": "Khoản 3",
+          "content": "VI PHẠM QUY ĐỊNH VỀ HOẠT ĐỘNG CỦA TÀU THUYỀN”."
+        },
+        {
+          "section": "Khoản 15",
+          "content": "Sửa đổi, bổ sung Điều 32 như sau: “Điều",
+          "target_article": "Điều 32"
+        },
+        {
+          "section": "Khoản 32",
+          "content": "Vi phạm quy định về thủ tục vào, rời cảng biển hoặc quá cảnh"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi khai báo không đủ hoặc sai một trong các thông tin trong thông báo, xác báo tàu đến, rời cảng hoặc bản khai chung hoặc danh sách thuyền viên, danh sách hành khách theo quy định. 16"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Làm thủ tục cho tàu thuyền vào, rời cảng biển hoặc quá cảnh chậm hơn thời gian quy định; b) Không làm thủ tục cấp lại Giấy phép rời cảng cho tàu thuyền hết hiệu lực theo quy định.",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Trong thời gian quy định, không cung cấp được một trong các giấy chứng nhận, tài liệu, giấy tờ hoặc cung cấp giấy chứng nhận, tài liệu, giấy tờ không phù hợp khi làm thủ tục vào, rời cảng hoặc quá cảnh; b) Không cung cấp hoặc cung cấp không đầy đủ giấ...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Đối với hành vi không có Giấy chứng nhận bảo hiểm hoặc bảo đảm tài chính còn hiệu lực theo quy định đối với tàu thuyền chở khách, chở dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác sẽ bị xử phạt như sau: a) Phạt tiền từ",
+          "violations": [
+            "không có Giấy chứng nhận bảo hiểm hoặc bảo đảm tài chính còn hiệu lực theo quy định đối với tàu thuyền chở khách, chở dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tàu thuyền chở khách dưới 50 người; tàu thuyền chở dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác có tổng dung tích dưới 200 GT; b) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tàu thuyền chở khách từ 50 người đến dưới 100 người; tàu thuyền chở dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác có tổng dung tích từ 200 GT đến dưới 500 GT; 17 c) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tàu thuyền chở khách từ 100 người đến dưới 300 người; tàu thuyền chở dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác có tổng dung tích từ 500 GT đến dưới"
+        },
+        {
+          "section": "Khoản 3",
+          "content": "000 GT; d) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tàu thuyền chở khách từ 300 người trở lên; tàu thuyền chở dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác có tổng dung tích từ"
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Đối với hành vi không có giấy phép rời cảng cuối cùng theo quy định hoặc rời cảng khi chưa được phép của cơ quan có thẩm quyền sẽ bị xử phạt như sau: a) Phạt tiền từ",
+          "violations": [
+            "không có giấy phép rời cảng cuối cùng theo quy định hoặc rời cảng khi chưa được phép của cơ quan có thẩm quyền"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tàu thuyền có tổng dung tích dưới 200 GT; b) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tàu thuyền có tổng dung tích từ 200 GT đến dưới 500 GT; c) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tàu thuyền có tổng dung tích từ 500 GT đến dưới"
+        },
+        {
+          "section": "Khoản 3",
+          "content": "000 GT; d) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tàu thuyền có tổng dung tích từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi của tàu thuyền nước ngoài tham gia vận tải nội địa hoặc thực hiện các hoạt động đặc thù khi chưa được cơ quan có thẩm quyền cho phép theo quy định."
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Hình thức xử phạt bổ sung: Tước quyền sử dụng Giấy chứng nhận khả năng chuyên môn của thuyền trưởng có thời hạn từ 03 tháng đến 06 tháng đối với hành vi vi phạm quy định tại khoản 5 Điều này."
+        },
+        {
+          "section": "Khoản 8",
+          "content": "Biện pháp khắc phục hậu quả: a) Buộc khai báo bổ sung và đính chính thông tin đối với hành vi vi phạm quy định tại khoản 1 Điều này; b) Buộc thanh toán phí, lệ phí hàng hải và các khoản tiền liên quan khác theo quy định đối với hành vi vi phạm quy định tại khoản 5 Điều này.”."
+        },
+        {
+          "section": "Khoản 16",
+          "content": "Sửa đổi tên Mục 4 Chương II như sau: “Mục"
+        },
+        {
+          "section": "Khoản 4",
+          "content": "VI PHẠM QUY ĐỊNH VỀ ĐĂNG KÝ, XÓA ĐĂNG KÝ TÀU BIỂN, TÀU BIỂN CÔNG VỤ, TÀU NGẦM, TÀU LẶN, KHO CHỨA NỔI, GIÀN KHOAN DI ĐỘNG VÀ BỐ TRÍ THUYỀN VIÊN TRÊN TÀU THUYỀN; SỬ DỤNG CHỨNG CHỈ CHUYÊN MÔN, SỐ THUYỀN VIÊN”."
+        },
+        {
+          "section": "Khoản 17",
+          "content": "Sửa đổi, bổ sung Điều 40 như sau: 18 “Điều",
+          "target_article": "Điều 40"
+        },
+        {
+          "section": "Khoản 40",
+          "content": "Vi phạm quy định về đăng ký, xóa đăng ký; sử dụng các giấy chứng nhận của tàu biển, tàu biển công vụ, tàu ngầm, tàu lặn, kho chứa nổi, giàn khoan di động"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Không thực hiện đăng ký thay đổi theo quy định; b) Không thực hiện đăng ký thay đổi chủ sở hữu sau khi đã được mua, bán, chuyển quyền sở hữu; c) Không thực hiện thay đổi Giấy chứng nhận định biên an toàn tối thiểu khi thay đổi doanh nghiệp quản lý, kh...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Khai thác tàu biển, tàu biển công vụ, tàu ngầm, tàu lặn, kho chứa nổi, giàn khoan di động khi chưa được cấp giấy chứng nhận đăng ký; b) Sử dụng một trong các giấy chứng nhận của tàu biển, tàu biển công vụ, tàu ngầm, tàu lặn, kho chứa nổi, giàn khoan d...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Hình thức xử phạt bổ sung: Tịch thu tang vật vi phạm hành chính đối với các hành vi vi phạm quy định tại điểm d khoản 1 và điểm b khoản 2 Điều này.",
+          "violations": [
+            "các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Biện pháp khắc phục hậu quả: a) Buộc làm thủ tục đăng ký mang cờ quốc tịch Việt Nam theo quy định đối với hành vi vi phạm tại điểm e khoản 1 Điều này; 19 b) Buộc làm thủ tục xóa đăng ký tàu theo quy định đối với hành vi vi phạm quy định tại điểm g khoản 1 Điều này.”."
+        },
+        {
+          "section": "Khoản 18",
+          "content": "Sửa đổi, bổ sung Điều 42 như sau: “Điều",
+          "target_article": "Điều 42"
+        },
+        {
+          "section": "Khoản 42",
+          "content": "Vi phạm quy định về bố trí thuyền viên, sử dụng chứng chỉ chuyên môn, chứng chỉ hành nghề, sổ thuyền viên trên tàu biển"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi sau đây: a) Không ghi hoặc ghi không đầy đủ, chính xác thông tin trong sổ thuyền viên theo quy định; b) Không mang theo đầy đủ chứng chỉ hành nghề, chứng chỉ chuyên môn, sổ thuyền viên khi làm việc trên tàu biển theo quy định."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Bố trí thuyền viên làm việc trên tàu thuyền không có đủ chứng chỉ chuyên môn, chứng chỉ hành nghề, sổ thuyền viên hoặc có chứng chỉ chuyên môn, chứng chỉ hành nghề nhưng hết hiệu lực hoặc bố trí chức danh thuyền viên không phù hợp với chứng chỉ chuyên...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi mua, bán, thuê, cho thuê, mượn, cho mượn chứng chỉ chuyên môn, chứng chỉ hành nghề, sổ thuyền viên."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Sử dụng chứng chỉ chuyên môn, chứng chỉ hành nghề, sổ thuyền viên không do cơ quan có thẩm quyền cấp hoặc đã bị sửa chữa, tẩy xóa; b) Sử dụng chứng chỉ chuyên môn, chứng chỉ hành nghề, sổ thuyền viên của người khác để làm việc trên tàu; 20 c) Khai báo...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Hình thức xử phạt bổ sung: a) Tước quyền sử dụng chứng chỉ hành nghề, chứng chỉ chuyên môn có thời hạn từ 06 tháng đến 12 tháng đối với hành vi vi phạm quy định tại khoản 3 Điều này; b) Tịch thu chứng chỉ hành nghề, chứng chỉ chuyên môn, sổ thuyền viên đối với hành vi vi phạm quy định tại khoản 4 Đi..."
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Biện pháp khắc phục hậu quả: Buộc khai báo đầy đủ, chính xác thông tin xuống, rời tàu và bố trí chức danh cho thuyền viên bằng phương thức điện tử vào Cơ sở dữ liệu quản lý thuyền viên của Cục Hàng hải Việt Nam theo quy định đối với hành vi vi phạm tại điểm c khoản 2 Điều này.”."
+        },
+        {
+          "section": "Khoản 19",
+          "content": "Sửa đổi, bổ sung Điều 44 như sau: “Điều",
+          "target_article": "Điều 44"
+        },
+        {
+          "section": "Khoản 44",
+          "content": "Vi phạm quy định về điều động và bố trí hoa tiêu hàng hải"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Gửi kế hoạch hoa tiêu dẫn tàu hàng ngày chậm hơn thời gian quy định hoặc không thông báo về sự thay đổi đột xuất kế hoạch hoa tiêu dẫn tàu cho Cảng vụ hàng hải; b) Bố trí hoa tiêu không đúng với kế hoạch điều động của Cảng vụ hàng hải mà không báo trư...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Bố trí hoa tiêu hàng hải dẫn tàu có giấy chứng nhận khả năng chuyên môn hoa tiêu hàng hải hoặc giấy chứng nhận vùng hoạt động của hoa tiêu hàng hải không phù hợp; b) Không cung cấp đầy đủ, kịp thời dịch vụ hoa tiêu dẫn tàu trong vùng hoa tiêu hàng hải...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không sử dụng hoặc không bố trí đủ phương tiện đưa, đón hoa tiêu theo quy định hoặc sử dụng phương tiện đưa, đón hoa tiêu không bảo đảm điều kiện an toàn. 21"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không có đủ số lượng hoa tiêu hoặc phương tiện tối thiểu theo quy định."
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Biện pháp khắc phục hậu quả: a) Buộc bố trí hoa tiêu hàng hải dẫn tàu phù hợp với giấy chứng nhận khả năng chuyên môn hoa tiêu hàng hải hoặc giấy chứng nhận vùng hoạt động của hoa tiêu hàng hải đối với hành vi vi phạm tại điểm a khoản 2 Điều này; b) Buộc cung cấp đầy đủ, kịp thời dịch vụ hoa tiêu dẫ..."
+        },
+        {
+          "section": "Khoản 20",
+          "content": "Sửa đổi, bổ sung Điều 45 như sau: “Điều",
+          "target_article": "Điều 45"
+        },
+        {
+          "section": "Khoản 45",
+          "content": "Vi phạm quy định trong khi dẫn tàu của hoa tiêu hàng hải"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây của hoa tiêu: a) Không thông báo kịp thời cho Cảng vụ hàng hải khi phát hiện tai nạn, sự cố hay những thay đổi của luồng hàng hải và báo hiệu hàng hải trong thời gian dẫn tàu; b) Không thông báo, xác báo cho Cảng vụ hàng hải về thời gian, địa điểm lên tàu...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm: Hoa tiêu có nồng độ cồn trong máu hoặc hơi thở chưa vượt quá 50 miligam/100 mililít máu hoặc chưa vượt quá 0,25 miligam/01 lít khí hoặc có sử dụng các chất kích thích khác mà luật cấm sử dụng khi dẫn tàu."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Hoa tiêu hàng hải dẫn tàu vào neo đậu, cập cầu hoặc di chuyển trong vùng nước cảng khi chưa có lệnh điều động hoặc sai vị trí chỉ định của Cảng vụ hàng hải; b) Từ chối dẫn tàu mà không có lý do chính đáng hoặc không thông báo kịp thời cho Cảng vụ hàng...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi hoa tiêu có nồng độ cồn trong máu hoặc hơi thở vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/01 lít khí thở khi dẫn tàu."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Hoa tiêu dẫn tàu có lỗi dẫn đến tai nạn hàng hải nghiêm trọng; b) Hoa tiêu chỉ dẫn cho thuyền trưởng điều động tàu thuyền được dẫn chạy quá tốc độ cho phép từ 01 hải lý/giờ đến 02 hải lý/giờ.",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Hoa tiêu dẫn tàu có lỗi dẫn đến tai nạn hàng hải đặc biệt nghiêm trọng; b) Hoa tiêu chỉ dẫn cho thuyền trưởng điều động tàu thuyền được dẫn chạy quá tốc độ cho phép trên 02 hải lý/giờ hoặc chạy ngược chiều hoặc tránh vượt nhau tại khu vực cấm tránh vư...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Hình thức xử phạt bổ sung: a) Tước quyền sử dụng Giấy chứng nhận khả năng chuyên môn hoa tiêu hàng hải có thời hạn từ 03 tháng đến 06 tháng đối với các hành vi vi phạm được quy định tại khoản 2 và điểm a khoản 5 Điều này; b) Tước quyền sử dụng Giấy chứng nhận khả năng chuyên môn hoa tiêu hàng hải có...",
+          "violations": [
+            "các hành vi",
+            "các hành vi",
+            "các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 21",
+          "content": "Sửa đổi, bổ sung Điều 46 như sau: “Điều",
+          "target_article": "Điều 46"
+        },
+        {
+          "section": "Khoản 46",
+          "content": "Vi phạm quy định về điều kiện kinh doanh vận tải biển, vận tải đa phương thức và dịch vụ hỗ trợ vận tải biển"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi kinh doanh vận tải đa phương thức không đúng nội dung ghi trong giấy phép do cơ quan có thẩm quyền cấp theo quy định."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Kinh doanh vận tải đa phương thức không có giấy phép do cơ quan có thẩm quyền cấp theo quy định; b) Kinh doanh dịch vụ vận tải biển, dịch vụ đại lý tàu biển, dịch vụ lai dắt tàu biển nhưng không đáp ứng các điều kiện theo quy định.",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi tiếp tục hoạt động kinh doanh khi đã bị cơ quan quản lý nhà nước có thẩm quyền đình chỉ hoạt động kinh doanh, tước quyền sử dụng giấy phép hoặc giấy chứng nhận đủ điều kiện kinh doanh."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Sửa chữa, tẩy xóa làm sai lệch nội dung ghi trong giấy phép, giấy chứng nhận đủ điều kiện kinh doanh đối với dịch vụ kinh doanh có điều kiện; b) Sử dụng một trong các giấy tờ bị tẩy xóa, sửa chữa hoặc không do cơ quan có thẩm quyền cấp trong hồ sơ xin...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Hình thức xử phạt bổ sung: a) Tước quyền sử dụng giấy phép kinh doanh có thời hạn từ 01 tháng đến 03 tháng đối với hành vi vi phạm quy định tại khoản 2 Điều này trong trường hợp vi phạm nhiều lần hoặc tái phạm; b) Tịch thu giấy phép, giấy chứng nhận đủ điều kiện kinh doanh đối với hành vi vi phạm qu..."
+        },
+        {
+          "section": "Khoản 22",
+          "content": "Sửa đổi, bổ sung khoản 4 và điểm b khoản 5 Điều 47 như sau: a) Sửa đổi, bổ sung khoản 4 Điều 47 như sau: “",
+          "target_article": "Điều 47 khoản 4"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Sửa chữa, tẩy xóa làm sai lệch nội dung ghi trong giấy phép nhập khẩu pháo hiệu hàng hải; b) Sử dụng một trong các giấy tờ bị tẩy xóa, sửa chữa hoặc không do cơ quan có thẩm quyền cấp trong hồ sơ đề nghị giao tuyến dẫn tàu hoặc hồ sơ đề nghị cấp giấy ...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 23",
+          "content": "Bổ sung điểm e vào sau điểm đ khoản 2 và điểm e vào sau điểm đ khoản 5 Điều 48 như sau: a) Bổ sung điểm e vào sau điểm đ khoản 2 Điều 48 như sau: “e) Không bố trí cho thuyền viên hồi hương đúng theo thời gian quy định.”; b) Bổ sung điểm e vào sau điểm đ khoản 5 Điều 48 như sau: “e) Buộc bố trí đưa t..."
+        },
+        {
+          "section": "Khoản 24",
+          "content": "Sửa đổi, bổ sung khoản 1 Điều 51 như sau: “",
+          "target_article": "Điều 51 khoản 1"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi sau đây: 25 a) Không thực hiện phá dỡ tàu biển trong thời hạn quy định; b) Phá dỡ từng tàu biển khi chưa được cơ quan có thẩm quyền phê duyệt phương án phá dỡ tàu biển theo quy định.”."
+        },
+        {
+          "section": "Khoản 25",
+          "content": "Sửa đổi tên Mục 11 Chương II như sau: “Mục"
+        },
+        {
+          "section": "Khoản 11",
+          "content": "VI PHẠM QUY ĐỊNH VỀ PHÒNG NGỪA Ô NHIỄM MÔI TRƯỜNG BIỂN”."
+        },
+        {
+          "section": "Khoản 26",
+          "content": "Sửa đổi, bổ sung Điều 57 như sau: “Điều",
+          "target_article": "Điều 57"
+        },
+        {
+          "section": "Khoản 57",
+          "content": "Vi phạm quy định về hoạt động ứng phó sự cố tràn dầu"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi sau: a) Để xảy ra sự cố tràn dầu hoặc phát hiện sự cố tràn dầu mà không báo cáo kịp thời đến cơ quan có thẩm quyền tiếp nhận thông tin về sự cố tràn dầu theo quy định; b) Không cập nhật, bổ sung kế hoạch ứng phó sự cố tràn dầu theo quy định; c) Không thông báo Kế hoạch ứng p..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Không tổ chức tập huấn hoặc cử cán bộ, nhân viên trực tiếp tham gia ứng phó đi tập huấn để nâng cao kỹ năng ứng phó sự cố tràn dầu; b) Không triển khai thực hành huấn luyện ứng phó sự cố tràn dầu theo quy định.",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không kịp thời báo cáo cơ quan có thẩm quyền trợ giúp trong trường hợp sự cố tràn dầu vượt quá khả năng, nguồn lực tại chỗ của cơ sở theo quy định."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Hành vi vi phạm liên quan đến hoạt động sản xuất, kinh doanh, dịch vụ xăng, dầu có nguy cơ xảy ra sự cố tràn dầu ở mức nhỏ trên đất liền bị xử phạt như sau: a) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không có Kế hoạch ứng phó sự cố tràn dầu đã được phê duyệt tới Ủy ban nhân dân cấp huyện để phối hợp thực hiện; 26 b) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không đầu tư hoặc không ký hợp đồng sẵn sàng ứng phó sự cố tràn dầu với các cơ sở có phương tiện, trang thiết bị ứng phó hay với Trung tâm ứng phó sự cố tràn dầu khu vực ở mức độ tương ứng với khả năng tràn dầu có thể xảy ra trong khu vực thuộc trách nhiệm để huy động kịp th..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không sẵn sàng huy động phương tiện, trang thiết bị, vật tư tham gia phối hợp ứng phó, khắc phục sự cố tràn dầu theo yêu cầu của cơ quan có thẩm quyền; d) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không có Kế hoạch ứng phó sự cố tràn dầu được Ủy ban nhân dân cấp huyện hoặc cơ quan chủ quản phê duyệt theo quy định; đ) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không xây dựng Kế hoạch khẩn cấp ứng phó sự cố tràn dầu và tổ chức lực lượng bảo đảm ngăn ngừa, ứng phó kịp thời, hiệu quả sự cố tràn dầu ở mức độ tương ứng với khả năng tràn dầu do hoạt động của mình gây ra theo quy định."
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Hành vi vi phạm liên quan đến hoạt động của Tổng kho xăng dầu, kho xăng dầu có tổng khối lượng dự trữ từ"
+        },
+        {
+          "section": "Khoản 50",
+          "content": "000 m3 trở lên, các cảng xăng dầu có khả năng tiếp nhận tàu có tải trọng lớn hơn hoặc bằng"
+        },
+        {
+          "section": "Khoản 50",
+          "content": "000 DWT bị xử phạt như sau: a) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không đầu tư hoặc không ký hợp đồng sẵn sàng ứng phó sự cố tràn dầu với các cơ sở có phương tiện, trang thiết bị ứng phó hay với Trung tâm ứng phó sự cố tràn dầu khu vực ở mức độ tương ứng với khả năng tràn dầu có thể xảy ra trong khu vực thuộc trách nhiệm để huy động kịp th..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không tổ chức, chỉ huy lực lượng, phương tiện, thiết bị của mình hoặc lực lượng, phương tiện, thiết bị trong hợp đồng ứng phó sự cố tràn dầu để triển khai thực hiện ứng phó kịp thời; không sẵn sàng huy động phương tiện, trang thiết bị, vật tư tham gia phối hợp ứng phó, khắc ..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không có Kế hoạch ứng phó sự cố tràn dầu được Ủy ban Quốc gia Ứng phó sự cố, thiên tai và Tìm kiếm cứu nạn phê duyệt theo quy định; d) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không xây dựng Kế hoạch khẩn cấp ứng phó sự cố tràn dầu và tổ chức lực lượng 27 bảo đảm ngăn ngừa, ứng phó kịp thời, hiệu quả sự cố tràn dầu ở mức độ tương ứng với khả năng tràn dầu do hoạt động của mình gây ra theo quy định."
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Hành vi vi phạm liên quan đến hoạt động của các cảng tại địa phương, các Tổng kho xăng dầu, kho xăng dầu có tổng khối lượng dự trữ dưới"
+        },
+        {
+          "section": "Khoản 50",
+          "content": "000 m3 , các cảng xăng dầu có khả năng tiếp nhận tàu có tải trọng dưới"
+        },
+        {
+          "section": "Khoản 50",
+          "content": "000 DWT bị xử phạt như sau: a) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không đầu tư hoặc không ký hợp đồng sẵn sàng ứng phó sự cố tràn dầu với các cơ sở có phương tiện, trang thiết bị ứng phó hay với Trung tâm ứng phó sự cố tràn dầu khu vực ở mức độ tương ứng với khả năng tràn dầu có thể xảy ra trong khu vực thuộc trách nhiệm để huy động kịp th..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không tổ chức, chỉ huy lực lượng, phương tiện, thiết bị của mình hoặc lực lượng, phương tiện, thiết bị trong hợp đồng ứng phó sự cố tràn dầu để triển khai thực hiện ứng phó kịp thời; không sẵn sàng huy động phương tiện, trang thiết bị, vật tư tham gia phối hợp ứng phó, khắc ..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không có Kế hoạch ứng phó sự cố tràn dầu được Ủy ban nhân dân cấp tỉnhphê duyệt theo quy định; d) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không xây dựng Kế hoạch khẩn cấp ứng phó sự cố tràn dầu và tổ chức lực lượng bảo đảm ngăn ngừa, ứng phó kịp thời, hiệu quả sự cố tràn dầu ở mức độ tương ứng với khả năng tràn dầu do hoạt động của mình gây ra theo quy định."
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Hành vi vi phạm liên quan đến hoạt động của chủ đầu tư cảng, chủ cơ sở, chủ dự án có nguy cơ xảy ra sự cố tràn dầu bị xử phạt như sau: a) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không đầu tư hoặc không hợp đồng sẵn sàng ứng phó sự cố tràn dầu với các cơ sở có phương tiện, trang thiết bị ứng phó hay với Trung tâm ứng phó sự cố tràn dầu khu vực ở mức độ tương ứng với khả năng tràn dầu có thể xảy ra trong khu vực thuộc trách nhiệm để huy động kịp thời ..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không tổ chức, chỉ huy lực lượng, phương tiện, thiết bị của mình hoặc lực lượng, phương tiện, thiết bị trong hợp đồng ứng phó sự cố tràn dầu để triển khai thực hiện ứng phó kịp thời; không sẵn sàng huy động phương tiện, trang thiết bị, vật tư tham gia phối hợp ứng phó, khắc ..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không có Kế hoạch ứng phó sự cố tràn dầu được Ủy ban nhân dân cấp tỉnh phê duyệt theo quy định; không lập lại kế hoạch ứng phó sự cố tràn dầu trình cấp có thẩm quyền phê duyệt theo quy định; d) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không xây dựng Kế hoạch khẩn cấp ứng phó sự cố tràn dầu và tổ chức lực lượng bảo đảm ngăn ngừa, ứng phó kịp thời, hiệu quả sự cố tràn dầu ở mức độ tương ứng với khả năng tràn dầu do hoạt động của mình gây ra theo quy định."
+        },
+        {
+          "section": "Khoản 8",
+          "content": "Hành vi vi phạm liên quan đến hoạt động dầu khí ngoài khơi có nguy cơ xảy ra sự cố tràn dầu bị xử phạt như sau: a) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không thông báo Kế hoạch ứng phó sự cố tràn dầu được phê duyệt đến Ủy ban nhân dân các tỉnh có nguy cơ bị ảnh hưởng khi xảy ra sự cố tại cơ sở, dự án; b) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không đầu tư hoặc không hợp đồng sẵn sàng ứng phó sự cố tràn dầu với các cơ sở có phương tiện, trang thiết bị ứng phó hay với Trung tâm ứng phó sự cố tràn dầu khu vực ở mức độ tương ứng với khả năng tràn dầu có thể xảy ra trong khu vực thuộc trách nhiệm để huy động kịp thời ..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không sẵn sàng huy động phương tiện, trang thiết bị, vật tư tham gia phối hợp ứng phó, khắc phục sự cố tràn dầu theo yêu cầu của cơ quan có thẩm quyền; d) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không có Kế hoạch ứng phó sự cố tràn dầu được Ủy ban Quốc gia Ứng phó sự cố, thiên tai và Tìm kiếm cứu nạn phê duyệt theo quy định; đ) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không xây dựng Kế hoạch khẩn cấp ứng phó sự cố tràn dầu và tổ chức lực lượng bảo đảm ngăn ngừa, ứng phó kịp thời, hiệu quả sự cố tràn dầu ở mức độ tương ứng với khả năng tràn dầu do hoạt động của mình gây ra theo quy định."
+        },
+        {
+          "section": "Khoản 9",
+          "content": "Hành vi vi phạm liên quan đến hoạt động của tàu dầu có nguy cơ xảy ra sự cố tràn dầu bị xử phạt như sau: 29 a) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không thông báo kế hoạch chuyển tải dầu giữa tàu với tàu trên biển để cơ quan nhà nước có thẩm quyền giám sát và có biện pháp ứng phó kịp thời khi xảy ra sự cố tràn dầu theo quy định; b) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không có Kế hoạch ứng cứu ô nhiễm dầu của tàu được cơ quan có thẩm quyền của Bộ Giao thông vận tải phê duyệt đối với các tàu chở dầu mang cờ quốc tịch Việt Nam có tổng dung tích từ 150 GT trở lên, các tàu khác không phải tàu chở dầu có tổng dung tích từ 400 GT trở lên theo q..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không có Kế hoạch ứng cứu ô nhiễm dầu của tàu được cơ quan có thẩm quyền của Bộ Giao thông vận tải phê duyệt đối với các tàu chở dầu mang cờ quốc tịch Việt Nam có tổng dung tích từ 150 GT trở lên tham gia vào việc chuyển tải dầu giữa tàu với tàu trên biển; d) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi thực hiện chuyển tải dầu giữa tàu với tàu trên biển khi chưa sự đồng ý của Đầu mối liên lạc quốc gia hoặc Cảng vụ theo quy định; đ) Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không mua bảo hiểm hoặc các bảo đảm tài chính khác theo mức trách nhiệm dân sự được pháp luật quy định để bồi thường thiệt hại đối với ô nhiễm dầu theo quy định."
+        },
+        {
+          "section": "Khoản 10",
+          "content": "Biện pháp khắc phục hậu quả: a) Buộc chi trả kinh phí trưng cầu giám định, kiểm định, đo đạc và phân tích mẫu môi trường trong trường hợp có vi phạm để xảy ra tràn dầu hoặc gây ô nhiễm môi trường theo định mức, đơn giá hiện hành đối với các hành vi vi phạm quy định tại Điều này; b) Buộc phải thực hi...",
+          "violations": [
+            "các hành vi",
+            "các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 27",
+          "content": "Bổ sung Điều 58a vào sau Điều 58 như sau: “Điều 58a. Vi phạm quy định về quản lý thu gom và xử lý chất thải từ tàu thuyền trong vùng nước cảng biển 30",
+          "target_article": "Điều 58"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Không niêm yết hoặc niêm yết không đúng danh sách tổ chức, cá nhân đã ký hợp đồng cung ứng dịch vụ thu gom và xử lý chất thải từ tàu thuyền tại cảng biển và giá dịch vụ thu gom, xử lý chất thải theo quy định; b) Không báo cáo về quản lý thu gom và xử ...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Tàu thuyền có nhu cầu xử lý chất thải không thực hiện khai báo hoặc khai báo không đúng với Cảng vụ hàng hải về chất thải theo quy định; b) Làm rơi vãi, gây phát tán, rò rỉ chất thải trong quá trình thu gom chất thải từ tàu thuyền.",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không bố trí phương tiện để tiếp nhận hoặc không ký kết hợp đồng với các tổ chức, cá nhân cung ứng dịch vụ thu gom và xử lý chất thải từ tàu thuyền trong vùng nước cảng biển theo quy định."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Biện pháp khắc phục hậu quả: a) Buộc niêm yết hoặc niêm yết đúng danh sách tổ chức, cá nhân đã ký hợp đồng cung ứng dịch vụ thu gom và xử lý chất thải từ tàu thuyền tại cảng biển và giá dịch vụ thu gom, xử lý chất thải theo quy định đối với hành vi vi phạm tại điểm a khoản 1 Điều này; b) Buộc báo cá..."
+        },
+        {
+          "section": "Khoản 28",
+          "content": "Bổ sung Điều 58b vào sau Điều 58a như sau: “Điều 58b. Vi phạm quy định về ngăn ngừa ô nhiễm do tàu thuyền gây ra",
+          "target_article": "Điều 58"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: 31 a) Không trang bị các thiết bị chứa, phân loại rác theo quy định hoặc không chứa rác đúng nơi quy định; b) Gõ rỉ, sơn tàu thuyền khi chưa được phép của Cảng vụ hàng hải; c) Không bố trí người thường trực ở trên boong và ngay tại nơi tiếp nhận nhiên li...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Tiến hành bơm chuyển hoặc tiếp nhận nhiên liệu giữa tàu thuyền và phương tiện khác khi chưa được phép của Cảng vụ hàng hải theo quy định; b) Không có thiết bị phân ly dầu nước, thiết bị lọc dầu hoặc có thiết bị nhưng không sử dụng được; c) Không chấp ...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi bơm, xả các loại chất thải từ tàu xuống cầu cảng hoặc vùng nước cảng biển không đúng quy định."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Biện pháp khắc phục hậu quả: Buộc thực hiện những biện pháp khắc phục các quy định ngăn ngừa ô nhiễm do tàu thuyền gây ra đối với các hành vi vi phạm quy định tại các khoản 1, khoản 2 và khoản 3 Điều này.”.",
+          "violations": [
+            "các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 29",
+          "content": "Bổ sung Điều 58c vào sau Điều 58b như sau: “Điều 58c. Vi phạm quy định về kiểm soát các hệ thống chống hà độc hại của tàu",
+          "target_article": "Điều 58"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: 32 a) Sử dụng các hệ thống chống hà độc hại tại các cảng, cơ sở đóng mới, sửa chữa tàu; b) Đổ các loại phế thải từ việc sử dụng hoặc loại bỏ hệ thống chống hà không phù hợp với quy định ra môi trường.",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Hình thức xử phạt bổ sung: Đình chỉ hoạt động của doanh nghiệp cảng, cơ sở đóng mới, sửa chữa tàu trong thời hạn từ 03 tháng đến 06 tháng đối với các hành vi vi phạm tại khoản 1 Điều này.",
+          "violations": [
+            "các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Biện pháp khắc phục hậu quả: Buộc thực hiện những biện pháp khắc phục ô nhiễm môi trường tại khoản 1 Điều này.”."
+        },
+        {
+          "section": "Khoản 30",
+          "content": "Bổ sung Điều 58d vào sau Điều 58c như sau: “Điều 58d. Vi phạm quy định về quản lý, kiểm soát nước dằn, cặn nước dằn của tàu thuyền",
+          "target_article": "Điều 58"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Không thực hiện chế độ bơm xả nước dằn tàu theo quy định và chỉ dẫn của Cảng vụ hàng hải; b) Xả nước dằn tàu và cặn nước dằn tàu có chứa các loài sinh vật thủy sinh có hại và mầm bệnh hoặc chất độc hại trong vùng nước cảng biển và vùng biển Việt Nam.",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Biện pháp khắc phục hậu quả: Buộc thực hiện những biện pháp khắc phục ô nhiễm môi trường và vi phạm quy định về quản lý, kiểm soát nước dằn, cặn nước dằn của tàu thuyền khoản 1 Điều này.”."
+        },
+        {
+          "section": "Khoản 31",
+          "content": "Bổ sung Điều 58đ vào sau Điều 58d như sau: “Điều 58đ. Vi phạm quy định về nhận chìm",
+          "target_article": "Điều 58"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Đổ chất nạo vét không đúng vị trí quy định; b) Bốc, xếp vật chất được nhận chìm không phù hợp với nội dung Giấy phép nhận chìm ở biển.",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Hình phạt xử phạt bổ sung: Tước giấy phép nhận chìm từ 01 tháng đến 03 tháng đối với hành vi vi phạm tại điểm b khoản 1 Điều này. 33"
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Biện pháp khắc phục hậu quả: Buộc thực hiện những biện pháp khắc phục ô nhiễm môi trường theo quy định đối với hành vi vi phạm quy định tại khoản 1 Điều này.”."
+        },
+        {
+          "section": "Khoản 32",
+          "content": "Bổ sung Mục 12 vào sau Mục 11 của Chương II và bổ sung Điều 58e, Điều 58g, Điều 58h như sau: “Mục",
+          "target_article": "Điều 58"
+        },
+        {
+          "section": "Khoản 12",
+          "content": "VI PHẠM QUY ĐỊNH VỀ LAO ĐỘNG HÀNG HẢI; KHAI BÁO TAI NẠN LAO ĐỘNG HÀNG HẢI Điều 58e. Vi phạm quy định về giao kết hợp đồng lao động, hợp đồng lao động thuyền viên Phạt tiền đối với người sử dụng lao động với hành vi không giao kết hợp đồng lao động, hợp đồng lao động thuyền viên bằng văn bản đối với ..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng với vi phạm từ 01 thuyền viên đến 10 thuyền viên."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng với vi phạm từ 11 thuyền viên đến 50 thuyền viên."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng với vi phạm từ 51 thuyền viên đến 100 thuyền viên."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng với vi phạm từ 101 thuyền viên đến 300 thuyền viên."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng với vi phạm từ 301 thuyền viên trở lên. Điều 58g. Vi phạm quy định về điều kiện để thuyền viên nước ngoài làm việc trên tàu biển Việt Nam"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi giao kết hợp đồng lao động thuyền viên không phù hợp với giấy phép lao động do cơ quan Nhà nước có thẩm quyền của Việt Nam cấp."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm bố trí thuyền viên nước ngoài không có giấy phép lao động do cơ quan Nhà nước có thẩm quyền của Việt Nam cấp hoặc giấy phép lao động đã hết hạn. 34"
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Biện pháp khắc phục hậu quả: a) Buộc giao kết lại hợp đồng lao động thuyền viên phù hợp với giấy phép lao động đối với hành vi vi phạm tại khoản 1 Điều này; b) Buộc thuyền viên phải rời tàu đối với hành vi vi phạm tại khoản 2 Điều này. Điều 58h. Vi phạm quy định về khai báo khi trên tàu xảy ra tai n..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm không khai báo tai nạn lao động hàng hải theo quy định.”."
+        },
+        {
+          "section": "Khoản 33",
+          "content": "Bổ sung Mục 13 vào Chương II và bổ sung Điều 58i và Điều 58k như sau: “Mục",
+          "target_article": "Điều 58"
+        },
+        {
+          "section": "Khoản 13",
+          "content": "VI PHẠM CÁC QUY ĐỊNH VỀ PHÒNG CHỐNG THIÊN TAI TRONG LĨNH VỰC HÀNG HẢI Điều 58i. Vi phạm quy định về xây dựng phương án ứng phó thiên tai và báo cáo về phòng, chống thiên tai trong lĩnh vực hàng hải"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với doanh nghiệp khi vi phạm một trong các hành vi sau đây: a) Không xây dựng phương án ứng phó thiên tai theo quy định; b) Không thực hiện chế độ báo cáo trước, trong và sau khi thiên tai xảy ra gửi Cảng vụ hàng hải theo quy định.",
+          "violations": [
+            "doanh nghiệp khi"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Biện pháp khắc phục hậu quả: Buộc xây dựng phương án ứng phó thiên tai theo quy định đối với hành vi vi phạm tại điểm a khoản 1 Điều này. Điều 58k. Vi phạm quy định về phòng ngừa thiên tai và ứng phó thiên tai"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với doanh nghiệp khi vi phạm một trong các hành vi sau đây: a) Cung cấp thông tin sai lệch về vị trí, tình trạng của tàu thuyền đang hoạt động khi có thiên tai; b) Không tuân thủ quy định về phòng, chống thiên tai đối với tàu thuyền; c) Không chuẩn bị hoặc chuẩn bị không đầy đủ nhân lực...",
+          "violations": [
+            "doanh nghiệp khi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với doanh nghiệp khi có hành vi không sẵn sàng thực hiện yêu cầu của Cảng vụ hàng hải về việc điều động các phương tiện tham gia khắc phục hậu quả thiên tai.",
+          "violations": [
+            "doanh nghiệp khi"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Biện pháp khắc phục hậu quả: Buộc cải chính thông tin về vị trí, tình trạng của tàu thuyền đang hoạt động khi có thiên tai đối với hành vi vi phạm theo quy định tại điểm a khoản 1 Điều này.”."
+        },
+        {
+          "section": "Khoản 34",
+          "content": "Bổ sung Mục 14 vào Chương II và bổ sung Điều 58l như sau: “Mục",
+          "target_article": "Điều 58"
+        },
+        {
+          "section": "Khoản 14",
+          "content": "VI PHẠM QUY ĐỊNH VỀ PHÒNG CHỐNG DỊCH BỆNH TRUYỀN NHIỄM TRONG LĨNH VỰC HÀNG HẢI Điều 58l. Vi phạm quy định về phòng chống dịch bệnh truyền nhiễm trong lĩnh vực hàng hải"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Không thông báo; thông báo không chính xác hoặc không kịp thời các thông tin về phòng, chống dịch bệnh truyền nhiễm cho người lao động, thuyền viên, hành khách theo yêu cầu của cơ quan có thẩm quyền; b) Không thực hiện các biện pháp đảm bảo vệ sinh, b...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Không liên lạc ngay với tổ chức kiểm dịch y tế trong trường hợp hành khách hoặc thuyền viên trên tàu thuyền có triệu chứng hoặc có dấu hiệu mắc bệnh truyền nhiễm trước khi tàu thuyền cập cảng; b) Tự ý lên hoặc xuống tàu thuyền, tiến hành bốc dỡ hoặc t...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Không chấp hành việc kiểm tra y tế, xử lý y tế của tổ chức kiểm dịch y tế theo quy định của pháp luật trừ trường hợp quy định tại điểm b khoản 5 Điều này; 36 b) Không thực hiện đúng quy định về tín hiệu kiểm dịch y tế cho tàu thuyền khi nhập cảnh; c) ...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi che giấu, không báo cáo, khai báo hoặc báo cáo, khai báo không kịp thời hiện trạng bệnh truyền nhiễm của bản thân hoặc của người khác mắc bệnh truyền nhiễm trên tàu thuyền."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với mỗi hành vi vi phạm sau đây: a) Tự ý rời tàu khi chưa thực hiện các thủ tục kiểm dịch y tế hoặc chưa được phép của cơ quan có thẩm quyền; b) Không chấp hành cách ly y tế, cưỡng chế cách ly y tế, xử lý y tế đối với người, tàu thuyền, hàng hóa và các đối tượng phải kiểm dịch khác mang...",
+          "violations": [
+            "mỗi hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Biện pháp khắc phục hậu quả: a) Buộc thực hiện việc kiểm tra, xử lý y tế đối với hành vi quy định tại điểm a khoản 3 Điều này; b) Buộc quay lại tàu hoặc khu vực cách ly y tế đối với hành vi quy định tại điểm a khoản 5 Điều này; c) Buộc thực hiện việc cách ly y tế cưỡng chế cách ly y tế, xử lý y tế đ..."
+        },
+        {
+          "section": "Khoản 35",
+          "content": "Sửa đổi, bổ sung Điều 59 như sau: “Điều",
+          "target_article": "Điều 59"
+        },
+        {
+          "section": "Khoản 59",
+          "content": "Thẩm quyền lập biên bản vi phạm hành chính Người có thẩm quyền xử phạt vi phạm hành chính và công chức, viên chức, người thuộc lực lượng Quân đội nhân dân, Công an nhân dân đang thi hành công vụ, nhiệm vụ thuộc quyền quản lý của người có thẩm quyền xử phạt vi phạm hành chính quy định tại các Điều 60..."
+        },
+        {
+          "section": "Khoản 36",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 60 như sau: a) Sửa đổi, bổ sung điểm c và điểm d khoản 1 Điều 60 như sau: “c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; d) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a và điểm c khoản 1 Điều 28 của Luật Xử lý vi phạm hành chính.”; b) Sửa đổi, bổ sung điểm d và điểm đ khoản 2 Điều 60 như sau: “d) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b và điểm c khoản 1 Điều 28 của Luật Xử lý vi phạm hành chính và các biện pháp khắc phục hậu quả khác quy định tại khoản 3 Điều 4 của Nghị định này.”; c) Sửa đổi, bổ sung điểm d và điểm đ khoản 3 Điều 60 như sau: “d) Tịch..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b và điểm c khoản 1 Điều 28 của Luật Xử lý vi phạm hành chính và các biện pháp khắc phục hậu quả khác quy định tại khoản 3 Điều 4 của Nghị định này.”; d) Sửa đổi, bổ sung điểm đ khoản 4 Điều 60 như sau: “đ) Áp dụng biện p..."
+        },
+        {
+          "section": "Khoản 37",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 61 như sau: a) Sửa đổi, bổ sung điểm c khoản 1 Điều 61 như sau: “c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng.”; b) Sửa đổi, bổ sung khoản 2 Điều 61 như sau: “",
+          "target_article": "Điều 61 khoản 2"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Giám đốc Cảng vụ hàng hải, Trưởng đoàn thanh tra chuyên ngành của Cục Hàng hải Việt Nam có quyền: 38 a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b và điểm c khoản 1 Điều 28 của Luật Xử lý vi phạm hành chính và ..."
+        },
+        {
+          "section": "Khoản 38",
+          "content": "Sửa đổi, bổ sung khoản 5 Điều 62 như sau: “",
+          "target_article": "Điều 62 khoản 5"
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b và điểm c khoản 1 Điều 28 của Luật Xử lý vi phạm hành chính và các biện pháp khắc phục hậu quả khác quy định tại khoản 3 Điều 4 của Nghị định này.”."
+        },
+        {
+          "section": "Khoản 39",
+          "content": "Sửa đổi, bổ sung khoản 5 Điều 63 như sau: “",
+          "target_article": "Điều 63 khoản 5"
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b và điểm c khoản 1 Điều 28 của Luật Xử lý vi phạm hành chính và các biện pháp khắc phục hậu quả khác quy định tại khoản 3 Điều 4 của Nghị định này.”."
+        },
+        {
+          "section": "Khoản 40",
+          "content": "Sửa đổi, bổ sung Điều 64 như sau: “Điều",
+          "target_article": "Điều 64"
+        },
+        {
+          "section": "Khoản 64",
+          "content": "Thẩm quyền xử phạt vi phạm hành chính của Công an nhân dân"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Chiến sỹ Công an nhân dân đang thi hành công vụ có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Đội trưởng của Chiến sỹ công an đang thi hành công vụ có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Trưởng Công an cấp xã, Trưởng đồn Công an, Thủy đội trưởng có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; 39 c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; d) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a và điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Trưởng Công an cấp huyện; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ; Trưởng phòng Công an cấp tỉnh gồm: Trưởng phòng Cảnh sát..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 Nghị định này."
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Giám đốc Công an cấp tỉnh có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 N..."
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Cục trưởng Cục An ninh kinh tế, Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội, Cục trưởng Cục Cảnh sát điều tra tội phạm về tham nhũng, kinh tế, buôn lậu, Cục trưởng Cục Cảnh sát giao thông, Cục trưởng Cục Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ, Cục trưởng Cục Cảnh sát phòn..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 N..."
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Phân định thẩm quyền xử phạt vi phạm hành chính của Công an nhân dân a) Chiến sỹ Công an nhân dân đang thi hành công vụ xử phạt đối với những hành vi vi phạm hành chính của phương tiện thủy nội địa hoạt động trong vùng nước cảng biển hoặc ngoài vùng nước cảng biển nơi phương tiện thủy nội địa được p...",
+          "violations": [
+            "những hành vi",
+            "những hành vi",
+            "những hành vi",
+            "những hành vi",
+            "những hành vi",
+            "những hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 41",
+          "content": "Sửa đổi, bổ sung Điều 65 như sau: “Điều",
+          "target_article": "Điều 65"
+        },
+        {
+          "section": "Khoản 65",
+          "content": "Thẩm quyền của lực lượng Bộ đội biên phòng"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Chiến sĩ Bộ đội biên phòng đang thi hành công vụ có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Trạm trưởng, Đội trưởng của người được quy định tại khoản 1 Điều này có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Đồn trưởng Đồn biên phòng, Hải đội trưởng Hải đội biên phòng, Chỉ huy trưởng Ban chỉ huy biên phòng Cửa khẩu cảng có quyền: 42 a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; d) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 Nghị định này."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Chỉ huy trưởng Bộ đội biên phòng cấp tỉnh, Hải đoàn trưởng Hải đoàn biên phòng trực thuộc Bộ Tư lệnh Bộ đội biên phòng có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến mức tối đa đối với những hành vi liên quan trực tiếp đến lĩnh vực ngành mình quản lý; c) Tước quyền sử dụng giấy phép, chứng chỉ hành ng..."
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Phân định thẩm quyền xử phạt vi phạm hành chính của Bộ đội biên phòng a) Chiến sĩ Bộ đội biên phòng xử phạt đối với các hành vi vi phạm hành chính quy định tại khoản 1 Điều 33; khoản 1 Điều 34; điểm a khoản 5, điểm a khoản 6, điểm a khoản 7, điểm a khoản 8 Điều 36 của Nghị định này; b) Trạm trưởng, ...",
+          "violations": [
+            "các hành vi",
+            "các hành vi",
+            "các hành vi",
+            "các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 42",
+          "content": "Sửa đổi, bổ sung Điều 66 như sau: “Điều",
+          "target_article": "Điều 66"
+        },
+        {
+          "section": "Khoản 66",
+          "content": "Thẩm quyền của lực lượng Cảnh sát biển"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Cảnh sát viên Cảnh sát biển đang thi hành công vụ có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Tổ trưởng Tổ nghiệp vụ Cảnh sát biển có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Đội trưởng Đội nghiệp vụ Cảnh sát biển, Trạm trưởng Trạm Cảnh sát biển có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a và điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Hải đội trưởng Hải đội Cảnh sát biển có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; 44 d) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 Nghị định này."
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Hải đoàn trưởng Hải đoàn Cảnh sát biển; Đoàn trưởng Đoàn trinh sát, Đoàn trưởng Đoàn đặc nhiệm phòng chống tội phạm ma túy thuộc Bộ Tư lệnh Cảnh sát biển Việt Nam có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; d) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 Nghị định này."
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Tư lệnh Vùng Cảnh sát biển, Cục trưởng Cục Nghiệp vụ và Pháp luật thuộc Bộ Tư lệnh Cảnh sát biển Việt Nam có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; d) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 Điều 4 Nghị định này."
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Tư lệnh Cảnh sát biển Việt Nam có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b, điểm c khoản 1 Điều 28 Luật Xử lý vi phạm hành chính; khoản 3 ..."
+        },
+        {
+          "section": "Khoản 8",
+          "content": "Phân định thẩm quyền xử phạt vi phạm hành chính của Cảnh sát biển a) Cảnh sát viên Cảnh sát biển xử phạt đối với các hành vi vi phạm hành chính phát hiện ngoài vùng nước cảng biển có liên quan trực tiếp đến lĩnh vực 45 ngành mình quản lý được quy định tại khoản 1 Điều 34; điểm a khoản 5, điểm a khoả...",
+          "violations": [
+            "các hành vi",
+            "các hành vi",
+            "các hành vi",
+            "các hành vi",
+            "các hành vi",
+            "các hành vi",
+            "các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 43",
+          "content": "Bãi bỏ Điều 6, Điều 9, Điều 18, Điều 22, Điều 23, Điều 27, Điều 35, Điều 41, khoản 1 Điều 43, khoản 1 Điều 47, Điều"
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Thay cụm từ “tháo dỡ” bằng cụm từ “phá dỡ” tại khoản 5 Điều"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Sửa đổi điểm h khoản 2 Điều 2 như sau: “h) Tổ hợp tác;”."
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Bổ sung Điều 4a vào sau Điều 4 như sau: “Điều 4a. Hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện",
+          "target_article": "Điều 4"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Hành vi vi phạm hành chính đã kết thúc gồm những hành vi vi phạm sau đây: a) Hành vi vi phạm quy định về xếp hàng hóa tại điểm a khoản 1, điểm a khoản 3, khoản 5 Điều 28 Nghị định này. Thời điểm chấm dứt hành vi vi phạm được tính từ thời điểm phát hiện hành vi chở hàng vượt trọng tải (khối lượng hàn..."
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Các hành vi vi phạm hành chính quy định tại Nghị định này mà không thuộc trường hợp quy định tại khoản 1 Điều này là các hành vi vi phạm hành chính đang thực hiện.”."
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 5 như sau: a) Sửa đổi điểm k khoản 3 Điều 5 như sau: “k) Quay đầu xe tại nơi đường bộ giao nhau cùng mức với đường sắt; quay đầu xe tại nơi đường hẹp, đường dốc, đoạn đường cong tầm nhìn bị che khuất, nơi có biển báo hiệu có nội dung cấm quay đầu đối với ..."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 6 như sau: a) Sửa đổi điểm a khoản 3 Điều 6 như sau: “a) Chuyển hướng không giảm tốc độ hoặc không có tín hiệu báo hướng rẽ (trừ trường hợp điều khiển xe đi theo hướng cong của đoạn đường bộ ở nơi đường không giao nhau cùng mức); điều khiển xe rẽ trái tại...",
+          "target_article": "Điều 6 khoản 5"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: a) Đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều”, trừ hành vi vi phạm quy định tại điểm b khoản 6 Điều này và các trường hợp xe ưu tiên đang đi làm nhiệm vụ khẩn cấp the...",
+          "violations": [
+            "người điều khiển xe thực hiện một trong các hành vi"
+          ],
+          "additional_measures": [
+            "tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+            "tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng: điểm a, điểm g, điểm h, điểm k, điểm l, điểm m, điểm n, điểm q khoản 1",
+            "tịch thu phương tiện"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Sửa đổi điểm g khoản 4 Điều 7 như sau: “g) Quay đầu xe tại nơi đường bộ giao nhau cùng mức với đường sắt; quay đầu xe tại nơi đường hẹp, đường dốc, đoạn đường cong tầm nhìn bị che khuất, nơi có biển báo hiệu có nội dung cấm quay đầu đối với loại phương tiện đang điều khiển; điều khiển xe rẽ trái tại..."
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Bổ sung điểm đ, điểm e vào sau điểm d khoản 4 Điều 8 như sau: “đ) Người điều khiển xe đạp máy (kể cả xe đạp điện) không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách khi tham gia giao thông trên đường bộ; e) Chở người ngồi..."
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Sửa đổi khoản 6 Điều 11 như sau: “",
+          "target_article": "Điều 11 khoản 6"
+        },
+        {
+          "section": "Khoản 600",
+          "content": "000 đồng đối với người được chở trên xe mô tô, xe gắn máy (kể cả xe máy điện), các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy, xe đạp máy (kể cả xe đạp điện) thực hiện một trong các hành vi vi phạm sau đây: a) Bám, kéo, đẩy xe khác, vật khác, dẫn dắt súc vật, mang vác vật cồng kềnh, ...",
+          "violations": [
+            "người được chở trên xe mô tô, xe gắn máy (kể cả xe máy điện), các loại xe tương tự xe mô tô, các loại xe tương tự xe gắn máy, xe đạp máy (kể cả xe đạp điện) thực hiện một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 8",
+          "content": "Bổ sung khoản 4a vào sau khoản 4 Điều 15 như sau: “4a. Phạt tiền từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người điều khiển phương tiện, chủ phương tiện trốn tránh, không trả tiền dịch vụ sử dụng đường bộ khi phương tiện tham gia giao thông qua các trạm thu phí.”."
+        },
+        {
+          "section": "Khoản 9",
+          "content": "Sửa đổi Điều 16 như sau: “Điều",
+          "target_article": "Điều 16"
+        },
+        {
+          "section": "Khoản 16",
+          "content": "Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông"
+        },
+        {
+          "section": "Khoản 200",
+          "content": "000 đồng đối với hành vi điều khiển xe không có kính chắn gió hoặc có nhưng vỡ hoặc có nhưng không có tác dụng (đối với xe có thiết kế lắp kính chắn gió)."
+        },
+        {
+          "section": "Khoản 400",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: 50 a) Điều khiển xe không có đủ đèn chiếu sáng, đèn soi biển số, đèn báo hãm, đèn tín hiệu, cần gạt nước, gương chiếu hậu, dây an toàn, dụng cụ thoát hiểm, thiết bị chữa cháy, đồng hồ báo áp lực hơi, đồng hồ báo tốc độ của xe hoặc có những thiế...",
+          "violations": [
+            "một trong các hành vi",
+            "loại xe được quy định phải có những thiết bị đó), trừ các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Điều khiển xe lắp thêm đèn phía trước, phía sau, trên nóc, dưới gầm, một hoặc cả hai bên thành xe; b) Điều khiển xe có hệ thống chuyển hướng của xe không đúng tiêu chuẩn an toàn kỹ thuật; c) Điều khiển xe không lắp đủ bánh lốp hoặc lắp bánh ...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Điều khiển xe không có Giấy đăng ký xe theo quy định hoặc sử dụng Giấy đăng ký xe đã hết hạn sử dụng (kể cả rơ moóc và sơ mi rơ moóc); b) Điều khiển xe (kể cả rơ moóc và sơ mi rơ moóc) không gắn biển số (đối với loại xe có quy định phải gắn ...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Điều khiển xe có Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường nhưng đã hết hạn sử dụng dưới 01 tháng (kể cả rơ moóc và sơ mi rơ moóc); b) Điều khiển xe không đủ hệ thống hãm hoặc có đủ hệ thống hãm nhưng không có ...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Điều khiển xe gắn biển số không đúng với Giấy đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp (kể cả rơ moóc và sơ mi rơ moóc); b) Sử dụng Giấy đăng ký xe, Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường k...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Điều khiển xe đăng ký tạm, xe có phạm vi hoạt động hạn chế hoạt động quá phạm vi, thời hạn cho phép; b) Điều khiển xe (kể cả rơ moóc và sơ mi rơ moóc) quá niên hạn sử dụng tham gia giao thông (đối với loại xe có quy định về niên hạn sử dụng)...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 8",
+          "content": "Ngoài việc bị phạt tiền, người điều khiển xe thực hiện hành vi vi phạm còn bị áp dụng các hình thức xử phạt bổ sung sau đây: a) Thực hiện hành vi quy định tại điểm a, điểm b khoản 3; khoản 4; khoản 5; điểm c khoản 6; điểm a khoản 7 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 t...",
+          "additional_measures": [
+            "tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+            "tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+            "tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+            "tịch thu phương tiện (trừ trường hợp xe ô tô từ 10 chỗ ngồi trở lên kinh doanh vận tải hành khách có niên hạn sử dụng vượt quá quy định về điều kiện kinh doanh của hình thức kinh doanh đã đăng ký nhưng chưa quá 20 năm tính từ năm sản xuất, xe ô tô dưới 10 chỗ ngồi kinh doanh vận tải hành khách) và bị tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+            "tịch thu phương tiện"
+          ]
+        },
+        {
+          "section": "Khoản 9",
+          "content": "Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển xe thực hiện hành vi vi phạm còn bị áp dụng các biện pháp khắc phục hậu quả sau đây: a) Thực hiện hành vi quy định tại khoản 1; khoản 2; điểm b, điểm c khoản 3; điểm c, điểm d khoản 4; điểm b khoản 5; điểm d khoản 6 Điều này buộc phải lắp đầy..."
+        },
+        {
+          "section": "Khoản 10",
+          "content": "Bổ sung điểm d vào sau điểm c khoản 2 Điều 17 như sau: “d) Điều khiển xe gắn biển số không đúng quy định; gắn biển số không rõ chữ, số; gắn biển số bị bẻ cong, bị che lấp, bị hỏng; sơn, dán thêm làm thay đổi chữ, số hoặc thay đổi màu sắc của chữ, số, nền biển.”. 53"
+        },
+        {
+          "section": "Khoản 11",
+          "content": "Sửa đổi Điều 21 như sau: “Điều",
+          "target_article": "Điều 21"
+        },
+        {
+          "section": "Khoản 21",
+          "content": "Xử phạt các hành vi vi phạm quy định về điều kiện của người điều khiển xe cơ giới"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Phạt cảnh cáo người từ đủ 14 tuổi đến dưới 16 tuổi điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện) và các loại xe tương tự xe mô tô hoặc điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô."
+        },
+        {
+          "section": "Khoản 200",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không có hoặc không mang theo Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực; b) Người điều khiển xe mô tô, ...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 400",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô không mang theo Giấy phép lái xe, trừ hành vi vi phạm quy định tại điểm c khoản 8 Điều này; b) Người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô không mang the...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 600",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Người từ đủ 16 tuổi đến dưới 18 tuổi điều khiển xe mô tô có dung tích xi lanh từ 50 cm3 trở lên; b) Người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô không có hoặc không mang theo Giấy chứng nhận bảo hiểm trách nhiệm dân sự c...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người điều khiển xe mô tô hai bánh có dung tích xi lanh dưới 175 cm3 và các loại xe tương tự xe mô tô thực hiện một trong các hành vi vi phạm sau đây: a) Không có Giấy phép lái xe hoặc sử dụng Giấy phép lái xe không do cơ quan có thẩm quyền cấp, Giấy phép lái xe bị tẩy xóa; b) Có Gi...",
+          "violations": [
+            "người điều khiển xe mô tô hai bánh có dung tích xi lanh dưới 175 cm3 và các loại xe tương tự xe mô tô thực hiện một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người từ đủ 16 tuổi đến dưới 18 tuổi điều khiển xe ô tô, máy kéo, các loại xe tương tự xe ô tô."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người điều khiển xe mô tô hai bánh có dung tích xi lanh từ 175 cm3 trở lên, xe mô tô ba bánh thực hiện một trong các hành vi vi phạm sau đây: a) Có Giấy phép lái xe nhưng không phù hợp với loại xe đang điều khiển; b) Không có Giấy phép lái xe hoặc sử dụng Giấy phép lái xe không do c...",
+          "violations": [
+            "người điều khiển xe mô tô hai bánh có dung tích xi lanh từ 175 cm3 trở lên, xe mô tô ba bánh thực hiện một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô vi phạm một trong các hành vi sau đây: a) Có Giấy phép lái xe nhưng đã hết hạn sử dụng dưới 03 tháng; b) Có Giấy phép lái xe quốc tế do các nước tham gia Công ước về Giao thông đường bộ năm 1968 cấp (trừ Giấy phép lái...",
+          "violations": [
+            "người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô vi phạm một trong các hành vi sau đây: a) Có Giấy phép lái xe nhưng không phù hợp với loại xe đang điều khiển hoặc có Giấy phép lái xe nhưng đã hết hạn sử dụng từ 03 tháng trở lên; b) Không có Giấy phép lái xe hoặc sử...",
+          "violations": [
+            "người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô"
+          ]
+        },
+        {
+          "section": "Khoản 10",
+          "content": "Ngoài việc bị phạt tiền, người điều khiển phương tiện thực hiện hành vi vi phạm còn bị áp dụng các hình thức xử phạt bổ sung sau đây: a) Thực hiện hành vi quy định tại điểm a, điểm c khoản 5; điểm b, điểm d khoản 7; điểm c khoản 8; điểm b khoản 9 Điều này còn bị áp dụng hình thức xử phạt bổ sung tịc...",
+          "additional_measures": [
+            "tước quyền sử dụng Giấy phép lái xe được cấp mới nhất trong hệ thống thông tin quản lý Giấy phép lái xe từ 01 tháng đến 03 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 12",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 23 như sau: a) Sửa đổi điểm p khoản 5 Điều 23 như sau: “p) Điều khiển xe ô tô kinh doanh vận tải hành khách không lắp camera theo quy định (đối với loại xe có quy định phải lắp camera) hoặc có lắp camera nhưng không ghi, không lưu trữ được hình ảnh trên x..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "0000 đồng đối với người điều khiển xe thực hiện hành vi đón, trả hành khách trên đường cao tốc.”; d) Sửa đổi điểm b khoản 8 Điều 23 như sau: 56 “b) Thực hiện hành vi quy định tại khoản 7a Điều này bị tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng;”.",
+          "additional_measures": [
+            "tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 13",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 24 như sau: a) Sửa đổi điểm c khoản 3 Điều 24 như sau: “c) Điều khiển xe ô tô kinh doanh vận tải hàng hóa không lắp camera theo quy định (đối với loại xe có quy định phải lắp camera) hoặc có lắp camera nhưng không ghi, không lưu trữ được hình ảnh của ngườ..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "0000 đồng đối với người điều khiển xe thực hiện hành vi nhận, trả hàng trên đường cao tốc.”; d) Sửa đổi điểm b khoản 9 Điều 24 như sau: “b) Thực hiện hành vi quy định tại khoản 7, điểm c khoản 8, khoản 8a Điều này bị tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng;”.",
+          "additional_measures": [
+            "tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 14",
+          "content": "Sửa đổi Điều 25 như sau: “Điều",
+          "target_article": "Điều 25"
+        },
+        {
+          "section": "Khoản 25",
+          "content": "Xử phạt người điều khiển xe ô tô thực hiện hành vi vi phạm quy định về vận chuyển hàng siêu trường, siêu trọng"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Chở hàng siêu trường, siêu trọng không có báo hiệu kích thước của hàng theo quy định; b) Không thực hiện đúng quy định trong Giấy phép lưu hành, trừ các hành vi vi phạm quy định tại khoản 2; điểm b, điểm c, điểm d khoản 3 Điều này.",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi chở hàng siêu trường, siêu trọng có Giấy phép lưu hành còn giá trị sử dụng nhưng 57 kích thước bao ngoài của xe (sau khi đã xếp hàng lên xe) vượt quá quy định trong Giấy phép lưu hành."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Chở hàng siêu trường, siêu trọng không có Giấy phép lưu hành hoặc có Giấy phép lưu hành nhưng đã hết giá trị sử dụng hoặc sử dụng Giấy phép lưu hành không do cơ quan có thẩm quyền cấp; b) Chở hàng siêu trường, siêu trọng có Giấy phép lưu hàn...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Ngoài việc bị phạt tiền, người thực hiện hành vi vi phạm còn bị áp dụng các hình thức xử phạt bổ sung sau đây: a) Thực hiện hành vi quy định tại khoản 1 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng; b) Thực hiện hành vi quy định tại khoản 2, khoản 3 Điều này bị tước quyền...",
+          "additional_measures": [
+            "tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+            "tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Ngoài việc bị áp dụng hình thức xử phạt, người thực hiện hành vi vi phạm quy định tại khoản 1, khoản 2, khoản 3 Điều này nếu gây hư hại cầu, đường còn bị áp dụng biện pháp khắc phục hậu quả: Buộc khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra.”."
+        },
+        {
+          "section": "Khoản 15",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 28 như sau: a) Sửa đổi điểm e khoản 2 Điều 28 như sau: “e) Không đánh số thứ tự ghế ngồi, giường nằm trên xe ô tô chở hành khách theo quy định;”; b) Bổ sung điểm i vào sau điểm h khoản 2 Điều 28 như sau: 58 “i) Không thanh toán tiền vé cho hành khách theo...",
+          "target_article": "Điều 28 khoản 3"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với cá nhân, từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tổ chức thực hiện một trong các hành vi vi phạm sau đây: a) Xếp hàng hóa lên mỗi xe ô tô (kể cả rơ moóc và sơ mi rơ moóc) vượt quá trọng tải (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của x...",
+          "target_article": "Điều 28 khoản 8",
+          "violations": [
+            "tổ chức thực hiện một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với đơn vịsản xuất, lắp ráp, nhập khẩu thiết bị giám sát hành trình của xe ô tô, đơn vị cung cấp phần mềm ứng dụng hỗ trợ kết nối vận tải thực hiện một trong các hành vi sau: 59 a) Đơn vị sản xuất, lắp ráp, nhập khẩu thiết bị giám sát hành trình của xe ô tô không có nhân sự cho từng vị ...",
+          "target_article": "Điều 28 khoản 9"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với đơn vị sản xuất, lắp ráp, nhập khẩu camera lắp trên xe ô tô, thiết bị giám sát hành trình của xe ô tô; đơn vị cung cấp dịch vụ giám sát hành trình của xe ô tô; đơn vị cung cấp dịch vụ phần cứng, phần mềm xử lý dữ liệu, truyền dẫn dữ liệu của camera lắp trên xe ô tô thực hiện một tro..."
+        },
+        {
+          "section": "Khoản 16",
+          "content": "Sửa đổi Điều 29 như sau: “Điều",
+          "target_article": "Điều 29"
+        },
+        {
+          "section": "Khoản 29",
+          "content": "Xử phạt hành vi sản xuất, lắp ráp trái phép phương tiện giao thông cơ giới đường bộ; sản xuất, bán biển số phương tiện giao thông cơ giới đường bộ trái phép"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với cá nhân, từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tổ chức thực hiện hành vi bán biển số phương tiện giao thông cơ giới đường bộ không phải là biển số do cơ quan nhà nước có thẩm quyền sản xuất hoặc không được cơ quan nhà nước có thẩm quyền cho phép. 60"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với cá nhân, từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tổ chức thực hiện hành vi sản xuất biển số trái phép hoặc sản xuất, lắp ráp trái phép phương tiện giao thông cơ giới đường bộ."
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Ngoài việc bị phạt tiền, cá nhân, tổ chức thực hiện hành vi vi phạm quy định tại khoản 1, khoản 2 Điều này còn bị áp dụng hình thức xử phạt bổ sung tịch thu biển số, phương tiện sản xuất, lắp ráp trái phép."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Ngoài việc bị áp dụng hình thức xử phạt, cá nhân, tổ chức thực hiện hành vi quy định tại khoản 1, khoản 2 Điều này còn bị áp dụng biện pháp khắc phục hậu quả: Buộc nộp lại số lợi bất hợp pháp có được do thực hiện vi phạm hành chính.”."
+        },
+        {
+          "section": "Khoản 17",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 30 như sau: a) Sửa đổi khoản 3 Điều 30 như sau: “",
+          "target_article": "Điều 30 khoản 3"
+        },
+        {
+          "section": "Khoản 600",
+          "content": "000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với chủ phương tiện là cá nhân, từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với chủ phương tiện là tổ chức giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 23 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 23 Nghị định n...",
+          "violations": [
+            "chủ phương tiện là tổ chức giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với cá nhân, từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không thực hiện đúng quy định về biển số, trừ các hành vi vi phạm quy định tại điểm i, điểm k khoản 5 Điều này.”; d) Sửa đổi điểm g khoản 5 Điều 30 như sau: “g) Đưa phương tiện không có Giấy đăng ký xe tham gia gia...",
+          "target_article": "Điều 30 khoản 6",
+          "violations": [
+            "tổ chức là chủ xe mô tô, xe gắn máy và các loại xe tương tự xe mô tô không thực hiện đúng quy định về biển số, trừ các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với chủ phương tiện là cá nhân, từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với chủ phương tiện là tổ chức giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 4 Điều 23 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 4 Điều 23 Nghị định n...",
+          "target_article": "Điều 30 khoản 10",
+          "violations": [
+            "chủ phương tiện là tổ chức giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với cá nhân, từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tổ chức là chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi vi phạm sau đây: a) Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 6 Đi...",
+          "target_article": "Điều 30 khoản 12",
+          "violations": [
+            "tổ chức là chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với cá nhân, từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tổ chức là chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi vi phạm sau đây: a) Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 8 Đi...",
+          "target_article": "Điều 30 khoản 13",
+          "violations": [
+            "tổ chức là chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với cá nhân, từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tổ chức là chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi vi phạm sau đây: a) Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 3 Điều 25 Ng...",
+          "target_article": "Điều 30 khoản 14",
+          "violations": [
+            "tổ chức là chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với cá nhân, từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tổ chức là chủ xe ô tô, máy kéo, xe máy chuyên dùng và các loại xe tương tự xe ô tô khi thực hiện hành vi giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 5 Điều 33 Nghị định này hoặc trực tiếp điề...",
+          "target_article": "Điều 30 khoản 15"
+        },
+        {
+          "section": "Khoản 15",
+          "content": "Ngoài việc bị phạt tiền, cá nhân, tổ chức thực hiện hành vi vi phạm còn bị áp dụng các hình thức xử phạt bổ sung sau đây: a) Thực hiện hành vi quy định tại điểm b, điểm d, điểm h, điểm i, điểm k khoản 5; điểm b, điểm e khoản 7; điểm e, điểm i khoản 8; điểm i khoản 9 Điều này bị tịch thu biển số, Giấ...",
+          "additional_measures": [
+            "tước quyền sử dụng Giấy phép lái xe (khi điều khiển xe cơ giới), chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ (khi điều khiển xe máy chuyên dùng) từ 01 tháng đến 03 tháng",
+            "tước quyền sử dụng Giấy phép lái xe (khi điều khiển xe cơ giới), chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ (khi điều khiển xe máy chuyên dùng) từ 02 tháng đến 04 tháng",
+            "tước quyền sử dụng Giấy phép lái xe (khi điều khiển xe cơ giới), chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ (khi điều khiển xe máy chuyên dùng) từ 03 tháng đến 05 tháng",
+            "tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+            "tước quyền sử dụng Giấy phép lái xe từ 03 tháng đến 05 tháng",
+            "tịch thu phương tiện",
+            "tịch thu phương tiện"
+          ]
+        },
+        {
+          "section": "Khoản 16",
+          "content": "Ngoài việc bị áp dụng hình thức xử phạt, cá nhân, tổ chức thực hiện hành vi vi phạm còn bị áp dụng các biện pháp khắc phục hậu quả sau đây: a) Thực hiện hành vi quy định tại khoản 1; điểm m khoản 7 Điều này buộc phải khôi phục lại nhãn hiệu, màu sơn ghi trong Giấy đăng ký xe theo quy định; b) Thực h...",
+          "additional_measures": [
+            "tịch thu phương tiện)"
+          ]
+        },
+        {
+          "section": "Khoản 18",
+          "content": "Sửa đổi Điều 33 như sau: “Điều",
+          "target_article": "Điều 33"
+        },
+        {
+          "section": "Khoản 33",
+          "content": "Xử phạt người điều khiển xe bánh xích; xe quá tải trọng, quá khổ giới hạn của cầu, đường (kể cả xe ô tô chở hành khách)"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi không thực hiện đúng quy định trong Giấy phép lưu hành, trừ các hành vi vi phạm quy định tại điểm a, điểm b khoản 3; điểm b, điểm c khoản 4 Điều này. 67",
+          "violations": [
+            "hành vi không thực hiện đúng quy định trong Giấy phép lưu hành, trừ các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi điều khiển xe mà tổng trọng lượng (khối lượng toàn bộ) của xe vượt quá tải trọng cho phép của cầu, đường trên 10% đến 20%, trừ trường hợp có Giấy phép lưu hành còn giá trị sử dụng."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Chở hàng vượt khổ giới hạn của cầu, đường ghi trong Giấy phép lưu hành; b) Điều khiển xe bánh xích tham gia giao thông không có Giấy phép lưu hành hoặc có Giấy phép lưu hành nhưng không còn giá trị sử dụng theo quy định hoặc lưu thông trực t...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Điều khiển xe mà tổng trọng lượng (khối lượng toàn bộ) của xe hoặc tải trọng trục xe (bao gồm cả hàng hóa xếp trên xe, người được chở trên xe) vượt quá tải trọng cho phép của cầu, đường trên 20% đến 50%, trừ trường hợp có Giấy phép lưu hành ...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Điều khiển xe mà tổng trọng lượng (khối lượng toàn bộ) của xe hoặc tải trọng trục xe (bao gồm cả hàng hóa xếp trên xe, người được chở trên xe) vượt quá tải trọng cho phép của cầu, đường trên 50%, trừ trường hợp có Giấy phép lưu hành còn giá ...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Ngoài việc bị phạt tiền, người điều khiển phương tiện thực hiện hành vi vi phạm còn bị áp dụng các hình thức xử phạt bổ sung sau đây: a) Thực hiện hành vi quy định tại khoản 1, khoản 3, điểm a khoản 4 Điều này còn bị tước quyền sử dụng Giấy phép lái xe (khi điều khiển ô tô, máy kéo và các loại xe tư...",
+          "additional_measures": [
+            "tước quyền sử dụng Giấy phép lái xe (khi điều khiển ô tô, máy kéo và các loại xe tương tự ô tô), chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ (khi điều khiển xe máy chuyên dùng) từ 01 tháng đến 03 tháng",
+            "tước quyền sử dụng Giấy phép lái xe (khi điều khiển ô tô, máy kéo và các loại xe tương tự ô tô), chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ (khi điều khiển xe máy chuyên dùng) từ 02 tháng đến 04 tháng",
+            "tước quyền sử dụng Giấy phép lái xe (khi điều khiển ô tô, máy kéo và các loại xe tương tự ô tô), chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ (khi điều khiển xe máy chuyên dùng) từ 03 tháng đến 05 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 1, khoản 2, khoản 3, khoản 4, khoản 5 Điều này nếu gây hư hại cầu, đường còn bị áp dụng biện pháp khắc phục hậu quả: Buộc phải khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm..."
+        },
+        {
+          "section": "Khoản 19",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản Điều 34 như sau: a) Sửa đổi khoản 2 Điều 34 như sau: “",
+          "target_article": "Điều 34 khoản 2"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người đua xe mô tô, xe gắn máy, xe máy điện trái phép.”; b) Sửa đổi khoản 3 Điều 34 như sau: “",
+          "target_article": "Điều 34 khoản 3"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người đua xe ô tô trái phép.”."
+        },
+        {
+          "section": "Khoản 20",
+          "content": "Sửa đổi Điều 35 như sau: “Điều",
+          "target_article": "Điều 35"
+        },
+        {
+          "section": "Khoản 35",
+          "content": "Xử phạt người điều khiển phương tiện giao thông cơ giới đường bộ gắn biển số nước ngoài"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với người điều khiển phương tiện giao thông cơ giới đường bộ gắn biển số nước ngoài thực hiện một trong các hành vi vi phạm sau đây: a) Giấy tờ của phương tiện không có bản dịch sang tiếng Anh hoặc tiếng Việt theo quy định; 69 b) Xe chở khách không có danh sách hành khách theo quy định.",
+          "violations": [
+            "người điều khiển phương tiện giao thông cơ giới đường bộ gắn biển số nước ngoài thực hiện một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Điều khiển phương tiện không gắn ký hiệu phân biệt quốc gia theo quy định; b) Điều khiển phương tiện không có Giấy phép vận tải quốc tế, phù hiệu vận tải quốc tế liên vận theo quy định hoặc có nhưng đã hết giá trị sử dụng; c) Vận chuyển hành...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Điều khiển phương tiện không gắn biển số tạm thời hoặc gắn biển số tạm thời không do cơ quan có thẩm quyền cấp (nếu có quy định phải gắn biển số tạm thời); b) Điều khiển xe ô tô có tay lái bên phải, xe ô tô hoặc xe mô tô của người nước ngoài...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với một trong các hành vi vi phạm sau đây: a) Hoạt động quá phạm vi được phép hoạt động; b) Lưu hành phương tiện trên lãnh thổ Việt Nam quá thời hạn quy định dưới 30 ngày.",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi lưu hành phương tiện trên lãnh thổ Việt Nam quá thời hạn quy định từ 30 ngày trở lên."
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b, điểm c khoản 2; điểm a khoản 3; điểm b khoản 4; khoản 5 Điều này còn bị áp dụng biện pháp khắc phục hậu quả: Buộc tái xuất phương tiện khỏi Việt Nam.”."
+        },
+        {
+          "section": "Khoản 21",
+          "content": "Bổ sung điểm d vào sau điểm c khoản 2 Điều 37 như sau: “d) Tổ chức đào tạo cho học viên chưa có đủ hồ sơ của người học lái xe theo quy định.”. 70"
+        },
+        {
+          "section": "Khoản 22",
+          "content": "Bổ sung điểm c vào sau điểm b khoản 1 Điều 38 như sau: “c) Thực hiện không đúng nhiệm vụ được phân công.”."
+        },
+        {
+          "section": "Khoản 23",
+          "content": "Sửa đổi đoạn mở đầu và điểm a khoản 3 của Điều 44 như sau: a) Sửa đổi đoạn mở đầu khoản 3 Điều 44 như sau: “"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với lái tàu, trưởng tàu, phó trưởng tàu khách phụ trách an toàn thực hiện một trong các hành vi vi phạm sau đây:”; b) Sửa đổi điểm a khoản 3 Điều 44 như sau: “a) Lái tàu, trưởng tàu, phó trưởng tàu khách phụ trách an toàn cho tàu chạy khi chưa nhận được tín hiệu an toàn của trực ban chạ...",
+          "violations": [
+            "lái tàu, trưởng tàu, phó trưởng tàu khách phụ trách an toàn thực hiện một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 24",
+          "content": "Sửa đổi tên điều và một số điểm, khoản của Điều 66 như sau: a) Sửa đổi tên Điều 66 như sau: “Điều"
+        },
+        {
+          "section": "Khoản 66",
+          "content": "Xử phạt đối với lái tàu, phụ lái tàu, người trực tiếp điều khiển phương tiện giao thông đường sắt phục vụ dây chuyền công nghệ của doanh nghiệp”; b) Sửa đổi đoạn mở đầu khoản 3 Điều 66 như sau: “"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với lái tàu, người trực tiếp điều khiển phương tiện giao thông đường sắt phục vụ dây chuyền công nghệ của doanh nghiệp thực hiện một trong các hành vi vi phạm sau đây:”; c) Sửa đổi điểm c khoản 3 Điều 66 như sau: “c) Điều khiển tàu, phương tiện giao thông đường sắt phục vụ dây chuyền cô...",
+          "target_article": "Điều 66 khoản 4",
+          "violations": [
+            "lái tàu, người trực tiếp điều khiển phương tiện giao thông đường sắt phục vụ dây chuyền công nghệ của doanh nghiệp thực hiện một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với lái tàu, người trực tiếp điều khiển phương tiện giao thông đường sắt phục vụ dây chuyền công nghệ của doanh nghiệp điều khiển tàu, phương tiện giao thông đường sắt phục vụ dây chuyền công nghệ của doanh nghiệp chạy quá tốc độ quy định của Công lệnh tốc độ trên 10 km/h đến 20 km/h.”;..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với lái tàu, người trực tiếp điều khiển phương tiện giao thông đường sắt phục vụ dây chuyền công nghệ của doanh nghiệp thực hiện một trong các hành vi vi phạm sau đây:”; e) Sửa đổi điểm a khoản 5 Điều 66 như sau: “a) Điều khiển tàu, phương tiện giao thông đường sắt phục vụ dây chuyền cô...",
+          "violations": [
+            "lái tàu, người trực tiếp điều khiển phương tiện giao thông đường sắt phục vụ dây chuyền công nghệ của doanh nghiệp thực hiện một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 25",
+          "content": "Sửa đổi điểm a khoản 1 Điều 67 như sau: “a) Không tổ chức kiểm tra sức khỏe cho nhân viên đường sắt trực tiếp phục vụ chạy tàu trong phạm vi quản lý của doanh nghiệp theo quy định của pháp luật;”."
+        },
+        {
+          "section": "Khoản 26",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 74 như sau: a) Sửa đổi điểm e, điểm g khoản 2 Điều 74 như sau: “e) Khoản 1; khoản 2; điểm a khoản 3; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm p, điểm q khoản 4; khoản 5; điểm d, điểm đ, điểm e, điểm i, điểm m, điểm n, điểm o, điểm p, điểm q kh...",
+          "violations": [
+            "các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 73",
+          "content": "”; đ) Sửa đổi tên khoản 4 Điều 74 như sau: “"
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất trong phạm vi chức năng, nhiệm vụ được giao có liên quan đến trật tự an toàn giao thông đường bộ, đường sắt có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị định này như...",
+          "violations": [
+            "các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 27",
+          "content": "Sửa đổi Điều 75 như sau: “Điều",
+          "target_article": "Điều 75"
+        },
+        {
+          "section": "Khoản 75",
+          "content": "Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân các cấp"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Chủ tịch Ủy ban nhân dân cấp xã có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ, đường sắt; c) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; d) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b và điểm c khoản 1 Điều 4 Nghị định này."
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Chủ tịch Ủy ban nhân dân cấp huyện có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ, đường sắt; c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định ..."
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ, đường sắt; c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định ..."
+        },
+        {
+          "section": "Khoản 28",
+          "content": "Sửa đổi Điều 76 như sau: “Điều",
+          "target_article": "Điều 76"
+        },
+        {
+          "section": "Khoản 76",
+          "content": "Thẩm quyền xử phạt của Công an nhân dân"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 500",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ, đường sắt."
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội, Trưởng trạm, Đội trưởng của người quy định tại khoản 1 Điều này có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ, đường sắt."
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất, Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ, đường sắt; c) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; d) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a và điểm c khoản 1 Điều 4 của Nghị định này."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Trưởng Công an cấp huyện; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội, Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ; Trưởng phòng Công an cấp tỉnh gồm Trưởng phòng Cảnh sát ..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ, đường sắt; c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm c và điểm e khoản 1 Điều 4 Nghị định này."
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Giám đốc Công an cấp tỉnh có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ, đường sắt; c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; đ) Áp dụng các biện pháp khắc phục hậu quả quy đ..."
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Cục trưởng Cục Cảnh sát giao thông, Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội, Cục trưởng Cục Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ, Tư lệnh Cảnh sát cơ động có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ, đường sắt; c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; đ) Áp dụng các biện pháp khắc phục hậu quả quy đ..."
+        },
+        {
+          "section": "Khoản 29",
+          "content": "Sửa đổi Điều 77 như sau: “Điều",
+          "target_article": "Điều 77"
+        },
+        {
+          "section": "Khoản 77",
+          "content": "Thẩm quyền xử phạt của Thanh tra chuyên ngành, Cảng vụ hàng hải, Cảng vụ hàng không, Cảng vụ đường thủy nội địa 76"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Thanh tra viên, người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đang thi hành công vụ có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 500",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ, đường sắt; c) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; d) Áp dụng các biện pháp khắc phục hậu quả quy định tại các điểm a và điểm c khoản 1 Điều 4 Nghị định này."
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Chánh Thanh tra Sở Giao thông vận tải, Chánh Thanh tra Sở Tài nguyên và Môi trường, Chánh Thanh tra Cục Hàng không Việt Nam, Chánh Thanh tra Cục Hàng hải Việt Nam, Thủ trưởng cơ quan quản lý đường bộ ở khu vực thuộc Tổng cục Đường bộ Việt Nam, Trưởng đoàn thanh tra chuyên ngành của Sở Giao thông vận..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ, đường sắt; c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại khoản 1 Điều 4 Nghị định này."
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Trưởng đoàn thanh tra chuyên ngành của Bộ Giao thông vận tải, Trưởng đoàn thanh tra chuyên ngành của Bộ Tài nguyên và Môi trường có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ, đường sắt; 77 c) Tước quyền, sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại khoản 1 Điều 4 Nghị định này."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Chánh Thanh tra Bộ Giao thông vận tải, Chánh Thanh tra Bộ Tài nguyên và Môi trường, Tổng cục trưởng Tổng cục Môi trường, Tổng cục trưởng Tổng cục Đường bộ Việt Nam, Cục trưởng Cục Đường sắt Việt Nam, Cục trưởng Cục Hàng hải Việt Nam, Cục trưởng Cục Hàng không Việt Nam, Cục trưởng Cục Đường thủy nội ..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ, đường sắt; c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; đ) Áp dụng các biện pháp khắc phục hậu quả quy đ..."
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Trưởng đại diện Cảng vụ hàng hải, Trưởng đại diện Cảng vụ hàng không, Trưởng đại diện Cảng vụ đường thủy nội địa có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ."
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Giám đốc Cảng vụ hàng hải, Giám đốc Cảng vụ hàng không, Giám đốc Cảng vụ đường thủy nội địa có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ; c) Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; 78 d) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại ..."
+        },
+        {
+          "section": "Khoản 30",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 80 như sau: a) Sửa đổi khoản 1 Điều 80 như sau: “",
+          "target_article": "Điều 80 khoản 1"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Trong trường hợp chủ phương tiện vi phạm có mặt tại nơi xảy ra vi phạm, thì người có thẩm quyền căn cứ vào hành vi vi phạm để lập biên bản vi phạm hành chính, ra quyết định xử phạt vi phạm hành chính theo các điểm, khoản tương ứng của Điều 30 Nghị định này.”; b) Sửa đổi khoản 2 Điều 80 như sau: “",
+          "target_article": "Điều 80 khoản 2"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Trong trường hợp chủ phương tiện vi phạm không có mặt tại nơi xảy ra vi phạm, thì người có thẩm quyền căn cứ vào hành vi vi phạm để lập biên bản vi phạm hành chính đối với chủ phương tiện và tiến hành xử phạt theo quy định của pháp luật, người điều khiển phương tiện phải ký vào biên bản vi phạm hành...",
+          "target_article": "Điều 80 khoản 4",
+          "violations": [
+            "chủ phương tiện và tiến hành xử phạt theo quy định của pháp luật, người điều khiển phương tiện phải ký vào biên bản"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Đối với những hành vi vi phạm quy định về tải trọng, khổ giới hạn của phương tiện, của cầu, đường được quy định tại Điều 24, Điều 33 của Nghị định này, trong trường hợp chủ phương tiện, người điều khiển phương tiện vừa thực hiện hành vi vi phạm quy định tại Điều 24, vừa thực hiện hành vi vi phạm quy...",
+          "target_article": "Điều 80 khoản 7",
+          "violations": [
+            "những hành vi",
+            "những hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Khi xử phạt đối với chủ phương tiện quy định tại khoản 6 Điều này, thời hạn ra quyết định xử phạt có thể được kéo dài để xác minh đối tượng bị xử phạt theo quy định tại khoản 1 Điều 66 Luật Xử lý vi phạm hành chính (được sửa đổi, bổ sung năm 2020) nhưng tối đa không quá 02 tháng.”.",
+          "violations": [
+            "chủ phương tiện quy định tại khoản 6 Điều này, thời hạn ra quyết định xử phạt có thể được kéo dài để xác minh đối tượng bị xử phạt theo quy định tại khoản 1 Điều 66 Luật Xử lý"
+          ]
+        },
+        {
+          "section": "Khoản 31",
+          "content": "Sửa đổi khoản 2 Điều 81 như sau: “",
+          "target_article": "Điều 81 khoản 2"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Trường hợp một cá nhân, tổ chức vi phạm hành chính nhiều lần mà bị xử phạt trong cùng một lần thì bị xử phạt tiền đối với từng hành vi vi phạm, nếu hành vi vi phạm đó có quy định tước quyền sử dụng giấy phép, chứng chỉ hành nghề thì chỉ bị tước quyền sử dụng giấy phép, chứng chỉ hành nghề 01 lần với...",
+          "violations": [
+            "từng hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 32",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 82 như sau: a) Sửa đổi khoản 1 Điều 82 như sau: “",
+          "target_article": "Điều 82 khoản 1"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Để ngăn chặn ngay vi phạm hành chính, người có thẩm quyền được phép tạm giữ phương tiện trước khi ra quyết định xử phạt theo quy định tại khoản 2, khoản 8 Điều 125 Luật Xử lý vi phạm hành chính (được sửa đổi, bổ sung năm 2020) đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm sau...",
+          "violations": [
+            "những hành vi"
+          ],
+          "additional_measures": [
+            "tạm giữ phương tiện trước khi ra quyết định xử phạt theo quy định tại khoản 2, khoản 8 Điều 125 Luật Xử lý vi phạm hành chính (được sửa đổi, bổ sung năm 2020) đối với những hành vi vi phạm được quy định tại các điều, khoản, điểm sau đây của Nghị định này: a) Điểm c khoản 6"
+          ]
+        },
+        {
+          "section": "Khoản 33",
+          "content": "”; b) Sửa đổi khoản 2 Điều 82 như sau: “",
+          "target_article": "Điều 82 khoản 2"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Để bảo đảm thi hành quyết định xử phạt vi phạm hành chính hoặc để xác minh tình tiết làm căn cứ ra quyết định xử phạt, người có thẩm quyền xử phạt còn có thể quyết định tạm giữ phương tiện, giấy tờ có liên quan đến người điều khiển và phương tiện vi phạm một trong các hành vi quy định tại Nghị định ...",
+          "additional_measures": [
+            "tạm giữ phương tiện, giấy tờ có liên quan đến người điều khiển và phương tiện vi phạm một trong các hành vi quy định tại Nghị định này theo quy định tại khoản 6, khoản 8 Điều 125 của Luật Xử lý vi phạm hành chính (được sửa đổi, bổ sung năm 2020)"
+          ]
+        },
+        {
+          "section": "Khoản 33",
+          "content": "Bổ sung một số từ, cụm từ tại một số điều, khoản, điểm sau đây: a) Bổ sung cụm từ “khoản 4a,” vào trước cụm từ “khoản 5” tại điểm d khoản 2, điểm e khoản 3 Điều 74; b) Bổ sung cụm từ “điểm d khoản 7;” vào sau cụm từ “khoản 6” tại điểm a khoản 5 Điều 74; c) Bổ sung cụm từ “điểm a” vào trước cụm từ “k..."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Thay một số từ, cụm từ tại một số điều, khoản, điểm sau đây: 82 a) Thay cụm từ “điểm a, điểm b khoản 6; điểm a, điểm c khoản 7” bằng cụm từ “điểm a khoản 6; điểm a, điểm c, điểm d khoản 7” tại điểm a khoản 1 Điều 5; b) Thay cụm từ “điểm b khoản 6” bằng cụm từ “điểm d khoản 7” tại điểm h khoản 2, điể..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng” bằng cụm từ “"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng” tại tên khoản 4 Điều 5, khoản 5 Điều 7, khoản 7 Điều 47; đ) Thay cụm từ “"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng” bằng cụm từ “"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng” tại tên khoản 5 Điều 5, khoản 8 Điều 47; e) Thay cụm từ “điểm d, điểm g, điểm i, điểm m khoản 3” bằng cụm từ “điểm a, điểm d, điểm g, điểm i, điểm m khoản 3” tại điểm a khoản 1 Điều 6; g) Thay cụm từ “"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng” bằng cụm từ “"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng” tại khoản 4 Điều 6, khoản 5 Điều 47; h) Thay cụm từ “điểm b khoản 6 Điều 33” bằng cụm từ “điểm b khoản 5 Điều 33” tại khoản 9 Điều 11; i) Thay cụm từ “"
+        },
+        {
+          "section": "Khoản 400",
+          "content": "000 đồng” bằng cụm từ “"
+        },
+        {
+          "section": "Khoản 400",
+          "content": "000 đồng” tại tên khoản 1 Điều 5, khoản 2 Điều 7, khoản 1 Điều 42, khoản 1 Điều 43, khoản 1 Điều 46; k) Thay cụm từ “"
+        },
+        {
+          "section": "Khoản 300",
+          "content": "000 đồng” bằng cụm từ “"
+        },
+        {
+          "section": "Khoản 400",
+          "content": "000 đồng” tại tên khoản 2 Điều 6, khoản 3 Điều 8, khoản 2 Điều 18, khoản 4 Điều 47; l) Thay cụm từ “từ"
+        },
+        {
+          "section": "Khoản 300",
+          "content": "000 đồng đối với cá nhân, từ"
+        },
+        {
+          "section": "Khoản 600",
+          "content": "000 đồng đối với tổ chức” bằng cụm từ “từ"
+        },
+        {
+          "section": "Khoản 400",
+          "content": "000 đồng đối với cá nhân, từ"
+        },
+        {
+          "section": "Khoản 800",
+          "content": "000 đồng đối với tổ chức” tại tên khoản 2 Điều 15; m) Thay cụm từ “"
+        },
+        {
+          "section": "Khoản 400",
+          "content": "000 đồng” bằng cụm từ “"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng” tại tên khoản 2 Điều 17, khoản 1 Điều 19; n) Thay cụm từ “"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng” bằng cụm từ “"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng” tại tên khoản 3 Điều 17; o) Thay cụm từ “tổng mức phạt tiền tối đa không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng” bằng cụm từ “tổng mức phạt tiền tối đa không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng” tại khoản 2, khoản 4 Điều 23; 83 p) Thay cụm từ “điểm a khoản 7” bằng cụm từ “khoản 7a” tại điểm đ, điểm e, điểm k khoản 5 Điều 23; q) Thay cụm từ “có thiết kế từ từ 09 chỗ” bằng cụm từ “có thiết kế từ 09 chỗ” tại điểm c khoản 4 Điều 28; r) Thay cụm từ “từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với cá nhân, từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tổ chức” bằng cụm từ “từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với cá nhân, từ"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với tổ chức” tại tên khoản 7 Điều 28; s) Thay cụm từ “tháo dỡ” bằng cụm từ “phá dỡ” tại điểm b khoản 1, điểm a khoản 2, điểm l khoản 3 Điều 4; điểm a khoản 12 Điều 11; điểm đ khoản 10 Điều 12; điểm a khoản 2 Điều 14; điểm g khoản 6 Điều 51; điểm b khoản 4 Điều 52; điểm d, điểm đ, điểm e...",
+          "violations": [
+            "các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Bỏ một số từ, cụm từ tại một số điều, khoản, điểm sau đây: a) Bỏ cụm từ \"công lập\" tại điểm c khoản 2 Điều 2; bãi bỏ cụm từ \", tổ hợp tác” tại khoản 3 Điều 2; b) Bỏ cụm từ “hoặc tái phạm hành vi quy định tại điểm b khoản 7 Điều này,” tại điểm d khoản 11 Điều 5; c) Bỏ cụm từ “điểm đ,” tại điểm b khoả..."
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Bãi bỏ các điểm, khoản, điều sau đây: a) Bãi bỏ điểm h khoản 5 Điều 5; b) Bãi bỏ điểm i, điểm k khoản 2; điểm đ khoản 4 Điều 6; c) Bãi bỏ điểm d, điểm đ khoản 3 Điều 8; 84 d) Bãi bỏ khoản 3 Điều 11; đ) Bãi bỏ điểm b khoản 1 Điều 17; e) Bãi bỏ điểm g khoản 5, điểm a khoản 7 Điều 23; g) Bãi bỏ điểm a ..."
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 162/2018/NĐ-CP ngày 30 tháng 11 năm 2018 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực hàng không dân dụng"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Bổ sung Điều 4a vào sau Điều 4 như sau: “Điều 4a. Thời hiệu xử phạt vi phạm hành chính",
+          "target_article": "Điều 4"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Thời hiệu xử phạt vi phạm hành chính trong lĩnh vực hàng không là 01 năm, trừ trường hợp hành vi vi phạm hành chính về phí, lệ phí; quản lý giá; xây dựng các công trình hàng không; bảo vệ môi trường trong lĩnh vực hàng không; đất đai cảng hàng không, sân bay; kinh doanh hàng hóa tại cảng hàng không;..."
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Hành vi vi phạm hành chính đã kết thúc a) Hành vi vi phạm quy định tại điểm k khoản 1 Điều 7 của Nghị định này. Thời điểm kết thúc hành vi vi phạm là tại thời điểm hoàn thành bảo dưỡng tàu bay, động cơ, cánh quạt, trang bị, thiết bị của tàu bay tại cơ sở bảo dưỡng không được phê chuẩn năng định phù ..."
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Các hành vi vi phạm hành chính không thuộc trường hợp quy định tại khoản 2 Điều này là các hành vi vi phạm hành chính đang thực hiện.”."
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Sửa đổi, bổ sung điểm a khoản 2 Điều 8 như sau: “a) Hút thuốc, kể cả thuốc lá điện tử hoặc gây khói, cháy trên tàu bay;”."
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Sửa đổi, bổ sung điểm, khoản của Điều 9 như sau: a) Sửa đổi, bổ sung điểm e khoản 2 Điều 9 như sau: “e) Không cập nhật, sửa đổi, bổ sung tài liệu khai thác sân bay, tài liệu khai thác công trình khi có sự thay đổi về các thông số kỹ thuật của các công trình, trang thiết bị trong sân bay, phương án v..."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 10 như sau: a) Sửa đổi, bổ sung điểm a, điểm b, điểm c khoản 1 Điều 10 như sau: “a) Cung cấp dịch vụ phi hàng không tại cảng hàng không mà không đảm bảo tiêu chuẩn, chất lượng dịch vụ, sản phẩm bán ra; không niêm yết công khai; không đảm bảo sản phẩm đúng..."
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Sửa đổi, bổ sung khoản 6 Điều 11 như sau: “",
+          "target_article": "Điều 11 khoản 6"
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Hình thức xử phạt bổ sung: a) Tước quyền sử dụng giấy phép từ 01 tháng đến 03 tháng đối với nhân viên hàng không vi phạm quy định tại các điểm a, điểm b, điểm c khoản 1 Điều này; b) Tước quyền sử dụng giấy phép từ 03 tháng đến 05 tháng đối với nhân viên hàng không vi phạm quy định tại khoản 2 và các...",
+          "violations": [
+            "nhân viên hàng không",
+            "nhân viên hàng không"
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Bổ sung điểm đ, điểm e, điểm g vào khoản 1 Điều 14 như sau: “đ) Không xây dựng kế hoạch giám sát nhiên liệu theo quy định; e) Không gửi kế hoạch giám sát nhiên liệu theo quy định; g) Không thực hiện báo cáo phát thải đối với chuyến bay quốc tế; nhiên liệu đối với các chuyến bay nội địa theo quy định..."
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Sửa đổi, bổ sung tên Mục 4 Chương II như sau: “Mục"
+        },
+        {
+          "section": "Khoản 4",
+          "content": "VI PHẠM QUY ĐỊNH VỀ THỰC HIỆN CÔNG VIỆC THEO TÀI LIỆU, QUY TRÌNH VÀ YÊU CẦU CÔNG VIỆC CỦA NHÂN VIÊN HÀNG KHÔNG VÀ NGƯỜI LAO ĐỘNG KHÁC; ĐÀO TẠO, HUẤN LUYỆN CHUYÊN MÔN, NGHIỆP VỤ HÀNG KHÔNG, SỬ DỤNG NHÂN VIÊN HÀNG KHÔNG VÀ GIÁM ĐỊNH SỨC KHỎE NHÂN VIÊN HÀNG KHÔNG”"
+        },
+        {
+          "section": "Khoản 8",
+          "content": "Sửa đổi, bổ sung tên và một số điểm, khoản của Điều 16 như sau: a) Sửa đổi, bổ sung tên Điều 16 như sau: “Điều"
+        },
+        {
+          "section": "Khoản 16",
+          "content": "Vi phạm quy định về thực hiện công việc theo tài liệu, quy trình và yêu cầu công việc”; b) Sửa đổi, bổ sung điểm b khoản 2 Điều 16 như sau: “b) Thực hiện nhiệm vụ không đúng tài liệu, quy trình và yêu cầu công việc, trừ trường hợp quy định tại điểm b khoản 3, điểm đ khoản 4 và điểm d khoản 5 Điều nà...",
+          "violations": [
+            "nhân viên hàng không",
+            "nhân viên hàng không"
+          ]
+        },
+        {
+          "section": "Khoản 9",
+          "content": "Sửa đổi, bổ sung tên và một số điểm, khoản của Điều 18 như sau: a) Sửa đổi, bổ sung tên Điều 18 như sau: “Điều"
+        },
+        {
+          "section": "Khoản 18",
+          "content": "Vi phạm quy định về đào tạo, bồi dưỡng, huấn luyện chuyên môn, nghiệp vụ hàng không”; b) Sửa đổi, bổ sung khoản 1 Điều 18 như sau: “",
+          "target_article": "Điều 18 khoản 1"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng (năm triệu đồng) đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng (mười triệu đồng) đối với hành vi thuê, nhờ người khác hoặc làm bài hộ thí sinh hoặc trợ giúp thí sinh làm bài kiểm tra, bài thi chuyên môn, nghiệp vụ; bài đánh giá trình độ tiếng Anh nhân viên hàng không.”; c) Sửa đổi, bổ sung điểm b, điểm c, điểm d khoản 2 Điều 18 như sau: “b) Đào tạo, bồ...",
+          "target_article": "Điều 18 khoản 5"
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Biện pháp khắc phục hậu quả: Buộc hủy bỏ kết quả đối với hành vi vi phạm quy định tại khoản 1 Điều này.”."
+        },
+        {
+          "section": "Khoản 10",
+          "content": "Sửa đổi, bổ sung khoản 4 Điều 19 như sau: “",
+          "target_article": "Điều 19 khoản 4"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng (ba mươi triệu đồng) đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng (bốn mươi triệu đồng) đối với một trong các hành vi vi phạm sau đây: a) Không duy trì điều kiện về tổ chức bộ máy; trang bị, thiết bị; quy trình khám, giám định; đội ngũ nhân viên theo Giấy chứng nhận cơ sở y tế khám, giám định sức khỏe cho nhân viên hàng không đã được cơ quan có thẩm quyền...",
+          "violations": [
+            "một trong các hành vi"
+          ]
+        },
+        {
+          "section": "Khoản 11",
+          "content": "Sửa đổi, bổ sung khoản 1 Điều 21 như sau: “",
+          "target_article": "Điều 21 khoản 1"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng (ba triệu đồng) đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng (năm triệu đồng) đối với hành vi thả thiết bị, vật dụng và các vật thể khác vào không trung ảnh hưởng đến hoạt động bay.”."
+        },
+        {
+          "section": "Khoản 12",
+          "content": "Sửa đổi, bổ sung một số điểm của khoản 1 Điều 22 như sau: a) Sửa đổi, bổ sung điểm b khoản 1 Điều 22 như sau: “b) Không thông báo với cơ quan có thẩm quyền theo quy định khi có những thay đổi phải thông báo; nội dung thông báo;”; b) Bổ sung điểm c vào khoản 1 Điều 22 như sau: “c) Không niêm yết hoặc..."
+        },
+        {
+          "section": "Khoản 13",
+          "content": "Bổ sung điểm g, điểm h, điểm i vào khoản 1 Điều 23 như sau: “g) Không thông báo hoạt động của văn phòng đại diện, văn phòng bán vé của hãng hàng không nước ngoài với cơ quan nhà nước có thẩm quyền kể từ ngày được cấp Giấy phép theo quy định; h) Không hoạt động tại trụ sở kể từ ngày được cấp Giấy phé..."
+        },
+        {
+          "section": "Khoản 14",
+          "content": "Bổ sung điểm l, điểm m vào khoản 3 Điều 24 như sau: “l) Không cung cấp thông tin về nguyên nhân hủy chuyến bay, chuyến bay bị chậm kéo dài theo quy định; m) Không báo cáo hoặc báo cáo không đầy đủ về việc bồi thường ứng trước không hoàn lại theo quy định.”."
+        },
+        {
+          "section": "Khoản 15",
+          "content": "Sửa đổi, bổ sung tên và một số điểm, khoản của Điều 25 như sau: a) Sửa đổi tên Điều 25 như sau: “Điều"
+        },
+        {
+          "section": "Khoản 25",
+          "content": "Vi phạm quy định về quản lý, sử dụng thẻ, giấy phép kiểm soát an ninh hàng không và giấy tờ tùy thân”; b) Sửa đổi, bổ sung điểm a, điểm b và điểm c khoản 2 Điều 25 như sau: “a) Sử dụng thẻ, giấy phép kiểm soát an ninh hàng không hoặc thẻ giám sát viên an ninh hàng không, an toàn hàng không hoặc thẻ ...",
+          "target_article": "Điều 25 khoản 3"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng (năm triệu đồng) đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng (mười triệu đồng) đối với hành vi sử dụng thẻ kiểm soát an ninh hàng không, Giấy phép kiểm soát an ninh hàng không hoặc thẻ giám sát viên an ninh hàng không, an toàn hàng không hoặc thẻ giám sát viên chất lượng dịch vụ không do cơ quan, tổ chức có thẩm quyền cấp.”."
+        },
+        {
+          "section": "Khoản 16",
+          "content": "Sửa đổi, bổ sung điểm a khoản 9 Điều 26 như sau: “a) Tước quyền sử dụng giấy phép từ 01 tháng đến 03 tháng đối với nhân viên hàng không vi phạm quy định tại điểm a khoản 4, các điểm b, điểm d, điểm đ, điểm i, điểm l khoản 5 và điểm b khoản 6 Điều này;”. 93",
+          "violations": [
+            "nhân viên hàng không"
+          ]
+        },
+        {
+          "section": "Khoản 17",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 27 như sau: a) Bổ sung điểm i vào khoản 2 Điều 27 như sau: “i) Không cung cấp tờ khai an ninh cho người khai thác cảng hàng không, sân bay quá cảnh, trung chuyển và hãng hàng không theo quy định.”; b) Sửa đổi, bổ sung điểm a khoản 3 Điều 27 như sau: “a) K..."
+        },
+        {
+          "section": "Khoản 18",
+          "content": "Sửa đổi, bổ sung khoản 6 Điều 28 như sau: “",
+          "target_article": "Điều 28 khoản 6"
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Hình thức xử phạt bổ sung: Tước quyền sử dụng giấy phép từ 01 tháng đến 03 tháng đối với nhân viên hàng không vi phạm quy định tại điểm a khoản 4 Điều này.”.",
+          "violations": [
+            "nhân viên hàng không"
+          ]
+        },
+        {
+          "section": "Khoản 19",
+          "content": "Sửa đổi, bổ sung khoản 5 Điều 30 như sau: “",
+          "target_article": "Điều 30 khoản 5"
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Hình thức xử phạt bổ sung: Tước quyền sử dụng giấy phép từ 01 tháng đến 03 tháng đối với nhân viên hàng không vi phạm quy định tại điểm b khoản 2 và khoản 3 Điều này.”.",
+          "violations": [
+            "nhân viên hàng không"
+          ]
+        },
+        {
+          "section": "Khoản 20",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 31 như sau: a) Sửa đổi, bổ sung điểm c khoản 1 Điều 31 như sau: “c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng;”; b) Sửa đổi, bổ sung điểm d khoản 2 Điều 31 như sau: “d) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng;”; c) Sửa đổi, bổ sung điểm d khoản 3 Điều 31 như sau: “d) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 21",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 32 như sau: a) Sửa đổi, bổ sung điểm c khoản 1 Điều 32 như sau: “c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng.”; b) Sửa đổi, bổ sung điểm b khoản 2 Điều 32 như sau: “b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng;”; c) Sửa đổi, bổ sung điểm d khoản 2 Điều 32 như sau: “d) Tịch thu tang vật, phương tiện vi phạm hành chính;”."
+        },
+        {
+          "section": "Khoản 22",
+          "content": "Sửa đổi, bổ sung một số điểm, khoản của Điều 33 như sau: a) Sửa đổi, bổ sung điểm c khoản 1 Điều 33 như sau: “c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000;”; b) Sửa đổi, bổ sung điểm d khoản 2 Điều 33 như sau: “d) Tịch thu tang vật, phương tiện vi phạm hành chính;”."
+        },
+        {
+          "section": "Khoản 23",
+          "content": "Sửa đổi, bổ sung Điều 34 như sau: “Điều",
+          "target_article": "Điều 34"
+        },
+        {
+          "section": "Khoản 34",
+          "content": "Thẩm quyền của Công an nhân dân"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội, Trưởng trạm, Đội trưởng của người được quy định tại khoản 1 Điều này có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, Trưởng Công an cửa khẩu Cảng hàng không quốc tế, Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động có quyền: 95 a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 02 lần mức tiền phạt được quy định tại điểm b khoản này; d) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm c khoản 3 Điều 4 của Nghị định này."
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Trưởng Công an cấp huyện; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ; Trưởng phòng nghiệp vụ thuộc Cục Quản lý xuất nhập cảnh;..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Tước quyền sử dụng giấy phép có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 02 lần mức tiền phạt được quy định tại điểm b khoản này; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm c, điểm đ, đ..."
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Giám đốc Công an cấp tỉnh có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Tước quyền sử dụng giấy phép có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện vi phạm hành chính; 96 đ) Giám đốc Công an cấp tỉnh quyết định áp dụng hình thức xử phạt trục xuất; e) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm c, điểm đ, điể..."
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội, Cục trưởng Cục Cảnh sát điều tra tội phạm về trật tự xã hội, Cục trưởng Cục Cảnh sát giao thông, Cục trưởng Cục Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ, Cục trưởng Cục Cảnh sát phòng, chống tội phạm về môi trường, Cục trưởng Cục..."
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng; c) Tước quyền sử dụng giấy phép có thời hạn hoặc đình chỉ hoạt động có thời hạn; d) Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm c, điểm đ, điểm e, điểm n khoản 3 Điều 4 của Nghị định này."
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Cục trưởng Cục Quản lý xuất nhập cảnh có thẩm quyền xử phạt theo quy định tại khoản 6 Điều này và có quyền quyết định áp dụng hình thức xử phạt trục xuất."
+        },
+        {
+          "section": "Khoản 8",
+          "content": "Lực lượng Công an nhân dân có quyền xử phạt đối với các vi phạm hành chính trong lĩnh vực hàng không dân dụng trong các trường hợp sau đây: a) Hành vi vi phạm hành chính được phát hiện trong quá trình triển khai thực hiện phương án khẩn nguy; b) Các hành vi vi phạm hành chính trong lĩnh vực hàng khô..."
+        },
+        {
+          "section": "Khoản 24",
+          "content": "Sửa đổi, bổ sung đoạn đầu và một số điểm, khoản của Điều 36 như sau: a) Sửa đổi đoạn đầu của Điều 36 như sau: “Lực lượng thanh tra chuyên ngành hàng không và Cảng vụ hàng không có thẩm quyền lập biên bản vi phạm hành chính; áp dụng hình thức xử phạt chính, xử phạt bổ sung; áp dụng các biện pháp khắc...",
+          "target_article": "Điều 36 khoản 5"
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Khoản 2 Điều 6, Điều 7, Điều 11, các khoản 1, 2 Điều 23 và khoản 1, điểm c khoản 3 Điều 30 Nghị định số 98/2020/NĐ-CP ngày 26 tháng 8 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong hoạt động thương mại, sản xuất, buôn bán hàng giả, hàng cấm và bảo vệ quyền lợi người tiêu dùng.”; c)...",
+          "target_article": "Điều 36 khoản 7"
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Điểm đ khoản 1 Điều 9, điểm a khoản 3 Điều 10, Điều 20, Điều 21 và điểm a khoản 1, điểm b khoản 4, 5, 6, 7, 8 Điều 22 Nghị định số 155/2016/NĐ-CP ngày 18 tháng 11 năm 2016 của Chính phủ quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường.”; d) Bổ sung khoản 9 vào Điều 36 như sau:..."
+        },
+        {
+          "section": "Khoản 9",
+          "content": "Các khoản 1, khoản 2, khoản 4 Điều 6, điểm b khoản 2 Điều 11, điểm a khoản 1, khoản 4 Điều 12, khoản 2 Điều 14, Điều 18, khoản 2, 3 Điều 25, Điều 26, khoản 2, điểm a, điểm b khoản 4 Điều 29, Điều 30, Điều 31 Nghị định số 117/2020/NĐ-CP ngày 28 tháng 9 năm 2020 của Chính phủ quy định xử phạt vi phạm ..."
+        },
+        {
+          "section": "Khoản 25",
+          "content": "Bỏ cụm từ “chứng chỉ hành nghề” tại điểm a khoản 2 Điều 4, điểm c khoản 2, điểm c khoản 3, điểm c khoản 4 Điều 31, điểm c khoản 2 Điều 32 và điểm c khoản 2, điểm c khoản 3 Điều"
+        },
+        {
+          "section": "Khoản 6",
+          "content": "Thay cụm từ “tháo dỡ” bằng cụm từ “phá dỡ” tại điểm d khoản 3 Điều 4, điểm b khoản 8 Điều 9, điểm b khoản 7 Điều 10 và khoản 7 Điều"
+        },
+        {
+          "section": "Khoản 7",
+          "content": "Bãi bỏ điểm l khoản 3 Điều 4; điểme khoản 3 Điều 9; điểm a khoản 3 Điều 15; điểm h khoản 5 Điều 26, Điều"
+        },
+        {
+          "section": "Khoản 4",
+          "content": "Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm"
+        },
+        {
+          "section": "Khoản 5",
+          "content": "Điều khoản chuyển tiếp Đối với các hành vi vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng xảy ra trước ngày Nghị định này có hiệu lực thi hành mà sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng các quy định có lợi cho tổ chức, cá nhân...",
+          "violations": [
+            "các hành vi"
+          ]
+        }
+      ],
+      "document_type": "nd123_main_article",
+      "metadata": {
+        "source_file": "nghi_dinh_123_2021_updated.json",
+        "merged_date": "2025-11-03T22:55:33.993301",
+        "original_key": "dieu_1",
+        "conflict_resolution": "renamed_key"
+      }
+    }
+  },
+  "amendments_summary": {
+    "target_document": "Nghị định 100/2019/NĐ-CP",
+    "total_amended_articles": 3,
+    "main_changes": [
+      "Tăng mức phạt đối với vi phạm tốc độ (Điều 5)",
+      "Tăng cường xử lý vi phạm không đội mũ bảo hiểm (Điều 6)",
+      "Điều chỉnh mức phạt chở quá tải, quá số người (Điều 10)"
+    ],
+    "effective_changes": [
+      {
+        "original_article": "Điều 5 ND 100/2019",
+        "amended_by": "Điều 1 ND 123/2021",
+        "change_type": "Tăng mức phạt",
+        "description": "Tăng mức phạt chạy quá tốc độ từ 20-35 km/h"
+      },
+      {
+        "original_article": "Điều 6 ND 100/2019",
+        "amended_by": "Điều 1 ND 123/2021",
+        "change_type": "Tăng cường xử lý",
+        "description": "Tăng cường biện pháp xử lý không đội mũ bảo hiểm"
+      },
+      {
+        "original_article": "Điều 10 ND 100/2019",
+        "amended_by": "Điều 1 ND 123/2021",
+        "change_type": "Tăng mức phạt",
+        "description": "Tăng mức phạt chở quá tải, quá số người"
+      }
+    ]
+  },
+  "violation_updates": [
+    {
+      "violation_id": "speed_20_35",
+      "violation_code": "5.4",
+      "description": "Chạy quá tốc độ quy định từ 20 km/h đến dưới 35 km/h",
+      "vehicle_type": "Xe ô tô",
+      "amendment_type": "fine_increase",
+      "before_123": {
+        "fine_range": "3.000.000 - 4.000.000 đồng",
+        "additional_measures": [
+          "Tước GPLX từ 02 - 04 tháng"
+        ],
+        "fine_min": 0,
+        "fine_max": 0
+      },
+      "after_123": {
+        "fine_range": "4.000.000 - 5.000.000 đồng",
+        "additional_measures": [
+          "Tước GPLX từ 02 - 04 tháng"
+        ],
+        "fine_min": 0,
+        "fine_max": 0
+      },
+      "legal_basis": "Điều 1 khoản 1 ND 123/2021 sửa đổi Điều 5 khoản 4 ND 100/2019"
+    },
+    {
+      "violation_id": "no_helmet",
+      "violation_code": "6.3",
+      "description": "Không đội mũ bảo hiểm khi điều khiển xe mô tô, xe gắn máy",
+      "vehicle_type": "Xe mô tô, xe gắn máy",
+      "amendment_type": "enforcement_enhancement",
+      "after_123": {
+        "fine_range": "300.000 - 400.000 đồng",
+        "additional_measures": [
+          "Tước GPLX từ 01 - 03 tháng"
+        ],
+        "fine_min": 0,
+        "fine_max": 0
+      },
+      "legal_basis": "Điều 1 khoản 2 ND 123/2021 sửa đổi Điều 6 khoản 3 ND 100/2019"
+    },
+    {
+      "violation_id": "overload_passenger",
+      "violation_code": "10.2",
+      "description": "Chở quá số người quy định hoặc chở hàng quá tải trọng",
+      "vehicle_type": "Xe ô tô",
+      "amendment_type": "fine_increase",
+      "before_123": {
+        "fine_range": "2.000.000 - 4.000.000 đồng",
+        "additional_measures": [
+          "Tước GPLX từ 02 - 04 tháng"
+        ],
+        "fine_min": 0,
+        "fine_max": 0
+      },
+      "after_123": {
+        "fine_range": "3.000.000 - 5.000.000 đồng",
+        "additional_measures": [
+          "Tước GPLX từ 02 - 04 tháng"
+        ],
+        "fine_min": 0,
+        "fine_max": 0
+      },
+      "legal_basis": "Điều 1 khoản 3 ND 123/2021 sửa đổi Điều 10 khoản 2 ND 100/2019"
+    }
+  ],
+  "metadata": {
+    "created_date": "2025-11-03T11:28:24.060844",
+    "source": "Manual extraction from PDF nd-123_2021-12-28-1-.signed.pdf",
+    "version": "1.0",
+    "format_based_on": "nghi_dinh_100_2019.json structure"
+  },
+  "processing_metadata": {
+    "document_type": "ND_123_2021",
+    "total_articles": 3,
+    "total_sections": 5,
+    "total_violations_extracted": 7,
+    "processing_date": "2025-11-03T11:58:28.513604",
+    "data_source": "manual_extraction",
+    "pipeline_stage": "raw_enhancement"
+  },
+  "merge_info": {
+    "merged_date": "2025-11-03T22:55:33.995217",
+    "source_files": [
+      "enhanced_nghi_dinh_123_2021.json",
+      "nghi_dinh_123_2021_enhanced.json",
+      "nghi_dinh_123_2021_updated.json"
+    ],
+    "prefix": "123_2021",
+    "statistics": {
+      "initial_articles": 3,
+      "final_articles": 6,
+      "articles_added": 3,
+      "duplicates_found": 7,
+      "net_increase": 3
+    },
+    "merge_strategy": "key_articles_deduplication"
+  }
+}

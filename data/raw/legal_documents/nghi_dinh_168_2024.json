@@ -1,0 +1,81 @@
+{
+  "document_id": "ND_168_2024",
+  "title": "Nghị định 168/2024/NĐ-CP", 
+  "full_title": "Nghị định sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP đã được sửa đổi, bổ sung bởi Nghị định số 123/2021/NĐ-CP",
+  "issue_date": "2024-12-16",
+  "effective_date": "2025-01-01",
+  "issuing_authority": "Chính phủ", 
+  "status": "Có hiệu lực",
+  "amends_document": "ND_100_2019",
+  "supersedes": "ND_123_2021",
+  "key_changes": [
+    {
+      "article_modified": "Điều 7",
+      "change_type": "Tăng mức phạt nghiêm trọng",
+      "description": "Tăng mức phạt đối với vi phạm nồng độ cồn",
+      "old_fine": "16.000.000 - 18.000.000 đồng",
+      "new_fine": "18.000.000 - 20.000.000 đồng"
+    },
+    {
+      "article_modified": "Điều 8",
+      "change_type": "Tăng mức phạt",
+      "description": "Tăng mức phạt không có GPLX",
+      "old_fine": "12.000.000 - 14.000.000 đồng", 
+      "new_fine": "14.000.000 - 16.000.000 đồng"
+    },
+    {
+      "article_modified": "Điều 5",
+      "change_type": "Bổ sung quy định mới",
+      "description": "Bổ sung quy định về xe tự lái và công nghệ mới",
+      "details": "Thêm quy định xử phạt đối với xe sử dụng công nghệ tự động"
+    },
+    {
+      "article_modified": "Điều 12",
+      "change_type": "Mới",
+      "description": "Bổ sung quy định về đua xe trái phép",
+      "fine_range": "15.000.000 - 20.000.000 đồng",
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 12 - 15 tháng",
+        "Tước phương tiện 07 ngày"
+      ]
+    }
+  ],
+  "new_violations": [
+    {
+      "violation_code": "12.1",
+      "description": "Tổ chức đua xe trái phép trên đường bộ",
+      "category": "Đua xe trái phép",
+      "fine_range": "15.000.000 - 20.000.000 đồng",
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 12 - 15 tháng",
+        "Tước phương tiện 07 ngày"
+      ]
+    },
+    {
+      "violation_code": "13.1", 
+      "description": "Vi phạm quy định về xe sử dụng công nghệ tự lái",
+      "category": "Công nghệ mới",
+      "fine_range": "5.000.000 - 8.000.000 đồng",
+      "additional_measures": ["Tước quyền sử dụng Giấy phép lái xe từ 03 - 06 tháng"]
+    }
+  ],
+  "updated_violations": [
+    {
+      "violation_code": "7.3",
+      "description": "Điều khiển xe trong tình trạng có nồng độ cồn vượt quá mức cho phép",
+      "old_fine": "16.000.000 - 18.000.000 đồng",
+      "new_fine": "18.000.000 - 20.000.000 đồng",
+      "additional_measures": [
+        "Tước quyền sử dụng Giấy phép lái xe từ 22 - 24 tháng",
+        "Tước phương tiện 07 ngày"
+      ]
+    },
+    {
+      "violation_code": "8.1",
+      "description": "Điều khiển xe ô tô mà không có Giấy phép lái xe",
+      "old_fine": "12.000.000 - 14.000.000 đồng",
+      "new_fine": "14.000.000 - 16.000.000 đồng", 
+      "additional_measures": ["Tước phương tiện 07 ngày"]
+    }
+  ]
+}

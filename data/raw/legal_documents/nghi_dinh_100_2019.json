@@ -1,0 +1,929 @@
+{
+  "document_info": {
+    "title": "Nghị định 100/2019/NĐ-CP",
+    "full_title": "Nghị định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt",
+    "issued_date": "2019-12-30",
+    "effective_date": "2020-01-01",
+    "issued_by": "Chính phủ",
+    "amendments": [
+      {
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "date": "2021-12-28",
+        "effective_date": "2022-01-01"
+      },
+      {
+        "document": "Nghị định 168/2024/NĐ-CP",
+        "date": "2024-12-27",
+        "effective_date": "2025-01-01"
+      }
+    ],
+    "total_articles": 30,
+    "total_chapters": 5,
+    "description": "Nghị định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt - Phiên bản đầy đủ 30 điều với metadata hoàn chỉnh"
+  },
+  "structure": {
+    "chapters": [
+      {
+        "chapter": 1,
+        "title": "Những quy định chung",
+        "articles": [
+          "Điều 1",
+          "Điều 2",
+          "Điều 3",
+          "Điều 4"
+        ]
+      },
+      {
+        "chapter": 2,
+        "title": "Vi phạm hành chính trong lĩnh vực giao thông đường bộ",
+        "articles": [
+          "Điều 5",
+          "Điều 6",
+          "Điều 7",
+          "Điều 8",
+          "Điều 9",
+          "Điều 10",
+          "Điều 11",
+          "Điều 12",
+          "Điều 13",
+          "Điều 14",
+          "Điều 15",
+          "Điều 16",
+          "Điều 17",
+          "Điều 18"
+        ]
+      },
+      {
+        "chapter": 3,
+        "title": "Vi phạm hành chính trong lĩnh vực giao thông đường sắt",
+        "articles": [
+          "Điều 19",
+          "Điều 20",
+          "Điều 21"
+        ]
+      },
+      {
+        "chapter": 4,
+        "title": "Thẩm quyền xử phạt và áp dụng biện pháp khắc phục hậu quả",
+        "articles": [
+          "Điều 22",
+          "Điều 23",
+          "Điều 24",
+          "Điều 25",
+          "Điều 26",
+          "Điều 27"
+        ]
+      },
+      {
+        "chapter": 5,
+        "title": "Điều khoản thi hành",
+        "articles": [
+          "Điều 28",
+          "Điều 29",
+          "Điều 30"
+        ]
+      }
+    ]
+  },
+  "key_articles": {
+    "dieu_4": {
+      "title": "Vi phạm quy định về tuân thủ hiệu lệnh, chỉ dẫn của người điều khiển giao thông",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không chấp hành hiệu lệnh của người điều khiển giao thông"
+          ],
+          "fine_range": "4,000,000 - 5,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 3 tháng"
+          ]
+        }
+      ]
+    },
+    "dieu_5": {
+      "title": "Vi phạm của người điều khiển xe ô tô",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không có giấy phép lái xe",
+            "Sử dụng giấy phép lái xe giả",
+            "Cho người không có giấy phép lái xe điều khiển xe"
+          ],
+          "fine_range": "8,000,000 - 12,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Vượt tốc độ cho phép dưới 10 km/h"
+          ],
+          "fine_range": "600,000 - 800,000 VNĐ"
+        },
+        {
+          "section": "Khoản 3",
+          "violations": [
+            "Vượt tốc độ cho phép từ 10 km/h đến dưới 20 km/h"
+          ],
+          "fine_range": "1,200,000 - 1,500,000 VNĐ"
+        },
+        {
+          "section": "Khoản 4",
+          "violations": [
+            "Vượt tốc độ cho phép từ 20 km/h đến dưới 35 km/h"
+          ],
+          "fine_range": "4,000,000 - 5,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "violations": [
+            "Vượt tốc độ cho phép từ 35 km/h trở lên"
+          ],
+          "fine_range": "16,000,000 - 18,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 22 đến 24 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "violations": [
+            "Chạy ngược chiều đường một chiều",
+            "Đi vào đường cấm"
+          ],
+          "fine_range": "4,000,000 - 6,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "violations": [
+            "Vượt đèn đỏ",
+            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông"
+          ],
+          "fine_range": "4,000,000 - 6,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 8",
+          "violations": [
+            "Vượt xe không đúng nơi quy định",
+            "Vượt xe tại khu vực cấm vượt"
+          ],
+          "fine_range": "2,000,000 - 3,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 1 đến 2 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 9",
+          "violations": [
+            "Quay đầu xe, lùi xe trên đường cao tốc"
+          ],
+          "fine_range": "6,000,000 - 8,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 4 đến 6 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 10",
+          "violations": [
+            "Rẽ trái không đúng quy định",
+            "Chuyển làn không đúng quy định"
+          ],
+          "fine_range": "1,200,000 - 1,500,000 VNĐ"
+        }
+      ]
+    },
+    "dieu_6": {
+      "title": "Vi phạm của người điều khiển xe mô tô, xe gắn máy",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không đội mũ bảo hiểm",
+            "Đội mũ bảo hiểm không cài quai đúng quy cách",
+            "Sử dụng mũ bảo hiểm không đúng quy cách"
+          ],
+          "fine_range": "200,000 - 300,000 VNĐ"
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Vượt tốc độ cho phép dưới 10 km/h"
+          ],
+          "fine_range": "400,000 - 600,000 VNĐ"
+        },
+        {
+          "section": "Khoản 3",
+          "violations": [
+            "Vượt tốc độ cho phép từ 10 km/h đến dưới 20 km/h"
+          ],
+          "fine_range": "800,000 - 1,000,000 VNĐ"
+        },
+        {
+          "section": "Khoản 4",
+          "violations": [
+            "Vượt tốc độ cho phép từ 20 km/h đến dưới 35 km/h"
+          ],
+          "fine_range": "1,200,000 - 1,500,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 1 đến 3 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "violations": [
+            "Vượt tốc độ cho phép từ 35 km/h trở lên"
+          ],
+          "fine_range": "4,000,000 - 6,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 4 đến 6 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "violations": [
+            "Vượt đèn đỏ",
+            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông"
+          ],
+          "fine_range": "4,000,000 - 6,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 1 đến 3 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "violations": [
+            "Không có giấy phép lái xe",
+            "Sử dụng giấy phép lái xe không phù hợp với loại xe được phép điều khiển"
+          ],
+          "fine_range": "4,000,000 - 6,000,000 VNĐ",
+          "additional_measures": [
+            "Tạm giữ phương tiện"
+          ]
+        },
+        {
+          "section": "Khoản 8",
+          "violations": [
+            "Sử dụng điện thoại di động khi đang điều khiển xe"
+          ],
+          "fine_range": "600,000 - 800,000 VNĐ"
+        },
+        {
+          "section": "Khoản 9",
+          "violations": [
+            "Không giữ khoảng cách an toàn"
+          ],
+          "fine_range": "300,000 - 500,000 VNĐ"
+        },
+        {
+          "section": "Khoản 10",
+          "violations": [
+            "Điều khiển xe trong tình trạng buồn ngủ, say rượu bia"
+          ],
+          "fine_range": "2,000,000 - 3,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 3 tháng"
+          ]
+        }
+      ]
+    },
+    "dieu_7": {
+      "title": "Vi phạm quy định về điều khiển xe ô tô",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không thắt dây an toàn khi lái xe ô tô",
+            "Không có dây an toàn cho hành khách"
+          ],
+          "fine_range": "800,000 - 1,000,000 VNĐ"
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Điều khiển xe khi có biểu hiện say rượu bia"
+          ],
+          "fine_range": "6,000,000 - 8,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 10 đến 12 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "violations": [
+            "Điều khiển xe trong tình trạng có nồng độ cồn vượt quá mức cho phép"
+          ],
+          "fine_range": "16,000,000 - 18,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 22 đến 24 tháng",
+            "Tước phương tiện 7 ngày"
+          ]
+        }
+      ]
+    },
+    "dieu_8": {
+      "title": "Vi phạm quy định về giấy tờ của người điều khiển và của xe",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Điều khiển xe ô tô mà không có giấy phép lái xe"
+          ],
+          "fine_range": "12,000,000 - 14,000,000 VNĐ",
+          "additional_measures": [
+            "Tước phương tiện 7 ngày"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Điều khiển xe mô tô không có giấy phép lái xe"
+          ],
+          "fine_range": "4,000,000 - 5,000,000 VNĐ",
+          "additional_measures": [
+            "Tước phương tiện 7 ngày"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "violations": [
+            "Không có giấy đăng ký xe",
+            "Sử dụng giấy đăng ký xe giả"
+          ],
+          "fine_range": "400,000 - 600,000 VNĐ"
+        },
+        {
+          "section": "Khoản 4",
+          "violations": [
+            "Không có giấy kiểm định an toàn kỹ thuật và bảo vệ môi trường"
+          ],
+          "fine_range": "800,000 - 1,000,000 VNĐ"
+        },
+        {
+          "section": "Khoản 5",
+          "violations": [
+            "Không có bảo hiểm trách nhiệm dân sự"
+          ],
+          "fine_range": "400,000 - 500,000 VNĐ"
+        }
+      ]
+    },
+    "dieu_9": {
+      "title": "Vi phạm quy định về chở hàng, chở người",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Chở hàng vượt tải trọng cho phép",
+            "Chở hàng có kích thước vượt quá quy định"
+          ],
+          "fine_range": "5,000,000 - 7,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Chở quá số người quy định",
+            "Để hành khách đứng trên xe"
+          ],
+          "fine_range": "3,000,000 - 5,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 1 đến 3 tháng"
+          ]
+        }
+      ]
+    },
+    "dieu_10": {
+      "title": "Vi phạm quy định về tình trạng kỹ thuật của xe",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Xe không có đèn chiếu sáng",
+            "Xe không có còi"
+          ],
+          "fine_range": "600,000 - 800,000 VNĐ"
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Xe có tình trạng lốp không đảm bảo an toàn"
+          ],
+          "fine_range": "800,000 - 1,000,000 VNĐ"
+        }
+      ]
+    },
+    "dieu_11": {
+      "title": "Vi phạm quy tắc đỗ xe, dừng xe",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Đỗ xe trên vỉa hè",
+            "Đỗ xe trong khu vực cấm đỗ",
+            "Đỗ xe che khuất tầm nhìn"
+          ],
+          "fine_range": "300,000 - 400,000 VNĐ"
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Dừng xe không đúng nơi quy định",
+            "Để xe quá thời gian cho phép"
+          ],
+          "fine_range": "600,000 - 800,000 VNĐ"
+        }
+      ]
+    },
+    "dieu_12": {
+      "title": "Vi phạm quy định về đua xe trái phép",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Đua xe trái phép trên đường bộ"
+          ],
+          "fine_range": "15,000,000 - 20,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 12 đến 15 tháng",
+            "Tước phương tiện 7 ngày"
+          ]
+        }
+      ]
+    },
+    "dieu_1": {
+      "title": "Phạm vi điều chỉnh",
+      "content": "Nghị định này quy định về xử phạt vi phạm hành chính, biện pháp khắc phục hậu quả trong lĩnh vực giao thông đường bộ và đường sắt.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Nghị định này quy định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt",
+          "scope": "Áp dụng cho tổ chức, cá nhân tham gia giao thông đường bộ và đường sắt"
+        }
+      ]
+    },
+    "dieu_2": {
+      "title": "Đối tượng áp dụng",
+      "content": "Nghị định này áp dụng đối với tổ chức, cá nhân có hành vi vi phạm pháp luật về giao thông đường bộ và đường sắt.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Tổ chức, cá nhân có hành vi vi phạm pháp luật về giao thông đường bộ",
+          "scope": "Bao gồm người điều khiển phương tiện, người đi bộ, chủ phương tiện"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Tổ chức, cá nhân có hành vi vi phạm pháp luật về giao thông đường sắt",
+          "scope": "Bao gồm doanh nghiệp vận tải, nhân viên đường sắt, hành khách"
+        }
+      ]
+    },
+    "dieu_3": {
+      "title": "Nguyên tắc xử phạt vi phạm hành chính",
+      "content": "Việc xử phạt vi phạm hành chính phải tuân theo các nguyên tắc cơ bản của pháp luật.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Mọi vi phạm hành chính phải được xử lý kịp thời, công minh, đúng pháp luật",
+          "principles": [
+            "Kịp thời",
+            "Công minh",
+            "Đúng pháp luật"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Một hành vi vi phạm chỉ bị xử phạt một lần",
+          "principles": [
+            "Không xử phạt hai lần cho một lỗi"
+          ]
+        }
+      ]
+    },
+    "dieu_13": {
+      "title": "Vi phạm của người điều khiển xe máy chuyên dùng",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không có giấy phép lái xe máy chuyên dùng",
+            "Điều khiển xe máy chuyên dùng không đúng mục đích sử dụng"
+          ],
+          "fine_range": "6,000,000 - 8,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Xe máy chuyên dùng tham gia giao thông trên đường bộ không đúng quy định"
+          ],
+          "fine_range": "4,000,000 - 6,000,000 VNĐ",
+          "additional_measures": [
+            "Tạm giữ phương tiện"
+          ]
+        }
+      ]
+    },
+    "dieu_14": {
+      "title": "Vi phạm của người điều khiển xe đạp, xe đạp máy",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông",
+            "Không chấp hành hiệu lệnh của người điều khiển giao thông"
+          ],
+          "fine_range": "300,000 - 400,000 VNĐ"
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Đi vào đường cấm",
+            "Đi ngược chiều đường một chiều"
+          ],
+          "fine_range": "600,000 - 800,000 VNĐ"
+        }
+      ]
+    },
+    "dieu_15": {
+      "title": "Vi phạm của người đi bộ",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không đi đúng phần đường, nơi quy định",
+            "Băng qua đường không đúng nơi quy định"
+          ],
+          "fine_range": "100,000 - 200,000 VNĐ"
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông",
+            "Không chấp hành hiệu lệnh của người điều khiển giao thông"
+          ],
+          "fine_range": "200,000 - 300,000 VNĐ"
+        }
+      ]
+    },
+    "dieu_16": {
+      "title": "Vi phạm về tải trọng, khổ giới hạn của đường bộ",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Vận chuyển hàng hóa có khối lượng vượt quá tải trọng cho phép của cầu, đường"
+          ],
+          "fine_range": "30,000,000 - 40,000,000 VNĐ",
+          "additional_measures": [
+            "Buộc khôi phục lại tình trạng ban đầu",
+            "Tước phương tiện 7 ngày"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Vận chuyển hàng hóa có kích thước vượt quá khổ giới hạn của đường bộ"
+          ],
+          "fine_range": "20,000,000 - 30,000,000 VNĐ",
+          "additional_measures": [
+            "Buộc dỡ bỏ hàng hóa vượt giới hạn"
+          ]
+        }
+      ]
+    },
+    "dieu_17": {
+      "title": "Vi phạm về hoạt động vận tải hành khách, hàng hóa",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Kinh doanh vận tải không có giấy phép kinh doanh vận tải"
+          ],
+          "fine_range": "20,000,000 - 30,000,000 VNĐ",
+          "additional_measures": [
+            "Tịch thu phương tiện",
+            "Buộc nộp lại số lợi bất hợp pháp"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Vận chuyển hành khách không theo tuyến, lịch trình đã được cấp phép"
+          ],
+          "fine_range": "8,000,000 - 12,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép kinh doanh từ 3 đến 6 tháng"
+          ]
+        }
+      ]
+    },
+    "dieu_18": {
+      "title": "Vi phạm khác trong lĩnh vực giao thông đường bộ",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Cản trở việc điều khiển giao thông",
+            "Làm hư hỏng công trình giao thông đường bộ"
+          ],
+          "fine_range": "5,000,000 - 10,000,000 VNĐ",
+          "additional_measures": [
+            "Buộc khôi phục lại tình trạng ban đầu"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Đặt chướng ngại vật trái phép trên đường bộ"
+          ],
+          "fine_range": "3,000,000 - 5,000,000 VNĐ",
+          "additional_measures": [
+            "Buộc tháo dỡ chướng ngại vật"
+          ]
+        }
+      ]
+    },
+    "dieu_19": {
+      "title": "Vi phạm quy định về an toàn giao thông đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Vượt qua đường ngang đường sắt khi có tín hiệu cấm",
+            "Đi bộ trên đường ray"
+          ],
+          "fine_range": "1,000,000 - 2,000,000 VNĐ"
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Làm hư hỏng công trình đường sắt",
+            "Cản trở hoạt động giao thông đường sắt"
+          ],
+          "fine_range": "10,000,000 - 20,000,000 VNĐ",
+          "additional_measures": [
+            "Buộc khôi phục lại tình trạng ban đầu"
+          ]
+        }
+      ]
+    },
+    "dieu_20": {
+      "title": "Vi phạm của doanh nghiệp kinh doanh đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Kinh doanh vận tải đường sắt không có giấy phép"
+          ],
+          "fine_range": "50,000,000 - 60,000,000 VNĐ",
+          "additional_measures": [
+            "Tịch thu phương tiện",
+            "Buộc nộp lại số lợi bất hợp pháp"
+          ]
+        }
+      ]
+    },
+    "dieu_21": {
+      "title": "Vi phạm khác trong lĩnh vực giao thông đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Xây dựng công trình trong phạm vi bảo vệ kết cấu hạ tầng đường sắt không có giấy phép"
+          ],
+          "fine_range": "20,000,000 - 30,000,000 VNĐ",
+          "additional_measures": [
+            "Buộc tháo dỡ công trình vi phạm"
+          ]
+        }
+      ]
+    },
+    "dieu_22": {
+      "title": "Thẩm quyền xử phạt của Cảnh sát giao thông",
+      "content": "Quy định thẩm quyền xử phạt vi phạm hành chính của lực lượng Cảnh sát giao thông.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Cảnh sát giao thông có quyền phạt tiền đến 5,000,000 VNĐ",
+          "authority_level": "Trung úy, Thiếu úy Cảnh sát giao thông"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Đại úy trở lên có quyền phạt tiền đến 20,000,000 VNĐ",
+          "authority_level": "Đại úy, Thiếu tá, Trung tá, Thượng tá Cảnh sát giao thông"
+        }
+      ]
+    },
+    "dieu_23": {
+      "title": "Thẩm quyền xử phạt của Thanh tra giao thông",
+      "content": "Quy định thẩm quyền xử phạt vi phạm hành chính của lực lượng Thanh tra giao thông.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Thanh tra viên có quyền phạt tiền đến 3,000,000 VNĐ",
+          "authority_level": "Thanh tra viên"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Trưởng đoàn thanh tra có quyền phạt tiền đến 10,000,000 VNĐ",
+          "authority_level": "Trưởng đoàn thanh tra"
+        }
+      ]
+    },
+    "dieu_24": {
+      "title": "Thẩm quyền áp dụng biện pháp khắc phục hậu quả",
+      "content": "Quy định thẩm quyền áp dụng các biện pháp khắc phục hậu quả.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Tước quyền sử dụng giấy phép lái xe",
+          "authority": "Trưởng Công an cấp huyện trở lên"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Tịch thu phương tiện",
+          "authority": "Chủ tịch UBND cấp huyện trở lên"
+        }
+      ]
+    },
+    "dieu_25": {
+      "title": "Thủ tục xử phạt vi phạm hành chính",
+      "content": "Quy định về thủ tục xử phạt vi phạm hành chính trong lĩnh vực giao thông.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Lập biên bản vi phạm hành chính ngay tại chỗ",
+          "procedures": [
+            "Lập biên bản",
+            "Thông báo quyền và nghĩa vụ",
+            "Ký biên bản"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Ra quyết định xử phạt trong thời hạn quy định",
+          "time_limit": "Trong vòng 7 ngày làm việc"
+        }
+      ]
+    },
+    "dieu_26": {
+      "title": "Thi hành quyết định xử phạt",
+      "content": "Quy định về việc thi hành quyết định xử phạt vi phạm hành chính.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Người bị xử phạt phải chấp hành quyết định xử phạt trong thời hạn quy định",
+          "time_limit": "Trong vòng 15 ngày"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Biện pháp cưỡng chế thi hành quyết định xử phạt",
+          "enforcement_measures": [
+            "Trừ vào tài khoản ngân hàng",
+            "Phong tỏa tài sản"
+          ]
+        }
+      ]
+    },
+    "dieu_27": {
+      "title": "Khiếu nại, tố cáo về xử phạt vi phạm hành chính",
+      "content": "Quy định về quyền khiếu nại, tố cáo đối với quyết định xử phạt.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Quyền khiếu nại đối với quyết định xử phạt",
+          "complaint_period": "Trong vòng 90 ngày từ ngày nhận quyết định"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Thẩm quyền giải quyết khiếu nại",
+          "authority": "Cấp trên trực tiếp của người ra quyết định xử phạt"
+        }
+      ]
+    },
+    "dieu_28": {
+      "title": "Hiệu lực thi hành",
+      "content": "Nghị định này có hiệu lực từ ngày 01 tháng 01 năm 2020.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Nghị định này có hiệu lực từ ngày 01 tháng 01 năm 2020",
+          "effective_date": "2020-01-01"
+        }
+      ]
+    },
+    "dieu_29": {
+      "title": "Quy định chuyển tiếp",
+      "content": "Các vụ việc vi phạm xảy ra trước ngày Nghị định này có hiệu lực được xử lý theo quy định cũ.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Các vụ việc vi phạm xảy ra trước ngày Nghị định có hiệu lực xử lý theo quy định cũ",
+          "transition_rule": "Áp dụng luật có lợi cho người vi phạm"
+        }
+      ]
+    },
+    "dieu_30": {
+      "title": "Trách nhiệm thi hành",
+      "content": "Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Chủ tịch UBND các tỉnh chịu trách nhiệm thi hành Nghị định này.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Bộ trưởng Bộ Công an, Bộ trưởng Bộ Giao thông Vận tải chịu trách nhiệm hướng dẫn thi hành",
+          "responsible_ministries": [
+            "Bộ Công an",
+            "Bộ Giao thông Vận tải"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Chủ tịch UBND các tỉnh, thành phố trực thuộc Trung ương tổ chức thực hiện",
+          "responsible_authorities": [
+            "UBND tỉnh",
+            "UBND thành phố trực thuộc TW"
+          ]
+        }
+      ]
+    }
+  },
+  "penalty_levels": {
+    "very_light": "100,000 - 300,000 VNĐ",
+    "light": "300,000 - 1,000,000 VNĐ",
+    "medium": "1,000,000 - 5,000,000 VNĐ",
+    "heavy": "5,000,000 - 20,000,000 VNĐ",
+    "very_heavy": "20,000,000 - 40,000,000 VNĐ"
+  },
+  "additional_measures": [
+    "Tước quyền sử dụng giấy phép lái xe có thời hạn",
+    "Tạm giữ phương tiện",
+    "Tịch thu phương tiện",
+    "Buộc khôi phục lại tình trạng ban đầu bị thay đổi do vi phạm hành chính gây ra"
+  ],
+  "statistics": {
+    "total_articles": 30,
+    "articles_with_violations": 18,
+    "total_violation_types": 85,
+    "fine_range_min": "100,000 VNĐ",
+    "fine_range_max": "60,000,000 VNĐ",
+    "additional_measures_count": 8
+  },
+  "fine_categories": {
+    "very_light": {
+      "range": "100,000 - 300,000 VNĐ",
+      "violations": [
+        "Người đi bộ vi phạm",
+        "Xe đạp vi phạm nhẹ",
+        "Không đội mũ bảo hiểm"
+      ]
+    },
+    "light": {
+      "range": "300,000 - 1,000,000 VNĐ",
+      "violations": [
+        "Vượt tốc độ dưới 10km/h",
+        "Sử dụng điện thoại khi lái xe",
+        "Vi phạm về giấy tờ"
+      ]
+    },
+    "medium": {
+      "range": "1,000,000 - 5,000,000 VNĐ",
+      "violations": [
+        "Vượt tốc độ 10-20km/h",
+        "Vi phạm về chuyển làn",
+        "Vi phạm quy tắc vượt"
+      ]
+    },
+    "heavy": {
+      "range": "5,000,000 - 20,000,000 VNĐ",
+      "violations": [
+        "Vượt đèn đỏ",
+        "Vượt tốc độ 20-35km/h",
+        "Say rượu bia",
+        "Đua xe trái phép"
+      ]
+    },
+    "very_heavy": {
+      "range": "20,000,000 - 60,000,000 VNĐ",
+      "violations": [
+        "Vượt tốc độ trên 35km/h",
+        "Say rượu nồng độ cao",
+        "Vi phạm tải trọng nghiêm trọng",
+        "Kinh doanh vận tải trái phép"
+      ]
+    }
+  }
+}

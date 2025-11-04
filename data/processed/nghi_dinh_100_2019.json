@@ -1,0 +1,2618 @@
+{
+  "document_info": {
+    "title": "Nghị định 100/2019/NĐ-CP",
+    "full_title": "Nghị định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt",
+    "issued_date": "2019-12-30",
+    "effective_date": "2020-01-01",
+    "issued_by": "Chính phủ",
+    "amendments": [
+      {
+        "document": "Nghị định 123/2021/NĐ-CP",
+        "date": "2021-12-28",
+        "effective_date": "2022-01-01"
+      },
+      {
+        "document": "Nghị định 168/2024/NĐ-CP",
+        "date": "2024-12-27",
+        "effective_date": "2025-01-01"
+      }
+    ],
+    "total_articles": 87,
+    "total_chapters": 5,
+    "description": "Merged from 2 files: enhanced_nghi_dinh_100_2019.json, nghi_dinh_100_2019_updated.json"
+  },
+  "structure": {
+    "chapters": [
+      {
+        "chapter": 1,
+        "title": "Những quy định chung",
+        "articles": [
+          "Điều 1",
+          "Điều 2",
+          "Điều 3",
+          "Điều 4"
+        ]
+      },
+      {
+        "chapter": 2,
+        "title": "Vi phạm hành chính trong lĩnh vực giao thông đường bộ",
+        "articles": [
+          "Điều 5",
+          "Điều 6",
+          "Điều 7",
+          "Điều 8",
+          "Điều 9",
+          "Điều 10",
+          "Điều 11",
+          "Điều 12",
+          "Điều 13",
+          "Điều 14",
+          "Điều 15",
+          "Điều 16",
+          "Điều 17",
+          "Điều 18"
+        ]
+      },
+      {
+        "chapter": 3,
+        "title": "Vi phạm hành chính trong lĩnh vực giao thông đường sắt",
+        "articles": [
+          "Điều 19",
+          "Điều 20",
+          "Điều 21"
+        ]
+      },
+      {
+        "chapter": 4,
+        "title": "Thẩm quyền xử phạt và áp dụng biện pháp khắc phục hậu quả",
+        "articles": [
+          "Điều 22",
+          "Điều 23",
+          "Điều 24",
+          "Điều 25",
+          "Điều 26",
+          "Điều 27"
+        ]
+      },
+      {
+        "chapter": 5,
+        "title": "Điều khoản thi hành",
+        "articles": [
+          "Điều 28",
+          "Điều 29",
+          "Điều 30"
+        ]
+      }
+    ]
+  },
+  "key_articles": {
+    "dieu_4": {
+      "title": "Vi phạm quy định về tuân thủ hiệu lệnh, chỉ dẫn của người điều khiển giao thông",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không chấp hành hiệu lệnh của người điều khiển giao thông"
+          ],
+          "fine_range": "4,000,000 - 5,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 3 tháng"
+          ],
+          "fine_min": 4000000,
+          "fine_max": 5000000,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_5": {
+      "title": "Vi phạm của người điều khiển xe ô tô",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không có giấy phép lái xe",
+            "Sử dụng giấy phép lái xe giả",
+            "Cho người không có giấy phép lái xe điều khiển xe"
+          ],
+          "fine_range": "8,000,000 - 12,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+          ],
+          "fine_min": 8000000,
+          "fine_max": 12000000,
+          "violation_categories": [
+            "documentation"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Vượt tốc độ cho phép dưới 10 km/h"
+          ],
+          "fine_range": "600,000 - 800,000 VNĐ",
+          "fine_min": 600000,
+          "fine_max": 800000,
+          "violation_categories": [
+            "speed"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "violations": [
+            "Vượt tốc độ cho phép từ 10 km/h đến dưới 20 km/h"
+          ],
+          "fine_range": "1,200,000 - 1,500,000 VNĐ",
+          "fine_min": 1200000,
+          "fine_max": 1500000,
+          "violation_categories": [
+            "speed"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "violations": [
+            "Vượt tốc độ cho phép từ 20 km/h đến dưới 35 km/h"
+          ],
+          "fine_range": "4,000,000 - 5,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+          ],
+          "fine_min": 4000000,
+          "fine_max": 5000000,
+          "violation_categories": [
+            "speed"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "violations": [
+            "Vượt tốc độ cho phép từ 35 km/h trở lên"
+          ],
+          "fine_range": "16,000,000 - 18,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 22 đến 24 tháng"
+          ],
+          "fine_min": 16000000,
+          "fine_max": 18000000,
+          "violation_categories": [
+            "speed"
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "violations": [
+            "Chạy ngược chiều đường một chiều",
+            "Đi vào đường cấm"
+          ],
+          "fine_range": "4,000,000 - 6,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+          ],
+          "fine_min": 4000000,
+          "fine_max": 6000000,
+          "violation_categories": [
+            "direction"
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "violations": [
+            "Vượt đèn đỏ",
+            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông"
+          ],
+          "fine_range": "4,000,000 - 6,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+          ],
+          "fine_min": 4000000,
+          "fine_max": 6000000,
+          "violation_categories": [
+            "traffic_signals"
+          ]
+        },
+        {
+          "section": "Khoản 8",
+          "violations": [
+            "Vượt xe không đúng nơi quy định",
+            "Vượt xe tại khu vực cấm vượt"
+          ],
+          "fine_range": "2,000,000 - 3,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 1 đến 2 tháng"
+          ],
+          "fine_min": 2000000,
+          "fine_max": 3000000,
+          "violation_categories": [
+            "overtaking"
+          ]
+        },
+        {
+          "section": "Khoản 9",
+          "violations": [
+            "Quay đầu xe, lùi xe trên đường cao tốc"
+          ],
+          "fine_range": "6,000,000 - 8,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 4 đến 6 tháng"
+          ],
+          "fine_min": 6000000,
+          "fine_max": 8000000,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 10",
+          "violations": [
+            "Rẽ trái không đúng quy định",
+            "Chuyển làn không đúng quy định"
+          ],
+          "fine_range": "1,200,000 - 1,500,000 VNĐ",
+          "fine_min": 1200000,
+          "fine_max": 1500000,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_6": {
+      "title": "Vi phạm của người điều khiển xe mô tô, xe gắn máy",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không đội mũ bảo hiểm",
+            "Đội mũ bảo hiểm không cài quai đúng quy cách",
+            "Sử dụng mũ bảo hiểm không đúng quy cách"
+          ],
+          "fine_range": "200,000 - 300,000 VNĐ",
+          "fine_min": 200000,
+          "fine_max": 300000,
+          "violation_categories": [
+            "safety_equipment"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Vượt tốc độ cho phép dưới 10 km/h"
+          ],
+          "fine_range": "400,000 - 600,000 VNĐ",
+          "fine_min": 400000,
+          "fine_max": 600000,
+          "violation_categories": [
+            "speed"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "violations": [
+            "Vượt tốc độ cho phép từ 10 km/h đến dưới 20 km/h"
+          ],
+          "fine_range": "800,000 - 1,000,000 VNĐ",
+          "fine_min": 800000,
+          "fine_max": 1000000,
+          "violation_categories": [
+            "speed"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "violations": [
+            "Vượt tốc độ cho phép từ 20 km/h đến dưới 35 km/h"
+          ],
+          "fine_range": "1,200,000 - 1,500,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 1 đến 3 tháng"
+          ],
+          "fine_min": 1200000,
+          "fine_max": 1500000,
+          "violation_categories": [
+            "speed"
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "violations": [
+            "Vượt tốc độ cho phép từ 35 km/h trở lên"
+          ],
+          "fine_range": "4,000,000 - 6,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 4 đến 6 tháng"
+          ],
+          "fine_min": 4000000,
+          "fine_max": 6000000,
+          "violation_categories": [
+            "speed"
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "violations": [
+            "Vượt đèn đỏ",
+            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông"
+          ],
+          "fine_range": "4,000,000 - 6,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 1 đến 3 tháng"
+          ],
+          "fine_min": 4000000,
+          "fine_max": 6000000,
+          "violation_categories": [
+            "traffic_signals"
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "violations": [
+            "Không có giấy phép lái xe",
+            "Sử dụng giấy phép lái xe không phù hợp với loại xe được phép điều khiển"
+          ],
+          "fine_range": "4,000,000 - 6,000,000 VNĐ",
+          "additional_measures": [
+            "Tạm giữ phương tiện"
+          ],
+          "fine_min": 4000000,
+          "fine_max": 6000000,
+          "violation_categories": [
+            "documentation"
+          ]
+        },
+        {
+          "section": "Khoản 8",
+          "violations": [
+            "Sử dụng điện thoại di động khi đang điều khiển xe"
+          ],
+          "fine_range": "600,000 - 800,000 VNĐ",
+          "fine_min": 600000,
+          "fine_max": 800000,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 9",
+          "violations": [
+            "Không giữ khoảng cách an toàn"
+          ],
+          "fine_range": "300,000 - 500,000 VNĐ",
+          "fine_min": 300000,
+          "fine_max": 500000,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 10",
+          "violations": [
+            "Điều khiển xe trong tình trạng buồn ngủ, say rượu bia"
+          ],
+          "fine_range": "2,000,000 - 3,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 3 tháng"
+          ],
+          "fine_min": 2000000,
+          "fine_max": 3000000,
+          "violation_categories": [
+            "alcohol_drugs"
+          ]
+        }
+      ]
+    },
+    "dieu_7": {
+      "title": "Vi phạm quy định về điều khiển xe ô tô",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không thắt dây an toàn khi lái xe ô tô",
+            "Không có dây an toàn cho hành khách"
+          ],
+          "fine_range": "800,000 - 1,000,000 VNĐ",
+          "fine_min": 800000,
+          "fine_max": 1000000,
+          "violation_categories": [
+            "safety_equipment"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Điều khiển xe khi có biểu hiện say rượu bia"
+          ],
+          "fine_range": "6,000,000 - 8,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 10 đến 12 tháng"
+          ],
+          "fine_min": 6000000,
+          "fine_max": 8000000,
+          "violation_categories": [
+            "alcohol_drugs"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "violations": [
+            "Điều khiển xe trong tình trạng có nồng độ cồn vượt quá mức cho phép"
+          ],
+          "fine_range": "16,000,000 - 18,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 22 đến 24 tháng",
+            "Tước phương tiện 7 ngày"
+          ],
+          "fine_min": 16000000,
+          "fine_max": 18000000,
+          "violation_categories": [
+            "alcohol_drugs"
+          ]
+        }
+      ]
+    },
+    "dieu_8": {
+      "title": "Vi phạm quy định về giấy tờ của người điều khiển và của xe",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Điều khiển xe ô tô mà không có giấy phép lái xe"
+          ],
+          "fine_range": "12,000,000 - 14,000,000 VNĐ",
+          "additional_measures": [
+            "Tước phương tiện 7 ngày"
+          ],
+          "fine_min": 12000000,
+          "fine_max": 14000000,
+          "violation_categories": [
+            "documentation"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Điều khiển xe mô tô không có giấy phép lái xe"
+          ],
+          "fine_range": "4,000,000 - 5,000,000 VNĐ",
+          "additional_measures": [
+            "Tước phương tiện 7 ngày"
+          ],
+          "fine_min": 4000000,
+          "fine_max": 5000000,
+          "violation_categories": [
+            "documentation"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "violations": [
+            "Không có giấy đăng ký xe",
+            "Sử dụng giấy đăng ký xe giả"
+          ],
+          "fine_range": "400,000 - 600,000 VNĐ",
+          "fine_min": 400000,
+          "fine_max": 600000,
+          "violation_categories": [
+            "documentation"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "violations": [
+            "Không có giấy kiểm định an toàn kỹ thuật và bảo vệ môi trường"
+          ],
+          "fine_range": "800,000 - 1,000,000 VNĐ",
+          "fine_min": 800000,
+          "fine_max": 1000000,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 5",
+          "violations": [
+            "Không có bảo hiểm trách nhiệm dân sự"
+          ],
+          "fine_range": "400,000 - 500,000 VNĐ",
+          "fine_min": 400000,
+          "fine_max": 500000,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_9": {
+      "title": "Vi phạm quy định về chở hàng, chở người",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Chở hàng vượt tải trọng cho phép",
+            "Chở hàng có kích thước vượt quá quy định"
+          ],
+          "fine_range": "5,000,000 - 7,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+          ],
+          "fine_min": 5000000,
+          "fine_max": 7000000,
+          "violation_categories": [
+            "loading"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Chở quá số người quy định",
+            "Để hành khách đứng trên xe"
+          ],
+          "fine_range": "3,000,000 - 5,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 1 đến 3 tháng"
+          ],
+          "fine_min": 3000000,
+          "fine_max": 5000000,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_10": {
+      "title": "Vi phạm quy định về tình trạng kỹ thuật của xe",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Xe không có đèn chiếu sáng",
+            "Xe không có còi"
+          ],
+          "fine_range": "600,000 - 800,000 VNĐ",
+          "fine_min": 600000,
+          "fine_max": 800000,
+          "violation_categories": [
+            "vehicle_condition"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Xe có tình trạng lốp không đảm bảo an toàn"
+          ],
+          "fine_range": "800,000 - 1,000,000 VNĐ",
+          "fine_min": 800000,
+          "fine_max": 1000000,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_11": {
+      "title": "Vi phạm quy tắc đỗ xe, dừng xe",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Đỗ xe trên vỉa hè",
+            "Đỗ xe trong khu vực cấm đỗ",
+            "Đỗ xe che khuất tầm nhìn"
+          ],
+          "fine_range": "300,000 - 400,000 VNĐ",
+          "fine_min": 300000,
+          "fine_max": 400000,
+          "violation_categories": [
+            "parking"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Dừng xe không đúng nơi quy định",
+            "Để xe quá thời gian cho phép"
+          ],
+          "fine_range": "600,000 - 800,000 VNĐ",
+          "fine_min": 600000,
+          "fine_max": 800000,
+          "violation_categories": [
+            "parking"
+          ]
+        }
+      ]
+    },
+    "dieu_12": {
+      "title": "Vi phạm quy định về đua xe trái phép",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Đua xe trái phép trên đường bộ"
+          ],
+          "fine_range": "15,000,000 - 20,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 12 đến 15 tháng",
+            "Tước phương tiện 7 ngày"
+          ],
+          "fine_min": 15000000,
+          "fine_max": 20000000,
+          "violation_categories": [
+            "racing"
+          ]
+        }
+      ]
+    },
+    "dieu_1": {
+      "title": "Phạm vi điều chỉnh",
+      "content": "Nghị định này quy định về xử phạt vi phạm hành chính, biện pháp khắc phục hậu quả trong lĩnh vực giao thông đường bộ và đường sắt.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Nghị định này quy định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt",
+          "scope": "Áp dụng cho tổ chức, cá nhân tham gia giao thông đường bộ và đường sắt",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_2": {
+      "title": "Đối tượng áp dụng",
+      "content": "Nghị định này áp dụng đối với tổ chức, cá nhân có hành vi vi phạm pháp luật về giao thông đường bộ và đường sắt.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Tổ chức, cá nhân có hành vi vi phạm pháp luật về giao thông đường bộ",
+          "scope": "Bao gồm người điều khiển phương tiện, người đi bộ, chủ phương tiện",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Tổ chức, cá nhân có hành vi vi phạm pháp luật về giao thông đường sắt",
+          "scope": "Bao gồm doanh nghiệp vận tải, nhân viên đường sắt, hành khách",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_3": {
+      "title": "Nguyên tắc xử phạt vi phạm hành chính",
+      "content": "Việc xử phạt vi phạm hành chính phải tuân theo các nguyên tắc cơ bản của pháp luật.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Mọi vi phạm hành chính phải được xử lý kịp thời, công minh, đúng pháp luật",
+          "principles": [
+            "Kịp thời",
+            "Công minh",
+            "Đúng pháp luật"
+          ],
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Một hành vi vi phạm chỉ bị xử phạt một lần",
+          "principles": [
+            "Không xử phạt hai lần cho một lỗi"
+          ],
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_13": {
+      "title": "Vi phạm của người điều khiển xe máy chuyên dùng",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không có giấy phép lái xe máy chuyên dùng",
+            "Điều khiển xe máy chuyên dùng không đúng mục đích sử dụng"
+          ],
+          "fine_range": "6,000,000 - 8,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+          ],
+          "fine_min": 6000000,
+          "fine_max": 8000000,
+          "violation_categories": [
+            "documentation"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Xe máy chuyên dùng tham gia giao thông trên đường bộ không đúng quy định"
+          ],
+          "fine_range": "4,000,000 - 6,000,000 VNĐ",
+          "additional_measures": [
+            "Tạm giữ phương tiện"
+          ],
+          "fine_min": 4000000,
+          "fine_max": 6000000,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_14": {
+      "title": "Vi phạm của người điều khiển xe đạp, xe đạp máy",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông",
+            "Không chấp hành hiệu lệnh của người điều khiển giao thông"
+          ],
+          "fine_range": "300,000 - 400,000 VNĐ",
+          "fine_min": 300000,
+          "fine_max": 400000,
+          "violation_categories": [
+            "traffic_signals"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Đi vào đường cấm",
+            "Đi ngược chiều đường một chiều"
+          ],
+          "fine_range": "600,000 - 800,000 VNĐ",
+          "fine_min": 600000,
+          "fine_max": 800000,
+          "violation_categories": [
+            "direction"
+          ]
+        }
+      ]
+    },
+    "dieu_15": {
+      "title": "Vi phạm của người đi bộ",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Không đi đúng phần đường, nơi quy định",
+            "Băng qua đường không đúng nơi quy định"
+          ],
+          "fine_range": "100,000 - 200,000 VNĐ",
+          "fine_min": 100000,
+          "fine_max": 200000,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông",
+            "Không chấp hành hiệu lệnh của người điều khiển giao thông"
+          ],
+          "fine_range": "200,000 - 300,000 VNĐ",
+          "fine_min": 200000,
+          "fine_max": 300000,
+          "violation_categories": [
+            "traffic_signals"
+          ]
+        }
+      ]
+    },
+    "dieu_16": {
+      "title": "Vi phạm về tải trọng, khổ giới hạn của đường bộ",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Vận chuyển hàng hóa có khối lượng vượt quá tải trọng cho phép của cầu, đường"
+          ],
+          "fine_range": "30,000,000 - 40,000,000 VNĐ",
+          "additional_measures": [
+            "Buộc khôi phục lại tình trạng ban đầu",
+            "Tước phương tiện 7 ngày"
+          ],
+          "fine_min": 30000000,
+          "fine_max": 40000000,
+          "violation_categories": [
+            "loading"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Vận chuyển hàng hóa có kích thước vượt quá khổ giới hạn của đường bộ"
+          ],
+          "fine_range": "20,000,000 - 30,000,000 VNĐ",
+          "additional_measures": [
+            "Buộc dỡ bỏ hàng hóa vượt giới hạn"
+          ],
+          "fine_min": 20000000,
+          "fine_max": 30000000,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_17": {
+      "title": "Vi phạm về hoạt động vận tải hành khách, hàng hóa",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Kinh doanh vận tải không có giấy phép kinh doanh vận tải"
+          ],
+          "fine_range": "20,000,000 - 30,000,000 VNĐ",
+          "additional_measures": [
+            "Tịch thu phương tiện",
+            "Buộc nộp lại số lợi bất hợp pháp"
+          ],
+          "fine_min": 20000000,
+          "fine_max": 30000000,
+          "violation_categories": [
+            "documentation"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Vận chuyển hành khách không theo tuyến, lịch trình đã được cấp phép"
+          ],
+          "fine_range": "8,000,000 - 12,000,000 VNĐ",
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép kinh doanh từ 3 đến 6 tháng"
+          ],
+          "fine_min": 8000000,
+          "fine_max": 12000000,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_18": {
+      "title": "Vi phạm khác trong lĩnh vực giao thông đường bộ",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Cản trở việc điều khiển giao thông",
+            "Làm hư hỏng công trình giao thông đường bộ"
+          ],
+          "fine_range": "5,000,000 - 10,000,000 VNĐ",
+          "additional_measures": [
+            "Buộc khôi phục lại tình trạng ban đầu"
+          ],
+          "fine_min": 5000000,
+          "fine_max": 10000000,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Đặt chướng ngại vật trái phép trên đường bộ"
+          ],
+          "fine_range": "3,000,000 - 5,000,000 VNĐ",
+          "additional_measures": [
+            "Buộc tháo dỡ chướng ngại vật"
+          ],
+          "fine_min": 3000000,
+          "fine_max": 5000000,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_19": {
+      "title": "Vi phạm quy định về an toàn giao thông đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Vượt qua đường ngang đường sắt khi có tín hiệu cấm",
+            "Đi bộ trên đường ray"
+          ],
+          "fine_range": "1,000,000 - 2,000,000 VNĐ",
+          "fine_min": 1000000,
+          "fine_max": 2000000,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 2",
+          "violations": [
+            "Làm hư hỏng công trình đường sắt",
+            "Cản trở hoạt động giao thông đường sắt"
+          ],
+          "fine_range": "10,000,000 - 20,000,000 VNĐ",
+          "additional_measures": [
+            "Buộc khôi phục lại tình trạng ban đầu"
+          ],
+          "fine_min": 10000000,
+          "fine_max": 20000000,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_20": {
+      "title": "Vi phạm của doanh nghiệp kinh doanh đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Kinh doanh vận tải đường sắt không có giấy phép"
+          ],
+          "fine_range": "50,000,000 - 60,000,000 VNĐ",
+          "additional_measures": [
+            "Tịch thu phương tiện",
+            "Buộc nộp lại số lợi bất hợp pháp"
+          ],
+          "fine_min": 50000000,
+          "fine_max": 60000000,
+          "violation_categories": [
+            "documentation"
+          ]
+        }
+      ]
+    },
+    "dieu_21": {
+      "title": "Vi phạm khác trong lĩnh vực giao thông đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "violations": [
+            "Xây dựng công trình trong phạm vi bảo vệ kết cấu hạ tầng đường sắt không có giấy phép"
+          ],
+          "fine_range": "20,000,000 - 30,000,000 VNĐ",
+          "additional_measures": [
+            "Buộc tháo dỡ công trình vi phạm"
+          ],
+          "fine_min": 20000000,
+          "fine_max": 30000000,
+          "violation_categories": [
+            "documentation"
+          ]
+        }
+      ]
+    },
+    "dieu_22": {
+      "title": "Thẩm quyền xử phạt của Cảnh sát giao thông",
+      "content": "Quy định thẩm quyền xử phạt vi phạm hành chính của lực lượng Cảnh sát giao thông.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Cảnh sát giao thông có quyền phạt tiền đến 5,000,000 VNĐ",
+          "authority_level": "Trung úy, Thiếu úy Cảnh sát giao thông",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Đại úy trở lên có quyền phạt tiền đến 20,000,000 VNĐ",
+          "authority_level": "Đại úy, Thiếu tá, Trung tá, Thượng tá Cảnh sát giao thông",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_23": {
+      "title": "Thẩm quyền xử phạt của Thanh tra giao thông",
+      "content": "Quy định thẩm quyền xử phạt vi phạm hành chính của lực lượng Thanh tra giao thông.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Thanh tra viên có quyền phạt tiền đến 3,000,000 VNĐ",
+          "authority_level": "Thanh tra viên",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Trưởng đoàn thanh tra có quyền phạt tiền đến 10,000,000 VNĐ",
+          "authority_level": "Trưởng đoàn thanh tra",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_24": {
+      "title": "Thẩm quyền áp dụng biện pháp khắc phục hậu quả",
+      "content": "Quy định thẩm quyền áp dụng các biện pháp khắc phục hậu quả.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Tước quyền sử dụng giấy phép lái xe",
+          "authority": "Trưởng Công an cấp huyện trở lên",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Tịch thu phương tiện",
+          "authority": "Chủ tịch UBND cấp huyện trở lên",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_25": {
+      "title": "Thủ tục xử phạt vi phạm hành chính",
+      "content": "Quy định về thủ tục xử phạt vi phạm hành chính trong lĩnh vực giao thông.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Lập biên bản vi phạm hành chính ngay tại chỗ",
+          "procedures": [
+            "Lập biên bản",
+            "Thông báo quyền và nghĩa vụ",
+            "Ký biên bản"
+          ],
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Ra quyết định xử phạt trong thời hạn quy định",
+          "time_limit": "Trong vòng 7 ngày làm việc",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_26": {
+      "title": "Thi hành quyết định xử phạt",
+      "content": "Quy định về việc thi hành quyết định xử phạt vi phạm hành chính.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Người bị xử phạt phải chấp hành quyết định xử phạt trong thời hạn quy định",
+          "time_limit": "Trong vòng 15 ngày",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Biện pháp cưỡng chế thi hành quyết định xử phạt",
+          "enforcement_measures": [
+            "Trừ vào tài khoản ngân hàng",
+            "Phong tỏa tài sản"
+          ],
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_27": {
+      "title": "Khiếu nại, tố cáo về xử phạt vi phạm hành chính",
+      "content": "Quy định về quyền khiếu nại, tố cáo đối với quyết định xử phạt.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Quyền khiếu nại đối với quyết định xử phạt",
+          "complaint_period": "Trong vòng 90 ngày từ ngày nhận quyết định",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Thẩm quyền giải quyết khiếu nại",
+          "authority": "Cấp trên trực tiếp của người ra quyết định xử phạt",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_28": {
+      "title": "Hiệu lực thi hành",
+      "content": "Nghị định này có hiệu lực từ ngày 01 tháng 01 năm 2020.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Nghị định này có hiệu lực từ ngày 01 tháng 01 năm 2020",
+          "effective_date": "2020-01-01",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_29": {
+      "title": "Quy định chuyển tiếp",
+      "content": "Các vụ việc vi phạm xảy ra trước ngày Nghị định này có hiệu lực được xử lý theo quy định cũ.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Các vụ việc vi phạm xảy ra trước ngày Nghị định có hiệu lực xử lý theo quy định cũ",
+          "transition_rule": "Áp dụng luật có lợi cho người vi phạm",
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_30": {
+      "title": "Trách nhiệm thi hành",
+      "content": "Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Chủ tịch UBND các tỉnh chịu trách nhiệm thi hành Nghị định này.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Bộ trưởng Bộ Công an, Bộ trưởng Bộ Giao thông Vận tải chịu trách nhiệm hướng dẫn thi hành",
+          "responsible_ministries": [
+            "Bộ Công an",
+            "Bộ Giao thông Vận tải"
+          ],
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Chủ tịch UBND các tỉnh, thành phố trực thuộc Trung ương tổ chức thực hiện",
+          "responsible_authorities": [
+            "UBND tỉnh",
+            "UBND thành phố trực thuộc TW"
+          ],
+          "fine_min": 0,
+          "fine_max": 0,
+          "violation_categories": []
+        }
+      ]
+    },
+    "dieu_4_from_1002019updated": {
+      "title": "Điều 4",
+      "content": "Nghị định này.",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.004186",
+        "original_key": "dieu_4",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_5_from_1002019updated": {
+      "title": ";",
+      "content": "; b) Điểm b, điểm c khoản 6; điểm c khoản 7; điểm a, điểm b, điểm c, điểm d, điểm e, điểm g, điểm h, điểm i khoản 8; khoản 9",
+      "sections": [
+        {
+          "section": "Khoản 6",
+          "content": "; điểm c"
+        },
+        {
+          "section": "Khoản 7",
+          "content": "; điểm a, điểm b, điểm c, điểm d, điểm e, điểm g, điểm h, điểm i"
+        },
+        {
+          "section": "Khoản 8",
+          "content": ";"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.005724",
+        "original_key": "dieu_5",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_6_from_1002019updated": {
+      "title": ";",
+      "content": "; c) Điểm c khoản 6; điểm b khoản 7; điểm a, điểm b khoản 8; khoản 9",
+      "sections": [
+        {
+          "section": "Khoản 6",
+          "content": "; điểm b"
+        },
+        {
+          "section": "Khoản 7",
+          "content": "; điểm a, điểm b"
+        },
+        {
+          "section": "Khoản 8",
+          "content": ";"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.005724",
+        "original_key": "dieu_6",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_7_from_1002019updated": {
+      "title": "; 149",
+      "content": "; 149 d) Điểm q khoản 1; điểm d, điểm đ (trong trường hợp người vi phạm là người dưới 16 tuổi và điều khiển phương tiện), điểm e khoản 3; điểm a, điểm c, điểm d khoản 4",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "; điểm d, điểm đ (trong trường hợp người vi phạm là người dưới 16 tuổi và điều khiển phương tiện), điểm e"
+        },
+        {
+          "section": "Khoản 3",
+          "content": "; điểm a, điểm c, điểm d"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.005724",
+        "original_key": "dieu_7",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_8_from_1002019updated": {
+      "title": "; đ)",
+      "content": "; đ) Khoản 9",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.005724",
+        "original_key": "dieu_8",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_9_from_1002019updated": {
+      "title": "Điều 9",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.005724",
+        "original_key": "dieu_9",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_10_from_1002019updated": {
+      "title": ";",
+      "content": "; b) Điểm đ khoản 2, khoản 4, điểm a khoản 6",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "content": ","
+        },
+        {
+          "section": "Khoản 4",
+          "content": ", điểm a"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.005724",
+        "original_key": "dieu_10",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_11_from_1002019updated": {
+      "title": ";",
+      "content": "; e) Điểm a, điểm b, điểm c, điểm đ khoản 4; điểm d, điểm đ, điểm e khoản 5",
+      "sections": [
+        {
+          "section": "Khoản 4",
+          "content": "; điểm d, điểm đ, điểm e"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.005724",
+        "original_key": "dieu_11",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_12_from_1002019updated": {
+      "title": ";",
+      "content": "; c) Điểm c khoản 2",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.005724",
+        "original_key": "dieu_12",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_1_from_1002019updated": {
+      "title": "Phạm vi điều chỉnh",
+      "content": "Phạm vi điều chỉnh 1. Nghị định này quy định về hành vi vi phạm hành chính; hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm q...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Nghị định này quy định về hành vi vi phạm hành chính; hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩ..."
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Các hành vi vi phạm hành chính trong các lĩnh vực quản lý nhà nước khác liên quan đến lĩnh vực giao thông đường bộ và đường sắt mà không quy định tại ..."
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.006743",
+        "original_key": "dieu_1",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_2_from_1002019updated": {
+      "title": "Đối tượng áp dụng",
+      "content": "Đối tượng áp dụng 1. Cá nhân, tổ chức có hành vi vi phạm hành chính trong lĩnh vực giao thông đường bộ, đường sắt trên lãnh thỗ nước Cộng hòa xã hội chủ nghĩa Việt Nam. 2 2. Tổ chức quy định tại khoản...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Điều này gồm: a) Cơ quan nhà nước có hành vi vi phạm mà hành vi đó không thuộc nhiệm vụ quản lý nhà nước được giao; b) Đơn vị lực lượng vũ trang nhân ...",
+          "violations": [
+            "Cơ quan nhà nước có hành vi vi phạm mà hành vi đó không thuộc nhiệm vụ quản lý nhà nước được giao;",
+            "Đơn vị lực lượng vũ trang nhân dân;",
+            "Đơn vị sự nghiệp công lập;",
+            "Cơ quan Đảng Cộng sản Việt Nam; đ) Tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp;",
+            "Tổ chức kinh tế được thành lập theo quy định của Luật Hợp tác xã gồm: Hợp tác xã, liên hiệp hợp tác xã;",
+            "xã hội, tổ chức chính trị xã hội",
+            "nghề nghiệp, tổ chức xã hội, tổ chức xã hội"
+          ]
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.006743",
+        "original_key": "dieu_2",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_3_from_1002019updated": {
+      "title": "Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:",
+      "content": "Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: 1. Lĩnh vực giao thông đường bộ: a) Máy kéo là loại xe gồm phần đầu máy tự di chuyển, được lái bằng càng hoặc vô lăng và r...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Lĩnh vực giao thông đường bộ: a) Máy kéo là loại xe gồm phần đầu máy tự di chuyển, được lái bằng càng hoặc vô lăng và rơ moóc được kéo theo (có thể th...",
+          "violations": [
+            "Máy kéo là loại xe gồm phần đầu máy tự di chuyển, được lái bằng càng hoặc vô lăng và rơ moóc được kéo theo (có thể tháo rời với phần đầu ké",
+            "Xe đạp máy là xe thô sơ hai bánh có lắp động cơ, vận tốc thiết kế lớn nhất. không lớn hơn 25 km/h và khi tắt máy thì đạp xe đi được (kể cả xe đạp điệ"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Lĩnh vực giao thông đường sắt: a) Dốc gù là hệ thống thiết bị phục vụ công tác dồn tàu mà khi đầu máy đầy đoàn toa xe đến đỉnh dốc, sẽ tiến hành tác n...",
+          "violations": [
+            "Dồn phóng là phương pháp lợi dụng động năng của đoàn dồn để phóng toa xe hoặc cụm toa xe vào các đường trong bãi dồn;",
+            "Thả trôi là phương pháp lợi dụng thế năng của đường dồn tàu để thả cho toa xe hoặc cụm toa xe tự chạy vào các đường trong bãi dồn;",
+            "Khổ giới hạn tiếp giáp kiến trúc đường sắt là khoảng không gian dọc theo đường sắt đủ để tàu chạy qua không bị va quệt;",
+            "Phạm vị an toàn đường ngang là đoạn đường bộ đi qua đường sắt nằm giữa hai cần chắn, giàn chắn (bao gồm cả cần chắn, giàn chắ",
+            "hoặc nằm giữa hai ray chính ngoài cùng và hai bên đường sắt cách má ray ngoài cùng trở ra 06 m nơi không có chắn; 4",
+            "Phạm vị an toàn cầu chung là phạm vi giữa hai cần chắn, giàn chắn (bao gồm cả cần chắn, giàn chắ",
+            "hoặc phạm vi từ mép trong của mố (giáp đầu dầ",
+            "hai đầu cầu trở ra mỗi bên 10 m ở nơi không có cần chắn, giàn chắn."
+          ]
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.006743",
+        "original_key": "dieu_3",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_13_from_1002019updated": {
+      "title": "Điều 13",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.006743",
+        "original_key": "dieu_13",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_14_from_1002019updated": {
+      "title": "Điều 14",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.006743",
+        "original_key": "dieu_14",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_15_from_1002019updated": {
+      "title": ";",
+      "content": "; g) Khoản 1; khoản 2; khoản 3; khoản 4; điểm b, điểm đ, điểm e khoản 5",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": ";"
+        },
+        {
+          "section": "Khoản 2",
+          "content": ";"
+        },
+        {
+          "section": "Khoản 3",
+          "content": ";"
+        },
+        {
+          "section": "Khoản 4",
+          "content": "; điểm b, điểm đ, điểm e"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.006743",
+        "original_key": "dieu_15",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_16_from_1002019updated": {
+      "title": ";",
+      "content": "; g) Khoản 2",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.006743",
+        "original_key": "dieu_16",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_17_from_1002019updated": {
+      "title": ";",
+      "content": "; h) Điểm b, điểm đ khoản 1; điểm c, điểm d, điểm đ, điểm e khoản 2",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "; điểm c, điểm d, điểm đ, điểm e"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.006743",
+        "original_key": "dieu_17",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_18_from_1002019updated": {
+      "title": "Điều 18",
+      "content": "; khoản 1",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.007732",
+        "original_key": "dieu_18",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_19_from_1002019updated": {
+      "title": ";",
+      "content": "; i) Khoản 1; điểm a, điểm c khoản 4; khoản 5; khoản 6; khoản 7; khoản",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "; điểm a, điểm c"
+        },
+        {
+          "section": "Khoản 4",
+          "content": ";"
+        },
+        {
+          "section": "Khoản 5",
+          "content": ";"
+        },
+        {
+          "section": "Khoản 6",
+          "content": ";"
+        },
+        {
+          "section": "Khoản 7",
+          "content": "; khoản"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.007732",
+        "original_key": "dieu_19",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_20_from_1002019updated": {
+      "title": "Điều 20",
+      "content": ";",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.007732",
+        "original_key": "dieu_20",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_21_from_1002019updated": {
+      "title": "; 8",
+      "content": "; 8 k) Điểm đ, điểm g, điểm h, điểm k khoản 5; điểm m khoản 7; điểm b, điểm e, điểm g, điểm h khoản 8; điểm c khoản 9",
+      "sections": [
+        {
+          "section": "Khoản 5",
+          "content": "; điểm m"
+        },
+        {
+          "section": "Khoản 7",
+          "content": "; điểm b, điểm e, điểm g, điểm h"
+        },
+        {
+          "section": "Khoản 8",
+          "content": "; điểm c"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.007732",
+        "original_key": "dieu_21",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_22_from_1002019updated": {
+      "title": "Điều 22",
+      "content": ";",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.007732",
+        "original_key": "dieu_22",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_23_from_1002019updated": {
+      "title": "Điều 23",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.007732",
+        "original_key": "dieu_23",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_24_from_1002019updated": {
+      "title": "buộc phải hạ phần hàng quá tải, dỡ phần hàng vượt quá kích thước quy định theo hướng dẫn của lực lượng chức năng tại nơi phát hiện vi phạm;",
+      "content": "buộc phải hạ phần hàng quá tải, dỡ phần hàng vượt quá kích thước quy định theo hướng dẫn của lực lượng chức năng tại nơi phát hiện vi phạm; b) Thực hiện hành vi quy định tại điểm a khoản 1, khoản 3, k...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": ","
+        },
+        {
+          "section": "Khoản 3",
+          "content": ","
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.007732",
+        "original_key": "dieu_24",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_25_from_1002019updated": {
+      "title": "Điều 25",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.007732",
+        "original_key": "dieu_25",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_26_from_1002019updated": {
+      "title": "; đ)",
+      "content": "; đ) Khoản 1, điểm a khoản 2",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": ", điểm a"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.007732",
+        "original_key": "dieu_26",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_27_from_1002019updated": {
+      "title": "Điều 27",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.007732",
+        "original_key": "dieu_27",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_28_from_1002019updated": {
+      "title": "buộc phải hạ phần hàng xếp vượt quá tải trọng cho phép chở của xe trong trường hợp phương tiện được xếp hàng chưa rời khỏi khu vực xếp hàng;",
+      "content": "buộc phải hạ phần hàng xếp vượt quá tải trọng cho phép chở của xe trong trường hợp phương tiện được xếp hàng chưa rời khỏi khu vực xếp hàng; c) Thực hiện hành vi vi phạm quy định tại điểm g, điểm h, đ...",
+      "sections": [
+        {
+          "section": "Khoản 7",
+          "content": "; điểm c"
+        },
+        {
+          "section": "Khoản 8",
+          "content": "; điểm d, điểm đ"
+        },
+        {
+          "section": "Khoản 9",
+          "content": "; điểm a, điểm e, điểm g, điểm h khoán 10;"
+        },
+        {
+          "section": "Khoản 11",
+          "content": ";"
+        },
+        {
+          "section": "Khoản 12",
+          "content": ";"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "3"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.007732",
+        "original_key": "dieu_28",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_29_from_1002019updated": {
+      "title": ";",
+      "content": "; k) Khoản 4, khoản 5",
+      "sections": [
+        {
+          "section": "Khoản 4",
+          "content": ","
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_29",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_30_from_1002019updated": {
+      "title": "Nghị định này và tạm giữ phương tiện theo quy định; 150",
+      "content": "Nghị định này và tạm giữ phương tiện theo quy định; 150 b) Trong thời hạn hẹn đến giải quyết vụ việc vi phạm ghi trong biên bản vi phạm hành chính, nếu người vi phạm xuất trình được các giấy tờ theo q...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": ","
+        },
+        {
+          "section": "Khoản 2",
+          "content": ","
+        },
+        {
+          "section": "Khoản 3",
+          "content": "Điều này, chủ phương tiện phải chịu mọi chi phí (nếu có) cho việc sử dụng phương tiện khác thay thế để vận chuyển người, hàng hóa được chở trên phương..."
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_30",
+        "conflict_resolution": "renamed_key"
+      }
+    },
+    "dieu_49": {
+      "title": ";",
+      "content": "; d)",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_49"
+      }
+    },
+    "dieu_33": {
+      "title": "Điều 33",
+      "content": "2. Để bảo đảm thi hành quyết định xử phạt vi phạm hành chính hoặc để xác minh tình tiết làm căn cứ ra quyết định xử phạt, người có thẩm quyền xử phạt còn có thể quyết định tạm giữ phương tiện, giấy tờ...",
+      "sections": [
+        {
+          "section": "Khoản 6",
+          "content": ","
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_33"
+      }
+    },
+    "dieu_35": {
+      "title": ";",
+      "content": "; q)",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_35"
+      }
+    },
+    "dieu_65": {
+      "title": "buộc phải đưa xuống khỏi toa xe số hàng hóa chở quá tải trọng theo hướng dẫn của lực lượng chức năng tại nơi phát hiện vi phạm.",
+      "content": "buộc phải đưa xuống khỏi toa xe số hàng hóa chở quá tải trọng theo hướng dẫn của lực lượng chức năng tại nơi phát hiện vi phạm. 6. Chủ phương tiện bị xử phạt theo quy định tại Nghị định này là một tro...",
+      "sections": [
+        {
+          "section": "Khoản 6",
+          "content": "Điều này, thời hạn ra quyết định xử phạt có thể được kéo dài để xác minh đối tượng bị xử phạt theo quy định tại"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_65"
+      }
+    },
+    "dieu_58": {
+      "title": ";",
+      "content": "; k)",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_58"
+      }
+    },
+    "dieu_37": {
+      "title": "Điều 37",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_37"
+      }
+    },
+    "dieu_62": {
+      "title": "Điều 62",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_62"
+      }
+    },
+    "dieu_31": {
+      "title": "Điều 31",
+      "content": "(khoản 2, khoản 3) và các hành vi vi phạm tương ứng quy định tại",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "content": ","
+        },
+        {
+          "section": "Khoản 3",
+          "content": ") và các hành vi vi phạm tương ứng quy định tại"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_31"
+      }
+    },
+    "dieu_32": {
+      "title": "Điều 32",
+      "content": "; khoản 1",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_32"
+      }
+    },
+    "dieu_34": {
+      "title": ";",
+      "content": "; m) Khoản 1, khoản 2, khoản 3, khoản 4, khoản 6",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": ","
+        },
+        {
+          "section": "Khoản 2",
+          "content": ","
+        },
+        {
+          "section": "Khoản 3",
+          "content": ","
+        },
+        {
+          "section": "Khoản 4",
+          "content": ","
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_34"
+      }
+    },
+    "dieu_36": {
+      "title": ";",
+      "content": "; h) Điểm a, điểm b, điểm c, điểm d, điểm e khoản 1; điểm a khoản 2; điểm a, điểm b, điểm c khoản 3; điểm d khoản 4; khoản 8",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "; điểm a"
+        },
+        {
+          "section": "Khoản 2",
+          "content": "; điểm a, điểm b, điểm c"
+        },
+        {
+          "section": "Khoản 3",
+          "content": "; điểm d"
+        },
+        {
+          "section": "Khoản 4",
+          "content": ";"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_36"
+      }
+    },
+    "dieu_38": {
+      "title": ";",
+      "content": "; r) Khoản 2, khoản 3, khoản 4, khoản 5, khoản 6, khoản 7, khoản 8",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "content": ","
+        },
+        {
+          "section": "Khoản 3",
+          "content": ","
+        },
+        {
+          "section": "Khoản 4",
+          "content": ","
+        },
+        {
+          "section": "Khoản 5",
+          "content": ","
+        },
+        {
+          "section": "Khoản 6",
+          "content": ","
+        },
+        {
+          "section": "Khoản 7",
+          "content": ","
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_38"
+      }
+    },
+    "dieu_39": {
+      "title": "Điều 39",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.008729",
+        "original_key": "dieu_39"
+      }
+    },
+    "dieu_40": {
+      "title": "Điều 40",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.010004",
+        "original_key": "dieu_40"
+      }
+    },
+    "dieu_41": {
+      "title": "Điều 41",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.010004",
+        "original_key": "dieu_41"
+      }
+    },
+    "dieu_42": {
+      "title": "Điều 42",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.010004",
+        "original_key": "dieu_42"
+      }
+    },
+    "dieu_43": {
+      "title": "Điều 43",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.010004",
+        "original_key": "dieu_43"
+      }
+    },
+    "dieu_44": {
+      "title": "Điều 44",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.010004",
+        "original_key": "dieu_44"
+      }
+    },
+    "dieu_45": {
+      "title": "Điều 45",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.010004",
+        "original_key": "dieu_45"
+      }
+    },
+    "dieu_46": {
+      "title": "Điều 46",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.010004",
+        "original_key": "dieu_46"
+      }
+    },
+    "dieu_47": {
+      "title": ";",
+      "content": "; b) Khoản 1; khoản 2; khoản 3; khoản 4; điểm a, điểm b, điểm d khoản 5; khoản 6; khoản 7",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": ";"
+        },
+        {
+          "section": "Khoản 2",
+          "content": ";"
+        },
+        {
+          "section": "Khoản 3",
+          "content": ";"
+        },
+        {
+          "section": "Khoản 4",
+          "content": "; điểm a, điểm b, điểm d"
+        },
+        {
+          "section": "Khoản 5",
+          "content": ";"
+        },
+        {
+          "section": "Khoản 6",
+          "content": ";"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.010004",
+        "original_key": "dieu_47"
+      }
+    },
+    "dieu_48": {
+      "title": ";",
+      "content": "; c) Khoản 1, khoản 2, khoản 3, khoản 4, khoản 6, khoản 7",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": ","
+        },
+        {
+          "section": "Khoản 2",
+          "content": ","
+        },
+        {
+          "section": "Khoản 3",
+          "content": ","
+        },
+        {
+          "section": "Khoản 4",
+          "content": ","
+        },
+        {
+          "section": "Khoản 6",
+          "content": ","
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.010004",
+        "original_key": "dieu_48"
+      }
+    },
+    "dieu_50": {
+      "title": "Điều 50",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.010004",
+        "original_key": "dieu_50"
+      }
+    },
+    "dieu_51": {
+      "title": ";",
+      "content": "; e) Điểm a khoản 3",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.010004",
+        "original_key": "dieu_51"
+      }
+    },
+    "dieu_52": {
+      "title": "của Luật Xứ lý vi phạm hành chính. 139",
+      "content": "của Luật Xứ lý vi phạm hành chính. 139 2. Thẩm quyền xử phạt vi phạm hành chính của những chức danh được quy định tại các",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "content": "Thẩm quyền xử phạt vi phạm hành chính của những chức danh được quy định tại các"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.010004",
+        "original_key": "dieu_52"
+      }
+    },
+    "dieu_53": {
+      "title": ";",
+      "content": "; g) Điểm b khoản 2",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.010004",
+        "original_key": "dieu_53"
+      }
+    },
+    "dieu_54": {
+      "title": "Điều 54",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.011007",
+        "original_key": "dieu_54"
+      }
+    },
+    "dieu_55": {
+      "title": ";",
+      "content": "; g) Khoản 1, khoản 2, khoản 3",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": ","
+        },
+        {
+          "section": "Khoản 2",
+          "content": ","
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.011007",
+        "original_key": "dieu_55"
+      }
+    },
+    "dieu_56": {
+      "title": "; 133",
+      "content": "; 133 h)",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.011007",
+        "original_key": "dieu_56"
+      }
+    },
+    "dieu_57": {
+      "title": ";",
+      "content": "; i) Khoản 1, khoản 2",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": ","
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.011007",
+        "original_key": "dieu_57"
+      }
+    },
+    "dieu_59": {
+      "title": "Điều 59",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.011007",
+        "original_key": "dieu_59"
+      }
+    },
+    "dieu_60": {
+      "title": "Điều 60",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.011007",
+        "original_key": "dieu_60"
+      }
+    },
+    "dieu_61": {
+      "title": "Điều 61",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.011007",
+        "original_key": "dieu_61"
+      }
+    },
+    "dieu_63": {
+      "title": "; 1)",
+      "content": "; 1) Khoản 1, khoản 2",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": ","
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.011007",
+        "original_key": "dieu_63"
+      }
+    },
+    "dieu_64": {
+      "title": "Luật Xử lý vi phạm hành chính. 151",
+      "content": "Luật Xử lý vi phạm hành chính. 151 4. Yêu cầu đối với người sứ dụng phương tiện, thiết bị kỹ thuật nghiệp vụ: a) Là nhân viên của tổ chức được giao quản lý, khai thác, bảo trì kết cấu hạ tầng giao thô...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Điều này. Chương V ĐIỀU KHOẢN THI HÀNH"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.011007",
+        "original_key": "dieu_64"
+      }
+    },
+    "dieu_66": {
+      "title": "Luật Xử lý vi phạm hành chính nhưng tối đa không quá 60 ngày.",
+      "content": "Luật Xử lý vi phạm hành chính nhưng tối đa không quá 60 ngày. 8. Đối với trường hợp hành vi vi phạm hành chính được phát hiện thông qua việc sử dụng phương tiện, thiết bị kỹ thuật nghiệp vụ mà cơ quan...",
+      "sections": [
+        {
+          "section": "Khoản 4",
+          "content": ", điểm 1"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.011007",
+        "original_key": "dieu_66"
+      }
+    },
+    "dieu_67": {
+      "title": "Điều 67",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_67"
+      }
+    },
+    "dieu_68": {
+      "title": "Điều 68",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_68"
+      }
+    },
+    "dieu_69": {
+      "title": "Điều 69",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_69"
+      }
+    },
+    "dieu_70": {
+      "title": "Điều 70",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_70"
+      }
+    },
+    "dieu_71": {
+      "title": "Điều 71",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_71"
+      }
+    },
+    "dieu_72": {
+      "title": "Điều 72",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_72"
+      }
+    },
+    "dieu_73": {
+      "title": "Điều",
+      "content": "Điều 75. Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân các cấp 1. Chủ tịch Ủy ban nhân dân cấp xã có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến 4.000.000 đồng đối với hành vi vi phạm trong lĩnh vực g...",
+      "sections": [
+        {
+          "section": "Khoản 75",
+          "content": "Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân các cấp"
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Chủ tịch Ủy ban nhân dân cấp xã có quyền: a) Phạt cảnh cáo; b) Phạt tiền đến",
+          "violations": [
+            "Phạt cảnh cáo;",
+            "Phạt tiền đến"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "content": "0"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường bộ và"
+        },
+        {
+          "section": "Khoản 5",
+          "content": "0"
+        },
+        {
+          "section": "Khoản 00",
+          "content": "000 đồng đối với hành vi vi phạm trong lĩnh vực giao thông đường sắt; c) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị ...",
+          "violations": [
+            "Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá mức xử phạt tiền được quy định tại điểm b khoản này;",
+            "Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, b và c khoản 1"
+          ]
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_73"
+      }
+    },
+    "dieu_74": {
+      "title": "Phân định thẩm quyền xử phạt hành chính trong lĩnh vực giao thông đường bộ, đường sắt",
+      "content": "Phân định thẩm quyền xử phạt hành chính trong lĩnh vực giao thông đường bộ, đường sắt 1. Chủ tịch Ủy ban nhân dân các cấp có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại Nghị định này t...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Chủ tịch Ủy ban nhân dân các cấp có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại Nghị định này trong phạm vi quản lý của địa phương mìn..."
+        },
+        {
+          "section": "Khoản 2",
+          "content": "Cảnh sát giao thông trong phạm vi chức năng, nhiệm vụ được giao có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều c..."
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_74"
+      }
+    },
+    "dieu_76": {
+      "title": "Điều 76",
+      "content": "và",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_76"
+      }
+    },
+    "dieu_77": {
+      "title": "của Nghị định này được sử dụng kết quả thu được từ thiết bị cân kiểm tra tải trọng xe cơ giới, máy đo tốc độ có ghi hình ảnh, thiết bị ghi âm và ghi hình, thiết bị đo tải trọng trục bánh toa xe do các tổ chức được giao quản lý, khai thác, bảo trì kết cấu hạ tầng giao thông đường bộ, đường sắt cung cấp làm căn cứ để xác định vi phạm hành chính và xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt.",
+      "content": "của Nghị định này được sử dụng kết quả thu được từ thiết bị cân kiểm tra tải trọng xe cơ giới, máy đo tốc độ có ghi hình ảnh, thiết bị ghi âm và ghi hình, thiết bị đo tải trọng trục bánh toa xe do các...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Điều này trước khi đưa vào sử dụng phải bảo đảm được kiểm định, hiệu chuẩn, thử nghiệm theo quy định của pháp luật; tiêu chuẩn, quy chuẩn kỹ thuật phả..."
+        },
+        {
+          "section": "Khoản 1",
+          "content": "Điều này phải đảm bảo đúng nguyên tắc quy định tại"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_77"
+      }
+    },
+    "dieu_78": {
+      "title": "Nguyên tắc xác định thẩm quyền xử phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả",
+      "content": "Nguyên tắc xác định thẩm quyền xử phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả 1. Nguyên tắc xác định thẩm quyền xứ phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả tro...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Nguyên tắc xác định thẩm quyền xứ phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả trong lĩnh vực giao thông đường bộ, đường sắt thực hi..."
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_78"
+      }
+    },
+    "dieu_75": {
+      "title": "Điều 75",
+      "content": ",",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_75"
+      }
+    },
+    "dieu_79": {
+      "title": "Thẩm quyền lập biên bản vi phạm hành chính",
+      "content": "Thẩm quyền lập biên bản vi phạm hành chính 1. Thẩm quyền lập biên bản vi phạm hành chính trong lĩnh vực giao thông đường bộ bao gồm: a) Các chức danh có thẩm quyền xử phạt vi phạm hành chính trong lĩn...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Thẩm quyền lập biên bản vi phạm hành chính trong lĩnh vực giao thông đường bộ bao gồm: a) Các chức danh có thẩm quyền xử phạt vi phạm hành chính trong...",
+          "violations": [
+            "Các chức danh có thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ được quy định tại các"
+          ]
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_79"
+      }
+    },
+    "dieu_80": {
+      "title": "Thủ tục xử phạt đối với chủ phương tiện, người điều khiển phương tiện vi phạm quy định liên quan đến giao thông đường bộ, đường sắt",
+      "content": "Thủ tục xử phạt đối với chủ phương tiện, người điều khiển phương tiện vi phạm quy định liên quan đến giao thông đường bộ, đường sắt 1. Trong trường hợp chủ phương tiện vi phạm có mặt tại nơi xảy ra vi...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Trong trường hợp chủ phương tiện vi phạm có mặt tại nơi xảy ra vi phạm, thì người có thẩm quyền xử phạt lập biên bản vi phạm hành chính và ra quyết đị..."
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_80"
+      }
+    },
+    "dieu_81": {
+      "title": "Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn trong lĩnh vực giao thông đường bộ, đường sắt",
+      "content": "Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn trong lĩnh vực giao thông đường bộ, đường sắt 1. Giấy phép, chứng chỉ hành nghề trong lĩnh vực giao th...",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "content": "Điều này nhưng không quá thời hạn cư trú còn lại tại Việt Nam của người bị tước quyền sử dụng Giấy phép lái xe quốc tế; b) Người điều khiển phương tiệ..."
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_81"
+      }
+    },
+    "dieu_82": {
+      "title": "Tạm giữ phương tiện, giấy tờ có liên quan đến người điều khiển và phương tiện vi phạm",
+      "content": "Tạm giữ phương tiện, giấy tờ có liên quan đến người điều khiển và phương tiện vi phạm 1. Để ngăn chặn ngay vi phạm hành chính, người có thẩm quyền xử phạt được phép tạm giữ phương tiện tối đa đến 07 n...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Để ngăn chặn ngay vi phạm hành chính, người có thẩm quyền xử phạt được phép tạm giữ phương tiện tối đa đến 07 ngày trước khi ra quyết định xử phạt đối...",
+          "additional_measures": [
+            "tạm giữ phương tiện"
+          ]
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_82"
+      }
+    },
+    "dieu_125": {
+      "title": "của Luật Xử lý vi phạm hành chính, nếu quá thời hạn hẹn đến giải quyết vụ việc vi phạm ghi trong biên bản vi phạm hành chính, người vi phạm chưa đến trụ sở của người có thẩm quyền xử phạt để giải quyết vụ việc vi phạm mà vẫn tiếp tục điều khiển phương tiện hoặc đưa phương tiện ra tham gia giao thông, sẽ bị áp dụng xử phạt như hành vi không có giấy tờ.",
+      "content": "của Luật Xử lý vi phạm hành chính, nếu quá thời hạn hẹn đến giải quyết vụ việc vi phạm ghi trong biên bản vi phạm hành chính, người vi phạm chưa đến trụ sở của người có thẩm quyền xử phạt để giải quyế...",
+      "sections": [
+        {
+          "section": "Khoản 3",
+          "content": "Đối với trường hợp tại thời điểm kiểm tra, người điều khiển phương tiện không xuất trình được một, một số hoặc tất cả các giấy tờ (Giấy phép lái xe, G...",
+          "violations": [
+            "theo quy định, xử lý như sau:",
+            "Người có thẩm quyền tiến hành lập biên bản vi phạm hành chính đối với người điều khiển phương tiện về hành vi không có giấy tờ (tương ứng với những loại giấy tờ không xuất trình đượ",
+            ", đồng thời lập biên bản vi phạm hành chính đối với chủ phương tiện về những hành vi vi phạm tương ứng quy định tại"
+          ]
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_125"
+      }
+    },
+    "dieu_83": {
+      "title": "Sử dụng kết quả thu được từ phương tiện, thiết bị kỹ thuật nghiệp vụ do các tổ chức được giao quản lý, khai thác, bảo trì kết cấu hạ tầng giao thông đường bộ, đường sắt cung cấp làm căn cứ để xác định vi phạm hành chính và xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt",
+      "content": "Sử dụng kết quả thu được từ phương tiện, thiết bị kỹ thuật nghiệp vụ do các tổ chức được giao quản lý, khai thác, bảo trì kết cấu hạ tầng giao thông đường bộ, đường sắt cung cấp làm căn cứ để xác định...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Người có thẩm quyền xử phạt quy định tại"
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.012004",
+        "original_key": "dieu_83"
+      }
+    },
+    "dieu_84": {
+      "title": "Hiệu lực thi hành",
+      "content": "Hiệu lực thi hành 1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2020. 2. Nghị định này thay thế Nghị định số 46/2016/NĐ-CP ngày 26 tháng 5 năm 2016 của Chính phủ quy định xử phạt vi ph...",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "content": "Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm"
+        },
+        {
+          "section": "Khoản 2020",
+          "content": "2. Nghị định này thay thế Nghị định số 46/2016/NĐ-CP ngày 26 tháng 5 năm 2016 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao th...",
+          "violations": [
+            "CP ngày 26 tháng 5 năm 2016 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt."
+          ]
+        }
+      ],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.013004",
+        "original_key": "dieu_84"
+      }
+    },
+    "dieu_85": {
+      "title": "Điều 85",
+      "content": "Điều khoản chuyển tiếp Đối với các hành vi vi phạm hành chính trong lĩnh vực giao thông đường bộ, đường sắt xảy ra trước ngày Nghị định này có hiệu lực thi hành mà sau đó mới bị phát hiện hoặc đang xe...",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.013004",
+        "original_key": "dieu_85"
+      }
+    },
+    "dieu_86": {
+      "title": "Trách nhiệm thi hành 152 Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này./.",
+      "content": "Trách nhiệm thi hành 152 Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị đ...",
+      "sections": [],
+      "metadata": {
+        "source_file": "nghi_dinh_100_2019_updated.json",
+        "merged_date": "2025-11-03T22:55:34.013004",
+        "original_key": "dieu_86"
+      }
+    }
+  },
+  "penalty_levels": {
+    "very_light": "100,000 - 300,000 VNĐ",
+    "light": "300,000 - 1,000,000 VNĐ",
+    "medium": "1,000,000 - 5,000,000 VNĐ",
+    "heavy": "5,000,000 - 20,000,000 VNĐ",
+    "very_heavy": "20,000,000 - 40,000,000 VNĐ"
+  },
+  "additional_measures": [
+    "Tước quyền sử dụng giấy phép lái xe có thời hạn",
+    "Tạm giữ phương tiện",
+    "Tịch thu phương tiện",
+    "Buộc khôi phục lại tình trạng ban đầu bị thay đổi do vi phạm hành chính gây ra"
+  ],
+  "statistics": {
+    "total_articles": 30,
+    "articles_with_violations": 18,
+    "total_violation_types": 85,
+    "fine_range_min": "100,000 VNĐ",
+    "fine_range_max": "60,000,000 VNĐ",
+    "additional_measures_count": 8
+  },
+  "fine_categories": {
+    "very_light": {
+      "range": "100,000 - 300,000 VNĐ",
+      "violations": [
+        "Người đi bộ vi phạm",
+        "Xe đạp vi phạm nhẹ",
+        "Không đội mũ bảo hiểm"
+      ]
+    },
+    "light": {
+      "range": "300,000 - 1,000,000 VNĐ",
+      "violations": [
+        "Vượt tốc độ dưới 10km/h",
+        "Sử dụng điện thoại khi lái xe",
+        "Vi phạm về giấy tờ"
+      ]
+    },
+    "medium": {
+      "range": "1,000,000 - 5,000,000 VNĐ",
+      "violations": [
+        "Vượt tốc độ 10-20km/h",
+        "Vi phạm về chuyển làn",
+        "Vi phạm quy tắc vượt"
+      ]
+    },
+    "heavy": {
+      "range": "5,000,000 - 20,000,000 VNĐ",
+      "violations": [
+        "Vượt đèn đỏ",
+        "Vượt tốc độ 20-35km/h",
+        "Say rượu bia",
+        "Đua xe trái phép"
+      ]
+    },
+    "very_heavy": {
+      "range": "20,000,000 - 60,000,000 VNĐ",
+      "violations": [
+        "Vượt tốc độ trên 35km/h",
+        "Say rượu nồng độ cao",
+        "Vi phạm tải trọng nghiêm trọng",
+        "Kinh doanh vận tải trái phép"
+      ]
+    }
+  },
+  "processing_metadata": {
+    "document_type": "ND_100_2019",
+    "total_articles": 30,
+    "total_sections": 73,
+    "total_violations_extracted": 78,
+    "processing_date": "2025-11-03T11:58:28.509061",
+    "data_source": "manual_extraction",
+    "pipeline_stage": "raw_enhancement"
+  },
+  "merge_info": {
+    "merged_date": "2025-11-03T22:55:34.013004",
+    "source_files": [
+      "enhanced_nghi_dinh_100_2019.json",
+      "nghi_dinh_100_2019_updated.json"
+    ],
+    "prefix": "100_2019",
+    "statistics": {
+      "initial_articles": 30,
+      "final_articles": 117,
+      "articles_added": 87,
+      "duplicates_found": 0,
+      "net_increase": 87
+    },
+    "merge_strategy": "key_articles_deduplication"
+  }
+}
