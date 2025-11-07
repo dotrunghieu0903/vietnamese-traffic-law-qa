@@ -87,15 +87,20 @@ vietnamese-traffic-law-qa/
 - **`preprocessing/`**: Data processing and transformation scripts
 - **`processed/`**: Cleaned and structured legal documents
 - **`raw/`**: Original legal documents and violation datasets
-
+=> Hieu
+=> VectorDB/Search: DB - Cở sở tri thức
 ### `/src/traffic_law_qa/`
 - **`api/`**: FastAPI/Flask REST API endpoints
+/search
 - **`core/`**: Configuration and settings management
 - **`data/`**: Data models and database interactions
 - **`nlp/`**: Vietnamese text processing and NLP utilities
 - **`search/`**: Semantic search engine implementation
+input: câu hỏi người dùng
+output: mức phạt, điều khoản, etc
+=> Tai
 - **`ui/`**: Streamlit web interface components
-
+=> Nga
 ### `/scripts/`
 Utility scripts for data generation and processing
 
