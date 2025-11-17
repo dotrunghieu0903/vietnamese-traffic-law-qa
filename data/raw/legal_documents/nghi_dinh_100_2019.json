@@ -103,105 +103,229 @@
     },
     "dieu_5": {
       "title": "Vi phạm của người điều khiển xe ô tô",
+      "full_title": "Xử phạt người điều khiển xe ô tô và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ",
       "sections": [
         {
           "section": "Khoản 1",
+          "fine_range": "200,000 - 400,000 VNĐ",
           "violations": [
-            "Không có giấy phép lái xe",
-            "Sử dụng giấy phép lái xe giả",
-            "Cho người không có giấy phép lái xe điều khiển xe"
-          ],
-          "fine_range": "8,000,000 - 12,000,000 VNĐ",
-          "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+            "Không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường",
+            "Chuyển hướng không nhường quyền đi trước cho người đi bộ, xe lăn của người khuyết tật qua đường tại nơi có vạch kẻ đường",
+            "Chuyển hướng không nhường quyền đi trước cho xe thô sơ đang đi trên phần đường dành cho xe thô sơ",
+            "Chuyển hướng không nhường đường cho các xe đi ngược chiều",
+            "Chuyển hướng không nhường đường cho người đi bộ, xe lăn của người khuyết tật đang qua đường tại nơi không có vạch kẻ đường",
+            "Khi dừng xe, đỗ xe không có tín hiệu báo cho người điều khiển phương tiện khác biết",
+            "Khi đỗ xe chiếm một phần đường xe chạy không đặt ngay báo hiệu nguy hiểm theo quy định",
+            "Không gắn biển báo hiệu ở phía trước xe kéo, phía sau xe được kéo",
+            "Điều khiển xe kéo rơ moóc không có biển báo hiệu theo quy định",
+            "Bấm còi trong đô thị và khu đông dân cư trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau"
           ]
         },
         {
-          "section": "Khoản 2",
+          "section": "Khoản 2", 
+          "fine_range": "400,000 - 600,000 VNĐ",
           "violations": [
-            "Vượt tốc độ cho phép dưới 10 km/h"
-          ],
-          "fine_range": "600,000 - 800,000 VNĐ"
+            "Chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước",
+            "Điều khiển xe chạy tốc độ thấp hơn các xe khác đi cùng chiều mà không đi về bên phải phần đường xe chạy",
+            "Chở người trên buồng lái quá số lượng quy định",
+            "Không tuân thủ các quy định về nhường đường tại nơi đường bộ giao nhau",
+            "Điều khiển xe có liên quan trực tiếp đến vụ tai nạn giao thông mà không dừng lại, không giữ nguyên hiện trường, không tham gia cấp cứu người bị nạn",
+            "Xe được quyền ưu tiên lắp đặt, sử dụng thiết bị phát tín hiệu ưu tiên không đúng quy định",
+            "Dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi có lề đường rộng",
+            "Dừng xe, đỗ xe không sát mép đường phía bên phải theo chiều đi ở nơi đường có lề đường hẹp hoặc không có lề đường",
+            "Dừng xe, đỗ xe ngược với chiều lưu thông của làn đường",
+            "Dừng xe, đỗ xe trên dải phân cách cố định ở giữa hai phần đường xe chạy",
+            "Đỗ xe trên dốc không chèn bánh",
+            "Mở cửa xe, để cửa xe mở không bảo đảm an toàn",
+            "Dừng xe không sát theo lề đường, hè phố phía bên phải theo chiều đi hoặc bánh xe gần nhất cách lề đường, hè phố quá 0,25 m",
+            "Dừng xe trên đường xe điện, đường dành riêng cho xe buýt",
+            "Dừng xe trên miệng cống thoát nước, miệng hầm của đường điện thoại, điện cao thế, chỗ dành riêng cho xe chữa cháy lấy nước",
+            "Rời vị trí lái, tắt máy khi dừng xe",
+            "Dừng xe, đỗ xe không đúng vị trí quy định ở những đoạn có bố trí nơi dừng xe, đỗ xe",
+            "Dừng xe, đỗ xe trên phần đường dành cho người đi bộ qua đường",
+            "Dừng xe nơi có biển 'Cấm dừng xe và đỗ xe'",
+            "Quay đầu xe trái quy định trong khu dân cư",
+            "Quay đầu xe ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, ngầm, gầm cầu vượt"
+          ]
         },
         {
           "section": "Khoản 3",
+          "fine_range": "800,000 - 1,000,000 VNĐ",
           "violations": [
-            "Vượt tốc độ cho phép từ 10 km/h đến dưới 20 km/h"
-          ],
-          "fine_range": "1,200,000 - 1,500,000 VNĐ"
+            "Điều khiển xe chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h",
+            "Bấm còi, rú ga liên tục",
+            "Bấm còi hơi, sử dụng đèn chiếu xa trong đô thị, khu đông dân cư",
+            "Chuyển hướng không giảm tốc độ hoặc không có tín hiệu báo hướng rẽ",
+            "Không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt",
+            "Dừng xe, đỗ xe trong phạm vi an toàn của đường sắt",
+            "Dừng xe, đỗ xe tại nơi đường bộ giao nhau hoặc trong phạm vi 05 m tính từ mép đường giao nhau",
+            "Dừng xe, đỗ xe tại điểm dừng đón, trả khách của xe buýt",
+            "Dừng xe, đỗ xe trước cổng hoặc trong phạm vi 05 m hai bên cổng trụ sở cơ quan, tổ chức có bố trí đường cho xe ô tô ra vào",
+            "Dừng xe, đỗ xe nơi phần đường có bề rộng chỉ đủ cho một làn xe",
+            "Dừng xe, đỗ xe che khuất biển báo hiệu đường bộ",
+            "Dừng xe, đỗ xe nơi mở dải phân cách giữa",
+            "Đỗ xe không sát theo lề đường, hè phố phía bên phải theo chiều đi hoặc bánh xe gần nhất cách lề đường, hè phố quá 0,25 m",
+            "Đỗ xe trên đường xe điện, đường dành riêng cho xe buýt",
+            "Đỗ xe trên miệng cống thoát nước, miệng hầm của đường điện thoại, điện cao thế, chỗ dành riêng cho xe chữa cháy lấy nước",
+            "Đỗ, để xe ở hè phố trái quy định của pháp luật",
+            "Đỗ xe nơi có biển 'Cấm đỗ xe' hoặc biển 'Cấm dừng xe và đỗ xe'",
+            "Không sử dụng hoặc sử dụng không đủ đèn chiếu sáng trong thời gian từ 19 giờ ngày hôm trước đến 05 giờ ngày hôm sau, khi sương mù, thời tiết xấu hạn chế tầm nhìn",
+            "Sử dụng đèn chiếu xa khi tránh xe đi ngược chiều",
+            "Điều khiển xe ô tô kéo theo xe khác, vật khác (trừ trường hợp kéo theo một rơ moóc, sơ mi rơ moóc hoặc một xe ô tô, xe máy chuyên dùng khác khi xe này không tự chạy được)",
+            "Điều khiển xe ô tô đẩy xe khác, vật khác",
+            "Điều khiển xe kéo rơ moóc, sơ mi rơ moóc kéo thêm rơ moóc hoặc xe khác, vật khác",
+            "Không nối chắc chắn, an toàn giữa xe kéo và xe được kéo khi kéo nhau",
+            "Chở người trên xe được kéo, trừ người điều khiển",
+            "Quay đầu xe tại nơi đường bộ giao nhau cùng mức với đường sắt",
+            "Quay đầu xe tại nơi đường hẹp, đường dốc, đoạn đường cong tầm nhìn bị che khuất, nơi có biển báo 'Cấm quay đầu xe'",
+            "Không giữ khoảng cách an toàn để xảy ra va chạm với xe chạy liền trước hoặc không giữ khoảng cách theo quy định của biển báo hiệu 'Cự ly tối thiểu giữa hai xe'",
+            "Không giảm tốc độ và nhường đường khi điều khiển xe chạy từ trong ngõ, đường nhánh ra đường chính",
+            "Không nhường đường cho xe đi trên đường ưu tiên, đường chính từ bất kỳ hướng nào tới tại nơi đường giao nhau",
+            "Lùi xe ở đường một chiều, đường có biển 'Cấm đi ngược chiều', khu vực cấm dừng, trên phần đường dành cho người đi bộ qua đường, nơi đường bộ giao nhau, nơi đường bộ giao nhau cùng mức với đường sắt, nơi tầm nhìn bị che khuất",
+            "Lùi xe không quan sát hoặc không có tín hiệu báo trước",
+            "Không thắt dây an toàn khi điều khiển xe chạy trên đường",
+            "Chở người trên xe ô tô không thắt dây an toàn (tại vị trí có trang bị dây an toàn) khi xe đang chạy",
+            "Chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần",
+            "Điều khiển xe chạy dưới tốc độ tối thiểu trên những đoạn đường bộ có quy định tốc độ tối thiểu cho phép"
+          ]
         },
         {
           "section": "Khoản 4",
+          "fine_range": "1,000,000 - 2,000,000 VNĐ",
           "violations": [
-            "Vượt tốc độ cho phép từ 20 km/h đến dưới 35 km/h"
+            "Dùng tay sử dụng điện thoại di động khi đang điều khiển xe chạy trên đường",
+            "Đi vào khu vực cấm, đường có biển báo hiệu có nội dung cấm đi vào đối với loại phương tiện đang điều khiển",
+            "Điều khiển xe không đủ điều kiện để thu phí theo hình thức điện tử tự động không dừng đi vào làn đường dành riêng thu phí theo hình thức điện tử tự động không dừng tại các trạm thu phí",
+            "Dừng xe, đỗ xe bên trái đường một chiều hoặc bên trái (theo hướng lưu thông) của đường đôi",
+            "Dừng xe, đỗ xe trên đoạn đường cong hoặc gần đầu dốc nơi tầm nhìn bị che khuất",
+            "Dừng xe, đỗ xe trên cầu, gầm cầu vượt, song song với một xe khác đang dừng, đỗ",
+            "Dừng xe, đỗ xe, quay đầu xe trái quy định gây ùn tắc giao thông",
+            "Xe không được quyền ưu tiên lắp đặt, sử dụng thiết bị phát tín hiệu của xe được quyền ưu tiên",
+            "Không thực hiện biện pháp bảo đảm an toàn theo quy định khi xe ô tô bị hư hỏng ngay tại nơi đường bộ giao nhau cùng mức với đường sắt",
+            "Không nhường đường cho xe xin vượt khi có đủ điều kiện an toàn",
+            "Lùi xe, quay đầu xe trong hầm đường bộ",
+            "Dừng xe, đỗ xe, vượt xe trong hầm đường bộ không đúng nơi quy định"
           ],
-          "fine_range": "4,000,000 - 5,000,000 VNĐ",
           "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+            "Tịch thu thiết bị phát tín hiệu ưu tiên lắp đặt sử dụng trái quy định",
+            "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng"
           ]
         },
         {
           "section": "Khoản 5",
+          "fine_range": "3,000,000 - 5,000,000 VNĐ",
           "violations": [
-            "Vượt tốc độ cho phép từ 35 km/h trở lên"
+            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông",
+            "Không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông",
+            "Đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển 'Cấm đi ngược chiều'",
+            "Vượt xe trong những trường hợp không được vượt, vượt xe tại đoạn đường có biển báo hiệu có nội dung cấm vượt",
+            "Không có báo hiệu trước khi vượt",
+            "Vượt bên phải xe khác trong trường hợp không được phép",
+            "Điều khiển xe không đi bên phải theo chiều đi của mình",
+            "Đi không đúng phần đường hoặc làn đường quy định (làn cùng chiều hoặc làn ngược chiều)",
+            "Điều khiển xe đi qua dải phân cách cố định ở giữa hai phần đường xe chạy",
+            "Điều khiển xe đi trên hè phố, trừ trường hợp điều khiển xe đi qua hè phố để vào nhà",
+            "Tránh xe đi ngược chiều không đúng quy định",
+            "Không nhường đường cho xe đi ngược chiều theo quy định tại nơi đường hẹp, đường dốc, nơi có chướng ngại vật",
+            "Không tuân thủ các quy định khi vào hoặc ra đường cao tốc",
+            "Điều khiển xe chạy ở làn dừng xe khẩn cấp hoặc phần lề đường của đường cao tốc",
+            "Chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước khi chạy trên đường cao tốc",
+            "Không tuân thủ quy định về khoảng cách an toàn đối với xe chạy liền trước khi chạy trên đường cao tốc",
+            "Không nhường đường hoặc gây cản trở xe được quyền ưu tiên đang phát tín hiệu ưu tiên đi làm nhiệm vụ",
+            "Điều khiển xe chạy quá tốc độ quy định từ 10 km/h đến 20 km/h"
           ],
-          "fine_range": "16,000,000 - 18,000,000 VNĐ",
           "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 22 đến 24 tháng"
+            "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng"
           ]
         },
         {
           "section": "Khoản 6",
+          "fine_range": "6,000,000 - 8,000,000 VNĐ",
           "violations": [
-            "Chạy ngược chiều đường một chiều",
-            "Đi vào đường cấm"
+            "Điều khiển xe chạy quá tốc độ quy định trên 20 km/h đến 35 km/h",
+            "Dừng xe, đỗ xe trên đường cao tốc không đúng nơi quy định",
+            "Không có báo hiệu để người lái xe khác biết khi buộc phải dừng xe, đỗ xe trên đường cao tốc không đúng nơi quy định",
+            "Quay đầu xe trên đường cao tốc",
+            "Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn nhưng chưa vượt quá 50 miligam/100 mililít máu hoặc chưa vượt quá 0,25 miligam/1 lít khí thở"
           ],
-          "fine_range": "4,000,000 - 6,000,000 VNĐ",
           "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+            "Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+            "Tước quyền sử dụng Giấy phép lái xe từ 10 tháng đến 12 tháng (đối với vi phạm nồng độ cồn)"
           ]
         },
         {
           "section": "Khoản 7",
+          "fine_range": "10,000,000 - 12,000,000 VNĐ",
           "violations": [
-            "Vượt đèn đỏ",
-            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông"
+            "Không chú ý quan sát, điều khiển xe chạy quá tốc độ quy định gây tai nạn giao thông",
+            "Dừng xe, đỗ xe, quay đầu xe, lùi xe, tránh xe, vượt xe, chuyển hướng, chuyển làn đường không đúng quy định gây tai nạn giao thông",
+            "Không đi đúng phần đường, làn đường, không giữ khoảng cách an toàn giữa hai xe theo quy định gây tai nạn giao thông",
+            "Đi vào đường có biển báo hiệu có nội dung cấm đi vào đối với loại phương tiện đang điều khiển gây tai nạn giao thông",
+            "Đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển 'Cấm đi ngược chiều' gây tai nạn giao thông",
+            "Điều khiển xe lạng lách, đánh võng",
+            "Chạy quá tốc độ đuổi nhau trên đường bộ",
+            "Dùng chân điều khiển vô lăng xe khi xe đang chạy trên đường",
+            "Điều khiển xe chạy quá tốc độ quy định trên 35 km/h"
           ],
-          "fine_range": "4,000,000 - 6,000,000 VNĐ",
           "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+            "Tức quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng"
           ]
         },
         {
           "section": "Khoản 8",
+          "fine_range": "16,000,000 - 18,000,000 VNĐ",
           "violations": [
-            "Vượt xe không đúng nơi quy định",
-            "Vượt xe tại khu vực cấm vượt"
+            "Điều khiển xe đi ngược chiều trên đường cao tốc, lùi xe trên đường cao tốc",
+            "Gây tai nạn giao thông không dừng lại, không giữ nguyên hiện trường, bỏ trốn không đến trình báo với cơ quan có thẩm quyền, không tham gia cấp cứu người bị nạn",
+            "Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở"
           ],
-          "fine_range": "2,000,000 - 3,000,000 VNĐ",
           "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 1 đến 2 tháng"
+            "Tước quyền sử dụng Giấy phép lái xe từ 05 tháng đến 07 tháng",
+            "Tước quyền sử dụng Giấy phép lái xe từ 16 tháng đến 18 tháng (đối với vi phạm nồng độ cồn)"
           ]
         },
         {
           "section": "Khoản 9",
+          "fine_range": "18,000,000 - 20,000,000 VNĐ",
           "violations": [
-            "Quay đầu xe, lùi xe trên đường cao tốc"
+            "Điều khiển xe lạng lách, đánh võng; chạy quá tốc độ đuổi nhau trên đường bộ; dùng chân điều khiển vô lăng xe khi xe đang chạy trên đường mà không chấp hành hiệu lệnh dừng xe của người thi hành công vụ hoặc gây tai nạn giao thông"
           ],
-          "fine_range": "6,000,000 - 8,000,000 VNĐ",
           "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 4 đến 6 tháng"
+            "Tước quyền sử dụng Giấy phép lái xe từ 03 tháng đến 05 tháng"
           ]
         },
         {
           "section": "Khoản 10",
+          "fine_range": "30,000,000 - 40,000,000 VNĐ",
           "violations": [
-            "Rẽ trái không đúng quy định",
-            "Chuyển làn không đúng quy định"
+            "Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở",
+            "Không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ",
+            "Điều khiển xe trên đường mà trong cơ thể có chất ma túy",
+            "Không chấp hành yêu cầu kiểm tra về chất ma túy của người thi hành công vụ"
           ],
-          "fine_range": "1,200,000 - 1,500,000 VNĐ"
+          "additional_measures": [
+            "Tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng"
+          ]
+        },
+        {
+          "section": "Khoản 11",
+          "title": "Hình thức xử phạt bổ sung",
+          "content": "Ngoài việc bị phạt tiền, người điều khiển xe thực hiện hành vi vi phạm còn bị áp dụng các hình thức xử phạt bổ sung",
+          "additional_measures_details": [
+            "Tịch thu thiết bị phát tín hiệu ưu tiên lắp đặt sử dụng trái quy định",
+            "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng (đối với các vi phạm ở khoản 2, 3, 4, 5)",
+            "Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng (đối với các vi phạm ở khoản 5, 6, 7 và các vi phạm gây tai nạn giao thông)",
+            "Tước quyền sử dụng Giấy phép lái xe từ 03 tháng đến 05 tháng (đối với vi phạm ở khoản 9 hoặc tái phạm)",
+            "Tước quyền sử dụng Giấy phép lái xe từ 05 tháng đến 07 tháng (đối với vi phạm ở khoản 8)",
+            "Tước quyền sử dụng Giấy phép lái xe từ 10 tháng đến 12 tháng (đối với vi phạm nồng độ cồn thấp)",
+            "Tước quyền sử dụng Giấy phép lái xe từ 16 tháng đến 18 tháng (đối với vi phạm nồng độ cồn trung bình)",
+            "Tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng (đối với vi phạm nồng độ cồn cao và chất ma túy)"
+          ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-17",
+      "notes": "Cập nhật đầy đủ từ file DOCX gốc với tất cả các mức phạt và biện pháp khắc phục hậu quả chi tiết"
     },
     "dieu_6": {
       "title": "Vi phạm của người điều khiển xe mô tô, xe gắn máy",
