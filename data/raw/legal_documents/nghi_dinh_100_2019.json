@@ -19,7 +19,9 @@
     ],
     "total_articles": 30,
     "total_chapters": 5,
-    "description": "Nghị định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt - Phiên bản đầy đủ 30 điều với metadata hoàn chỉnh"
+    "description": "Nghị định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt - Phiên bản đầy đủ 30 điều với metadata hoàn chỉnh",
+    "last_updated": "2025-11-18",
+    "update_source": "ND100-2019.docx extraction"
   },
   "structure": {
     "chapters": [
@@ -102,35 +104,32 @@
       ]
     },
     "dieu_5": {
-      "title": "Vi phạm của người điều khiển xe ô tô",
-      "full_title": "Xử phạt người điều khiển xe ô tô và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ",
+      "title": "Xử phạt người điều khiển xe ô tô và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ",
       "sections": [
         {
           "section": "Khoản 1",
-          "fine_range": "200,000 - 400,000 VNĐ",
+          "fine_range": "200000 - 400000 VNĐ",
           "violations": [
-            "Không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường",
-            "Chuyển hướng không nhường quyền đi trước cho người đi bộ, xe lăn của người khuyết tật qua đường tại nơi có vạch kẻ đường",
-            "Chuyển hướng không nhường quyền đi trước cho xe thô sơ đang đi trên phần đường dành cho xe thô sơ",
-            "Chuyển hướng không nhường đường cho các xe đi ngược chiều",
-            "Chuyển hướng không nhường đường cho người đi bộ, xe lăn của người khuyết tật đang qua đường tại nơi không có vạch kẻ đường",
+            "Không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường điểm a, điểm d, điểm đ, điểm e, điểm k, điểm 1, điểm o, điểm r, điểm s khoản 3",
+            "Chuyển hướng không nhường quyền đi trước cho: Người đi bộ, xe lăn của người khuyết tật qua đường tại nơi có vạch kẻ đường dành cho người đi bộ",
+            "Xe thô sơ đang đi trên phần đường dành cho xe thô sơ",
+            "Chuyển hướng không nhường đường cho: Các xe đi ngược chiều",
+            "Người đi bộ, xe lăn của người khuyết tật đang qua đường tại nơi không có vạch kẻ đường cho người đi bộ",
             "Khi dừng xe, đỗ xe không có tín hiệu báo cho người điều khiển phương tiện khác biết",
-            "Khi đỗ xe chiếm một phần đường xe chạy không đặt ngay báo hiệu nguy hiểm theo quy định",
+            "Khi đỗ xe chiếm một phần đường xe chạy không đặt ngay báo hiệu ngụy hiểm theo quy định",
             "Không gắn biển báo hiệu ở phía trước xe kéo, phía sau xe được kéo",
             "Điều khiển xe kéo rơ moóc không có biển báo hiệu theo quy định",
-            "Bấm còi trong đô thị và khu đông dân cư trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau"
+            "Bấm còi trong đô thị và khu đông dân cư trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau, trừ các xe ưu tiên đang đi làm nhiệm vụ theo quy định."
           ]
         },
         {
-          "section": "Khoản 2", 
-          "fine_range": "400,000 - 600,000 VNĐ",
+          "section": "Khoản 2",
+          "fine_range": "400000 - 600000 VNĐ",
           "violations": [
             "Chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước",
-            "Điều khiển xe chạy tốc độ thấp hơn các xe khác đi cùng chiều mà không đi về bên phải phần đường xe chạy",
             "Chở người trên buồng lái quá số lượng quy định",
             "Không tuân thủ các quy định về nhường đường tại nơi đường bộ giao nhau",
-            "Điều khiển xe có liên quan trực tiếp đến vụ tai nạn giao thông mà không dừng lại, không giữ nguyên hiện trường, không tham gia cấp cứu người bị nạn",
-            "Xe được quyền ưu tiên lắp đặt, sử dụng thiết bị phát tín hiệu ưu tiên không đúng quy định",
+            "Xe được quyền ưu tiên lắp đặt, sử dụng thiết bị phát tín hiệu ưu tiên không đúng quy định hoặc sử dụng thiết bị phát tín hiệu ưu tiên mà không có giấy phép của cơ quan có thẩm quyền cấp hoặc có giấy phép của cơ quan có thẩm quyền cấp nhưng không còn giá trị sử dụng theo quy định",
             "Dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi có lề đường rộng",
             "Dừng xe, đỗ xe không sát mép đường phía bên phải theo chiều đi ở nơi đường có lề đường hẹp hoặc không có lề đường",
             "Dừng xe, đỗ xe ngược với chiều lưu thông của làn đường",
@@ -143,449 +142,657 @@
             "Rời vị trí lái, tắt máy khi dừng xe",
             "Dừng xe, đỗ xe không đúng vị trí quy định ở những đoạn có bố trí nơi dừng xe, đỗ xe",
             "Dừng xe, đỗ xe trên phần đường dành cho người đi bộ qua đường",
-            "Dừng xe nơi có biển 'Cấm dừng xe và đỗ xe'",
+            "Dừng xe nơi có biển “Cấm dừng xe và đỗ xe”",
             "Quay đầu xe trái quy định trong khu dân cư",
-            "Quay đầu xe ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, ngầm, gầm cầu vượt"
+            "Quay đầu xe ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, ngầm, gầm cầu vượt, trừ trường hợp tổ chức giao thông tại những khu vực này có bố trí nơi quay đầu xe."
           ]
         },
         {
           "section": "Khoản 3",
-          "fine_range": "800,000 - 1,000,000 VNĐ",
+          "fine_range": "800000 - 1000000 VNĐ",
           "violations": [
-            "Điều khiển xe chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h",
             "Bấm còi, rú ga liên tục",
             "Bấm còi hơi, sử dụng đèn chiếu xa trong đô thị, khu đông dân cư",
-            "Chuyển hướng không giảm tốc độ hoặc không có tín hiệu báo hướng rẽ",
+            "Chuyển hướng không giảm tốc độ hoặc không có tín hiệu báo hướng rẽ (trừ trường hợp điều khiển xe đi theo hướng cong của đoạn đường bộ ở nơi đường không giao nhau cùng mức)",
             "Không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt",
             "Dừng xe, đỗ xe trong phạm vi an toàn của đường sắt",
-            "Dừng xe, đỗ xe tại nơi đường bộ giao nhau hoặc trong phạm vi 05 m tính từ mép đường giao nhau",
-            "Dừng xe, đỗ xe tại điểm dừng đón, trả khách của xe buýt",
-            "Dừng xe, đỗ xe trước cổng hoặc trong phạm vi 05 m hai bên cổng trụ sở cơ quan, tổ chức có bố trí đường cho xe ô tô ra vào",
-            "Dừng xe, đỗ xe nơi phần đường có bề rộng chỉ đủ cho một làn xe",
-            "Dừng xe, đỗ xe che khuất biển báo hiệu đường bộ",
-            "Dừng xe, đỗ xe nơi mở dải phân cách giữa",
+            "Dừng xe, đỗ xe tại vị trí: nơi đường bộ giao nhau hoặc trong phạm vi 05 m tính từ mép đường giao nhau",
+            "Trước cổng hoặc trong phạm vi 05 m hai bên cổng trụ sở cơ quan, tổ chức có bố trí đường cho xe ô tô ra vào",
+            "Nơi phần đường có bề rộng chỉ đủ cho một làn xe",
+            "Che khuất biển báo hiệu đường bộ",
+            "Nơi mở dải phân cách giữa",
             "Đỗ xe không sát theo lề đường, hè phố phía bên phải theo chiều đi hoặc bánh xe gần nhất cách lề đường, hè phố quá 0,25 m",
             "Đỗ xe trên đường xe điện, đường dành riêng cho xe buýt",
             "Đỗ xe trên miệng cống thoát nước, miệng hầm của đường điện thoại, điện cao thế, chỗ dành riêng cho xe chữa cháy lấy nước",
             "Đỗ, để xe ở hè phố trái quy định của pháp luật",
-            "Đỗ xe nơi có biển 'Cấm đỗ xe' hoặc biển 'Cấm dừng xe và đỗ xe'",
+            "Đỗ xe nơi có biển “Cấm đỗ xe” hoặc biển “Cấm dừng xe và đỗ xe”",
             "Không sử dụng hoặc sử dụng không đủ đèn chiếu sáng trong thời gian từ 19 giờ ngày hôm trước đến 05 giờ ngày hôm sau, khi sương mù, thời tiết xấu hạn chế tầm nhìn",
             "Sử dụng đèn chiếu xa khi tránh xe đi ngược chiều",
-            "Điều khiển xe ô tô kéo theo xe khác, vật khác (trừ trường hợp kéo theo một rơ moóc, sơ mi rơ moóc hoặc một xe ô tô, xe máy chuyên dùng khác khi xe này không tự chạy được)",
             "Điều khiển xe ô tô đẩy xe khác, vật khác",
             "Điều khiển xe kéo rơ moóc, sơ mi rơ moóc kéo thêm rơ moóc hoặc xe khác, vật khác",
             "Không nối chắc chắn, an toàn giữa xe kéo và xe được kéo khi kéo nhau",
-            "Chở người trên xe được kéo, trừ người điều khiển",
-            "Quay đầu xe tại nơi đường bộ giao nhau cùng mức với đường sắt",
-            "Quay đầu xe tại nơi đường hẹp, đường dốc, đoạn đường cong tầm nhìn bị che khuất, nơi có biển báo 'Cấm quay đầu xe'",
-            "Không giữ khoảng cách an toàn để xảy ra va chạm với xe chạy liền trước hoặc không giữ khoảng cách theo quy định của biển báo hiệu 'Cự ly tối thiểu giữa hai xe'",
+            "Chở người trên xe được kéo k) Quay đầu xe tại nơi đường bộ giao nhau cùng mức với đường sắt",
+            "Quay đầu xe tại nơi đường hẹp, đường dốc, đoạn đường cong tầm nhìn bị che khuất, nơi có biển báo “Cấm quay đầu xe\"",
+            "Không giữ khoảng cách an toàn để xảy ra va chạm với xe chạy liền trước hoặc không giữ khoảng cách theo quy định của biển báo hiệu “Cự ly tối thiểu giữa hai xe”",
             "Không giảm tốc độ và nhường đường khi điều khiển xe chạy từ trong ngõ, đường nhánh ra đường chính",
             "Không nhường đường cho xe đi trên đường ưu tiên, đường chính từ bất kỳ hướng nào tới tại nơi đường giao nhau",
-            "Lùi xe ở đường một chiều, đường có biển 'Cấm đi ngược chiều', khu vực cấm dừng, trên phần đường dành cho người đi bộ qua đường, nơi đường bộ giao nhau, nơi đường bộ giao nhau cùng mức với đường sắt, nơi tầm nhìn bị che khuất",
+            "Lùi xe ở đường một chiều, đường có biển “Cấm đi ngược chiều”, khu vực cẩm dừng, trên phần đường dành cho người đi bộ qua đường, nơi đường bộ giao nhau, nơi đường bộ giao nhau cùng mức với đường sắt, nơi tầm nhìn bị che khuất",
             "Lùi xe không quan sát hoặc không có tín hiệu báo trước",
             "Không thắt dây an toàn khi điều khiển xe chạy trên đường",
             "Chở người trên xe ô tô không thắt dây an toàn (tại vị trí có trang bị dây an toàn) khi xe đang chạy",
-            "Chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần",
-            "Điều khiển xe chạy dưới tốc độ tối thiểu trên những đoạn đường bộ có quy định tốc độ tối thiểu cho phép"
+            "Chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần"
           ]
         },
         {
           "section": "Khoản 4",
-          "fine_range": "1,000,000 - 2,000,000 VNĐ",
+          "fine_range": "1000000 - 2000000 VNĐ",
           "violations": [
             "Dùng tay sử dụng điện thoại di động khi đang điều khiển xe chạy trên đường",
             "Đi vào khu vực cấm, đường có biển báo hiệu có nội dung cấm đi vào đối với loại phương tiện đang điều khiển",
-            "Điều khiển xe không đủ điều kiện để thu phí theo hình thức điện tử tự động không dừng đi vào làn đường dành riêng thu phí theo hình thức điện tử tự động không dừng tại các trạm thu phí",
-            "Dừng xe, đỗ xe bên trái đường một chiều hoặc bên trái (theo hướng lưu thông) của đường đôi",
-            "Dừng xe, đỗ xe trên đoạn đường cong hoặc gần đầu dốc nơi tầm nhìn bị che khuất",
-            "Dừng xe, đỗ xe trên cầu, gầm cầu vượt, song song với một xe khác đang dừng, đỗ",
+            "Dừng xe, đỗ xe tại vị trí: Bên trái đường một chiều hoặc bên trái (theo hướng lưu thông) của đường đôi",
+            "Trên đoạn đường cong hoặc gần đầu dốc nơi tầm nhìn bị che khuất",
+            "Trên cầu, gầm cầu vượt, song song với một xe khác đang dừng, đỗ",
             "Dừng xe, đỗ xe, quay đầu xe trái quy định gây ùn tắc giao thông",
             "Xe không được quyền ưu tiên lắp đặt, sử dụng thiết bị phát tín hiệu của xe được quyền ưu tiên",
             "Không thực hiện biện pháp bảo đảm an toàn theo quy định khi xe ô tô bị hư hỏng ngay tại nơi đường bộ giao nhau cùng mức với đường sắt",
             "Không nhường đường cho xe xin vượt khi có đủ điều kiện an toàn",
             "Lùi xe, quay đầu xe trong hầm đường bộ",
-            "Dừng xe, đỗ xe, vượt xe trong hầm đường bộ không đúng nơi quy định"
-          ],
-          "additional_measures": [
-            "Tịch thu thiết bị phát tín hiệu ưu tiên lắp đặt sử dụng trái quy định",
-            "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng"
+            "Dừng xe, đỗ xe, vượt xe trong hầm đường bộ không đúng nơi quy định."
           ]
         },
         {
           "section": "Khoản 5",
-          "fine_range": "3,000,000 - 5,000,000 VNĐ",
+          "fine_range": "3000000 - 5000000 VNĐ",
           "violations": [
             "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông",
             "Không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông",
-            "Đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển 'Cấm đi ngược chiều'",
-            "Vượt xe trong những trường hợp không được vượt, vượt xe tại đoạn đường có biển báo hiệu có nội dung cấm vượt",
+            "Đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều”",
+            "Vượt xe trong những trường hợp không được vượt, vượt xe tại đoạn đường có biển báo hiệu có nội dung cấm vượt (đối với loại phương tiện đang điều khiển)",
             "Không có báo hiệu trước khi vượt",
             "Vượt bên phải xe khác trong trường hợp không được phép",
-            "Điều khiển xe không đi bên phải theo chiều đi của mình",
-            "Đi không đúng phần đường hoặc làn đường quy định (làn cùng chiều hoặc làn ngược chiều)",
+            "Đi không đúng phần đường hoặc làn đường quy định (làn cùng chiều hoặc làn ngược chiều) trừ hành vì quy định tại điểm c khoản 4 Điều này",
             "Điều khiển xe đi qua dải phân cách cố định ở giữa hai phần đường xe chạy",
-            "Điều khiển xe đi trên hè phố, trừ trường hợp điều khiển xe đi qua hè phố để vào nhà",
-            "Tránh xe đi ngược chiều không đúng quy định",
-            "Không nhường đường cho xe đi ngược chiều theo quy định tại nơi đường hẹp, đường dốc, nơi có chướng ngại vật",
+            "Điều khiển xe đi trên hè phố",
+            "Tránh xe đi ngược chiều không đúng quy định không nhường đường cho xe đi ngược chiều theo quy định tại nơi đường hẹp, đường dốc, nơi có chướng ngại vật",
             "Không tuân thủ các quy định khi vào hoặc ra đường cao tốc",
             "Điều khiển xe chạy ở làn dừng xe khẩn cấp hoặc phần lề đường của đường cao tốc",
             "Chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước khi chạy trên đường cao tốc",
             "Không tuân thủ quy định về khoảng cách an toàn đối với xe chạy liền trước khi chạy trên đường cao tốc",
-            "Không nhường đường hoặc gây cản trở xe được quyền ưu tiên đang phát tín hiệu ưu tiên đi làm nhiệm vụ",
-            "Điều khiển xe chạy quá tốc độ quy định từ 10 km/h đến 20 km/h"
-          ],
-          "additional_measures": [
-            "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng"
+            "13",
+            "Không nhường đường hoặc gây cản trở xe được quyền ưu tiên đang phát tín hiệu ưu tiên đi làm nhiệm vụ"
           ]
         },
         {
           "section": "Khoản 6",
-          "fine_range": "6,000,000 - 8,000,000 VNĐ",
+          "fine_range": "6000000 - 8000000 VNĐ",
           "violations": [
-            "Điều khiển xe chạy quá tốc độ quy định trên 20 km/h đến 35 km/h",
             "Dừng xe, đỗ xe trên đường cao tốc không đúng nơi quy định",
             "Không có báo hiệu để người lái xe khác biết khi buộc phải dừng xe, đỗ xe trên đường cao tốc không đúng nơi quy định",
-            "Quay đầu xe trên đường cao tốc",
-            "Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn nhưng chưa vượt quá 50 miligam/100 mililít máu hoặc chưa vượt quá 0,25 miligam/1 lít khí thở"
-          ],
-          "additional_measures": [
-            "Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
-            "Tước quyền sử dụng Giấy phép lái xe từ 10 tháng đến 12 tháng (đối với vi phạm nồng độ cồn)"
+            "Quay đầu xe trên đường cao tốc"
           ]
         },
         {
           "section": "Khoản 7",
-          "fine_range": "10,000,000 - 12,000,000 VNĐ",
+          "fine_range": "10000000 - 12000000 VNĐ",
           "violations": [
             "Không chú ý quan sát, điều khiển xe chạy quá tốc độ quy định gây tai nạn giao thông",
             "Dừng xe, đỗ xe, quay đầu xe, lùi xe, tránh xe, vượt xe, chuyển hướng, chuyển làn đường không đúng quy định gây tai nạn giao thông",
-            "Không đi đúng phần đường, làn đường, không giữ khoảng cách an toàn giữa hai xe theo quy định gây tai nạn giao thông",
-            "Đi vào đường có biển báo hiệu có nội dung cấm đi vào đối với loại phương tiện đang điều khiển gây tai nạn giao thông",
-            "Đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển 'Cấm đi ngược chiều' gây tai nạn giao thông",
-            "Điều khiển xe lạng lách, đánh võng",
+            "Không đi đúng phần đường, làn đường, không giữ khoảng cách an toàn giữa hai xe theo quy định gây tai nạn giao thông hoặc đi vào đường có biển báo hiệu có nội dung cấm đi vào đối với loại phương tiện đang điều khiển, đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều” gây tai nạn giao thông b) Điều khiển xe lạng lách, đánh võng",
             "Chạy quá tốc độ đuổi nhau trên đường bộ",
-            "Dùng chân điều khiển vô lăng xe khi xe đang chạy trên đường",
-            "Điều khiển xe chạy quá tốc độ quy định trên 35 km/h"
-          ],
-          "additional_measures": [
-            "Tức quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng"
+            "Dùng chân điều khiển vô lăng xe khi xe đang chạy trên đường"
           ]
         },
         {
           "section": "Khoản 8",
-          "fine_range": "16,000,000 - 18,000,000 VNĐ",
+          "fine_range": "16000000 - 18000000 VNĐ",
           "violations": [
-            "Điều khiển xe đi ngược chiều trên đường cao tốc, lùi xe trên đường cao tốc",
-            "Gây tai nạn giao thông không dừng lại, không giữ nguyên hiện trường, bỏ trốn không đến trình báo với cơ quan có thẩm quyền, không tham gia cấp cứu người bị nạn",
-            "Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 50 miligam đến 80 miligam/100 mililít máu hoặc vượt quá 0,25 miligam đến 0,4 miligam/1 lít khí thở"
-          ],
-          "additional_measures": [
-            "Tước quyền sử dụng Giấy phép lái xe từ 05 tháng đến 07 tháng",
-            "Tước quyền sử dụng Giấy phép lái xe từ 16 tháng đến 18 tháng (đối với vi phạm nồng độ cồn)"
-          ]
-        },
-        {
-          "section": "Khoản 9",
-          "fine_range": "18,000,000 - 20,000,000 VNĐ",
-          "violations": [
-            "Điều khiển xe lạng lách, đánh võng; chạy quá tốc độ đuổi nhau trên đường bộ; dùng chân điều khiển vô lăng xe khi xe đang chạy trên đường mà không chấp hành hiệu lệnh dừng xe của người thi hành công vụ hoặc gây tai nạn giao thông"
-          ],
-          "additional_measures": [
-            "Tước quyền sử dụng Giấy phép lái xe từ 03 tháng đến 05 tháng"
+            "Gây tai nạn giao thông không dừng lại, không giữ nguyên hiện trường, bỏ trốn không đến trình báo với cơ quan có thẩm quyền, không tham gia cấp cứu người bị nạn"
           ]
         },
         {
           "section": "Khoản 10",
-          "fine_range": "30,000,000 - 40,000,000 VNĐ",
+          "fine_range": "30000000 - 40000000 VNĐ",
           "violations": [
-            "Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở",
             "Không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ",
-            "Điều khiển xe trên đường mà trong cơ thể có chất ma túy",
-            "Không chấp hành yêu cầu kiểm tra về chất ma túy của người thi hành công vụ"
-          ],
-          "additional_measures": [
-            "Tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng"
-          ]
-        },
-        {
-          "section": "Khoản 11",
-          "title": "Hình thức xử phạt bổ sung",
-          "content": "Ngoài việc bị phạt tiền, người điều khiển xe thực hiện hành vi vi phạm còn bị áp dụng các hình thức xử phạt bổ sung",
-          "additional_measures_details": [
-            "Tịch thu thiết bị phát tín hiệu ưu tiên lắp đặt sử dụng trái quy định",
-            "Tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng (đối với các vi phạm ở khoản 2, 3, 4, 5)",
-            "Tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng (đối với các vi phạm ở khoản 5, 6, 7 và các vi phạm gây tai nạn giao thông)",
-            "Tước quyền sử dụng Giấy phép lái xe từ 03 tháng đến 05 tháng (đối với vi phạm ở khoản 9 hoặc tái phạm)",
-            "Tước quyền sử dụng Giấy phép lái xe từ 05 tháng đến 07 tháng (đối với vi phạm ở khoản 8)",
-            "Tước quyền sử dụng Giấy phép lái xe từ 10 tháng đến 12 tháng (đối với vi phạm nồng độ cồn thấp)",
-            "Tước quyền sử dụng Giấy phép lái xe từ 16 tháng đến 18 tháng (đối với vi phạm nồng độ cồn trung bình)",
-            "Tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng (đối với vi phạm nồng độ cồn cao và chất ma túy)"
+            "Không chấp hành yêu cầu kiểm tra về chất ma túy của người thi hành công vụ.",
+            "Thực hiện hành vi quy định tại điểm e khoản 4 Điều này bị tịch thu thiết bị phát tín hiệu ưu tiên lắp đặt sử dụng trái quy định",
+            "Thực hiện hành vi quy định tại điểm đ khoản 2",
+            "Thực hiện hành vi quy định tại điểm c khoản 5",
+            "Thực hiện hành vi quy định tại khoản 9 Điều này hoặc tái phạm hành vi quy định tại điểm b khoản 7 Điều này, bị tước quyền sử dụng Giấy phép lái xe từ 03 tháng đến 05 tháng",
+            "Thực hiện hành vi quy định tại điểm a, điểm b khoản 8 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 05 tháng đến 07 tháng",
+            "15",
+            "Thực hiện hành vi quy định tại điểm c khoản 6 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 10 tháng đến 12 tháng",
+            "Thực hiện hành vi quy định tại điểm c khoản 8 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 16 tháng đến 18 tháng",
+            "Thực hiện hành vi quy định tại khoản 10 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng."
           ]
         }
       ],
       "source_document": "ND100-2019.docx",
-      "extraction_date": "2025-11-17",
-      "notes": "Cập nhật đầy đủ từ file DOCX gốc với tất cả các mức phạt và biện pháp khắc phục hậu quả chi tiết"
+      "extraction_date": "2025-11-18"
     },
     "dieu_6": {
-      "title": "Vi phạm của người điều khiển xe mô tô, xe gắn máy",
+      "title": "Xử phạt người điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện), các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ.",
       "sections": [
         {
           "section": "Khoản 1",
+          "fine_range": "100000 - 200000 VNĐ",
           "violations": [
-            "Không đội mũ bảo hiểm",
-            "Đội mũ bảo hiểm không cài quai đúng quy cách",
-            "Sử dụng mũ bảo hiểm không đúng quy cách"
-          ],
-          "fine_range": "200,000 - 300,000 VNĐ"
-        },
-        {
-          "section": "Khoản 2",
-          "violations": [
-            "Vượt tốc độ cho phép dưới 10 km/h"
-          ],
-          "fine_range": "400,000 - 600,000 VNĐ"
-        },
-        {
-          "section": "Khoản 3",
-          "violations": [
-            "Vượt tốc độ cho phép từ 10 km/h đến dưới 20 km/h"
-          ],
-          "fine_range": "800,000 - 1,000,000 VNĐ"
-        },
-        {
-          "section": "Khoản 4",
-          "violations": [
-            "Vượt tốc độ cho phép từ 20 km/h đến dưới 35 km/h"
-          ],
-          "fine_range": "1,200,000 - 1,500,000 VNĐ",
-          "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 1 đến 3 tháng"
+            "Không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường điểm d, điểm g, điểm i, điểm m khoản 3",
+            "Không có báo hiệu xin vượt trước khi vượt",
+            "Không giữ khoảng cách an toàn để xảy ra va chạm với xe chạy liền trước hoặc không giữ khoảng cách theo quy định của biển báo hiệu “Cự ly tối thiểu giữa hai xe\"",
+            "Chuyển hướng không nhường quyền đi trước cho: Người đi bộ, xe lăn của người khuyết tật qua đường tại nơi có vạch kẻ đường dành cho người đi bộ",
+            "Xe thô sơ đang đi trên phần đường dành cho xe thô sơ",
+            "Chuyển hướng không nhường đường cho: Các xe đi ngược chiều",
+            "Người đi bộ, xe lăn của người khuyết tật đang qua đường tại nơi không có vạch kẻ đường cho người đi bộ",
+            "Lùi xe mô tô ba bánh không quan sát hoặc không có tín hiệu báo trước",
+            "Chở người ngồi trên xe sử dụng ô (dù)",
+            "Không tuân thủ các quy định về nhường đường tại nơi đường giao nhau",
+            "Chuyển làn đường không đúng nơi được phép hoặc không có tín hiệu báo trước",
+            "Không sử dụng đèn chiếu sáng trong thời gian từ 19 giờ ngày hôm trước đến 05 giờ ngày hôm sau hoặc khi sương mù, thời tiết xấu hạn chế tầm nhìn",
+            "Tránh xe không đúng quy định",
+            "Sử dụng đèn chiếu xa khi tránh xe đi ngược chiều",
+            "Không nhường đường cho xe đi ngược chiều theo quy định tại nơi đường hẹp, đường dốc, nơi có chướng ngại vật",
+            "Bấm còi trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau, sử dụng đèn chiếu xa trong đô thị, khu đông dân cư",
+            "Xe được quyền ưu tiên lắp đặt, sử dụng thiết bị phát tín hiệu ưu tiên không đúng quy định hoặc sử dụng thiết bị phát tín hiệu ưu tiên mà không có Giấy phép của cơ quan có thẩm quyền cấp hoặc có Giấy phép của cơ quan có thẩm quyền cấp nhưng không còn giá trị sử dụng theo quy định",
+            "Quay đầu xe tại nơi không được quay đầu xe"
           ]
         },
         {
-          "section": "Khoản 5",
+          "section": "Khoản 2",
+          "fine_range": "200000 - 300000 VNĐ",
           "violations": [
-            "Vượt tốc độ cho phép từ 35 km/h trở lên"
-          ],
-          "fine_range": "4,000,000 - 6,000,000 VNĐ",
-          "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 4 đến 6 tháng"
+            "Dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi có lề đường",
+            "Không giảm tốc độ và nhường đường khi điều khiển xe chạy từ trong ngõ, đường nhánh ra đường chính",
+            "Dừng xe, đỗ xe ở lòng đường đô thị gây cản trở giao thông",
+            "Tụ tập từ 03 xe trở lên ở lòng đường, trong hầm đường bộ",
+            "Đỗ, để xe ở lòng đường đô thị, hè phố trái quy định của pháp luật",
+            "Không nhường đường cho xe xin vượt khi có đủ điều kiện an toàn",
+            "Không nhường đường cho xe đi trên đường ưu tiên, đường chính từ bất kỳ hướng nào tới tại nơi đường giao nhau",
+            "G) Xe không được quyền ưu tiên lắp đặt, sử dụng thiết bị phát tín hiệu của xe được quyền ưu tiên",
+            "Dừng xe, đỗ xe trên đường xe điện, điểm dừng đón trả khách của xe buýt, nơi đường bộ giao nhau, trên phần đường dành cho người đi bộ qua đường",
+            "Dừng xe nơi có biển “Cấm dừng xe và đỗ xe”",
+            "Đỗ xe tại nơi có biển \"Cấm đỗ xe\" hoặc biển “Cấm dừng xe và đỗ xe”",
+            "Không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt",
+            "Dừng xe, đỗ xe trong phạm vi an toàn của đường sắt",
+            "Không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách khi điều khiển xe tham gia giao thông trên đường bộ",
+            "Chở người ngồi trên xe không đội “mũ bảo hiểm cho người đi mô tô, xe máy\" hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách",
+            "Chở theo 02 người trên xe",
+            "Ngồi phía sau vòng tay qua người ngồi trước để điều khiển xe, trừ trường hợp chở trẻ em ngồi phía trước."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "400000 - 600000 VNĐ",
+          "violations": [
+            "Chuyển hướng không giảm tốc độ hoặc không có tín hiệu báo hướng rẽ (trừ trường hợp điều khiển xe đi theo hướng cong của đoạn đường bộ ở nơi đường không giao nhau cùng mức)",
+            "Chở theo từ 03 người trở lên trên xe",
+            "Bấm còi, rú ga (nẹt pô) liên tục trong đô thị, khu đông dân cư",
+            "Dừng xe, đỗ xe trên cầu",
+            "Đi không đúng phần đường, làn đường quy định (làn cùng chiều hoặc làn ngược chiều)",
+            "Điều khiển xe đi qua dải phân cách cố định ở giữa hai phần đường xe chạy",
+            "Điều khiển xe đi trên hè phố",
+            "Vượt bên phải trong trường hợp không được phép",
+            "Đi vào khu vực cấm, đường có biển báo hiệu có nội dung cấm đi vào đối với loại phương tiện đang điều khiển",
+            "Người đang điều khiển xe hoặc chở người ngồi trên xe bám, kéo, đẩy xe khác, vật khác, dẫn dắt súc vật, mang vác vật cồng kềnh",
+            "Chở người đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái",
+            "Xếp hàng hóa trên xe vượt quá giới hạn quy định",
+            "Điều khiển xe kéo theo xe khác, vật khác",
+            "Chở hàng vượt trọng tải thiết kế được ghi trong Giấy đăng ký xe đối với loại xe có quy định về trọng tải thiết kế",
+            "Chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "600000 - 1000000 VNĐ",
+          "violations": [
+            "Dừng xe, đỗ xe trong hầm đường bộ không đúng nơi quy định",
+            "Vượt xe trong những trường hợp không được vượt, vượt xe tại đoạn đường có biển báo hiệu có nội dung cấm vượt đối với loại phương tiện đang điều khiển",
+            "Vượt xe trong hầm đường bộ không đúng nơi quy định",
+            "Quay đầu xe trong hầm đường bộ",
+            "Đ) Không nhường đường hoặc gây cản trở xe được quyền ưu tiên đang phát tín hiệu ưu tiên đi làm nhiệm vụ",
+            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông",
+            "Không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông",
+            "Người đang điều khiển xe sử dụng ô (dù), điện thoại di động, thiết bị âm thanh, trừ thiết bị trợ thính."
           ]
         },
         {
           "section": "Khoản 6",
+          "fine_range": "2000000 - 3000000 VNĐ",
           "violations": [
-            "Vượt đèn đỏ",
-            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông"
-          ],
-          "fine_range": "4,000,000 - 6,000,000 VNĐ",
-          "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 1 đến 3 tháng"
+            "Sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy"
           ]
         },
         {
           "section": "Khoản 7",
+          "fine_range": "4000000 - 5000000 VNĐ",
           "violations": [
-            "Không có giấy phép lái xe",
-            "Sử dụng giấy phép lái xe không phù hợp với loại xe được phép điều khiển"
-          ],
-          "fine_range": "4,000,000 - 6,000,000 VNĐ",
-          "additional_measures": [
-            "Tạm giữ phương tiện"
+            "Không chú ý quan sát, điều khiển xe chạy quá tốc độ quy định gây tai nạn giao thông",
+            "Đi vào đường cao tốc, dừng xe, đỗ xe, quay đầu xe, lùi xe, tránh xe, vượt xe, chuyển hướng, chuyển làn đường không đúng quy định gây tai nạn giao thông",
+            "Không đi đúng phần đường, làn đường, không giữ khoảng cách an toàn giữa hai xe theo quy định gây tai nạn giao thông hoặc đi vào đường có biển báo hiệu có nội dung cấm đi vào đối với loại phương tiện đang điều khiển, đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều” gây tai nạn giao thông"
           ]
         },
         {
           "section": "Khoản 8",
+          "fine_range": "6000000 - 8000000 VNĐ",
           "violations": [
-            "Sử dụng điện thoại di động khi đang điều khiển xe"
-          ],
-          "fine_range": "600,000 - 800,000 VNĐ"
-        },
-        {
-          "section": "Khoản 9",
-          "violations": [
-            "Không giữ khoảng cách an toàn"
-          ],
-          "fine_range": "300,000 - 500,000 VNĐ"
-        },
-        {
-          "section": "Khoản 10",
-          "violations": [
-            "Điều khiển xe trong tình trạng buồn ngủ, say rượu bia"
-          ],
-          "fine_range": "2,000,000 - 3,000,000 VNĐ",
-          "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 3 tháng"
+            "Buông cả hai tay khi đang điều khiển xe",
+            "Dùng chân điều khiển xe",
+            "Ngồi về một bên điều khiển xe",
+            "Nằm trên yên xe điều khiển xe",
+            "Thay người điều khiển khi xe đang chạy",
+            "Quay người về phía sau để điều khiển xe hoặc bịt mắt điều khiển xe",
+            "Gây tai nạn giao thông không dừng lại, không giữ nguyên hiện trường, bỏ trốn không đến trình báo với cơ quan có thẩm quyền, không tham gia cấp cứu người bị nạn",
+            "Không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ",
+            "H) Điều khiển xe trên đường mà trong cơ thể có chất ma túy",
+            "Không chấp hành yêu cầu kiểm tra về chất ma túy của người thi hành công vụ.",
+            "Thực hiện hành vi quy định tại điểm g khoản 2 Điều này bị tịch thu thiết bị phát tín hiệu ưu tiên lắp đặt, sử dụng trải quy định",
+            "Thực hiện hành vị quy định tại điểm b, điểm e, điểm i khoản 3",
+            "Thực hiện hành vi quy định tại điểm a khoản 6",
+            "Tái phạm hoặc vi phạm nhiều lần hành vi quy định tại điểm a, điểm b, điểm c, điểm d khoản 8 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 03 tháng đến 05 tháng, tịch thu phương tiện. Thực hiện hành vi quy định tại một trong các điểm, khoản sau của Điều này mà gây tai nạn giao thông thì bị tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng: Điểm a, điểm g, điểm h, điểm k, điểm 1, điểm m, điểm n, điểm q khoản 1",
+            "Thực hiện hành vi quy định tại điểm b khoản 6",
+            "Thực hiện hành vi quy định tại điểm c khoản 6 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 10 tháng đến 12 tháng",
+            "Thực hiện hành vi quy định tại điểm c khoản 7 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 16 tháng đến 18 tháng",
+            "Thực hiện hành vi quy định tại điểm e, điểm g, điểm h, điểm i khoản 8 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng."
           ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_7": {
-      "title": "Vi phạm quy định về điều khiển xe ô tô",
+      "title": "Xử phạt người điều khiển máy kéo, xe máy chuyên dùng (sau đây gọi chung là xe) vi phạm quy tắc giao thông đường bộ",
       "sections": [
         {
           "section": "Khoản 1",
+          "fine_range": "100000 - 200000 VNĐ",
           "violations": [
-            "Không thắt dây an toàn khi lái xe ô tô",
-            "Không có dây an toàn cho hành khách"
-          ],
-          "fine_range": "800,000 - 1,000,000 VNĐ"
-        },
-        {
-          "section": "Khoản 2",
-          "violations": [
-            "Điều khiển xe khi có biểu hiện say rượu bia"
-          ],
-          "fine_range": "6,000,000 - 8,000,000 VNĐ",
-          "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 10 đến 12 tháng"
-          ]
-        },
-        {
-          "section": "Khoản 3",
-          "violations": [
-            "Điều khiển xe trong tình trạng có nồng độ cồn vượt quá mức cho phép"
-          ],
-          "fine_range": "16,000,000 - 18,000,000 VNĐ",
-          "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 22 đến 24 tháng",
-            "Tước phương tiện 7 ngày"
-          ]
-        }
-      ]
-    },
-    "dieu_8": {
-      "title": "Vi phạm quy định về giấy tờ của người điều khiển và của xe",
-      "sections": [
-        {
-          "section": "Khoản 1",
-          "violations": [
-            "Điều khiển xe ô tô mà không có giấy phép lái xe"
-          ],
-          "fine_range": "12,000,000 - 14,000,000 VNĐ",
-          "additional_measures": [
-            "Tước phương tiện 7 ngày"
+            "Không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường điểm a, điểm b, điểm c, điểm đ, điểm h, điểm i khoản 3",
+            "Chuyển hướng không nhường quyền đi trước cho: Người đi bộ, xe lăn của người khuyết tật qua đường tại nơi có vạch kẻ đường dành cho người đi bộ",
+            "Xe thô sơ đang đi trên phần đường dành cho xe thô sơ",
+            "Chuyển hướng không nhường đường cho: Các xe đi ngược chiều",
+            "Người đi bộ, xe lăn của người khuyết tật đang qua đường tại nơi không có vạch kẻ đường cho người đi bộ."
           ]
         },
         {
           "section": "Khoản 2",
+          "fine_range": "200000 - 400000 VNĐ",
           "violations": [
-            "Điều khiển xe mô tô không có giấy phép lái xe"
-          ],
-          "fine_range": "4,000,000 - 5,000,000 VNĐ",
-          "additional_measures": [
-            "Tước phương tiện 7 ngày"
+            "Quay đầu xe ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, ngầm, gầm cầu vượt",
+            "Lùi xe ở đường một chiều, đường có biển “Cấm đi ngược chiều”, khu vực cẩm dừng, trên phần đường dành cho người đi bộ qua đường, nơi đường bộ giao nhau, nơi đường bộ giao nhau cùng mức với đường sắt, nơi tầm nhìn bị che khuất",
+            "Lùi xe không quan sát hoặc không có tín hiệu báo trước",
+            "Đỗ, đề xe ở hè phố trái quy định của pháp luật",
+            "Dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi có lề đường rộng",
+            "Dừng xe, đỗ xe không sát mép đường phía bên phải theo chiều đi ở nơi đường có lề đường hẹp hoặc không có lề đường",
+            "Dừng xe, đỗ xе ngược với chiều lưu thông của làn đường",
+            "Dừng xe, đỗ xe trên dải phân cách cố định ở giữa hai phần đường xe chạy",
+            "Dừng xe, đỗ xe không đúng vị trí quy định ở những đoạn đường đã có bố trí nơi dừng xe, đỗ xe",
+            "Đỗ xe trên dốc.",
+            "Dừng xe, đỗ xe tại các vị trí: Bên trái đường một chiều hoặc bên trái (theo hướng lưu thông) của đường đội",
+            "Trên đoạn đường cong hoặc gần đầu dốc nơi tầm nhìn bị che khuất",
+            "Trên cầu, gầm cầu vượt, song song với một xe khác đang dừng, đỗ",
+            "Nơi đường bộ giao nhau hoặc trong phạm vi 05 m tính từ mép đường giao nhau",
+            "Trước cổng hoặc trong phạm vi 05 m hai bên cổng trụ sở cơ quan, tổ chức có bố trí đường cho xe ô tô ra vào",
+            "Nơi phần đường có bề rộng chi đủ cho một làn xe",
+            "Che khuất biển báo hiệu đường bộ",
+            "Nơi mở dải phân cách giữa",
+            "Dừng xe, đỗ xe ở lòng đường đô thị trái quy định",
+            "Dừng xe, đỗ xe trên đường xe điện, đường dành riêng cho xe buýt, trên miệng cống thoát nước, miệng hầm của đường điện thoại, điện cao thế, các chỗ dành riêng cho xe chữa cháy lấy nước, trên phần đường dành cho người đi bộ qua đường",
+            "Rời vị trí lái, tắt máy khi dừng xe",
+            "Mở cửa xe, để cửa xe mở không bảo đảm an toàn",
+            "Khi dừng xe, đỗ xe không có tín hiệu báo cho người điều khiển phương tiện khác biết",
+            "H) Khi đỗ xe chiếm một phần đường xe chạy không đặt ngay báo hiệu nguy hiểm theo quy định, trừ hành vi vi phạm quy định tại điểm a khoản 6 Điều này và trường hợp đỗ xe tại vị trí quy định được phép đỗ xe."
           ]
         },
         {
           "section": "Khoản 3",
+          "fine_range": "400000 - 600000 VNĐ",
           "violations": [
-            "Không có giấy đăng ký xe",
-            "Sử dụng giấy đăng ký xe giả"
-          ],
-          "fine_range": "400,000 - 600,000 VNĐ"
+            "Chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h",
+            "Đi vào khu vực cấm, đường có biển báo hiệu có nội dung cấm đi vào đối với loại phương tiện đang điều khiển điểm a khoản 8 Điều này và các trường hợp xe ưu tiên đang đi làm nhiệm vụ khẩn cấp theo quy định",
+            "Không đi bên phải theo chiều đi của mình",
+            "Đi không đúng phần đường hoặc làn đường quy định (làn cùng chiều hoặc làn ngược chiều)",
+            "Điều khiển xe đi qua dải phân cách cố định ở giữa hai phần đường xe chạy điểm a khoản 8 Điều này",
+            "Bấm còi, rú ga liên tục",
+            "Bấm còi hơi, sử dụng đèn chiếu xa trong đô thị, khu đông dân cư",
+            "Không nhường đường cho xe đi trên đường ưu tiên, đường chính từ bất kỳ hướng nào tới tại nơi đường giao nhau",
+            "Không sử dụng hoặc sử dụng không đủ đèn chiếu sáng trong thời gian từ 19 giờ ngày hôm trước đến 05 giờ ngày hôm sau, khi sương mù, thời tiết xấu hạn chế tầm nhìn",
+            "Sử dụng đèn chiếu xa khi tránh xe đi ngược chiều",
+            "Tránh xe, vượt xe không đúng quy định",
+            "Không nhường đường cho хе đi ngược chiều theo quy định tại nơi đường hẹp, đường dốc, nơi có chướng ngại vật"
+          ]
         },
         {
           "section": "Khoản 4",
+          "fine_range": "800000 - 1000000 VNĐ",
           "violations": [
-            "Không có giấy kiểm định an toàn kỹ thuật và bảo vệ môi trường"
-          ],
-          "fine_range": "800,000 - 1,000,000 VNĐ"
+            "Chạy quá tốc độ quy định từ 10 km/h đến 20 km/h",
+            "Chạy xe trong hầm đường bộ không sử dụng đèn chiếu sáng",
+            "Đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều”",
+            "Không tuân thủ các quy định khi vào hoặc ra đường cao tốc",
+            "Điều khiển xe chạy ở làn dừng xe khẩn cấp hoặc phần lề đường của đường cao tốc",
+            "Chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước khi chạy trên đường cao tốc",
+            "Không tuân thủ quy định về khoảng cách an toàn đối với xe chạy liền trước khi chạy trên đường cao tốc",
+            "Không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt",
+            "Dừng xe, đỗ xe trong phạm vị an toàn của đường sắt",
+            "Không nhường đường hoặc gây cản trở xe được quyền ưu tiên đang phát tín hiệu ưu tiên đi làm nhiệm vụ",
+            "Quay đầu xe tại nơi đường bộ giao nhau cùng mức với đường sắt",
+            "Quay đầu xe tại nơi đường hẹp, đường dốc, đoạn đường cong tầm nhìn bị che khuất, nơi có biển báo “Cấm quay đầu xe”."
+          ]
         },
         {
           "section": "Khoản 5",
+          "fine_range": "1000000 - 2000000 VNĐ",
           "violations": [
-            "Không có bảo hiểm trách nhiệm dân sự"
-          ],
-          "fine_range": "400,000 - 500,000 VNĐ"
+            "Lùi xe, quay đầu xe trong hầm đường bộ",
+            "Không thực hiện biện pháp bảo đảm an toàn theo quy định khi phương tiện bị hư hỏng trên đoạn đường bộ giao nhau cùng mức với đường sắt",
+            "Dừng xe, đỗ xe trong hầm đường bộ không đúng nơi quy định",
+            "Không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông",
+            "Đ) Không chấp hành hiệu lệnh của đèn tín hiệu giao thông."
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Dừng xe, đỗ xe trên đường cao tốc không đúng nơi quy định",
+            "Không có báo hiệu để người lái xe khác biết khi buộc phải dừng xe, đỗ xe trên đường cao tốc không đúng nơi quy định",
+            "Quay đầu xe trên đường cao tốc",
+            "Chạy quá tốc độ quy định trên 20 km/h"
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "6000000 - 8000000 VNĐ",
+          "violations": [
+            "Không chú ý quan sát, điều khiển xe chạy quá tốc độ quy định gây tai nạn giao thông",
+            "Dừng xe, đỗ xe, quay đầu xe, lùi xe, tránh xe, vượt xe, chuyển hướng, chuyển làn đường không đúng quy định gây tai nạn giao thông",
+            "Không đi đúng phần đường, làn đường, không giữ khoảng cách an toàn giữa hai xe theo quy định gây tai nạn giao thông hoặc đi vào đường có biển báo hiệu có nội dung cấm đi vào đối với loại phương tiện đang điều khiển, đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều” gây tai nạn giao thông"
+          ]
+        },
+        {
+          "section": "Khoản 8",
+          "fine_range": "10000000 - 12000000 VNĐ",
+          "violations": [
+            "Lùi xe trên đường cao tốc",
+            "Đi ngược chiều trên đường cao tốc",
+            "Gây tai nạn giao thông không dùng lại, không giữ nguyên hiện trường, bỏ trốn không đến trình báo với cơ quan có thẩm quyền, không tham gia cấp cứu người bị nạn."
+          ]
+        },
+        {
+          "section": "Khoản 9",
+          "fine_range": "16000000 - 18000000 VNĐ",
+          "violations": [
+            "Không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ",
+            "Không chấp hành yêu cầu kiểm tra về chất ma túy của người thi hành công vụ.",
+            "Thực hiện hành vi quy định tại điểm b, điểm c, điểm g khoản 3",
+            "Thực hiện hành vi quy định tại điểm a, điểm b khoản 6",
+            "Thực hiện hành vi quy định tại khoản 8 Điều này thì bị tước quyền sử dụng Giấy phép lái xe (khi điều khiển máy kéo), chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ (khi điều khiến xe máy chuyên dùng) từ 05 tháng đến 07 tháng",
+            "Thực hiện hành vi quy định tại điểm c khoản 6 Điều này thì bị tước quyền sử dụng Giấy phép lái xe (khỉ điều khiển máy kéo), chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ (khi điều khiển xe máy chuyên dùng) từ 10 tháng đến 12 tháng",
+            "Thực hiện hành vi quy định tại điểm b khoản 7 Điều này thì bị tước quyền sử dụng Giấy phép lái xe (khi điều khiển máy kéo), chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ (khi điều khiển xe máy chuyên dùng) từ 16 tháng đến 18 tháng",
+            "Thực hiện hành vi quy định tại khoản 9 bị tước quyền sử dụng Giấy phép lái xe (khi điều khiển máy kéo), chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ (khi điều khiển xe máy chuyên dùng) từ 22 tháng đến 24 tháng."
+          ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
+    },
+    "dieu_8": {
+      "title": "Xử phạt người điều khiển xe đạp, xe đạp máy (kể cả xe đạp điện), người điều khiển xe thô sơ khác vi phạm quy tắc giao thông đường bộ",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "80000 - 100000 VNĐ",
+          "violations": [
+            "Không đi bên phải theo chiều đi của mình, đi không đúng phần đường quy định",
+            "Dừng xe đột ngột",
+            "Chuyển hướng không báo hiệu trước",
+            "Không chấp hành hiệu lệnh hoặc chỉ dẫn của biển báo hiệu, vạch kẻ đường",
+            "Vượt bên phải trong các trường hợp không được phép",
+            "Dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi có lề đường",
+            "Chạy trong hầm đường bộ không có đèn hoặc vật phát sáng báo hiệu",
+            "Dừng xe, đỗ xe trong hầm đường bộ không đúng nơi quy định",
+            "Quay đầu xe trong hầm đường bộ",
+            "Người điều khiển xe đạp, xe đạp máy sử dụng ô (dù), điện thoại di động",
+            "Chở người ngồi trên xe đạp, xe đạp máy sử dụng ô (dù)",
+            "Để xe ở lòng đường đô thị, hè phố trái quy định của pháp luật",
+            "Đỗ xe ở lòng đường đô thị gây cản trở giao thông, đỗ xe trên đường xe điện, đỗ xe trên cầu gây cản trở giao thông",
+            "Không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt",
+            "Dùng xe đẩy làm quầy hàng lưu động trên đường, gây cản trở giao thông",
+            "Không nhường đường cho xe đi trên đường ưu tiên, đường chính từ bất kỳ hướng nào tới tại nơi đường giao nhau",
+            "Xe đạp, xe đạp máy, xe xích lô chở quá số người quy định",
+            "Xếp hàng hóa vượt quá giới hạn quy định, không bảo đảm an toàn, gây trở ngại giao thông, che khuất tầm nhìn của người điều khiển"
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "100000 - 200000 VNĐ",
+          "violations": [
+            "Chuyển hướng đột ngột trước đầu xe cơ giới đang chạy",
+            "Dùng chân điều khiển xe đạp, xе đạp máy",
+            "Không chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông",
+            "Người đang điều khiển xe hoặc chở người ngồi trên xe bám, kéo, đẩy xe khác, vật khác, mang vác vật cồng kềnh",
+            "Điều khiển xe kéo theo xe khác, vật khác",
+            "Không nhường đường cho xe xin vượt khi có đủ điều kiện an toàn hoặc gây cản trở đối với xe cơ giới xin vượt, gây cản trở xe ưu tiên",
+            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "200000 - 300000 VNĐ",
+          "violations": [
+            "Đuổi nhau trên đường",
+            "Đi xe bằng một bánh đối với xe đạp, xe đạp máy",
+            "Đi xe bằng hai bánh đối với xe xích lô",
+            "Đi vào khu vực cấm",
+            "Đường có biển báo hiệu nội dung cấm đi vào đối với loại phương tiện đang điều khiển",
+            "Đi ngược chiều đường của đường một chiều, đường có biển “Cấm đi ngược chiều”",
+            "Người điều khiển xe đạp máy (kể cả xe đạp điện) không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách khi tham gia giao thông trên đường bộ",
+            "Chở người ngồi trên xe đạp máy (kể cả xe đạp điện) không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "400000 - 600000 VNĐ",
+          "violations": [
+            "Gây tai nạn giao thông không dừng lại, không giữ nguyên hiện trường, bỏ trốn không đến trình báo với cơ quan có thẩm quyền, không tham gia cấp cứu người bị nạn",
+            "Không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ."
+          ],
+          "additional_measures": [
+            "Tịch thu phương tiện"
+          ]
+        }
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_9": {
-      "title": "Vi phạm quy định về chở hàng, chở người",
+      "title": "Xử phạt người đi bộ vi phạm quy tắc giao thông đường bộ",
       "sections": [
         {
           "section": "Khoản 1",
+          "fine_range": "60000 - 100000 VNĐ",
           "violations": [
-            "Chở hàng vượt tải trọng cho phép",
-            "Chở hàng có kích thước vượt quá quy định"
-          ],
-          "fine_range": "5,000,000 - 7,000,000 VNĐ",
-          "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
-          ]
-        },
-        {
-          "section": "Khoản 2",
-          "violations": [
-            "Chở quá số người quy định",
-            "Để hành khách đứng trên xe"
-          ],
-          "fine_range": "3,000,000 - 5,000,000 VNĐ",
-          "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 1 đến 3 tháng"
+            "Không đi đúng phần đường quy định",
+            "Vượt qua dải phân cách",
+            "Đi qua đường không đúng nơi quy định hoặc không bảo đảm an toàn",
+            "Không chấp hành hiệu lệnh hoặc chỉ dẫn của đèn tín hiệu, biển báo hiệu, vạch kẻ đường",
+            "Không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông",
+            "Mang, vác vật cồng kềnh gây cản trở giao thông",
+            "Đ) Đu, bám vào phương tiện giao thông đang chạy."
           ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_10": {
-      "title": "Vi phạm quy định về tình trạng kỹ thuật của xe",
+      "title": "Xử phạt người điều khiển, dẫn dắt súc vật, điều khiển xе súc vật kéo vi phạm quy tắc giao thông đường bộ",
       "sections": [
         {
           "section": "Khoản 1",
+          "fine_range": "60000 - 100000 VNĐ",
           "violations": [
-            "Xe không có đèn chiếu sáng",
-            "Xe không có còi"
-          ],
-          "fine_range": "600,000 - 800,000 VNĐ"
+            "Không nhường đường theo quy định, không báo hiệu bằng tay khi chuyển hướng",
+            "Không chấp hành hiệu lệnh hoặc chỉ dẫn của đèn tín hiệu, biển báo hiệu, vạch kẻ đường",
+            "Không đủ dụng cụ đựng chất thải của súc vật hoặc không dọn sạch chất thải của súc vật thải ra đường, hè phố",
+            "Để súc vật đi trên đường bộ không bảo đảm an toàn cho người và phương tiện đang tham gia giao thông",
+            "Đi dàn hàng ngang từ 02 xe trở lên",
+            "Để súc vật kéo xe mà không có người điều khiển",
+            "H) Điều khiển xe không có báo hiệu theo quy định."
+          ]
         },
         {
           "section": "Khoản 2",
+          "fine_range": "100000 - 200000 VNĐ",
           "violations": [
-            "Xe có tình trạng lốp không đảm bảo an toàn"
-          ],
-          "fine_range": "800,000 - 1,000,000 VNĐ"
-        }
-      ]
-    },
-    "dieu_11": {
-      "title": "Vi phạm quy tắc đỗ xe, dừng xe",
-      "sections": [
-        {
-          "section": "Khoản 1",
-          "violations": [
-            "Đỗ xe trên vỉa hè",
-            "Đỗ xe trong khu vực cấm đỗ",
-            "Đỗ xe che khuất tầm nhìn"
-          ],
-          "fine_range": "300,000 - 400,000 VNĐ"
-        },
-        {
-          "section": "Khoản 2",
-          "violations": [
-            "Dừng xe không đúng nơi quy định",
-            "Để xe quá thời gian cho phép"
-          ],
-          "fine_range": "600,000 - 800,000 VNĐ"
-        }
-      ]
-    },
-    "dieu_12": {
-      "title": "Vi phạm quy định về đua xe trái phép",
-      "sections": [
-        {
-          "section": "Khoản 1",
-          "violations": [
-            "Đua xe trái phép trên đường bộ"
-          ],
-          "fine_range": "15,000,000 - 20,000,000 VNĐ",
-          "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 12 đến 15 tháng",
-            "Tước phương tiện 7 ngày"
+            "Không chấp hành hiệu lệnh, hướng dẫn của người điều khiển giao thông hoặc người kiểm soát giao thông",
+            "Dắt súc vật chạy theo khi đang điều khiển hoặc ngồi trên phương tiện giao thông đường bộ",
+            "Xếp hàng hóa trên xe vượt quá giới hạn quy định."
           ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
+    },
+    "dieu_11": {
+      "title": "Xử phạt các hành vi vi phạm khác về quy tắc giao thông đường bộ",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "fine_range": "100000 - 200000 VNĐ",
+          "violations": [
+            "Tập trung đông người trái phép, nằm, ngồi trên đường bộ gây cản trở giao thông",
+            "Đá bóng, đá cầu, chơi cầu lông hoặc các hoạt động thể thao khác trái phép trên đường bộ",
+            "Sử dụng bàn trượt, pa-tanh, các thiết bị tương tự trên phần đường xe chạy",
+            "Người được chở trên xe mô tô, xe gắn máy (kể cả xe máy điện), các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy sử dụng ô (dù)",
+            "Người được chở trên xe đạp, xe đạp máy bám, kéo, đẩy xe khác, vật khác, mang vác vật cồng kềnh."
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "500000 - 1000000 VNĐ",
+          "violations": [
+            "Không cứu giúp người bị tai nạn giao thông khi có yêu cầu",
+            "Ném gạch, đất, đá, cát hoặc vật thể khác vào phương tiện đang tham gia giao thông trên đường bộ."
+          ]
+        },
+        {
+          "section": "Khoản 10",
+          "fine_range": "6000000 - 8000000 VNĐ",
+          "violations": [
+            "Ném đỉnh, rải đinh hoặc vật sắc nhọn khác, đổ dầu nhờn hoặc các chất gây trơn khác trên đường bộ",
+            "Chăng dây hoặc các vật cản khác qua đường gây nguy hiểm đến người và phương tiện tham gia giao thông",
+            "Xâm phạm sức khỏe, tài sản của người bị nạn hoặc người gây tai nạn",
+            "Lợi dụng việc xảy ra tai nạn giao thông để hành hung, đe dọa, xúi giục, gây sức ép, làm mất trật tự, cản trở việc xử lý tai nạn giao thông.",
+            "Thực hiện hành vi quy định tại khoản 4 Điều này buộc phải tháo dỡ các vật che khuất biển báo hiệu đường bộ, đèn tín hiệu giao thông",
+            "Thực hiện hành vi quy định tại điểm a khoản 10 Điều này buộc phải thu dọn đỉnh, vật sắc nhọn, dây hoặc các vật cản khác và khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra"
+          ],
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 01 đến 03 tháng"
+          ]
+        }
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
+    },
+    "dieu_12": {
+      "title": "Xử phạt các hành vi vi phạm quy định về sử dụng, khai thác trong phạm vi đất dành cho đường bộ",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "100000 - 200000 VNĐ",
+          "violations": [
+            "Bán hàng rong hoặc bán hàng hóa nhỏ lẻ khác trên lòng đường đô thị, trên vỉa hè các tuyến phố có quy định cấm bán hàng",
+            "Phơi thóc, lúa, rơm, rạ, nông, lâm, hải sản trên đường bộ",
+            "Đặt máy tuốt lúa trên đường bộ."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "300000 - 400000 VNĐ",
+          "violations": [
+            "Sử dụng, khai thác tạm thời trên đất hành lang an toàn đường bộ vào mục đích canh tác nông nghiệp làm ảnh hưởng đến an toàn công trình đường bộ và an toàn giao thông",
+            "Trồng cây trong phạm vi đất dành cho đường bộ làm che khuất tầm nhìn của người điều khiển phương tiện giao thông",
+            "Chiếm dụng dải phân cách giữa của đường đôi làm nơi: Bày, bán hàng hóa",
+            "Để vật liệu xây dựng điểm d, điểm e khoản 6 Điều này",
+            "Họp chợ, mua, bán hàng hóa trong phạm vi đất của đường bộ ở đoạn đường ngoài đô thị điểm d, điểm i khoản 6 Điều này",
+            "Xả nước ra đường bộ không đúng nơi quy định, trừ hành vi vi phạm quy định tại điểm h khoản 6 Điều này."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "500000 - 1000000 VNĐ",
+          "violations": [
+            "Sử dụng đường bộ trái quy định để tổ chức các hoạt động văn hóa, thể thao, diễu hành, lễ hội",
+            "Dụng cổng chào hoặc các vật che chắn khác trái quy định trong phạm vi đất dành cho đường bộ gây ảnh hưởng đến trật tự, an toàn giao thông đường bộ",
+            "Treo băng rôn, biểu ngữ trái phép trong phạm vi đất dành cho đường bộ gây ảnh hưởng đến trật tự an toàn giao thông đường bộ",
+            "Đặt, treo biển hiệu, biển quảng cáo trên đất của đường bộ ở đoạn đường ngoài đô thị",
+            "Chiếm dụng dải phân cách giữa của đường đôi làm nơi để xe, trông, giữ xe",
+            "E) Sử dụng trái phép đất của đường bộ ở đoạn đường ngoài đô thị làm nơi sửa chữa phương tiện, máy móc, thiết bị",
+            "Rửa xe, bơm nước mui xe gây ảnh hưởng đến trật tự an toàn giao thông đường bộ."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": []
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "2000000 - 3000000 VNĐ",
+          "violations": [
+            "Dựng rạp, lều quán, cổng ra vào, tường rào các loại, công trình khác trái phép trong phạm vi đất dành cho đường bộ",
+            "Sử dụng trái phép lòng đường đô thị, hè phố để: Họp chợ",
+            "Kinh doanh dịch vụ ăn uống",
+            "Bày, bán hàng hóa",
+            "Sửa chữa phương tiện, máy móc, thiết bị",
+            "Rửa xe",
+            "Đặt, treo biển hiệu, biển quảng cáo",
+            "Xây, đặt bục bệ",
+            "Làm mái che hoặc thực hiện các hoạt động khác gây cản trở giao thông khoản 7",
+            "Chiếm dụng lòng đường đô thị hoặc hè phố dưới 05 m² làm nơi trông, giữ xe",
+            "Chiếm dụng phần đường xe chạy hoặc lề đường của đường ngoài đô thị dưới 20 m² làm nơi trông, giữ xe."
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "fine_range": "4000000 - 6000000 VNĐ",
+          "violations": [
+            "Đổ, để trái phép vật liệu, chất phế thải trong phạm vi đất dành cho đường bộ",
+            "Tự ý đào, đắp, san, lấp mặt bằng trong: Hành lang an toàn đường bộ, phần đất dọc hai bên đường bộ dùng để quản lý, bảo trì, bảo vệ công trình đường bộ",
+            "Tự ý gắn vào công trình báo hiệu đường bộ các nội dung không liên quan tới ý nghĩa, mục đích của công trình đường bộ",
+            "Sử dụng trái phép đất của đường bộ hoặc hành lang an toàn đường bộ làm nơi tập kết hoặc trung chuyển hàng hóa, vật tư, vật liệu xây dựng, máy móc, thiết bị, các loại vật dụng khác",
+            "Dựng rạp, lều quán, công trình khác trái phép trong khu vực đô thị tại hầm đường bộ, cầu vượt, hầm cho người đi bộ, gầm cầu vượt",
+            "Bày, bán máy móc, thiết bị, vật tư, vật liệu xây dựng hoặc sản xuất, gia công hàng hóa trên lòng đường đô thị, hè phố",
+            "Chiếm dụng lòng đường đô thị hoặc hè phố từ 05 m² đến dưới 10 m² làm nơi trông, giữ xe",
+            "Xả nước thải xây dựng từ các công trình xây dựng ra đường phố",
+            "Chiếm dụng phần đường xe chạy hoặc lề đường của đường ngoài đô thị từ 20 m² trở lên làm nơi trông, giữ xe."
+          ]
+        },
+        {
+          "section": "Khoản 8",
+          "fine_range": "10000000 - 15000000 VNĐ",
+          "violations": [
+            "Chiếm dụng lòng đường đô thị hoặc hè phố từ 20 m² trở lên làm nơi trông, giữ xe",
+            "Dựng biển quảng cáo trên đất hành lang an toàn đường bộ khi chưa được cơ quan quản lý đường bộ có thẩm quyền đồng ý bằng văn bản hoặc dựng biển quảng cáo trên phần đất dọc hai bên đường bộ dùng để quản lý, bảo trì, bảo vệ công trình đường bộ."
+          ]
+        },
+        {
+          "section": "Khoản 9",
+          "fine_range": "15000000 - 20000000 VNĐ",
+          "violations": [
+            "Chiếm dụng đất của đường bộ hoặc đất hành lang an toàn đường bộ để xây dựng nhà ở",
+            "Mở đường nhánh đấu nối trái phép vào đường chính.",
+            "Thực hiện hành vi quy định tại điểm b khoản 1 Điều này buộc phải thu dọn thóc, lúa, rơm, rạ, nông, lâm, hải sản, thiết bị trên đường bộ",
+            "Thực hiện hành vi quy định tại điểm a, điểm b khoản 2 Điều này buộc phải di dời cây trồng không đúng quy định và khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra",
+            "Thực hiện hành vi quy định tại điểm c, điểm d khoản 2 Điều này buộc phải thu dọn vật tư, vật liệu, hàng hóa và khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra",
+            "Thực hiện hành vi quy định tại khoản 3",
+            "Thực hiện hành vi quy định tại điểm a khoản 5, điểm đ khoản 6, điểm b khoản 8, khoản 9 Điều này buộc phải tháo dỡ công trình xây dựng trái phép (không có giấy phép hoặc không đúng với giấy phép) và khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra."
+          ]
+        }
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_1": {
       "title": "Phạm vi điều chỉnh",
@@ -637,352 +844,855 @@
       ]
     },
     "dieu_13": {
-      "title": "Vi phạm của người điều khiển xe máy chuyên dùng",
+      "title": "Xử phạt các hành vi vi phạm quy định về thi công, bảo trì công trình trong phạm vi đất dành cho đường bộ",
       "sections": [
         {
-          "section": "Khoản 1",
+          "section": "Khoản 2",
+          "fine_range": "1000000 - 3000000 VNĐ",
           "violations": [
-            "Không có giấy phép lái xe máy chuyên dùng",
-            "Điều khiển xe máy chuyên dùng không đúng mục đích sử dụng"
-          ],
-          "fine_range": "6,000,000 - 8,000,000 VNĐ",
-          "additional_measures": [
-            "Tước quyền sử dụng giấy phép lái xe từ 2 đến 4 tháng"
+            "Thi công công trình trong phạm vi đất dành cho đường bộ không thực hiện theo đúng các quy định trong Giấy phép thi công hoặc trong văn bản thỏa thuận thi công của cơ quan có thẩm quyền",
+            "Không bố trí người hướng dẫn, điều khiển giao thông khi thi công ở chỗ đường hẹp hoặc ở hai đầu cầu, cống, đường ngầm đang thi công theo đúng quy định",
+            "Để vật liệu, đất đá, phương tiện thi công ngoài phạm vi thi công gây cản trở giao thông",
+            "Không thu dọn ngay các biển báo hiệu, rào chắn, phương tiện, vật dụng thi công, các vật liệu khác hoặc không hoàn trả phần đường (gồm lòng đường, lề đường, hè phố), phần đất dọc hai bên đường bộ dùng để quản lý, bảo trì, bảo vệ công trình đường bộ, hành lang an toàn đường bộ theo nguyên trạng khi thi công xong."
           ]
         },
         {
-          "section": "Khoản 2",
+          "section": "Khoản 3",
+          "fine_range": "3000000 - 5000000 VNĐ",
           "violations": [
-            "Xe máy chuyên dùng tham gia giao thông trên đường bộ không đúng quy định"
-          ],
-          "fine_range": "4,000,000 - 6,000,000 VNĐ",
-          "additional_measures": [
-            "Tạm giữ phương tiện"
+            "Thi công công trình trong phạm vi đất dành cho đường bộ có Giấy phép thi công nhưng đã hết thời hạn ghi trong Giấy phép hoặc có văn bản thỏa thuận thi công của cơ quan có thẩm quyền nhưng đã hết thời hạn thi công chỉ trong văn bản",
+            "Thi công trên đường bộ đang khai thác không có biện pháp bảo đảm an toàn giao thông thông suốt để xảy ra ùn tắc giao thông nghiêm trọng."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "5000000 - 7000000 VNĐ",
+          "violations": [
+            "Thi công trên đường bộ đang khai thác có bố trí biển báo hiệu, cọc tiêu di động, rào chắn nhưng không đầy đủ theo quy định",
+            "Không đặt đèn đỏ vào ban đêm tại hai đầu đoạn đường thi công",
+            "Thi công công trình trong phạm vi đất dành cho đường bộ không có Giấy phép thi công hoặc không có văn bản thỏa thuận thi công của cơ quan có thẩm quyền theo quy định, trừ các hành vi vi phạm quy định tại điểm a khoản 3 Điều này."
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "10000000 - 15000000 VNĐ",
+          "violations": [
+            "Thi công công trình trên đường đô thị không thực hiện theo phương án thi công hoặc thời gian quy định",
+            "Thi công trên đường bộ đang khai thác không thực hiện đầy đủ các biện pháp bảo đảm an toàn giao thông theo quy định để xảy ra tai nạn giao thông",
+            "Thi công trên đường bộ đang khai thác không bố trí biển báo hiệu, cọc tiêu di động, rào chắn theo quy định, trừ các hành vi vi phạm quy định tại điểm a khoản 4 Điều này.",
+            "Thực hiện hành vi quy định tại khoản 1 Điều này buộc phải treo biển báo thông tin công trình có đầy đủ nội dung theo quy định",
+            "Thực hiện hành vi quy định tại điểm a, điểm b khoản 2",
+            "Thực hiện hành vi quy định tại điểm c, điểm d khoản 2"
           ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_14": {
-      "title": "Vi phạm của người điều khiển xe đạp, xe đạp máy",
+      "title": "Xử phạt các hành vi vi phạm về xây dựng bến xe, bãi đỗ xe, trạm dừng nghỉ, trạm thu phí đường bộ",
       "sections": [
         {
           "section": "Khoản 1",
+          "fine_range": "15000000 - 20000000 VNĐ",
           "violations": [
-            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông",
-            "Không chấp hành hiệu lệnh của người điều khiển giao thông"
-          ],
-          "fine_range": "300,000 - 400,000 VNĐ"
-        },
-        {
-          "section": "Khoản 2",
-          "violations": [
-            "Đi vào đường cấm",
-            "Đi ngược chiều đường một chiều"
-          ],
-          "fine_range": "600,000 - 800,000 VNĐ"
+            "Xây dựng hoặc thành lập bến xe, bãi đỗ xe, trạm dừng nghỉ, trạm thu phí đường bộ khi chưa được cơ quan quản lý nhà nước về giao thông vận tải đồng ý theo quy định",
+            "Xây dựng bến xe, bãi đỗ xe, trạm dừng nghỉ, trạm thu phí đường bộ không bảo đảm tiêu chuẩn kỹ thuật theo quy định.",
+            "Thực hiện hành vi quy định tại điểm a khoản 1 Điều này còn buộc phải tháo dỡ công trình xây dựng trái phép và khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra",
+            "Thực hiện hành vi quy định tại điểm b khoản 1 Điều này còn buộc phải xây dựng lại bến xe, bãi đỗ xe, trạm dừng nghỉ, trạm thu phí đường bộ theo đúng quy định, bảo đảm tiêu chuẩn kỹ thuật."
+          ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_15": {
-      "title": "Vi phạm của người đi bộ",
+      "title": "Xử phạt các hành vi vi phạm quy định về quản lý, khai thác, bảo trì, bảo vệ kết cấu hạ tầng giao thông đường bộ",
       "sections": [
         {
-          "section": "Khoản 1",
+          "section": "Khoản 2",
+          "fine_range": "200000 - 300000 VNĐ",
           "violations": [
-            "Không đi đúng phần đường, nơi quy định",
-            "Băng qua đường không đúng nơi quy định"
-          ],
-          "fine_range": "100,000 - 200,000 VNĐ"
+            "Tự ý đốt lửa trên cầu, dưới gầm cầu",
+            "Neo đậu tàu, thuyền dưới gầm cầu hoặc trong phạm vi hành lang an toàn cầu",
+            "Tự ý be bờ, tát nước qua mặt đường giao thông",
+            "Đặt ống bơm nước, bơm cát qua đường, đốt lửa trên mặt đường."
+          ]
         },
         {
-          "section": "Khoản 2",
+          "section": "Khoản 3",
+          "fine_range": "6000000 - 8000000 VNĐ",
           "violations": [
-            "Không chấp hành hiệu lệnh của đèn tín hiệu giao thông",
-            "Không chấp hành hiệu lệnh của người điều khiển giao thông"
-          ],
-          "fine_range": "200,000 - 300,000 VNĐ"
+            "Không bổ sung hoặc sửa chữa kịp thời theo quy định các biển báo hiệu nguy hiểm đã bị mất, bị hư hỏng mất tác dụng",
+            "Không có biện pháp khắc phục kịp thời theo quy định các hư hỏng của công trình đường bộ gây mất an toàn giao thông",
+            "Không phát hiện hoặc không có biện pháp ngăn chặn, báo cáo kịp thời các hành vi lấn chiếm, sử dụng trái phép hành lang an toàn giao thông đường bộ, phần đất dọc hai bên đường bộ dùng để quản lý, bảo trì, bảo vệ công trình đường bộ",
+            "Không cắm cột thủy chí và có biện pháp ngăn chặn phương tiện qua những đoạn đường bị ngập nước sâu trên 0,2 m",
+            "Không có quy trình quản lý, vận hành, khai thác, bảo trì đường bộ theo quy định hoặc không thực hiện đầy đủ các nội dung quy định trong quy trình quản lý, vận hành, khai thác, bảo trì đường bộ đã được phê duyệt."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Di chuyển chậm trễ các công trình, nhà, lều quán xây dựng trái phép hoặc cố tình trì hoãn việc di chuyển gây cản trở cho việc giải phóng mặt bằng để xây dựng, cải tạo, mở rộng và bảo vệ công trình đường bộ khi có quyết định của cơ quan nhà nước có thẩm quyền",
+            "Làm hư hỏng hoặc làm mất tác dụng của hệ thống thoát nước công trình đường bộ",
+            "Tự ý tháo dỡ, di chuyển, treo, đặt, làm hư hỏng, làm sai mục đích sử dụng hoặc làm sai lệch biển báo hiệu, đèn tín hiệu giao thông, rào chắn, cọc tiêu, cột cây số, vạch kẻ đường, tường bảo vệ, lan can phòng hộ, mốc chỉ giới",
+            "Tự ý đập phá, tháo dỡ bỏ vỉa hè hoặc sửa chữa, cải tạo vỉa hè trái phép, trừ các hành vi vi phạm quy định tại điểm a, điểm c khoản 5 Điều này."
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "5000000 - 7000000 VNĐ",
+          "violations": [
+            "Khoan, đào, xẻ đường, hè phố trái phép",
+            "Phá dỡ trái phép dải phân cách, gương cầu, các công trình, thiết bị an toàn giao thông trên đường bộ, cấu kiện, phụ kiện của công trình đường bộ",
+            "Tự ý tháo, mở làm hư hỏng nắp cống, nắp ga các công trình ngầm, hệ thống tuy nen trên đường giao thông",
+            "Nổ mìn hoặc khai thác đất, cát, đá, sỏi, khoáng sản khác trái phép làm ảnh hưởng đến công trình đường bộ",
+            "Rải, đổ hóa chất gây hư hỏng công trình đường bộ."
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "fine_range": "8000000 - 10000000 VNĐ",
+          "violations": [
+            "Không thực hiện đúng quy trình quản lý, vận hành theo quy định để số lượng xe ô tô xếp hàng chờ trước trạm thu phí trên một làn xe chờ dài nhất lớn hơn 100 xe đến 150 xe hoặc để chiều dài dòng xe xếp hàng chờ trước trạm thu phí (tính từ cabin thu phí đến xe cuối cùng của hàng xe chờ) từ 750 m đến 1.000 m",
+            "Không thực hiện đúng quy trình quản lý, vận hành theo quy định để thời gian đi qua trạm thu phí của một xe ô tô bất kỳ kể từ lúc dùng xe chờ thu phí đến lúc ra khỏi trạm thu phí lớn hơn 10 phút đến 20 phút."
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "Không thực hiện đúng quy trình quản lý, vận hành theo quy định để số lượng xe ô tô xếp hàng chờ trước trạm thu phí trên một làn xe chờ dài nhất lớn hơn 150 xe đến 200 xe hoặc để chiều dài dòng xe xếp hàng chờ trước trạm thu phí (tính từ cabin thu phí đến xe cuối cùng của hàng xe chờ) lớn hơn 1.000 m đến 2.000 m",
+            "Không thực hiện đúng quy trình quản lý, vận hành theo quy định để thời gian đi qua trạm thu phí của một xe ô tô bất kỳ kể từ lúc dừng xe chờ thu phí đến lúc ra khỏi trạm thu phí lớn hơn 20 phút đến 30 phút."
+          ]
+        },
+        {
+          "section": "Khoản 8",
+          "fine_range": "30000000 - 40000000 VNĐ",
+          "violations": [
+            "Không thực hiện đúng quy trình quản lý, vận hành theo quy định để số lượng xe ô tô xếp hàng chờ trước trạm thu phí trên một làn xe chờ dài nhất lớn hơn 200 xe hoặc để chiều dài dòng xe xếp hàng chờ trước trạm thu phí (tính từ cabin thu phí đến xe cuối cùng của hàng xe chờ) lớn hơn 2.000 m",
+            "Không thực hiện đúng quy trình quản lý, vận hành theo quy định để thời gian đi qua trạm thu phí của một xe ô tô bất kỳ kể từ lúc dừng xe chờ thu phí đến lúc ra khỏi trạm thu phí lớn hơn 30 phút. 9. Phạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với tổ chức quản lý, vận hành trạm thu phí đường bộ thực hiện một trong các hành vi vi phạm sau đây:",
+            "Vi phạm khoản 6, khoản 7, khoản 8 Điều này mà không chấp hành yêu cầu của cơ quan quản lý nhà nước có thẩm quyền về việc triển khai các giải pháp để khắc phục ùn tắc giao thông tại khu vực trạm thu phí",
+            "Không thực hiện việc kết nối, chia sẻ dữ liệu từ trạm thu phí cho cơ quan quản lý nhà nước có thẩm quyền theo quy định.",
+            "Thực hiện hành vi quy định tại điểm a khoản 3 Điều này buộc phải bổ sung hoặc sửa chữa các biển báo hiệu bị mất, bị hư hỏng và khắc phục các hư hỏng của công trình đường bộ"
+          ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_16": {
-      "title": "Vi phạm về tải trọng, khổ giới hạn của đường bộ",
+      "title": "Xử phạt người điều khiển xe ô tô (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
       "sections": [
         {
-          "section": "Khoản 1",
+          "section": "Khoản 2",
+          "fine_range": "300000 - 400000 VNĐ",
+          "violations": []
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "800000 - 1000000 VNĐ",
           "violations": [
-            "Vận chuyển hàng hóa có khối lượng vượt quá tải trọng cho phép của cầu, đường"
-          ],
-          "fine_range": "30,000,000 - 40,000,000 VNĐ",
-          "additional_measures": [
-            "Buộc khôi phục lại tình trạng ban đầu",
-            "Tước phương tiện 7 ngày"
+            "Gắn biển số không rõ chữ, số",
+            "Gắn biển số bị bẻ cong, bị che lấp, bị hỏng",
+            "Sơn, dán thêm làm thay đổi chữ, số hoặc thay đổi màu sắc của chữ, số, nền biển (kể cả rơ moóc và sơ mi rơ moóc)"
           ]
         },
         {
-          "section": "Khoản 2",
+          "section": "Khoản 4",
+          "fine_range": "2000000 - 3000000 VNĐ",
+          "violations": []
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "4000000 - 6000000 VNĐ",
           "violations": [
-            "Vận chuyển hàng hóa có kích thước vượt quá khổ giới hạn của đường bộ"
-          ],
-          "fine_range": "20,000,000 - 30,000,000 VNĐ",
-          "additional_measures": [
-            "Buộc dỡ bỏ hàng hóa vượt giới hạn"
+            "Sử dụng Giấy đăng ký xe, Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường không do cơ quan có thẩm quyền cấp hoặc bị tẩy xóa",
+            "Sử dụng Giấy đăng ký xe không đúng số khung, số máy của xe (kể cả rơ moóc và sơ mi rơ moóc)",
+            "Thực hiện hành vi quy định tại điểm a, điểm b khoản 3",
+            "Thực hiện hành vi quy định tại điểm a khoản 3, điểm d khoản 4 Điều này bị tịch thu đèn lắp thêm, còi vượt quá âm lượng:",
+            "Thực hiện hành vi quy định tại điểm d, điểm đ khoản 5 Điều này bị tịch thu Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường, Giấy đăng ký xe, biển số không đúng quy định hoặc bị tẩy xóa",
+            "Bị tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+            "Thực hiện hành vi quy định tại điểm b, điểm c khoản 5 Điều này bị tịch thu phương tiện (trừ trường hợp xe ô tô từ 10 chỗ ngồi trở lên kinh doanh vận tải hành khách có niên hạn sử dụng vượt quá quy định về điều kiện kinh doanh của hình thức kinh doanh đã đăng ký nhưng chưa quá 20 năm tính từ năm sản xuất, xe ô tô dưới 10 chỗ ngồi kinh doanh vận tải hành khách) và bị tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+            "Thực hiện hành vi quy định tại điểm a khoản 4, điểm đ khoản 5 Điều này trong trường hợp không có Giấy đăng ký xe hoặc sử dụng Giấy đăng ký xe không do cơ quan có thẩm quyền cấp, không đúng số khung, số máy của xe hoặc bị tẩy xóa (kể cả rơ moóc và sơ mi rơ moóc) mà không chứng minh được nguồn gốc xuất xứ của phương tiện (không có giấy tờ, chứng từ chuyển quyền sở hữu xe hoặc giấy tờ, chứng từ nguồn gốc xe hợp pháp) thì bị tịch thu phương tiện.",
+            "Thực hiện hành vi quy định tại khoản 1",
+            "Thực hiện hành vi quy định tại điểm a, điểm e khoản 3 Điều này buộc phải lắp đầy đủ thiết bị hoặc khôi phục lại tính năng kỹ thuật của thiết bị theo quy định, tháo bỏ những thiết bị lắp thêm không đúng quy định."
           ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_17": {
-      "title": "Vi phạm về hoạt động vận tải hành khách, hàng hóa",
+      "title": "Xử phạt người điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện), các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
       "sections": [
         {
           "section": "Khoản 1",
+          "fine_range": "100000 - 200000 VNĐ",
           "violations": [
-            "Kinh doanh vận tải không có giấy phép kinh doanh vận tải"
-          ],
-          "fine_range": "20,000,000 - 30,000,000 VNĐ",
-          "additional_measures": [
-            "Tịch thu phương tiện",
-            "Buộc nộp lại số lợi bất hợp pháp"
+            "Đèn soi biển số",
+            "Đèn báo hãm",
+            "Gương chiếu hậu bên trái người điều khiển hoặc có nhưng không có tác dụng",
+            "Gắn biển số không rõ chữ, số",
+            "Gắn biển số bị bẻ cong, bị che lấp, bị hỏng",
+            "Sơn, dán thêm làm thay đổi chữ, số hoặc thay đổi màu sắc của chữ, số, nền biển",
+            "D) Sử dụng còi không đúng quy chuẩn kỹ thuật cho từng loại xe",
+            "H) Điều khiển xe lắp đèn chiếu sáng về phía sau xe."
           ]
         },
         {
           "section": "Khoản 2",
+          "fine_range": "300000 - 400000 VNĐ",
           "violations": [
-            "Vận chuyển hành khách không theo tuyến, lịch trình đã được cấp phép"
-          ],
-          "fine_range": "8,000,000 - 12,000,000 VNĐ",
-          "additional_measures": [
-            "Tước quyền sử dụng giấy phép kinh doanh từ 3 đến 6 tháng"
+            "Sử dụng Giấy đăng ký xe đã bị tẩy xóa",
+            "Sử dụng Giấy đăng ký xe không đúng số khung, số máy của xe hoặc không do cơ quan có thẩm quyền cấp",
+            "Gắn biển số không đúng với Giấy đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "800000 - 1000000 VNĐ",
+          "violations": [
+            "Thực hiện hành vi quy định tại điểm d khoản 1 Điều này bị tịch thu còi",
+            "Thực hiện hành vi quy định tại điểm b, điểm c khoản 2 Điều này bị tịch thu Giấy đăng ký xe, biển số không đúng quy định hoặc bị tẩy xóa",
+            "Thực hiện hành vi quy định tại điểm a khoản 3 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+            "Thực hiện hành vi quy định tại điểm b khoản 3 Điều này bị tịch thu phương tiện và tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+            "Thực hiện hành vị quy định tại điểm a, điểm b khoản 2 Điều này trong trường hợp không có Giấy đăng ký xe hoặc sử dụng Giấy đăng ký xe không do cơ quan có thẩm quyền cấp, không đúng số khung, số máy của xe hoặc bị tẩy xóa mà không chứng minh được nguồn gốc xuất xứ của phương tiện (không có giấy tờ, chứng từ chuyển quyền sở hữu xe hoặc giấy tờ, chứng từ nguồn gốc xe hợp pháp) thì bị tịch thu phương tiện."
           ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_18": {
-      "title": "Vi phạm khác trong lĩnh vực giao thông đường bộ",
+      "title": "Xử phạt người điều khiển xe thô sơ vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
       "sections": [
         {
-          "section": "Khoản 1",
-          "violations": [
-            "Cản trở việc điều khiển giao thông",
-            "Làm hư hỏng công trình giao thông đường bộ"
-          ],
-          "fine_range": "5,000,000 - 10,000,000 VNĐ",
-          "additional_measures": [
-            "Buộc khôi phục lại tình trạng ban đầu"
-          ]
-        },
-        {
           "section": "Khoản 2",
-          "violations": [
-            "Đặt chướng ngại vật trái phép trên đường bộ"
-          ],
-          "fine_range": "3,000,000 - 5,000,000 VNĐ",
-          "additional_measures": [
-            "Buộc tháo dỡ chướng ngại vật"
-          ]
+          "fine_range": "200000 - 300000 VNĐ",
+          "violations": []
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_19": {
-      "title": "Vi phạm quy định về an toàn giao thông đường sắt",
+      "title": "Xử phạt người điều khiển máy kéo (kể cả rơ moóc được kéo theo), xe máy chuyên dùng vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
       "sections": [
         {
           "section": "Khoản 1",
+          "fine_range": "300000 - 400000 VNĐ",
           "violations": [
-            "Vượt qua đường ngang đường sắt khi có tín hiệu cấm",
-            "Đi bộ trên đường ray"
-          ],
-          "fine_range": "1,000,000 - 2,000,000 VNĐ"
+            "Gắn biển số không rõ chữ, số",
+            "Gắn biển số bị bẻ cong, bị che lấp, bị hỏng",
+            "Sơn, dán thêm làm thay đổi chữ, số hoặc thay đổi màu sắc của chữ, số, nền biển",
+            "Điều khiển xe có hệ thống chuyển hướng không bảo đảm tiêu chuẩn kỹ thuật",
+            "Không bảo đảm an toàn khi di chuyển",
+            "Không có bộ phận giảm thanh, giảm khói hoặc có nhưng không có tác dụng, không bảo đảm quy chuẩn môi trường về khí thải, tiếng ồn"
+          ]
         },
         {
           "section": "Khoản 2",
+          "fine_range": "1000000 - 2000000 VNĐ",
           "violations": [
-            "Làm hư hỏng công trình đường sắt",
-            "Cản trở hoạt động giao thông đường sắt"
+            "Gắn biển số không đúng với Giấy đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp (kể cả rơ moóc)",
+            "Sử dụng Giấy đăng ký xe, Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường không do cơ quan có thẩm quyền cấp hoặc bị tẩy xóa",
+            "Sử dụng Giấy đăng ký xe không đúng số khung, số máy của xe (kể cả rơ moóc).",
+            "Thực hiện hành vi quy định tại điểm b khoản 2 Điều này bị tịch thu phương tiện",
+            "Thực hiện hành vi quy định tại điểm đ khoản 1",
+            "Thực hiện hành vi quy định tại điểm đ, điểm e khoản 2 Điều này bị tịch thu Giấy đăng ký xe, biển số, Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường không đúng quy định hoặc bị tẩy xóa",
+            "Thực hiện hành vị quy định tại điểm d, điểm e khoản 2 Điều này trong trường hợp không có Giấy đăng ký xe hoặc sử dụng Giấy đăng ký xe không do cơ quan có thẩm quyền cấp, không đúng số khung, số máy của xe hoặc bị tẩy xóa (kể cả rơ moóc) mà không chứng minh được nguồn gốc xuất xứ của phương tiện (không có giấy tờ, chứng từ chuyển quyền sở hữu xe hoặc giấy tờ, chứng từ nguồn gốc xe hợp pháp) thì bị tịch thu phương tiện."
           ],
-          "fine_range": "10,000,000 - 20,000,000 VNĐ",
           "additional_measures": [
             "Buộc khôi phục lại tình trạng ban đầu"
           ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_20": {
-      "title": "Vi phạm của doanh nghiệp kinh doanh đường sắt",
+      "title": "Xử phạt người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô vi phạm quy định về bảo vệ môi trường khi tham gia giao thông",
       "sections": [
         {
-          "section": "Khoản 1",
+          "section": "Khoản 2",
+          "fine_range": "2000000 - 4000000 VNĐ",
           "violations": [
-            "Kinh doanh vận tải đường sắt không có giấy phép"
+            "Để dầu nhờn, hóa chất rơi vãi xuống đường bộ",
+            "Chở hàng rời, chất thải, vật liệu xây dựng dễ rơi vãi mà không có mui, bạt che đậy hoặc có mui, bạt che đậy nhưng vẫn để rơi vãi",
+            "Chở hàng hoặc chất thải để nước chảy xuống mặt đường gây mất an toàn giao thông và vệ sinh môi trường",
+            "Lôi kéo bùn, đất, cát, nguyên liệu, vật liệu hoặc chất phế thải khác ra đường bộ gây mất an toàn giao thông và vệ sinh môi trường."
           ],
-          "fine_range": "50,000,000 - 60,000,000 VNĐ",
           "additional_measures": [
-            "Tịch thu phương tiện",
-            "Buộc nộp lại số lợi bất hợp pháp"
+            "Tước quyền sử dụng giấy phép lái xe từ 01 đến 03 tháng",
+            "Buộc khôi phục lại tình trạng ban đầu"
           ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_21": {
-      "title": "Vi phạm khác trong lĩnh vực giao thông đường sắt",
+      "title": "Xử phạt các hành vi vi phạm quy định về điều kiện của người điều khiển xe cơ giới",
       "sections": [
         {
-          "section": "Khoản 1",
+          "section": "Khoản 2",
+          "fine_range": "100000 - 200000 VNĐ",
           "violations": [
-            "Xây dựng công trình trong phạm vi bảo vệ kết cấu hạ tầng đường sắt không có giấy phép"
-          ],
-          "fine_range": "20,000,000 - 30,000,000 VNĐ",
-          "additional_measures": [
-            "Buộc tháo dỡ công trình vi phạm"
+            "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không có hoặc không mang theo Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực",
+            "Người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không mang theo Giấy đăng ký xe",
+            "Người điều khiển xe mô tô và các loại xe tương tự xe mô tô không mang theo Giấy phép lái xe, trừ hành vi vi phạm quy định tại điểm b khoản 5, điểm c khoản 7 Điều này."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "200000 - 400000 VNĐ",
+          "violations": [
+            "Người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô không mang theo Giấy phép lái xe",
+            "Người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô không mang theo Giấy đăng ký xe (kể cả rơ moóc và sơ mi rơ moóc)",
+            "Người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô không mang theo Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường (đối với loại xe có quy định phải kiểm định, kể cả rơ moóc và sơ mi rơ moóc)."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "400000 - 600000 VNĐ",
+          "violations": [
+            "Người từ đủ 16 tuổi đến dưới 18 tuổi điều khiển xe mô tô có dung tích xi lanh từ 50 cm³ trở lên",
+            "Người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô không có hoặc không mang theo Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ xe cơ giới còn hiệu lực",
+            "Người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô có Giấy phép lái xe nhưng đã hết hạn sử dụng dưới 06 tháng."
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "800000 - 1200000 VNĐ",
+          "violations": [
+            "Không có Giấy phép lái xe hoặc sử dụng Giấy phép lái xe không do cơ quan có thẩm quyền cấp, Giấy phép lái xe bị tẩy xóa",
+            "Có Giấy phép lái xe quốc tế do các nước tham gia Công ước về Giao thông đường bộ năm 1968 cấp (trừ Giấy phép lái xe quốc tế do Việt Nam cấp) nhưng không mang theo Giấy phép lái xe quốc gia",
+            "Sử dụng Giấy phép lái xe không hợp lệ (Giấy phép lái xe có số phôi ghi ở mặt sau không trùng với số phôi được cấp mới nhất trong hệ thống thông tin quân lý Giấy phép lái xe)."
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "3000000 - 4000000 VNĐ",
+          "violations": [
+            "Có Giấy phép lái xe nhưng không phù hợp với loại xe đang điều khiển",
+            "Không có Giấy phép lái xe hoặc sử dụng Giấy phép lái xe không do cơ quan có thẩm quyền cấp, Giấy phép lái xe bị tẩy xóa",
+            "Có Giấy phép lái xe quốc tế do các nước tham gia Công ước về Giao thông đường bộ năm 1968 cấp (trừ Giấy phép lái xe quốc tế do Việt Nam cấp) nhưng không mang theo Giấy phép lái xe quốc gia",
+            "Sử dụng Giấy phép lái xe không hợp lệ (Giấy phép lái xe có số phôi ghi ở mặt sau không trùng với số phôi được cấp mới nhất trong hệ thống thông tin quản lý Giấy phép lái xe)."
+          ]
+        },
+        {
+          "section": "Khoản 8",
+          "fine_range": "4000000 - 6000000 VNĐ",
+          "violations": [
+            "Có Giấy phép lái xe nhưng không phù hợp với loại xe đang điều khiển hoặc đã hết hạn sử dụng từ 06 tháng trở lên",
+            "Không có Giấy phép lái xe hoặc sử dụng Giấy phép lái xe không do cơ quan có thẩm quyền cấp, Giấy phép lái xe bị tẩy xóa",
+            "Có Giấy phép lái xe quốc tế do các nước tham gia Công ước về Giao thông đường bộ năm 1968 cấp (trừ Giấy phép lái xe quốc tế do Việt Nam cấp) nhưng không mang theo Giấy phép lái xe quốc gia",
+            "Sử dụng Giấy phép lái xe không hợp lệ (Giấy phép lái xe có số phôi ghi ở mặt sau không trùng với số phôi được cấp mới nhất trong hệ thống thông tin quản lý Giấy phép lái xe).",
+            "Thực hiện hành vi quy định tại điểm a, điểm c khoản 5",
+            "Thực hiện hành vi quy định tại điểm c khoản 5, điểm d khoản 7, điểm d khoản 8 bị tước quyền sử dụng Giấy phép lái xe được cấp mới nhất trong hệ thống thông tin quản lý Giấy phép lái xe từ 01 tháng đến 03 tháng."
           ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_22": {
-      "title": "Thẩm quyền xử phạt của Cảnh sát giao thông",
-      "content": "Quy định thẩm quyền xử phạt vi phạm hành chính của lực lượng Cảnh sát giao thông.",
+      "title": "Xử phạt các hành vi vi phạm quy định về điều kiện của người điều khiển xe máy chuyên dùng",
       "sections": [
         {
           "section": "Khoản 1",
-          "content": "Cảnh sát giao thông có quyền phạt tiền đến 5,000,000 VNĐ",
-          "authority_level": "Trung úy, Thiếu úy Cảnh sát giao thông"
-        },
-        {
-          "section": "Khoản 2",
-          "content": "Đại úy trở lên có quyền phạt tiền đến 20,000,000 VNĐ",
-          "authority_level": "Đại úy, Thiếu tá, Trung tá, Thượng tá Cảnh sát giao thông"
+          "fine_range": "100000 - 200000 VNĐ",
+          "violations": [
+            "Người điều khiển xe máy chuyên dùng không đúng độ tuổi hoặc tuổi không phù hợp với ngành nghề theo quy định",
+            "Người điều khiển xe máy chuyên dùng không mang theo bằng (hoặc chứng chỉ) điều khiển, chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ",
+            "Người điều khiển xe máy chuyên dùng không mang theo Giấy đăng ký xe",
+            "Người điều khiển xe máy chuyên dùng không mang theo Giấy chứng nhận an toàn kỹ thuật và bảo vệ môi trường (đối với loại xe có quy định phải kiểm định)."
+          ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_23": {
-      "title": "Thẩm quyền xử phạt của Thanh tra giao thông",
-      "content": "Quy định thẩm quyền xử phạt vi phạm hành chính của lực lượng Thanh tra giao thông.",
+      "title": "Xử phạt người điều khiển xe ô tô chở hành khách, ô tô chở người và các loại xe tương tự xe ô tô chở hành khách, chở người vi phạm quy định về vận tải đường bộ",
       "sections": [
         {
           "section": "Khoản 1",
-          "content": "Thanh tra viên có quyền phạt tiền đến 3,000,000 VNĐ",
-          "authority_level": "Thanh tra viên"
+          "fine_range": "100000 - 200000 VNĐ",
+          "violations": [
+            "Không hướng dẫn hành khách đứng, nằm, ngồi đúng vị trí quy định trong xe",
+            "Không mặc đồng phục, không đeo thẻ tên của lái xe theo quy định."
+          ]
         },
         {
           "section": "Khoản 2",
-          "content": "Trưởng đoàn thanh tra có quyền phạt tiền đến 10,000,000 VNĐ",
-          "authority_level": "Trưởng đoàn thanh tra"
+          "fine_range": "400000 - 600000 VNĐ",
+          "violations": []
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "600000 - 800000 VNĐ",
+          "violations": [
+            "Không đóng cửa lên xuống khi xe đang chạy",
+            "Để người ngồi trên xe khi xe lên, xuống phà, cầu phao hoặc khi xe đang ở trên phà (trừ người già yếu, người bệnh, người khuyết tật)",
+            "Không chạy đúng tuyến đường, lịch trình, hành trình vận tải quy định",
+            "Để người mắc võng nằm trên xe hoặc đu bám ở cửa xe, bên ngoài thành xe khi xe đang chạy",
+            "Sắp xếp, chẳng buộc hành lý, hàng hóa không bảo đảm an toàn",
+            "Để rơi hành lý, hàng hóa trên xe xuống đường",
+            "Để hàng hóa trong khoang chở hành khách",
+            "Chở hành lý, hàng hóa vượt quá kích thước bao ngoài của xe",
+            "Vận chuyển hàng có mùi hôi thối trên xe chở hành khách"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": []
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": [
+            "Để người lên, xuống xe khi xe đang chạy",
+            "Sang nhượng hành khách dọc đường cho xe khác mà không được hành khách đồng ý",
+            "Đe dọa, xúc phạm, tranh giành, lôi kéo hành khách",
+            "Bắt ép hành khách sử dụng dịch vụ ngoài ý muốn",
+            "Xuống khách để trốn tránh sự kiểm tra, kiểm soát của người có thẩm quyền",
+            "Xếp hành lý, hàng hóa trên xe làm lệch xe",
+            "Đón, trả hành khách không đúng nơi quy định trên những tuyến đường đã xác định nơi đón, trả khách hoặc dừng đón, trả hành khách quá thời gian quy định",
+            "Đón, trả hành khách tại nơi cấm dừng, cấm đỗ, nơi đường cong tầm nhìn bị che khuất",
+            "Vận chuyển hành khách theo tuyến cố định không có hoặc không mang theo Lệnh vận chuyển hoặc có mang theo Lệnh vận chuyển nhưng không ghi đầy đủ thông tin, không có xác nhận của bến xe khách nơi đi, bến xe khách nơi đến theo quy định",
+            "Đón, trả hành khách không đúng địa điểm đón, trả hành khách được ghi trong hợp đồng",
+            "Vận chuyển khách liên vận quốc tế theo tuyến cố định không có danh sách hành khách theo quy định hoặc chở người không có tên trong danh sách hành khách",
+            "Chở hành lý, hàng hóa vượt quá trọng tải theo thiết kế của xe",
+            "Điều khiển xe vận chuyển hành khách theo hợp đồng ấn định hành trình, lịch trình cố định để phục vụ cho nhiều hành khách hoặc nhiều người thuê vận tải khác nhau",
+            "Không sử dụng thẻ nhận dạng lái xe để đăng nhập thông tin theo quy định hoặc sử dụng thẻ nhận dạng lái xe của lái xe khác để đăng nhập thông tin khi điều khiển xe ô tô chở khách"
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Vận chuyển hàng nguy hiểm, hàng độc hại, dễ cháy, dễ nổ hoặc động vật, hàng hóa khác có ảnh hưởng đến sức khỏe của hành khách trên xe chở hành khách",
+            "Chở người trên mui xe, nóc xe, trong khoang chở hành lý của xe",
+            "Hành hung hành khách",
+            "Đ) Điều khiển xe tham gia kinh doanh vận tải hành khách có gắn thiết bị giám sát hành trình của xe nhưng thiết bị không hoạt động theo quy định hoặc sử dụng biện pháp kỹ thuật, trang thiết bị ngoại vi, các biện pháp khác làm sai lệch dữ liệu của thiết bị giám sát hành trình của xe ô tô"
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "5000000 - 7000000 VNĐ",
+          "violations": [
+            "Đón, trả hành khách trên đường cao tốc",
+            "Thực hiện hành vi quy định tại khoản 2, khoản 4 (trường hợp vượt trên 50% đến 100% số người quy định được phép chở của phương tiện)",
+            "Thực hiện hành vi quy định tại điểm a khoản 7 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+            "Thực hiện hành vi quy định tại khoản 2, khoản 4 Điều này (trường hợp vượt trên 100% số người quy định được phép chở của phương tiện) bị tước quyền sử dụng Giấy phép lái xe từ 03 tháng đến 05 tháng",
+            "Thực hiện hành vi quy định tại điểm e khoản 6, điểm b khoản 7 Điều này bị tịch thu phù hiệu (biển hiệu) đã hết giá trị sử dụng hoặc không do cơ quan có thẩm quyền cấp.",
+            "Thực hiện hành vi quy định tại khoản 2, khoản 4 Điều này (trường hợp chở hành khách) buộc phải bố trí phương tiện khác để chở số hành khách vượt quá quy định được phép chở của phương tiện",
+            "Thực hiện hành vi quy định tại điểm 1 khoản 3 Điều này (trường hợp thu tiền vé cao hơn quy định) buộc phải nộp lại số lợi bất hợp pháp có được do thực hiện vi phạm hành chính."
+          ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_24": {
-      "title": "Thẩm quyền áp dụng biện pháp khắc phục hậu quả",
-      "content": "Quy định thẩm quyền áp dụng các biện pháp khắc phục hậu quả.",
+      "title": "Xử phạt người điều khiển xe ô tô tải, máy kéo (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vận chuyển hàng hóa vi phạm quy định về vận tải đường bộ",
       "sections": [
         {
           "section": "Khoản 1",
-          "content": "Tước quyền sử dụng giấy phép lái xe",
-          "authority": "Trưởng Công an cấp huyện trở lên"
+          "fine_range": "600000 - 800000 VNĐ",
+          "violations": [
+            "Vận chuyển hàng trên xe phải chẳng buộc mà không chẳng buộc hoặc có chằng buộc nhưng không chắc chắn",
+            "Không chốt, đóng cố định cửa sau thùng xe khi xe đang chạy."
+          ]
         },
         {
           "section": "Khoản 2",
-          "content": "Tịch thu phương tiện",
-          "authority": "Chủ tịch UBND cấp huyện trở lên"
+          "fine_range": "800000 - 1000000 VNĐ",
+          "violations": [
+            "Chở hàng trên nóc thùng xe",
+            "Chở hàng vượt quá bề rộng thùng xe",
+            "Chở hàng vượt phía trước, phía sau thùng xe trên 10% chiều dài xe",
+            "Chở người trên thùng xe trái quy định",
+            "Để người nằm, ngồi trên mui xe, đu bám bên ngoài xe khi xe đang chạy"
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": [
+            "Không sử dụng thẻ nhận dạng lái xe để đăng nhập thông tin theo quy định hoặc sử dụng thẻ nhận dạng lái xe của lái xe khác để đăng nhập thông tin khi điều khiển xe tham gia kinh doanh vận tải hàng hóa"
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "2000000 - 3000000 VNĐ",
+          "violations": [
+            "Chở hàng vượt quá chiều cao xếp hàng cho phép đối với xe ô tô tải (kể cả rơ moóc và sơ mi rơ moóc)",
+            "Chở công-ten-nơ trên xe (kể cả sơ mi rơ moóc) mà không sử dụng thiết bị để định vị chắc chắn công-ten-nơ với xe hoặc có sử dụng thiết bị nhưng công-ten-nơ vẫn bị xê dịch trong quá trình vận chuyển."
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": []
+        },
+        {
+          "section": "Khoản 6",
+          "fine_range": "5000000 - 7000000 VNĐ",
+          "violations": [
+            "Nhận, trả hàng trên đường cao tốc"
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "7000000 - 8000000 VNĐ",
+          "violations": []
+        },
+        {
+          "section": "Khoản 8",
+          "fine_range": "8000000 - 12000000 VNĐ",
+          "violations": [
+            "Vi phạm quy định tại khoản 1, điểm c khoản 4 Điều này mà gây tai nạn giao thông.",
+            "Thực hiện hành vi quy định tại điểm b, điểm c khoản 2",
+            "Thực hiện hành vi quy định tại điểm c khoản 6, khoản 7, điểm c khoản 8 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+            "Thực hiện hành vi quy định tại điểm a, điểm b khoản 8 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 03 tháng đến 05 tháng",
+            "Thực hiện hành vi quy định tại điểm d khoản 6 Điều này bị tịch thu phù hiệu đã hết giá trị sử dụng hoặc không do cơ quan có thẩm quyền cấp."
+          ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_25": {
-      "title": "Thủ tục xử phạt vi phạm hành chính",
-      "content": "Quy định về thủ tục xử phạt vi phạm hành chính trong lĩnh vực giao thông.",
+      "title": "Xử phạt người điều khiển xe ô tô thực hiện hành vi vi phạm quy định về vận chuyển hàng siêu trường, siêu trọng",
       "sections": [
         {
           "section": "Khoản 1",
-          "content": "Lập biên bản vi phạm hành chính ngay tại chỗ",
-          "procedures": [
-            "Lập biên bản",
-            "Thông báo quyền và nghĩa vụ",
-            "Ký biên bản"
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": [
+            "Chở hàng siêu trường, siêu trọng không có báo hiệu kích thước của hàng theo quy định",
+            "Không thực hiện đúng quy định trong Giấy phép lưu hành, trừ các hành vi vi phạm quy định tại điểm b, điểm c, điểm d khoản 2 Điều này."
           ]
         },
         {
           "section": "Khoản 2",
-          "content": "Ra quyết định xử phạt trong thời hạn quy định",
-          "time_limit": "Trong vòng 7 ngày làm việc"
+          "fine_range": "5000000 - 7000000 VNĐ",
+          "violations": [
+            "Chở hàng siêu trường, siêu trọng không có Giấy phép lưu hành hoặc có Giấy phép lưu hành nhưng đã hết giá trị sử dụng hoặc sử dụng Giấy phép lưu hành không do cơ quan có thẩm quyền cấp",
+            "Chở hàng siêu trường, siêu trọng có Giấy phép lưu hành còn giá trị sử dụng nhưng tổng trọng lượng, kích thước bao ngoài của xe (sau khi đã xếp hàng lên xe) vượt quá quy định trong Giấy phép lưu hành",
+            "Chở hàng siêu trường, siêu trọng có Giấy phép lưu hành còn giá trị sử dụng nhưng đi không đúng tuyến đường quy định trong Giấy phép lưu hành",
+            "Chở hàng siêu trường, siêu trọng có Giấy phép lưu hành còn giá trị sử dụng nhưng chở không đúng loại hàng quy định trong Giấy phép lưu hành.",
+            "Thực hiện hành vi quy định tại khoản 1 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+            "Thực hiện hành vi quy định tại khoản 2 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+            "Thực hiện hành vi quy định tại điểm a khoản 2 Điều này bị tịch thu Giấy phép lưu hành đã hết giá trị sử dụng hoặc không do cơ quan có thẩm quyền cấp."
+          ],
+          "additional_measures": [
+            "Buộc khôi phục lại tình trạng ban đầu"
+          ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_26": {
-      "title": "Thi hành quyết định xử phạt",
-      "content": "Quy định về việc thi hành quyết định xử phạt vi phạm hành chính.",
+      "title": "Xử phạt người điều khiển xe ô tô thực hiện hành vi vi phạm quy định về vận chuyển chất gây ô nhiễm môi trường, hàng nguy hiểm",
       "sections": [
         {
           "section": "Khoản 1",
-          "content": "Người bị xử phạt phải chấp hành quyết định xử phạt trong thời hạn quy định",
-          "time_limit": "Trong vòng 15 ngày"
-        },
-        {
-          "section": "Khoản 2",
-          "content": "Biện pháp cưỡng chế thi hành quyết định xử phạt",
-          "enforcement_measures": [
-            "Trừ vào tài khoản ngân hàng",
-            "Phong tỏa tài sản"
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": [
+            "Vận chuyển hàng nguy hiểm mà dừng xe, đỗ xe ở nơi đông người, khu dân cư, công trình quan trọng",
+            "Không có báo hiệu hàng nguy hiểm theo quy định",
+            "Vận chuyển các chất gây ô nhiễm môi trường không theo đúng quy định về bảo vệ môi trường, trừ các hành vi vi phạm quy định tại khoản 2 Điều này."
+          ],
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 01 đến 03 tháng",
+            "Buộc khôi phục lại tình trạng ban đầu"
           ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_27": {
-      "title": "Khiếu nại, tố cáo về xử phạt vi phạm hành chính",
-      "content": "Quy định về quyền khiếu nại, tố cáo đối với quyết định xử phạt.",
-      "sections": [
-        {
-          "section": "Khoản 1",
-          "content": "Quyền khiếu nại đối với quyết định xử phạt",
-          "complaint_period": "Trong vòng 90 ngày từ ngày nhận quyết định"
-        },
-        {
-          "section": "Khoản 2",
-          "content": "Thẩm quyền giải quyết khiếu nại",
-          "authority": "Cấp trên trực tiếp của người ra quyết định xử phạt"
-        }
-      ]
+      "title": "Xử phạt người điều khiển xe vệ sinh môi trường, xe ô tô chở phế thải, vật liệu rời và xe chở hàng khác thực hiện hành vi vi phạm quy định về hoạt động vận tải trong đô thị",
+      "sections": [],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     },
     "dieu_28": {
-      "title": "Hiệu lực thi hành",
-      "content": "Nghị định này có hiệu lực từ ngày 01 tháng 01 năm 2020.",
+      "title": "Xử phạt các hành vi vi phạm quy định về vận tải đường bộ, dịch vụ hỗ trợ vận tải đường bộ",
       "sections": [
         {
           "section": "Khoản 1",
-          "content": "Nghị định này có hiệu lực từ ngày 01 tháng 01 năm 2020",
-          "effective_date": "2020-01-01"
-        }
-      ]
-    },
-    "dieu_29": {
-      "title": "Quy định chuyển tiếp",
-      "content": "Các vụ việc vi phạm xảy ra trước ngày Nghị định này có hiệu lực được xử lý theo quy định cũ.",
-      "sections": [
-        {
-          "section": "Khoản 1",
-          "content": "Các vụ việc vi phạm xảy ra trước ngày Nghị định có hiệu lực xử lý theo quy định cũ",
-          "transition_rule": "Áp dụng luật có lợi cho người vi phạm"
-        }
-      ]
-    },
-    "dieu_30": {
-      "title": "Trách nhiệm thi hành",
-      "content": "Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Chủ tịch UBND các tỉnh chịu trách nhiệm thi hành Nghị định này.",
-      "sections": [
-        {
-          "section": "Khoản 1",
-          "content": "Bộ trưởng Bộ Công an, Bộ trưởng Bộ Giao thông Vận tải chịu trách nhiệm hướng dẫn thi hành",
-          "responsible_ministries": [
-            "Bộ Công an",
-            "Bộ Giao thông Vận tải"
+          "fine_range": "500000 - 1000000 VNĐ",
+          "violations": [
+            "Xếp hàng hóa lên mỗi xe ô tô (kể cả rơ moóc và sơ mi rơ moóc) vượt quá trọng tải (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 10% đến 50% (trừ xe xi téc chở chất lỏng), trên 20% đến 50% đối với xe xi téc chở chất lỏng",
+            "Xếp hàng hóa lên xe ô tô mà không ký xác nhận việc xếp hàng hóa vào Giấy vận tải theo quy định."
           ]
         },
         {
           "section": "Khoản 2",
-          "content": "Chủ tịch UBND các tỉnh, thành phố trực thuộc Trung ương tổ chức thực hiện",
-          "responsible_authorities": [
-            "UBND tỉnh",
-            "UBND thành phố trực thuộc TW"
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": [
+            "Không niêm yết hoặc niêm yết không chính xác, đầy đủ tên, số điện thoại của đơn vị kinh doanh vận tải ở phần đầu mặt ngoài hai bên thân hoặc mặt ngoài hai bên cánh cửa xe ô tô chở hành khách theo quy định",
+            "Không niêm yết hoặc niêm yết không chính xác, đầy đủ tên, số điện thoại của đơn vị kinh doanh vận tải hàng hóa, khối lượng bản thân xe, khối lượng hàng hóa cho phép chuyên chở, khối lượng toàn bộ cho phép tham gia giao thông trên cánh cửa xe ô tô tải theo quy định",
+            "Không niêm yết hoặc niêm yết không chính xác, đầy đủ tên, số điện thoại của đơn vị kinh doanh vận tải hàng hóa, khối lượng bản thân ô tô đầu kéo, khối lượng hàng hóa cho phép chuyên chở, khối lượng toàn bộ cho phép kéo theo trên cánh cửa xe ô tô đầu kéo theo quy định",
+            "Không niêm yết hoặc niêm yết không chính xác, đầy đủ tên, số điện thoại của đơn vị kinh doanh vận tải hàng hóa, khối lượng hàng hóa cho phép chuyên chở, khối lượng toàn bộ cho phép tham gia giao thông trên rơ moóc, sơ mi rơ moóc theo quy định",
+            "Không niêm yết hoặc niêm yết không chính xác, đầy đủ tên, số điện thoại của đơn vị kinh doanh taxi tải, chữ taxi tải, tự trọng của xe, trọng tải được phép chở của xe ở mặt ngoài hai bên thành xe hoặc mặt ngoài hai bên cánh cửa buồng lái xe taxi tải theo quy định",
+            "Đ) Không niêm yết hoặc niêm yết không chính xác, đầy đủ theo quy định trên xe ô tô chở hành khách về: Biển số xe",
+            "Khối lượng hành lý miễn cước",
+            "Số điện thoại đường dây nóng",
+            "Không đánh số thứ tự ghế ngồi trên xe ô tô chở hành khách theo quy định",
+            "Sử dụng xe ô tô kinh doanh vận tải hành khách theo tuyến cố định, xe ô tô kinh doanh vận tải hành khách bằng xe buýt không có chỗ ưu tiên cho người khuyết tật, người cao tuổi và phụ nữ mang thai theo quy định",
+            "Sử dụng xe ô tô kinh doanh vận tải hành khách không có hướng dẫn cho hành khách về an toàn giao thông, thoát hiểm khi xảy ra sự cố trên xe theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "3000000 - 4000000 VNĐ",
+          "violations": [
+            "Không cấp Lệnh vận chuyển, Giấy vận tải (Giấy vận chuyển) cho lái xe theo quy định",
+            "Không thực hiện việc đăng ký, niêm yết hoặc niêm yết không chính xác, đầy đủ theo quy định về: Hành trình chạy xe",
+            "Giá cước",
+            "Giá dịch vụ",
+            "Tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải",
+            "Trừ các hành vi vi phạm quy định tại điểm đ khoản 2 Điều này",
+            "Sử dụng loại xe ô tô chở người có thiết kế từ từ 09 chỗ (kể cả người lái) trở lên làm xe taxi chở hành khách",
+            "Sử dụng xe taxi chở hành khách không gắn hộp đèn với chữ \"TAXI\" trên nóc xe và không niêm yết cụm từ \"XE TAXI” trên kính phía trước, kính phía sau xe theo quy định hoặc có gắn hộp đèn, có niêm yết cụm từ “XE TAXI\" nhưng không cố định, không đúng kích thước, không làm bằng vật liệu phản quang theo quy định",
+            "Không có hoặc có số điện thoại giao dịch ghi trên xe không đúng với đăng ký của doanh nghiệp (hợp tác xã)",
+            "Sử dụng xe kinh doanh vận tải hành khách theo hợp đồng, xe kinh doanh vận tải khách du lịch không niêm yết cụm từ “XE HỢP ĐỒNG” (đối với xe chở hành khách theo hợp đồng), cụm từ “XE DU LỊCH” (đối với xe chở khách du lịch) trên kính phía trước, kính phía sau xe theo quy định hoặc có niêm yết cụm từ \"XE HỢP ĐỒNG”, cụm từ \"XE DU LỊCH” nhưng không cố định, không đúng kích thước, không làm bằng vật liệu phản quang theo quy định",
+            "Không cấp “thẻ nhận dạng lái xe” cho lái xe theo quy định",
+            "Sử dụng lái xe, nhân viên phục vụ trên xe để tham gia kinh doanh vận tải bằng xe ô tô mà không được tập huấn, hướng dẫn về nghiệp vụ vận tải hành khách và an toàn giao thông theo quy định (đổi với hình thức kinh doanh vận tải có quy định lái xe, nhân viên phục vụ trên xe phải được tập huấn, hướng dẫn nghiệp vụ)",
+            "Sử dụng lái xe, nhân viên phục vụ trên xe để tham gia kinh doanh vận tải bằng xe ô tô mà không có hợp đồng lao động theo quy định",
+            "Không xây dựng quy trình bảo đảm an toàn giao thông hoặc xây dựng nhưng không đầy đủ các nội dung theo quy định hoặc không thực hiện đúng quy trình bảo đảm an toàn giao thông theo quy định",
+            "Không bố trí người trực tiếp điều hành hoạt động vận tải hoặc có bố trí nhưng không đáp ứng đủ điều kiện theo quy định",
+            "Sử dụng phương tiện thuộc sở hữu của thành viên hợp tác xã để kinh doanh vận tải bằng xe ô tô mà không có hợp đồng dịch vụ giữa thành viên với hợp tác xã theo quy định hoặc sử dụng phương tiện không thuộc quyền sử dụng hợp pháp để kinh doanh vận tải bằng xe ô tô",
+            "Không có nơi đỗ xe theo quy định",
+            "Bến xe không xác nhận hoặc xác nhận không chính xác, đầy đủ các thông tin trong Lệnh vận chuyển theo quy định hoặc xác nhận vào Lệnh vận chuyển khi xe không có ở bến",
+            "Không thông báo nội dung hợp đồng vận chuyển khách tới Sở Giao thông vận tải trước khi thực hiện hợp đồng vận chuyển hành khách theo quy định",
+            "Gom khách, bán vé, thu tiền, xác nhận đặt chỗ cho từng hành khách đi xe đối với xe kinh doanh vận tải hành khách theo hợp đồng, xe kinh doanh vận tải khách du lịch",
+            "Ấn định hành trình, lịch trình cố định để phục vụ cho nhiều hành khách hoặc nhiều người thuê vận tải khác nhau đối với xe kinh doanh vận tải hành khách theo hợp đồng",
+            "Sử dụng xe ô tô kinh doanh vận tải hành khách không có dây an toàn tại các vị trí ghế ngồi, giường nằm theo quy định (trừ xe buýt nội tỉnh)",
+            "Sử dụng xe kinh doanh vận tải hành khách theo hợp đồng, xe kinh doanh vận tải khách du lịch mà xe đó có số chuyến trùng lặp điểm đầu và trùng lặp điểm cuối vượt quá quy định",
+            "Kinh doanh vận tải hành khách theo hợp đồng, kinh doanh vận tải khách du lịch không thực hiện đúng quy định về đón, trả khách tại trụ sở chính, trụ sở chi nhánh, văn phòng đại diện hoặc tại một địa điểm cố định khác do đơn vị kinh doanh vận tải thuê, hợp tác kinh doanh",
+            "Sử dụng xe taxi, xe kinh doanh vận tải hành khách theo hợp đồng, xe kinh doanh vận tải khách du lịch có trên 70% tổng thời gian hoạt động trong 01 tháng (của xe) tại địa bàn của một địa phương (tỉnh, thành phố trực thuộc trung ương) mà không có phù hiệu do Sở Giao thông vận tải địa phương đó cấp theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "fine_range": "5000000 - 6000000 VNĐ",
+          "violations": [
+            "Tổ chức hoạt động khai thác bến xe, bãi đỗ xe, trạm dừng nghỉ khi chưa được cơ quan có thẩm quyền cho phép theo quy định",
+            "Để xe ô tô không đủ điều kiện kinh doanh vận tải khách vào bến xe ô tô khách đón khách",
+            "Không thực hiện việc cung cấp, cập nhật, truyền, lưu trữ, quản lý các thông tin từ thiết bị giám sát hành trình theo quy định",
+            "Không cung cấp tên đăng nhập, mật khẩu truy cập vào phần mềm xử lý dữ liệu từ thiết bị giám sát hành trình của các xe ô tô thuộc đơn vị cho cơ quan nhà nước có thẩm quyền",
+            "Không thực hiện đúng các nội dung đã đăng ký, niêm yết về: Hành trình chạy xe",
+            "Giá cước",
+            "Giá dịch vụ",
+            "Tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải",
+            "Sử dụng phương tiện kinh doanh vận tải không gắn thiết bị giám sát hành trình của xe (đối với hình thức kinh doanh vận tải có quy định phương tiện phải gắn thiết bị) hoặc gắn thiết bị nhưng thiết bị không hoạt động, không đúng quy chuẩn theo quy định hoặc sử dụng biện pháp kỹ thuật, trang thiết bị ngoại vi, các biện pháp khác làm sai lệch dữ liệu của thiết bị giám sát hành trình của xe ô tô",
+            "Sử dụng xe trung chuyển chở hành khách không đúng quy định",
+            "Sử dụng lái xe điều khiển xe khách giường nằm hai tầng chưa đủ số năm kinh nghiệm theo quy định",
+            "Không có bộ phận quản lý, theo dõi các điều kiện về an toàn giao thông theo quy định hoặc có nhưng bộ phận này không thực hiện đầy đủ các nhiệm vụ theo quy định",
+            "Sử dụng phương tiện kinh doanh vận tải có chất lượng, niên hạn sử dụng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký",
+            "Không lưu trữ theo quy định các hồ sơ, tài liệu có liên quan trong quá trình quản lý, điều hành hoạt động vận tải của đơn vị",
+            "Không lập hoặc có lập nhưng không cập nhật đầy đủ, chính xác lý lịch phương tiện, lý lịch hành nghề của lái xe theo quy định",
+            "Sử dụng xe kinh doanh vận tải hành khách theo hợp đồng, xe kinh doanh vận tải khách du lịch mà trên xe không có hợp đồng vận chuyển (hợp đồng lữ hành), danh sách hành khách kèm theo, thiết bị để truy cập nội dung hợp đồng điện tử và danh sách hành khách theo quy định hoặc có hợp đồng vận chuyển (hợp đồng lữ hành), danh sách hành khách, thiết bị để truy cập nhưng không bảo đảm yêu cầu theo quy định, chở người không có tên trong danh sách hành khách hoặc vận chuyển không đúng đối tượng theo quy định (đối với xe kinh doanh vận tải hành khách theo hợp đồng vận chuyển học sinh, sinh viên, cán bộ công nhân viên đi học, đi làm việc)",
+            "Sử dụng xe taxi chở hành khách không lắp đồng hồ tính tiền (đối với loại xe đăng ký sử dụng đồng hồ tính tiền) hoặc lắp đồng hồ tính tiền không đúng quy định",
+            "Không có thiết bị in hóa đơn (phiếu thu tiền) được kết nối với đồng hồ tính tiền theo quy định hoặc có nhưng không sử dụng được hoặc in ra phiếu thu tiền nhưng không có đầy đủ các thông tin theo quy định",
+            "Sử dụng xe ô tô kinh doanh vận tải không lắp camera theo quy định (đối với loại xe có quy định phải lắp camera) hoặc có lắp camera nhưng không ghi, không lưu trữ được hình ảnh trên xe, người lái xe trong quá trình xe tham gia giao thông theo quy định",
+            "Không thực hiện việc truyền, lưu trữ hình ảnh từ camera lắp trên xe ô tô về máy chủ của đơn vị, không cung cấp tài khoản truy cập vào máy chủ của đơn vị cho cơ quan nhà nước có thẩm quyền theo quy định",
+            "Sử dụng xe taxi chở hành khách mà trên xe không có thiết bị để kết nối trực tiếp với hành khách theo quy định (đối với loại xe đăng ký sử dụng phần mềm tính tiền) hoặc sử dụng phần mềm tính tiền không bảo đảm các yêu cầu theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "7000000 - 10000000 VNĐ",
+          "violations": [
+            "Kinh doanh vận tải bằng xe ô tô mà không có Giấy phép kinh doanh vận tải theo quy định",
+            "Thực hiện không đúng hình thức kinh doanh đã đăng ký trong Giấy phép kinh doanh vận tải",
+            "Thành lập điểm giao dịch đón, trả khách trái phép (bến dù, bến cóc)",
+            "Bến xe không thực hiện quy trình đảm bảo an toàn giao thông cho xe ra, vào bến hoặc thực hiện không đúng, không đầy đủ quy trình đảm bảo an toàn giao thông cho xe ra, vào bên",
+            "Đ) Không tổ chức khám sức khỏe định kỳ cho lái xe theo quy định hoặc có tổ chức khám nhưng không đầy đủ các nội dung theo quy định",
+            "Không thực hiện việc cung cấp các thông tin trên Lệnh vận chuyển của từng chuyến xe buýt, xe chạy tuyến cố định theo quy định",
+            "Bến xe khách không áp dụng phần mềm quản lý bến xe, hệ thống camera giám sát theo quy định",
+            "Vi phạm quy định về kinh doanh, điều kiện kinh doanh vận tải bằng xe ô tô để xảy ra tai nạn giao thông gây hậu quả từ mức nghiêm trọng trở lên",
+            "Sử dụng xe ô tô kinh doanh vận tải để đón, trả khách",
+            "Nhận, trả hàng trên đường cao tốc",
+            "Đơn vị kinh doanh vận tải sử dụng hợp đồng điện tử không có giao diện phần mềm cung cấp cho hành khách hoặc người thuê vận tải theo quy định hoặc có nhưng giao diện không bảo đảm các yêu cầu theo quy định",
+            "Không thực hiện việc gửi hóa đơn điện tử, lưu trữ dữ liệu hợp đồng điện tử theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 8",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "Đơn vị sản xuất, lắp ráp, nhập khẩu thiết bị giám sát hành trình của xe ô tô không có nhân sự cho từng vị trí công việc theo quy định",
+            "Đơn vị sản xuất, lắp ráp, nhập khẩu thiết bị giám sát hành trình của xe ô tô không báo cáo về việc cập nhật, thay đổi Firmware của thiết bị theo quy định",
+            "Đơn vị cung cấp phần mềm ứng dụng hỗ trợ kết nối vận tải không thực hiện đúng quy định về cung cấp phần mềm ứng dụng hỗ trợ kết nối vận tải",
+            "Không công bố quy trình giải quyết khiếu nại của khách hàng, không có hệ thống lưu trữ các khiếu nại của khách hàng theo quy định.",
+            "Thực hiện hành vi quy định tại điểm h khoản 2",
+            "Thực hiện hành vi quy định tại điểm i, điểm k khoản 4",
+            "Thực hiện hành vi quy định tại điểm d, điểm đ, điểm i, điểm m khoản 6 Điều này trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện còn bị tước quyền sử dụng Giấy phép lái xe từ 01 tháng đến 03 tháng",
+            "Thực hiện hành vi quy định tại điểm i khoản 7 Điều này trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện còn bị tước quyền sử dụng Giấy phép lái xe từ 02 tháng đến 04 tháng",
+            "Thực hiện hành vi quy định tại điểm i khoản 6 Điều này còn bị tịch thu phương tiện (trừ trường hợp xe ô tô từ 10 chỗ ngồi trở lên kinh doanh vận tải hành khách có niên hạn sử dụng vượt quá quy định về điều kiện kinh doanh của hình thức kinh doanh đã đăng ký nhưng chưa quá 20 năm tính từ năm sản xuất, xe ô tô dưới 10 chỗ ngồi kinh doanh vận tải hành khách).",
+            "Thực hiện hành vi quy định tại điểm a, điểm b, điểm c, điểm d, điểm đ khoản 2",
+            "Thực hiện hành vi quy định tại điểm d, điểm đ khoản 4 Điều này buộc phải gắn hộp đèn với chữ \"TAXI” hoặc buộc phải niêm yết cụm từ \"XE ТАХI\", \"ХЕ HỢP ĐỒNG”, \"XE DU LỊCH” theo đúng quy định",
+            "Thực hiện hành vi quy định tại điểm e khoản 4 Điều này buộc phải cấp “thẻ nhận dạng lái xe” cho lái xe theo quy định",
+            "D) Thực hiện hành vi quy định tại điểm g khoản 4, điểm đ khoản 7 Điều này buộc phải tổ chức tập huấn nghiệp vụ hoặc tổ chức khám sức khỏe định kỳ cho lái xe và nhân viên phục vụ trên xe theo quy định",
+            "Thực hiện hành vi quy định tại điểm h khoản 4 Điều này buộc phải ký hợp đồng với lái xe và nhân viên phục vụ trên xe theo quy định",
+            "Thực hiện hành vi quy định tại điểm i khoản 4 Điều này buộc phải xây dựng và thực hiện quy trình bảo đảm an toàn giao thông theo quy định",
+            "Thực hiện hành vi quy định tại điểm k khoản 4 Điều này buộc phải bố trí người trực tiếp điều hành hoạt động vận tải đủ điều kiện theo quy định",
+            "Thực hiện hành vi quy định tại điểm q khoản 4",
+            "Thực hiện hành vi quy định tại điểm c, điểm p khoản 6 Điều này buộc phải cung cấp, cập nhật, truyền, lưu trữ, quản lý các thông tin từ thiết bị giám sát hành trình, camera lắp trên xe ô tô theo quy định",
+            "Cung cấp tên đăng nhập, mật khẩu truy cập vào phần mềm xử lý dữ liệu từ thiết bị giám sát hành trình của xe ô tô hoặc máy chủ của đơn vị cho cơ quan có thẩm quyền theo quy định",
+            "Thực hiện hành vi quy định tại điểm d khoản 6 Điều này (trường hợp thu tiền cước, tiền dịch vụ cao hơn quy định) buộc phải nộp lại số lợi bất hợp pháp có được do thực hiện vi phạm hành chính",
+            "Thực hiện hành vi quy định tại điểm k, điểm 1 khoản 6 Điều này buộc phải lập, cập nhật, lưu trữ đầy đủ, chính xác lý lịch phương tiện, lý lịch hành nghề của lái xe, các hồ sơ, tài liệu có liên quan trong quá trình quản lý, điều hành hoạt động vận tải của đơn vị theo quy định."
           ]
         }
-      ]
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
+    },
+    "dieu_29": {
+      "title": "Xử phạt hành vi sản xuất, lắp ráp trái phép phương tiện giao thông cơ giới đường bộ; sản xuất, bán biển số phương tiện giao thông cơ giới đường bộ trái phép",
+      "sections": [],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
+    },
+    "dieu_30": {
+      "title": "Xử phạt chủ phương tiện vi phạm quy định liên quan đến giao thông đường bộ",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "fine_range": "300000 - 400000 VNĐ",
+          "violations": [
+            "Lắp kính chắn gió, kính cửa của xe không phải là loại kính an toàn",
+            "Tự ý thay đổi màu sơn của xe không đúng với màu sơn ghi trong Giấy đăng ký xe",
+            "Không làm thủ tục khai báo với cơ quan đăng ký xe theo quy định trước khi cải tạo xe (đối với loại xe có quy định phải làm thủ tục khai báo)."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "400000 - 600000 VNĐ",
+          "violations": [
+            "Không làm thủ tục đăng ký sang tên xe (để chuyển tên chủ xe trong Giấy đăng ký xe sang tên của mình) theo quy định khi mua, được cho, được tặng, được phân bổ, được điều chuyển, được thừa kế tài sản là xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô",
+            "Không làm thủ tục đổi lại Giấy đăng ký xe theo quy định khi thay đổi địa chỉ của chủ xe",
+            "Không thực hiện đúng quy định về biển số, trừ các hành vi vi phạm quy định tại điểm i khoản 5 Điều này."
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "800000 - 2000000 VNĐ",
+          "violations": [
+            "Tự ý cắt, hàn, đục lại số khung, số máy",
+            "Đưa phương tiện đã bị cắt, hàn, đục lại số khung, số máy trái quy định tham gia giao thông",
+            "Tẩy xóa, sửa chữa hoặc giả mạo hồ sơ đăng ký xe",
+            "Tự ý thay đổi khung, máy, hình dáng, kích thước, đặc tính của xe",
+            "Khai báo không đúng sự thật hoặc sử dụng các giấy tờ, tài liệu giả để được cấp lại biển số, Giấy đăng ký xe",
+            "Giao xe hoặc để cho người không đủ điều kiện theo quy định tại khoản 1 Điều 58 của Luật Giao thông đường bộ điều khiển xe tham gia giao thông (bao gồm cả trường hợp người điều khiển phương tiện có Giấy phép lái xe nhưng đã hết hạn sử dụng hoặc đang trong thời gian bị tước quyền sử dụng)",
+            "Không chấp hành việc thu hồi Giấy đăng ký xe, biển số xe theo quy định",
+            "Đưa phương tiện không có Giấy đăng ký xe tham gia giao thông hoặc có nhưng đã hết hạn sử dụng",
+            "Đưa phương tiện có Giấy chứng nhận đăng ký xe tạm thời tham gia giao thông quá thời hạn, tuyến đường, phạm vi cho phép",
+            "Đưa phương tiện có Giấy đăng ký xe nhưng không do cơ quan có thẩm quyền cấp hoặc bị tẩy xóa tham gia giao thông",
+            "Đưa phương tiện có Giấy đăng ký xe nhưng không đúng với số khung số máy của xe tham gia giao thông",
+            "Lắp đặt, sử dụng thiết bị thay đổi biển số trên xe trái quy định",
+            "Đưa phương tiện không gắn biển số (đối với loại xe có quy định phải gắn biển số) tham gia giao thông",
+            "Đưa phương tiện gắn biển số không đúng với Giấy đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp tham gia giao thông."
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "2000000 - 4000000 VNĐ",
+          "violations": [
+            "Tự ý cắt, hàn, đục lại số khung, số máy",
+            "Đưa phương tiện đã bị cắt, hàn, đục lại số khung, số máy trái quy định tham gia giao thông",
+            "Tẩy xóa hoặc sửa chữa hồ sơ đăng ký xe",
+            "Không chấp hành việc thu hồi Giấy đăng ký xe",
+            "Biển số xe",
+            "Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông cơ giới đường bộ theo quy định",
+            "Không làm thủ tục đổi lại Giấy đăng ký xe theo quy định khi xe đã được cải tạo hoặc khi thay đổi địa chỉ của chủ xe",
+            "Không thực hiện đúng quy định về biển số, quy định về kẻ chữ trên thành xe và cửa xe điểm b khoản 3 Điều 37 Nghị định này",
+            "Khai báo không đúng sự thật hoặc sử dụng các giấy tờ, tài liệu giả để được cấp lại biển số, Giấy đăng ký xe, Giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm e khoản 3, điểm m khoản 5 Điều 23 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm e khoản 3, điểm m khoản Điều 23 Nghị định này",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm đ khoản 2 Điều 24 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm đ khoản 2 Điều 24 Nghị định này",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b khoản 2 Điều 24 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vì vi phạm quy định tại điểm b khoản 2 Điều 24 Nghị định này",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 33 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 33 Nghị định này",
+            "Không làm thủ tục đăng ký sang tên xe (để chuyển tên chủ xe trong Giấy đăng ký xe sang tên của mình) theo quy định khi mua, được cho, được tặng, được phân bổ, được điều chuyển, được thừa kế tài sản là xe ô tô, máy kéo, xe máy chuyên dùng, các loại xe tương tự xe ô tô",
+            "Đưa phương tiện không có Giấy đăng ký xe tham gia giao thông hoặc có nhưng đã hết hạn sử dụng",
+            "Đưa phương tiện có Giấy chứng nhận đăng ký xe tạm thời tham gia giao thông quá thời hạn, tuyến đường, phạm vi cho phép."
+          ]
+        },
+        {
+          "section": "Khoản 8",
+          "fine_range": "4000000 - 6000000 VNĐ",
+          "violations": [
+            "Thuê, mượn linh kiện, phụ kiện của xe ô tô khi kiểm định",
+            "Đưa xe cơ giới, xe máy chuyên dùng có Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường (đối với loại xe có quy định phải kiểm định) nhưng đã hết hạn sử dụng dưới 01 tháng (kể cả rơ moóc và sơ mi rơ moóc) tham gia giao thông",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b khoản 4 Điều 24 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b khoản 4 Điều 24 Nghị định này",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm d khoản 6 Điều 23",
+            "Đưa phương tiện quá niên hạn sử dụng tham gia giao thông",
+            "Đưa phương tiện có Giấy đăng ký xe, Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe nhưng không do cơ quan có thẩm quyền cấp hoặc bị tẩy xóa tham gia giao thông",
+            "Đưa phương tiện có Giấy đăng ký xe nhưng không đúng với số khung số máy của xe (kể cả rơ moóc và sơ mi rơ moóc) tham gia giao thông",
+            "Đưa phương tiện không gắn biển số (đối với loại xe có quy định phải gắn biển số) tham gia giao thông",
+            "Đưa phương tiện gắn biển số không đúng với Giấy đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp (kể cả rơ moóc và sơ mi rơ moóc) tham gia giao thông",
+            "Giao xe hoặc để cho người không đủ điều kiện theo quy định tại khoản 1 Điều 58 (đối với xe ô tô, máy kéo và các loại xe tương tự xe ô tô), khoản 1 Điều 62 (đối với xe máy chuyên dùng) của Luật Giao thông đường bộ điều khiển xe tham gia giao thông (bao gồm cả trường hợp người điều khiển phương tiện có Giấy phép lái xe, chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ nhưng đã hết hạn sử dụng hoặc đang trong thời gian bị tước quyền sử dụng)",
+            "Lắp đặt, sử dụng thiết bị thay đổi biển số trên xe trái quy định (kể cả rơ moóc và sơ mi rơ moóc)."
+          ]
+        },
+        {
+          "section": "Khoản 9",
+          "fine_range": "6000000 - 8000000 VNĐ",
+          "violations": [
+            "Tự ý thay đổi tổng thành khung, tổng thành máy (động cơ), hệ thống phanh, hệ thống truyền động (truyền lực), hệ thống chuyền động hoặc tự ý cải tạo kết cấu, hình dáng, kích thước của xe không đúng thiết kế của nhà sản xuất hoặc thiết kế đã đăng ký với cơ quan đăng ký xe hoặc thiết kế cải tạo đã được cơ quan có thẩm quyền phê duyệt",
+            "Tự ý thay đổi tính năng sử dụng của xe",
+            "Cải tạo các xe ô tô khác thành xe ô tô chở khách",
+            "Đưa xe cơ giới, xe máy chuyên dùng không có Giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường (đối với loại xe có quy định phải kiểm định) hoặc có nhưng đã hết hạn sử dụng từ 01 tháng trở lên (kể cả rơ moóc và sơ mi rơ moóc) tham gia giao thông",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm d khoản 5 Điều 24 Nghị định này hoặc trực tiếp điều khiến phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm d khoản 5 Điều 24 Nghị định này",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 3 Điều 33 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 3 Điều 33 Nghị định này",
+            "Đưa xe ô tô tải có kích thước thùng xe không đúng thiết kế của nhà sản xuất hoặc thiết kế đã đăng ký với cơ quan đăng ký xe hoặc thiết kế cải tạo đã được cơ quan có thẩm quyền phê duyệt tham gia giao thông",
+            "Đưa xe ô tô kinh doanh vận tải hành khách lắp thêm hoặc tháo bớt ghế, giường nằm hoặc có kích thước khoang chở hành lý (hầm xe) không đúng thiết kế của nhà sản xuất hoặc thiết kế đã đăng ký với cơ quan đăng ký xe hoặc thiết kế cải tạo đã được cơ quan có thẩm quyền phê duyệt tham gia giao thông",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b khoản 7 Điều 23"
+          ]
+        },
+        {
+          "section": "Khoản 10",
+          "fine_range": "14000000 - 16000000 VNĐ",
+          "violations": [
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 6 Điều 24 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 6 Điều 24 Nghị định này",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 2 Điều 25 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 2 Điều 25 Nghị định này",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b khoản 2 Điều 25 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b khoản 2 Điều 25 Nghị định này",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c khoản 2 Điều 25 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c khoản 2 Điều 25 Nghị định này",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm d khoản 2 Điều 25 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm d khoản 2 Điều 25 Nghị định này",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 4 Điều 33 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 4 Điều 33 Nghị định này",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b khoản 4 Điều 33 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm b khoản 4 Điều 33 Nghị định này",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c khoản 4 Điều 33 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c khoản 4 Điều 33 Nghị định này."
+          ]
+        },
+        {
+          "section": "Khoản 12",
+          "fine_range": "18000000 - 20000000 VNĐ",
+          "violations": [
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 8 Điều 24 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 8 Điều 24 Nghị định này",
+            "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 5 Điều 33 Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 5 Điều 33 Nghị định này.",
+            "Thực hiện hành vi quy định tại điểm b, điểm d, điểm h, điểm i, điểm k khoản 5",
+            "Tịch thu hồ sơ, các loại giấy tờ, tài liệu giả mạo",
+            "Tịch thu biển số, thiết bị thay đổi biển số, Giấy đăng ký xe, Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường của phương tiện, Giấy chứng nhận đăng ký xe tạm thời không đúng quy định hoặc bị tẩy xóa",
+            "Thực hiện hành vi quy định tại điểm a khoản 5, điểm a khoản 7, điểm đ khoản 8, điểm b khoản 9 Điều này bị tịch thu phương tiện",
+            "Thực hiện hành vi quy định tại điểm g, điểm h khoản 5",
+            "Thực hiện hành vi quy định tại điểm g, điểm h, điểm i, điểm k khoản 5",
+            "Đ) Thực hiện hành vi quy định tại điểm b, điểm c, điểm d, điểm đ, điểm g, điểm h khoản 10",
+            "Thực hiện hành vi quy định tại điểm a khoản 12, khoản 13 Điều này trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện còn bị tước quyền sử dụng Giấy phép lái xe (khi điều khiển xe cơ giới), chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ (khi điều khiển xe máy chuyên dùng) từ 03 tháng đến 05 tháng"
+          ]
+        }
+      ],
+      "source_document": "ND100-2019.docx",
+      "extraction_date": "2025-11-18"
     }
   },
   "penalty_levels": {
@@ -1004,7 +1714,10 @@
     "total_violation_types": 85,
     "fine_range_min": "100,000 VNĐ",
     "fine_range_max": "60,000,000 VNĐ",
-    "additional_measures_count": 8
+    "additional_measures_count": 8,
+    "total_updated_articles": 26,
+    "total_extracted_violations": 720,
+    "last_extraction_date": "2025-11-18"
   },
   "fine_categories": {
     "very_light": {
