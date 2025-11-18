@@ -20,8 +20,8 @@
     "total_articles": 30,
     "total_chapters": 5,
     "description": "Nghị định về xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt - Phiên bản đầy đủ 30 điều với metadata hoàn chỉnh",
-    "last_updated": "2025-11-18",
-    "update_source": "ND100-2019.docx extraction"
+    "last_updated": "2025-11-19",
+    "update_source": "Batch update - 1 files"
   },
   "structure": {
     "chapters": [
@@ -1693,6 +1693,1225 @@
       ],
       "source_document": "ND100-2019.docx",
       "extraction_date": "2025-11-18"
+    },
+    "dieu_31": {
+      "title": "Xử phạt nhân viên phục vụ trên xe buýt, xe vận chuyển hành khách theo tuyến cố định, xe vận chuyển hành khách theo hợp đồng, xe vận chuyển khách du lịch vi phạm quy định về trật tự an toàn giao thông.",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "80000 - 100000 VNĐ",
+          "violations": [
+            "Không hỗ trợ, giúp đỡ hành khách đi xe là người cao tuổi, trẻ em không tự lên xuống xe được, người khuyết tật vận động hoặc khuyết tật thị giác",
+            "Không mặc đồng phục, không đeo thẻ tên của nhân viên phục vụ trên xe theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "100000 - 200000 VNĐ",
+          "violations": []
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "300000 - 400000 VNĐ",
+          "violations": []
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": []
+        }
+      ]
+    },
+    "dieu_32": {
+      "title": "Xử phạt hành khách đi xe vi phạm quy định về trật tự an toàn giao thông",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "50000 - 100000 VNĐ",
+          "violations": [
+            "Không chấp hành hướng dẫn của lái xe, nhân viên phục vụ trên xe về các quy định bảo đảm trật tự, an toàn giao thông",
+            "Gây mất trật tự trên xe."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "300000 - 400000 VNĐ",
+          "violations": [
+            "Mang hóa chất độc hại, chất dễ cháy, nổ, hàng nguy hiểm hoặc hàng cấm lưu thông trên xe khách",
+            "Đu, bám vào thành xe; đứng, ngồi, nằm trên mui xe, nóc xe, trong khoang chở hành lý; tự ý mở cửa xe hoặc có hành vi khác không bảo đảm an toàn khi xe đang chạy."
+          ]
+        }
+      ]
+    },
+    "dieu_33": {
+      "title": "Xử phạt người điều khiển xe bánh xích; xe quá tải trọng, quá khổ giới hạn của cầu, đường (kế cả xe ô tô chở hành khách)",
+      "sections": [
+        {
+          "section": "Khoản 3",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Chở hàng vượt khổ giới hạn của cầu, đường ghi trong Giấy phép lưu hành",
+            "Điều khiển xe bánh xích tham gia giao thông không có Giấy phép lưu hành hoặc có Giấy phép lưu hành nhưng không còn giá trị sử dụng theo quy định hoặc lưu thông trực tiếp trên đường mà không thực hiện biện pháp bảo vệ đường theo quy định",
+            "Điều khiển xe vượt quá khổ giới hạn của cầu, đường hoặc chở hàng vượt khổ giới hạn của cầu, đường tham gia giao thông",
+            "Điều khiển xe mà tổng trọng lượng của xe hoặc tải trọng trục xe vượt quá tải trọng cho phép của cầu, đường trên 20% đến 50%, trừ trường hợp có Giấy phép lưu hành còn giá trị sử dụng."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "5000000 - 7000000 VNĐ",
+          "violations": [
+            "Điều khiển xe mà tổng trọng lượng của xe hoặc tải trọng trục xe vượt quá tải trọng cho phép của cầu, đường trên 50% đến 100%",
+            "Điều khiển xe có Giấy phép lưu hành còn giá trị sử dụng nhưng tổng trọng lượng của xe hoặc tải trọng trục xe vượt quá quy định trong Giấy phép lưu hành",
+            "Điều khiển xe có Giấy phép lưu hành còn giá trị sử dụng nhưng đi không đúng tuyến đường quy định trong Giấy phép lưu hành."
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "fine_range": "14000000 - 16000000 VNĐ",
+          "violations": [
+            "Điều khiển xe mà tổng trọng lượng của xe hoặc tải trọng trục xe vượt quá tải trọng cho phép của cầu, đường trên 150%",
+            "Không chấp hành việc kiểm tra tải trọng, khổ giới hạn xe khi có tín hiệu, hiệu lệnh yêu cầu kiểm tra tải trọng, khổ giới hạn xe; chuyển tải hoặc dùng các thủ đoạn khác để trốn tránh việc phát hiện xe chở quá tải, quá khổ.",
+            "Thực hiện hành vi quy định tại khoản 1, khoản 3, điểm a khoản 4 Điều này còn bị tước quyền sử dụng Giấy phép lái xe , chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ từ 01 tháng đến 03 tháng",
+            "Thực hiện hành vi quy định tại điểm b, điểm c khoản 4; khoản 5 Điều này còn bị tước quyền sử dụng Giấy phép lái xe , chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ từ 02 tháng đến 04 tháng",
+            "Thực hiện hành vi quy định tại khoản 6 Điều này còn bị tước quyền sử dụng Giấy phép lái xe , chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ từ 03 tháng đến 05 tháng."
+          ],
+          "additional_measures": [
+            "Buộc khôi phục lại tình trạng ban đầu"
+          ]
+        }
+      ]
+    },
+    "dieu_34": {
+      "title": "Xử phạt người đua xe trái phép, cổ vũ đua xe trái phép",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": [
+            "Tụ tập để cổ vũ, kích động hành vi điều khiển xe chạy quá tốc độ quy định, lạng lách, đánh võng, đuổi nhau trên đường hoặc đua xe trái phép",
+            "Đua xe đạp, đua xe đạp máy, đua xe xích lô, đua xe súc vật kéo, cưỡi súc vật chạy đua trái phép trên đường giao thông.",
+            "Thực hiện hành vi quy định tại điểm b khoản 1 Điều này bị tịch thu phương tiện",
+            "Thực hiện hành vi quy định tại khoản 2, khoản 3 Điều này bị tước quyền sử dụng Giấy phép lái xe từ 03 tháng đến 05 tháng và tịch thu phương tiện."
+          ]
+        }
+      ]
+    },
+    "dieu_35": {
+      "title": "Xử phạt người điều khiển phương tiện giao thông cơ giới đường bộ gắn biển số nước ngoài",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "500000 - 1000000 VNĐ",
+          "violations": [
+            "Điều khiển phương tiện không gắn ký hiệu phân biệt quốc gia theo quy định",
+            "Giấy tờ của phương tiện không có bản dịch sang tiếng Anh hoặc tiếng Việt theo quy định",
+            "Xe chở khách không có danh sách hành khách theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Lưu hành phương tiện trên lãnh thổ Việt Nam quá thời hạn quy định",
+            "Hoạt động quá phạm vi được phép hoạt động",
+            "Điều khiển phương tiện không có Giấy phép vận tải quốc tế, phù hiệu vận tải quốc tế liên vận theo quy định hoặc có nhưng đã hết giá trị sử dụng:",
+            "Điều khiển phương tiện không gắn biển số tạm thời hoặc gắn biển số tạm thời không do cơ quan có thẩm quyền cấp ; đ) Vận chuyển hành khách hoặc hàng hóa không đúng với quy định tại Hiệp định vận tải đường bộ, Nghị định thư đã ký kết",
+            "Điều khiển xe ô tô có tay lái bên phải, xe ô tô hoặc xe mô tô của người nước ngoài vào Việt Nam du lịch tham gia giao thông mà không có xe dẫn đường theo quy định",
+            "Điều khiển xe ô tô có tay lái bên phải, xe ô tô gắn biển số nước ngoài tham gia giao thông mà người điều khiển xe không đúng quốc tịch theo quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_36": {
+      "title": "Xử phạt người điều khiển phương tiện đăng ký hoạt động trong Khu kinh tế thương mại đặc biệt, Khu kinh tế cửa khẩu quốc tế",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "500000 - 1000000 VNĐ",
+          "violations": [
+            "Không có tờ khai phương tiện vận tải đường bộ tạm nhập, tái xuất theo quy định",
+            "Điều khiển xe không có phù hiệu kiểm soát theo quy định hoặc có nhưng đã hết giá trị sử dụng hoặc sử dụng phù hiệu không do cơ quan có thẩm quyền cấp."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Không có tờ khai phương tiện vận tải đường bộ tạm nhập, tái xuất theo quy định",
+            "Điều khiển xe không có phù hiệu kiểm soát theo quy định hoặc có nhưng đã hết giá trị sử dụng hoặc sử dụng phù hiệu không do cơ quan có thẩm quyền cấp.",
+            "Thực hiện hành vi quy định tại điểm b khoản 1, điểm b khoản 2 Điều này trường hợp sử dụng phù hiệu đã hết giá trị sử dụng, phù hiệu không do cơ quan có thẩm quyền cấp còn bị tịch thu phù hiệu",
+            "Tái phạm hoặc vi phạm nhiều lần hành vi quy định tại khoản 1, khoản 2 Điều này bị tịch thu phương tiện."
+          ]
+        }
+      ]
+    },
+    "dieu_37": {
+      "title": "Xử phạt các hành vi vi phạm quy định về đào tạo, sát hạch lái xe",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "600000 - 800000 VNĐ",
+          "violations": [
+            "Giáo viên dạy thực hành để học viên không có phù hiệu “Học viên tập lái xe” lái xe tập lái hoặc có phù hiệu nhưng không đeo khi lái xe tập lái",
+            "Giáo viên dạy thực hành chở người, hàng trên xe tập lái trái quy định",
+            "Giáo viên dạy thực hành chạy sai tuyến đường trong Giấy phép xe tập lái; không ngồi bên cạnh để bảo trợ tay lái cho học viên thực hành lái xe",
+            "Không đeo phù hiệu “Giáo viên dạy lái xe” khi giảng dạy",
+            "Không có giáo án của môn học được phân công giảng dạy theo quy định hoặc có giáo án nhưng không phù hợp với môn được phân công giảng dạy",
+            "Giáo viên dạy thực hành không mang theo Giấy phép xe tập lái hoặc mang theo Giấy phép xe tập lái đã hết giá trị sử dụng."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": [
+            "Sử dụng xe tập lái không có mui che mưa, nắng; không có ghế ngồi gắn chắc chắn trên thùng xe cho người học theo quy định",
+            "Không thực hiện việc ký hợp đồng đào tạo, thanh lý hợp đồng đào tạo với người học lái xe theo quy định hoặc có ký hợp đồng đào tạo, thanh lý hợp đồng đào tạo nhưng không do người học lái xe trực tiếp ký",
+            "Không công khai quy chế tuyển sinh, quản lý đào tạo và mức thu học phí theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Cơ sở đào tạo lái xe không bố trí giáo viên dạy thực hành ngồi bên cạnh để bảo trợ tay lái cho học viên thực hành lái xe; bố trí giáo viên không đủ tiêu chuẩn để giảng dạy",
+            "Cơ sở đào tạo lái xe sử dụng xe tập lái không có “Giấy phép xe tập lái” hoặc có nhưng hết hạn, không gắn biển xe \"Tập lái\" trên xe theo quy định, không ghi tên cơ sở đào tạo, số điện thoại ở mặt ngoài hai bên cánh cửa hoặc hai bên thành xe theo quy định",
+            "Cơ sở đào tạo lái xe sử dụng xe tập lái không trang bị thêm bộ phận hãm phụ hoặc có nhưng không có tác dụng",
+            "Cơ sở đào tạo lái xe tuyển sinh học viên không đủ điều kiện về độ tuổi, sức khỏe, trình độ văn hóa, thâm niên, số km lái xe an toàn tương ứng với từng hạng đào tạo; tuyển sinh học viên không đủ hồ sơ theo quy định",
+            "Cơ sở đào tạo lái xe không có đủ số lượng giáo viên dạy thực hành lái xe các hạng để đáp ứng với lưu lượng thực tế đào tạo tại các thời điểm",
+            "Cơ sở đào tạo lái xe không lưu trữ hoặc lưu trữ không đầy đủ hồ sơ theo quy định của 01 khóa đào tạo",
+            "Cá nhân khai báo không đúng sự thật hoặc sử dụng các giấy tờ, tài liệu giả để được học, kiểm tra, sát hạch cấp mới, cấp lại Giấy phép lái xe, chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ",
+            "Trung tâm sát hạch lái xe không duy trì đủ các điều kiện quy định trong \"Quy chuẩn kỹ thuật quốc gia về Trung tâm sát hạch lái xe cơ giới đường bộ”",
+            "Trung tâm sát hạch lái xe không lưu trữ hoặc lưu trữ không đầy đủ hồ sơ theo quy định của 01 kỳ sát hạch lái xe",
+            "Người dự sát hạch mang điện thoại di động, thiết bị viễn thông liên lạc bằng hình ảnh, âm thanh vào phòng sát hạch lý thuyết, lên xe sát hạch hoặc có hành vi gian dối khác làm sai lệch kết quả sát hạch."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "Cơ sở đào tạo lái xe tổ chức tuyển sinh, đào tạo vượt quá lưu lượng quy định trong Giấy phép đào tạo lái xe",
+            "Cơ sở đào tạo lái xe tổ chức đào tạo lái xe ngoài địa điểm được ghi trong Giấy phép đào tạo lái xe",
+            "Cơ sở đào tạo lái xe không lưu trữ hoặc lưu trữ không đầy đủ hồ sơ theo quy định của 02 khóa đào tạo trở lên",
+            "Cơ sở đào tạo lái xe bố trí số lượng học viên tập lái trên xe tập lái vượt quá quy định",
+            "Cơ sở đào tạo lái xe không có đủ hệ thống phòng học; phòng học không đủ trang thiết bị, mô hình học cụ",
+            "Cơ sở đào tạo lái xe không có đủ sân tập lái hoặc sân tập lái không đủ điều kiện theo quy định",
+            "Cơ sở đào tạo lái xe không có đủ số lượng xe tập lái các hạng để đáp ứng với lưu lượng đào tạo thực tế tại các thời điểm hoặc sử dụng xe tập lái không đúng hạng để dạy thực hành lái xe",
+            "Trung tâm sát hạch lái xe không niêm yết mức thu phí sát hạch, giá các dịch vụ khác theo quy định",
+            "Cơ sở đào tạo lái xe không có đủ thiết bị giám sát thời gian học lý thuyết, thời gian, quãng đường học thực hành lái xe của học viên hoặc có các thiết bị đó nhưng không hoạt động theo quy định",
+            "Trung tâm sát hạch lái xe không có hệ thống âm thanh thông báo công khai lỗi vi phạm của thí sinh sát hạch lái xe trong hình theo quy định hoặc có hệ thống âm thanh thông báo nhưng không hoạt động theo quy định trong quá trình sát hạch lái xe trong hình",
+            "Trung tâm sát hạch lái xe không có đủ màn hình để công khai hình ảnh giám sát phòng sát hạch lý thuyết, kết quả sát hạch lái xe theo quy định hoặc có đủ màn hình nhưng không hoạt động theo quy định trong quá trình sát hạch."
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "10000000 - 15000000 VNĐ",
+          "violations": [
+            "Cơ sở đào tạo lái xe tổ chức tuyển sinh, đào tạo không đúng hạng Giấy phép lái xe được phép đào tạo",
+            "Cơ sở đào tạo lái xe đào tạo không đúng nội dung, chương trình, giáo trình theo quy định",
+            "Cơ sở đào tạo lái xe cấp Giấy chứng nhận tốt nghiệp hoặc chứng chỉ sơ cấp, chứng chỉ đào tạo cho học viên sai quy định",
+            "Cơ sở đào tạo lái xe sử dụng biện pháp kỹ thuật, trang thiết bị ngoại vi, các biện pháp khác để can thiệp vào quá trình hoạt động làm sai lệch dữ liệu của thiết bị giám sát thời gian học lý thuyết, thời gian, quãng đường học thực hành lái xe",
+            "Trung tâm sát hạch lái xe không lắp đủ camera giám sát phòng sát hạch lý thuyết, sân sát hạch theo quy định hoặc có lắp camera giám sát nhưng không hoạt động theo quy định",
+            "Trung tâm sát hạch lái xe có trên 50% số xe sát hạch lái xe trong hình không bảo đảm điều kiện để sát hạch theo quy định",
+            "Trung tâm sát hạch lái xe có trên 50% số xe sát hạch lái xe trên đường không bảo đảm điều kiện để sát hạch theo quy định",
+            "Trung tâm sát hạch lái xe có trên 50% số máy tính sát hạch lý thuyết không bảo đảm điều kiện để sát hạch theo quy định",
+            "Trung tâm sát hạch lái xe tự ý di chuyển vị trí các phòng chức năng hoặc thay đổi hình các bài sát hạch mà chưa được chấp thuận của cơ quan quản lý nhà nước có thẩm quyền",
+            "Trung tâm sát hạch lái xe không lưu trữ hoặc lưu trữ không đầy đủ hồ sơ theo quy định của 02 kỳ sát hạch lái xe trở lên."
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "16000000 - 20000000 VNĐ",
+          "violations": [
+            "Tự ý thay đổi hoặc sử dụng phần mềm sát hạch, thiết bị chấm điểm, chủng loại xe ô tô sát hạch khi chưa được sự chấp thuận của cơ quan quản lý nhà nước có thẩm quyền",
+            "Sử dụng máy tính trong kỳ sát hạch lý thuyết có đáp án của câu hỏi sát hạch lý thuyết hoặc kết nối với đường truyền ra ngoài phòng thi trái quy định",
+            "Để phương tiện, trang thiết bị chấm điểm hoạt động không chính xác trong kỳ sát hạch; để các dấu hiệu, ký hiệu trái quy định trên sân sát hạch, xe sát hạch trong kỳ sát hạch.",
+            "Cơ sở đào tạo lái xe thực hiện hành vi quy định tại điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e khoản 3; điểm a, điểm b, điểm d, điểm đ, điểm e, điểm g, điểm i khoản 4; điểm d khoản 5 Điều này bị đình chỉ tuyển sinh từ 01 tháng đến 03 tháng",
+            "Cơ sở đào tạo lái xe thực hiện hành vi quy định tại điểm c khoản 4; điểm a, điểm b, điểm c khoản 5 Điều này bị đình chỉ tuyển sinh từ 02 tháng đến 04 tháng",
+            "Trung tâm sát hạch lái xe thực hiện hành vì quy định tại điểm i khoản 3; điểm k, điểm 1 khoản 4; điểm đ, điểm e, điểm g, điểm h, điểm i khoản 5 Điều này bị tước quyền sử dụng “Giấy chứng nhận Trung tâm sát hạch lái xe đủ điều kiện hoạt động” từ 01 tháng đến 03 tháng",
+            "Trung tâm sát hạch lái xe thực hiện hành vi quy định tại điểm k khoản 5; khoản 7 Điều này bị tước quyền sử dụng “Giấy chứng nhận Trung tâm sát hạch lái xe đủ điều kiện hoạt động” từ 02 tháng đến 04 tháng",
+            "Thực hiện hành vi quy định tại điểm g khoản 3 Điều này bị tịch thu các giấy tờ, tài liệu giả mạo."
+          ]
+        }
+      ]
+    },
+    "dieu_38": {
+      "title": "Xử phạt các hành vi vi phạm quy định về hoạt động kiểm định an toàn kỹ thuật và bảo vệ môi trường xe cơ giới",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": [
+            "Làm sai lệch kết quả kiểm định",
+            "Không tuân thủ đúng quy định tại các quy trình, quy chuẩn kỹ thuật có liên quan trong kiểm định."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "5000000 - 7000000 VNĐ",
+          "violations": [
+            "Không công khai các thủ tục, quy trình kiểm định tại trụ sở đơn vị theo quy định",
+            "Không thực hiện kiểm định phương tiện theo đúng thẩm quyền được giao",
+            "Sử dụng đăng kiểm viên, nhân viên nghiệp vụ không có đủ điều kiện theo quy định",
+            "Thực hiện kiểm định mà không bảo đảm đầy đủ các trang thiết bị, dụng cụ kiểm định, bảo hộ lao động theo quy định",
+            "Không bố trí đủ số lượng đăng kiểm viên tối thiểu trên dây chuyền kiểm định",
+            "Thực hiện kiểm định, cấp giấy chứng nhận kiểm định vượt quá số lượng phương tiện theo quy định đối với mỗi dây chuyền kiểm định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "8000000 - 12000000 VNĐ",
+          "violations": [
+            "Thực hiện kiểm định khi tình trạng thiết bị, dụng cụ kiểm định chưa được xác nhận hoặc xác nhận không còn hiệu lực để bảo đảm tính chính xác theo quy định",
+            "Thực hiện kiểm định khi tình trạng thiết bị, dụng cụ kiểm định đã bị hư hỏng không bảo đảm tính chính xác theo quy định",
+            "Không thực hiện việc kiểm tra, kiểm soát quá trình kiểm định, kết quả kiểm định theo quy định",
+            "Không lưu trữ dữ liệu kiểm định theo quy định.",
+            "Thực hiện hành vi quy định tại khoản 1 Điều này bị tước quyền sử dụng chứng chỉ đăng kiểm viên từ 01 tháng đến 03 tháng",
+            "Thực hiện hành vi quy định tại điểm c, điểm d, điểm đ, điểm e khoản 2; điểm a, điểm b khoản 3 Điều này bị tước quyền sử dụng “Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kiểm định xe cơ giới” từ 01 tháng đến 03 tháng."
+          ]
+        }
+      ]
+    },
+    "dieu_39": {
+      "title": "Xử phạt các hành vi vi phạm quy định về lắp đặt hệ thống báo hiệu, thiết bị tại đường ngang, cầu chung; kết nối tín hiệu đèn giao thông đường bộ với tín hiệu đèn báo hiệu trên đường bộ tại đường ngang, cầu chung; cung cấp thông tin hỗ trợ cảnh giới tại các điểm giao cắt giữa đường bộ và đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Không cung cấp hoặc cung cấp không đúng quy định nội dung thông tin hỗ trợ cảnh giới để thực hiện nhiệm vụ tại vị trí cảnh giới",
+            "Không cung cấp hoặc cung cấp không đầy đủ trang thiết bị phục vụ cảnh giới theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "6000000 - 8000000 VNĐ",
+          "violations": [
+            "Không có phương thức chỉ huy, liên lạc giữa nhà gác hai đầu cầu để điều khiển giao thông trên cầu bảo đảm thông suốt, an toàn theo quy định",
+            "Không tổ chức kết nối tín hiệu đường sắt, đường bộ tại khu vực cầu chung do doanh nghiệp quản lý theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "8000000 - 10000000 VNĐ",
+          "violations": [
+            "Không lắp đặt, lắp đặt không đúng, không đủ, không duy trì hoạt động bình thường hệ thống báo hiệu, tín hiệu, thiết bị tại đường ngang, cầu chung, không tổ chức thực hiện phòng vệ theo quy định",
+            "Không thông báo kịp thời, không phối hợp với lực lượng chức năng điều hành giao thông để bảo đảm an toàn giao thông qua đường ngang khi xảy ra sự cố hư hỏng đèn báo hiệu trên đường bộ tại đường ngang thuộc phạm vi quản lý",
+            "Không ban hành chế độ kiểm tra, bảo trì hệ thống kết nối tín hiệu thuộc phạm vi quản lý theo quy định",
+            "Không lập kế hoạch xây dựng, bảo trì công trình, thiết bị hệ thống kết nối tín hiệu thuộc phạm vi quản lý theo quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_40": {
+      "title": "Xử phạt các hành vi vi phạm quy định về khám, sửa chữa toa xe, lập tàu, thử hãm",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "300000 - 500000 VNĐ",
+          "violations": [
+            "Không thực hiện việc khám, sửa chữa đoàn tàu đi, đến hoặc thực hiện khám, sửa chữa đoàn tàu đi, đến không đúng, không đủ nội dung theo quy định",
+            "Tiến hành sửa chữa toa xe trên đường sắt trong ga khi chưa thực hiện biện pháp phòng vệ theo quy định",
+            "Để toa xe không bảo đảm quy chuẩn kỹ thuật quốc gia về an toàn kỹ thuật và bảo vệ môi trường nối vào đoàn tàu",
+            "Không phát hiện hoặc phát hiện nhưng không sửa chữa kịp thời các hư hỏng của toa xe gây chậm tàu."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": [
+            "Lập tàu có ghép nối toa xe không bảo đảm quy chuẩn kỹ thuật quốc gia về an toàn kỹ thuật và bảo vệ môi trường",
+            "Lập tàu có ghép nối toa xe vận tải động vật, hàng hóa có mùi hôi thối, chất dễ cháy, dễ nổ, độc hại, hàng nguy hiểm khác vào tàu khách."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "2000000 - 3000000 VNĐ",
+          "violations": [
+            "Cho tàu chạy từ ga lập tàu hoặc các ga có quy định về thứ hãm đoàn tàu mà không đủ áp lực hãm theo quy định",
+            "Cho tàu chạy mà không thử hãm theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "3000000 - 4000000 VNĐ",
+          "violations": [
+            "Doanh nghiệp kinh doanh vận tải đường sắt không ban hành nội dung, chức danh đảm nhiệm việc khám kỹ thuật theo quy định",
+            "Doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt, chủ sở hữu đường sắt chuyên dùng không quy định địa điểm, không giám sát việc khám kỹ thuật của đoàn tàu theo quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_41": {
+      "title": "Xử phạt các hành vi vi phạm quy định về dồn tàu",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "500000 - 1000000 VNĐ",
+          "violations": [
+            "Cho đầu máy dịch chuyển khi chưa nhận được kế hoạch dồn hoặc tín hiệu của người chỉ huy dồn cho phép",
+            "Vượt quá tốc độ dồn cho phép",
+            "Dồn phóng, thả trôi từ dốc gù toa xe có ghi “cấm phóng”, toa xe khác theo quy định không được dồn phóng hoặc tại ga có quy định cấm dồn phóng",
+            "Dồn phóng vào đường có toa xe đang tác nghiệp kỹ thuật, đang sửa chữa, đang xếp, dỡ hàng; dồn phóng vào đường nhánh trong khu gian, vào đường chưa được chiếu sáng đầy đủ hoặc khi có sương mù, mưa to, gió lớn",
+            "Để toa xe ngoài mốc tránh va chạm sau mỗi cú dồn",
+            "Để đầu máy, toa xe đỗ trên đường an toàn, đường lánh nạn khi không có lệnh của người có thẩm quyền",
+            "Đặt chèn trên đường sắt tại các vị trí cấm đặt chèn",
+            "Tiến hành dồn khi các toa xe trong đoàn dồn chưa treo hàm nối ống mềm vào chỗ quy định",
+            "Để toa xe chưa dồn trên đường ga, đường nhánh trong khu gian, đường dùng riêng mà không nối liền với nhau, không siết chặt hãm tay ở hai đầu đoàn xe, không chèn chắc chắn."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "1500000 - 2000000 VNĐ",
+          "violations": [
+            "Sau khi dồn xong vẫn để toa xe chở hàng nguy hiểm chưa nối vào tàu nhưng không nối liền với nhau, không chèn chắc chắn, không để riêng trên một đường, không phòng vệ bằng tín hiệu di động “ngừng\"",
+            "Sau khi dồn xong vẫn để ghi dẫn vào đường chứa toa xe chở hàng nguy hiểm không thông sang đường khác.",
+            "Thực hiện hành vị quy định tại điểm a khoản 3 Điều này buộc phải để toa xe chở hàng nguy hiểm theo đúng quy định về dồn tàu",
+            "Thực hiện hành vi quy định tại điểm b khoản 3 Điều này buộc phải để ghi dẫn sang đường khác theo đúng quy định về dồn tàu."
+          ]
+        }
+      ]
+    },
+    "dieu_42": {
+      "title": "Xử phạt các hành vi vi phạm quy định về chạy tàu",
+      "sections": [
+        {
+          "section": "Khoản 3",
+          "fine_range": "1000000 - 3000000 VNĐ",
+          "violations": [
+            "Điều khiển tàu chạy lùi khi sương mù, mưa to, gió lớn mà không xác nhận được tín hiệu",
+            "Điều khiển tàu chạy lùi khi thông tin bị gián đoạn mà phía sau tàu đó có tàu chạy cùng chiều",
+            "Điều khiển tàu chạy lùi trong khu gian đóng đường tự động khi chưa có lệnh",
+            "Điều khiển tàu chạy tiến hoặc lùi trong trường hợp đã xin cứu viện mà chưa được phép bằng mệnh lệnh",
+            "Điều khiển tàu chạy lùi trong trường hợp tàu có đầu máy đẩy vào khu gian rồi trở về."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Trực ban chạy tàu ga, lái tàu, trưởng tàu cho tàu chạy vào khu gian mà chưa có chứng vật chạy tàu",
+            "Trực ban chạy tàu ga, nhân viên gác ghi để người không có phận sự thực hiện nhiệm vụ của mình khi không được phép."
+          ],
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 01 đến 03 tháng"
+          ]
+        }
+      ]
+    },
+    "dieu_43": {
+      "title": "Xử phạt các hành vi vi phạm quy định về đón, gửi tàu",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "200000 - 400000 VNĐ",
+          "violations": [
+            "Trực ban chạy tàu ga, gác ghi, gác đường ngang, gác cầu chung, gác hầm, tuần cầu, tuần đường, tuần hầm không đón, tiễn tàu hoặc tác nghiệp đón, tiễn tàu không đúng quy định trừ các hành vi vi phạm quy định tại khoản 2, khoản 3, khoản 4 Điều này",
+            "Trực ban chạy tàu ga không ghi chép đầy đủ các mẫu điện tín",
+            "Trực ban chạy tàu ga, gác đường ngang, gác cầu chung không ghi chép đầy đủ thông tin về giờ tàu chạy qua ga, chắn, cầu chung theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "2000000 - 4000000 VNĐ",
+          "violations": [
+            "Tổ chức đón tàu vào đường không thanh thoát mà không áp dụng các biện pháp an toàn theo quy định",
+            "Đón, gửi nhầm tàu",
+            "Đón, gửi tàu mà không thu chìa khóa ghi hoặc không áp dụng các biện pháp khống chế ghi",
+            "Cho tàu chạy vào khu gian mà không thông báo cho nhân viên gác đường ngang, cầu chung theo quy định",
+            "Để phương tiện giao thông đường sắt khác chiếm dụng đường chính tuyến trong ga",
+            "Không thông báo cho trực ban chạy tàu ga đến, ga đi, nhân viên điều độ chạy tàu tuyến về số hiệu tàu, giờ thực tế tàu đến, đi, thông qua sau khi tàu đến, đi, thông qua ga theo quy định",
+            "Không kiểm tra, không xác nhận việc dồn dịch gây ảnh hưởng, trở ngại đến đường đón, gửi tàu theo quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_44": {
+      "title": "Xử phạt các hành vi vi phạm quy định về chấp hành tín hiệu giao thông đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "300000 - 500000 VNĐ",
+          "violations": [
+            "Đã xác nhận được các tín hiệu dồn nhưng không kéo còi làm tín hiệu hô đáp",
+            "Khi dồn tàu không thực hiện đúng các tín hiệu dồn theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "2000000 - 3000000 VNĐ",
+          "violations": [
+            "Lái tàu, trưởng tàu cho tàu chạy khi chưa nhận được tín hiệu an toàn của trực ban chạy tàu ga hoặc người làm tín hiệu truyền",
+            "Lái tàu điều khiển tàu chạy vượt qua tín hiệu vào ga, ra ga đang ở trạng thái đóng khi chưa được phép của người chỉ huy chạy tàu ở ga",
+            "Lái tàu không dừng tàu khi tàu đã đè lên pháo phòng vệ và pháo phòng vệ đã nổ bình thường",
+            "Lái tàu tiếp tục cho tàu chạy khi đã nhận được tín hiệu dừng tàu."
+          ],
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 01 đến 03 tháng"
+          ]
+        }
+      ]
+    },
+    "dieu_45": {
+      "title": "Xử phạt các hành vi vi phạm quy định về xây dựng, công bố công lệnh tải trọng, công lệnh tốc độ, biểu đồ chạy tàu",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "fine_range": "10000000 - 15000000 VNĐ",
+          "violations": [
+            "Không công bố hoặc công bố không đầy đủ nội dung biểu đồ chạy tàu trên phương tiện thông tin đại chúng, trên trang thông tin điện tử của doanh nghiệp theo quy định",
+            "Không công bố công khai công lệnh tải trọng, công lệnh tốc độ trên trang thông tin điện tử của doanh nghiệp theo quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_46": {
+      "title": "Xử phạt các hành vi vi phạm quy định về điều độ chạy tàu",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "fine_range": "2000000 - 3000000 VNĐ",
+          "violations": [
+            "Phát mệnh lệnh liên quan đến chạy tàu không đúng thẩm quyền",
+            "Không phát lệnh cho trực ban chạy tàu ga cấp cảnh báo kịp thời cho lái tàu",
+            "Không phát lệnh phong tỏa khu gian theo quy định để: Tổ chức thi công, sửa chữa kết cấu hạ tầng đường sắt; tổ chức chạy tàu cứu viện, tàu công trình vào khu gian cần phải phong tỏa",
+            "Không kịp thời phát các mệnh lệnh thuộc thẩm quyền quy định gây chậm tàu, ách tắc giao thông."
+          ]
+        }
+      ]
+    },
+    "dieu_47": {
+      "title": "Xử phạt các hành vi vi phạm quy định về quy tắc giao thông tại đường ngang, cầu chung, hầm đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 9",
+          "fine_range": "5000000 - 7000000 VNĐ",
+          "violations": [
+            "Điều khiển phương tiện giao thông cơ giới đường bộ làm hỏng cần chắn, giàn chắn, các thiết bị khác tại đường ngang, cầu chung",
+            "Điều khiển xe bánh xích, xe lu bánh sắt, các phương tiện vận chuyển hàng siêu trường, siêu trọng, quá khổ giới hạn đi qua đường ngang mà không thông báo cho tổ chức quản lý đường ngang, không thực hiện đúng các biện pháp bảo đảm an toàn."
+          ],
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 01 đến 03 tháng",
+            "Buộc khôi phục lại tình trạng ban đầu"
+          ]
+        }
+      ]
+    },
+    "dieu_48": {
+      "title": "Xử phạt các hành vi vi phạm quy định về phòng, chống thiên tai và giải quyết sự cố, tai nạn giao thông đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 4",
+          "fine_range": "3000000 - 4000000 VNĐ",
+          "violations": [
+            "Không cung cấp hoặc cung cấp không đủ các tài liệu, vật chứng liên quan đến tai nạn giao thông đường sắt; không chuyển giao hồ sơ tai nạn ban đầu theo quy định",
+            "Không thực hiện nghĩa vụ cứu nạn khi có điều kiện cứu nạn",
+            "Khi nhận được tin báo về tai nạn giao thông đường sắt hoặc khi được yêu cầu phối hợp, hỗ trợ không đến ngay hiện trường để giải quyết",
+            "Không kịp thời có biện pháp xử lý, biện pháp ngăn ngừa tai nạn giao thông đường sắt khi phát hiện hoặc nhận được tin báo công trình đường sắt bị hư hỏng",
+            "Không kịp thời sửa chữa, khắc phục sự cố làm ảnh hưởng đến việc chạy tàu",
+            "Gây trở ngại cho việc khôi phục đường sắt sau khi xảy ra tai nạn giao thông đường sắt."
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "6000000 - 8000000 VNĐ",
+          "violations": [
+            "Thay đổi, xóa dấu vết hiện trường vụ tai nạn giao thông đường sắt",
+            "Lợi dụng tai nạn giao thông đường sắt để xâm phạm tài sản, phương tiện bị nạn; làm mất trật tự, cản trở việc xử lý tai nạn giao thông đường sắt",
+            "Gây tai nạn giao thông đường sắt mà không đến trình báo với cơ quan có thẩm quyền",
+            "Không phối hợp, không chấp hành mệnh lệnh của người, cơ quan có thẩm quyền trong việc khắc phục hậu quả, khôi phục giao thông đường sắt."
+          ]
+        },
+        {
+          "section": "Khoản 6",
+          "fine_range": "8000000 - 12000000 VNĐ",
+          "violations": [
+            "Không có Hội đồng giải quyết tai nạn giao thông đường sắt hoặc Hội đồng phân tích tai nạn giao thông đường sắt khi có tai nạn giao thông đường sắt xây ra theo quy định",
+            "Không lưu trữ hồ sơ các vụ sự cố, tai nạn giao thông đường sắt, không thường xuyên cập nhật số liệu về số vụ sự cố, tai nạn giao thông đường sắt theo quy định",
+            "Không quy định trách nhiệm của các đơn vị tham gia hoạt động trên đường sắt quốc gia trong việc giải quyết các vụ sự cố, tai nạn giao thông đường sắt, không công bố công khai địa chỉ, số điện thoại của các tổ chức, cá nhân có liên quan để phục vụ công tác xử lý sự cố, tai nạn giao thông đường sắt theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "15000000 - 20000000 VNĐ",
+          "violations": [
+            "Không xây dựng, thực hiện phương án phòng, chống và khắc phục kịp thời hậu quả do sự cố, thiên tai, tai nạn giao thông đường sắt để bảo đảm giao thông đường sắt an toàn, thông suốt",
+            "Không tuân thủ sự chỉ đạo, điều phối lực lượng của tổ chức phòng, chống sự cố, thiên tai, xử lý tai nạn giao thông đường sắt",
+            "Không thông báo kịp thời sự cố đe dọa an toàn chạy tàu và việc tạm đình chỉ chạy tàu cho trực ban chạy tàu ga ở hai đầu khu gian nơi xảy ra sự cố hoặc nhân viên điều hành giao thông vận tải đường sắt",
+            "Không đình chỉ chạy tàu khi thấy kết cấu hạ tầng đường sắt có nguy cơ gây mất an toàn chạy tàu",
+            "Không thành lập tổ ứng phó cứu viện để giải quyết sự cố, tai nạn giao thông đường sắt."
+          ]
+        }
+      ]
+    },
+    "dieu_49": {
+      "title": "Xử phạt các hành vi vi phạm quy định về bảo đảm an toàn giao thông đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "300000 - 500000 VNĐ",
+          "violations": [
+            "Vượt tường rào, hàng rào ngăn cách giữa đường sắt với khu vực xung quanh",
+            "Để súc vật đi qua đường sắt không đúng quy định hoặc để súc vật kéo xe qua đường sắt mà không có người điều khiển",
+            "Đi, đứng, nằm, ngồi hoặc hành vi khác trên nóc toa xe, đầu máy, bậc lên xuống toa xe; đu bám, đứng, ngồi hai bên thành toa xe, đầu máy, nơi nối giữa các toa xe, đầu máy; mở cửa lên, xuống tàu, đưa đầu, tay, chân yà vật khác ra ngoài thành toa xe khi tàu đang chạy",
+            "Phơi rơm, rạ, nông sản, để các vật phẩm khác trên đường sắt hoặc các công trình đường sắt khác",
+            "Để rơi vãi đất, cát, các loại vật tư, vật liệu khác lên đường sắt."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "2000000 - 3000000 VNĐ",
+          "violations": [
+            "Neo đậu phương tiện vận tải thủy, bè, mảng hoặc các vật thể khác trong phạm vi bảo vệ cầu đường sắt",
+            "Để phương tiện giao thông đường bộ, thiết bị, vật liệu, hàng hóa vi phạm khổ giới hạn tiếp giáp kiến trúc đường sắt, trừ hành vi vi phạm quy định tại điểm b khoản 3 Điều này."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Ngăn cản việc chạy tàu, tùy tiện báo hiệu hoặc sử dụng các thiết bị để dừng tàu",
+            "Để vật chướng ngại lên đường sắt làm cản trở giao thông đường sắt; c) Tự ý mở chắn đường ngang khi chắn đã đóng."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "5000000 - 8000000 VNĐ",
+          "violations": [
+            "Không thực hiện biện pháp đảm bảo an toàn công trình đường sắt, an toàn giao thông vận tải đường sắt khi công trình thiết bị điện, viễn thông nằm trong phạm vi bảo vệ công trình đường sắt, hành lang an toàn giao thông đường sắt",
+            "Không thực hiện biện pháp bảo đảm an toàn để công trình điện lực, đường dây tải điện gây nhiễu hệ thống thông tin, tín hiệu đường sắt",
+            "Không thực hiện biện pháp bảo đảm an toàn cho thiết bị, công trình đường sắt, giao thông vận tải đường sắt khi dây tải điện bị sự cố, đứt trong phạm vi bảo vệ công trình đường sắt, hành lang an toàn giao thông đường sắt."
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "15000000 - 20000000 VNĐ",
+          "violations": [
+            "Không có giải pháp kỹ thuật đảm bảo an toàn giao thông vận tải đường sắt trong quá trình khai thác, kinh doanh kết cấu hạ tầng đường sắt đối với tuyến đường được phép sử dụng độ dốc lớn hơn dốc hạn chế",
+            "Không có biện pháp đảm bảo an toàn cho hành khách lên xuống tàu ở những ga có ke ga đang sử dụng chưa nâng cấp, cải tạo.",
+            "Thực hiện hành vi quy định tại điểm a khoản 1 Điều này buộc phải ra khỏi đường sắt, cầu, hầm dành riêng cho đường sắt",
+            "Thực hiện hành vi quy định tại điểm đ khoản 1 Điều này buộc phải đưa rơm, rạ, nông sản, các vật phẩm khác ra khỏi đường sắt hoặc các công trình đường sắt khác",
+            "Thực hiện hành vi quy định tại điểm e khoản 1, điểm b khoản 3 Điều này buộc phải đưa đất, cát, vật chướng ngại, các loại vật tư, vật liệu khác ra khỏi đường sắt",
+            "Thực hiện hành vi quy định tại điểm a khoản 2 Điều này buộc phải đưa bè, mảng, phương tiện vận tải thủy hoặc các vật thể khác ra khỏi phạm vi bảo vệ cầu đường sắt",
+            "Thực hiện hành vi quy định tại điểm b khoản 2 Điều này buộc phải đưa phương tiện giao thông đường bộ, thiết bị, vật liệu, hàng hóa ra khỏi khổ giới hạn tiếp giáp kiến trúc đường sắt",
+            "Thực hiện hành vi quy định tại khoản 4 Điều này buộc phải thực hiện các biện pháp bảo đảm an toàn công trình đường sắt, an toàn giao thông đường sắt."
+          ]
+        }
+      ]
+    },
+    "dieu_50": {
+      "title": "Xử phạt các hành vi vi phạm quy định về quản lý an toàn đường sắt đô thị",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "200000000 - 30000000 VNĐ",
+          "violations": [
+            "Đưa vào vận hành, khai thác đường sắt đô thị không có Giấy chứng nhận thẩm định hồ sơ an toàn hệ thống đường sắt đô thị theo quy định",
+            "Đưa vào vận hành, khai thác đường sắt đô thị không có Giấy chứng nhận định kỳ hệ thống quản lý an toàn vận hành đường sắt đô thị do cơ quan có thẩm quyền cấp hoặc có nhưng hết hiệu lực."
+          ]
+        }
+      ]
+    },
+    "dieu_51": {
+      "title": "Xử phạt các hành vi vi phạm quy định về bảo vệ công trình đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Đổ, để chất độc hại, chất phế thải lên đường sắt hoặc xả chất thải không bảo đảm vệ sinh môi trường lên đường sắt",
+            "Đổ trái phép đất, đá, vật liệu khác lên đường sắt hoặc để rơi đất, đá, vật liệu khác từ trên tàu xuống đường sắt trong quá trình vận chuyển",
+            "Để chất dễ cháy, chất dễ nổ trong phạm vi bảo vệ công trình đường sắt, hành lang an toàn giao thông đường sắt",
+            "Làm che lấp tín hiệu giao thông đường sắt",
+            "Làm hư hỏng hoặc làm mất tác dụng của hệ thống thoát nước công trình đường sắt",
+            "Đặt tấm đan bê tông, gỗ, sắt thép, các vật liệu khác trái phép trong lòng đường sắt hoặc trong phạm vi bảo vệ công trình đường sắt",
+            "Bơm, xả nước hoặc các chất lỏng khác làm ngập nền đường sắt, ảnh hưởng đến khả năng thoát nước của hệ thống thoát nước đường sắt hoặc ảnh hưởng đến chất lượng, an toàn công trình đường sắt."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "Đào, lấy, san, lấp đất, đá hoặc các vật liệu khác trái phép trong phạm vi bảo vệ công trình đường sắt, hành lang an toàn giao thông đường sắt",
+            "Làm hỏng, tháo dỡ trái phép tường rào, hàng rào ngăn cách giữa đường sắt với khu vực xung quanh; làm sai lệch vị trí hoặc phá, dỡ trái phép mốc chỉ giới ga đường sắt, mốc giới đất dành cho đường sắt, hàng rào dùng để đóng lối đi tự mở, cọc dùng để thu hẹp lối đi tự mở",
+            "Làm hỏng, thay đổi, chuyển dịch biển hiệu, mốc hiệu, tín hiệu của công trình đường sắt."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "Tự mở lối đi qua đường sắt",
+            "Khoan, đào, xẻ đường sắt trái phép",
+            "Tháo dỡ, làm xê dịch trái phép ray, tà vẹt, cấu kiện, phụ kiện, vật tư, trang thiết bị, hệ thống thông tin tín hiệu của đường sắt",
+            "Kéo đường dây thông tin, đường dây tải điện, xây dựng cầu, cầu vượt, hầm, hầm chui, cống, cột điện, cột viễn thông, hệ thống dẫn, chuyền nước, đường ống cấp nước, thoát nước, viễn thông trái phép qua đường sắt hoặc trong phạm vi đất dành cho đường sắt.",
+            "Thực hiện hành vi vi phạm quy định tại khoản 1; điểm a, điểm b khoản 2 Điều này buộc phải đưa rác thải sinh hoạt; đất, đá, chất độc hại, chất phế thải và các vật liệu khác ra khỏi đường sắt",
+            "Thực hiện hành vi quy định tại điểm c khoản 2 Điều này buộc phải đưa chất dễ cháy, dễ nổ ra khỏi phạm vi đất dành cho đường sắt",
+            "Thực hiện hành vi quy định tại điểm d khoản 2 Điều này buộc phải dỡ bỏ vật che khuất biển hiệu, mốc hiệu, tín hiệu của công trình đường sắt",
+            "Thực hiện hành vi quy định tại điểm đ khoản 2 Điều này buộc phải khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra",
+            "Thực hiện hành vi quy định tại điểm e khoản 2 Điều này buộc phải đưa tấm đan bê tông, gỗ, sắt thép, các vật liệu khác ra khỏi phạm vi bảo vệ công trình đường sắt",
+            "Thực hiện hành vi quy định tại điểm g khoản 2; khoản 3; điểm a, điểm b, điểm c khoản 4; khoản 5 Điều này buộc phải khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra",
+            "Thực hiện hành vi quy định tại điểm d khoản 4 Điều này buộc phải tháo dỡ công trình xây dựng trái phép , khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra."
+          ]
+        }
+      ]
+    },
+    "dieu_52": {
+      "title": "Xử phạt các hành vi vi phạm quy định về xây dựng công trình, khai thác tài nguyên và các hoạt động khác ở vùng lân cận phạm vi bảo vệ công trình đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "fine_range": "3000000 - 6000000 VNĐ",
+          "violations": [
+            "Xây dựng lò vôi, lò gốm, lò gạch, lò nấu gang, thép, xi măng, thủy tinh cách ngoài chỉ giới hành lang an toàn giao thông đường sắt nhỏ hơn 10 m",
+            "Xây dựng nhà bằng vật liệu dễ cháy cách ngoài chỉ giới hành lang an toàn giao thông đường sắt nhỏ hơn 05 m",
+            "Xây dựng công trình cột ăng ten viễn thông, đường dây thông tin, đường dây tải điện với khoảng cách từ vị trí chân cột đến vai nền đường đối với nền đường không đào, không đắp, chân taluy đường đắp, mép đỉnh taluy đường đào, mép ngoài cùng của kết cấu công trình cầu, đường dây thông tin, tín hiệu đường sắt nhỏ hơn 1,3 lần chiều cao của cột hoặc nhỏ hơn 05 m mà không được Bộ trưởng Bộ Giao thông vận tải chấp thuận",
+            "Xây dựng công trình, khai thác tài nguyên và các hoạt động khác ở vùng lân cận phạm vi bảo vệ công trình đường sắt làm hư hỏng công trình đường sắt",
+            "Xây dựng công trình trong phạm vi hành lang an toàn giao thông tại khu vực đường ngang không bố trí người gác.",
+            "Thực hiện hành vi quy định tại khoản 1 Điều này buộc phải thực hiện ngay các biện pháp bảo đảm an toàn công trình đường sắt, bảo đảm an toàn giao thông đường sắt",
+            "Thực hiện hành vi quy định tại điểm a, điểm b, điểm c, điểm đ khoản 2; khoản 3 Điều này buộc phải tháo dỡ công trình xây dựng gây ảnh hưởng đến an toàn công trình đường sắt, an toàn giao thông đường sắt",
+            "Thực hiện hành vi quy định tại điểm d khoản 2 Điều này buộc phải khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra."
+          ]
+        }
+      ]
+    },
+    "dieu_53": {
+      "title": "Xử phạt các hành vi vi phạm quy định về sử dụng, khai thác trong phạm vi đất dành cho đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 3",
+          "fine_range": "2000000 - 3000000 VNĐ",
+          "violations": [
+            "Để phương tiện, thiết bị, vật liệu, hàng hóa, chất phế thải hoặc các vật phẩm khác trái phép trong phạm vi bảo vệ công trình đường sắt, hành lang an toàn giao thông đường sắt hoặc trong khu vực ga, đề-pô, nhà ga đường sắt",
+            "Dựng lều, quán trái phép trong phạm vi đất dành cho đường sắt",
+            "Đặt, treo biển quảng cáo, biển chỉ dẫn hoặc các vật che chắn khác trái phép trong phạm vi đất dành cho đường sắt",
+            "Di chuyển chậm trễ các công trình, nhà ở, lều, quán hoặc cố tình trì hoãn việc di chuyển gây trở ngại cho việc xây dựng, cải tạo, mở rộng và bảo đảm an toàn công trình đường sắt khi có quyết định của cơ quan có thẩm quyền."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "20000000 - 25000000 VNĐ",
+          "violations": [
+            "Xây dựng nhà, công trình khác trái phép trong phạm vi đất dành cho đường sắt điểm d khoản 4 Điều 51 Nghị định này",
+            "Dựng biển quảng cáo hoặc các biển chỉ dẫn khác trái phép trong phạm vi đất dành cho đường sắt.",
+            "Thực hiện hành vi quy định tại điểm a khoản 1 Điều này buộc phải hạ độ cao của cây trồng có chiều cao vượt quá quy định, di dời cây trồng không đúng quy định hoặc có ảnh hưởng đến an toàn công trình, an toàn giao thông đường sắt",
+            "Thực hiện hành vi quy định tại khoản 2 Điều này buộc phải khôi phục lại tình trạng ban đầu đã bị thay đổi do hành vi vi phạm hành chính gây ra",
+            "Thực hiện hành vi quy định tại điểm a khoản 3 Điều này buộc đưa phương tiện, thiết bị, vật liệu, hàng hóa, chất phế thải, các vật phẩm khác ra khỏi phạm vi bảo vệ công trình đường sắt, hành lang an toàn giao thông đường sắt",
+            "Thực hiện hành vi quy định tại điểm b khoản 3 Điều này buộc phải tháo dỡ, di chuyển lều, quán dựng trái phép ra khỏi phạm vi đất dành cho đường sắt",
+            "Thực hiện hành vi quy định tại điểm c khoản 3 Điều này buộc phải tháo dỡ, di chuyển biển quảng cáo, các biển chỉ dẫn hoặc các vật che chắn khác ra khỏi phạm vi đất dành cho đường sắt",
+            "Thực hiện hành vi quy định tại điểm d khoản 3 Điều này buộc phải tháo dỡ, di chuyển các công trình, nhà ở, lều, quán gây trở ngại cho việc xây dựng, cải tạo, mở rộng và bảo đảm an toàn công trình đường sắt; g) Thực hiện hành vi quy định tại khoản 4 Điều này buộc phải tháo dỡ, di chuyển nhà, công trình, biển quảng cáo hoặc các biển chỉ dẫn xây dựng trái phép ra khỏi phạm vi đất dành cho đường sắt."
+          ]
+        }
+      ]
+    },
+    "dieu_54": {
+      "title": "Xử phạt các hành vi vi phạm quy định về thi công xây dựng, quản lý, khai thác công trình thiết yếu không thuộc kết cấu hạ tầng đường sắt trong phạm vi đất dành cho đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "2000000 - 3000000 VNĐ",
+          "violations": [
+            "Thi công công trình khi chưa có văn bản chấp thuận phương án tổ chức thi công, biện pháp đảm bảo an toàn giao thông, thời gian phong tỏa phục vụ thi công của tổ chức có thẩm quyền theo quy định",
+            "Khi thi công hoàn thành công trình không bàn giao lại hiện trường, hồ sơ hoàn công cho tổ chức có liên quan theo quy định",
+            "Để vật tư, vật liệu, máy móc, thiết bị phục vụ thi công vi phạm khổ giới hạn tiếp giáp kiến trúc đường sắt khi khu gian chưa được phong tỏa hoặc hết thời gian phong tỏa khu gian."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "Không thực hiện đầy đủ các biện pháp đảm bảo an toàn giao thông đường sắt trong quá trình thi công",
+            "Không gia cố kịp thời công trình thiết yếu để bảo đảm an toàn công trình đường sắt, an toàn giao thông vận tải đường sắt khi phát hiện hoặc nhận được tin bảo công trình thiết yếu bị hư hỏng",
+            "Không tự di chuyển hoặc cải tạo công trình khi có yêu cầu của cơ quan có thẩm quyền theo quy định của pháp luật",
+            "Không tự phá dỡ công trình khi hết hạn sử dụng",
+            "Không tự tháo dỡ công trình khi xây dựng không đúng với giấy phép hoặc khi cơ quan có thẩm quyền đã thu hồi, hủy giấy phép.",
+            "Thực hiện hành vi quy định tại điểm c khoản 1 Điều này buộc phải đưa vật tư, vật liệu, máy móc, thiết bị ra khỏi khổ giới hạn tiếp giáp kiến trúc đường sắt",
+            "Thực hiện hành vi quy định tại điểm b, điểm c khoản 2 Điều này buộc phải gia cố, di chuyển hoặc cải tạo công trình gây ảnh hưởng đến an toàn giao thông đường sắt theo yêu cầu của cơ quan có thẩm quyền",
+            "Thực hiện hành vi quy định tại điểm d, điểm đ khoản 2 Điều này buộc phải phá dỡ công trình hết hạn sử dụng, tháo dỡ công trình xây dựng không đúng với giấy phép hoặc bị thu hồi, hủy giấy phép."
+          ]
+        }
+      ]
+    },
+    "dieu_55": {
+      "title": "Xử phạt các hành vi vi phạm quy định quản lý, bảo trì kết cấu hạ tầng đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "Không lập danh mục quản lý đối với các đường ngang không phù hợp với quy định của Luật Đường sắt; không lập, không cập nhật hồ sơ các vị trí nguy hiểm đối với an toàn giao thông đường sắt, lối đi tự mở qua đường sắt",
+            "Không phát hiện hoặc đã phát hiện mà không báo cáo cấp có thẩm quyền xử lý kịp thời những hành vi vi phạm phạm vi bảo vệ công trình đường sắt, hành lang an toàn giao thông đường sắt trong phạm vi quản lý",
+            "Không lập, không lưu trữ hồ sơ quản lý công trình đường sắt, hành lang an toàn giao thông đường sắt hoặc lập, lưu trữ hồ sơ nhưng không đúng quy định",
+            "Không kịp thời phát hiện hoặc không thực hiện theo quy định khi phát hiện, nhận được tin báo hành vi xâm phạm kết cấu hạ tầng đường sắt",
+            "Không thông báo hoặc thông báo không kịp thời sự cố đe dọa an toàn chạy tàu, việc tạm đình chỉ chạy tàu cho trực ban chạy tàu ga ở hai đầu khu gian nơi xảy ra sự cố, nhân viên điều hành giao thông vận tải đường sắt, khách hàng sử dụng kết cấu hạ tầng đường sắt",
+            "Không xây dựng lộ trình, không thực hiện biện pháp bảo đảm an toàn tại các vị trí nguy hiểm đối với an toàn giao thông đường sắt theo quy định",
+            "Không thực hiện chốt gác tại đường ngang là vị trí nguy hiểm đối với an toàn giao thông đường sắt trên đường sắt quốc gia; không thực hiện huấn luyện nghiệp vụ cảnh giới, chốt gác theo quy định cho người do địa phương bố trí để cảnh giới, chốt gác tại các lối đi tự mở",
+            "Không lập hệ thống quản lý chất lượng bảo trì công trình đường sắt theo quy định",
+            "Không duy trì trạng thái kỹ thuật, chất lượng kết cấu hạ tầng đường sắt đã công bố hoặc để xảy ra sự cố công trình đường sắt do không thực hiện bảo trì công trình đường sắt theo quy định",
+            "Không kịp thời phát hiện hoặc không thực hiện theo quy định khi phát hiện, nhận được tin báo công trình đường sắt, bộ phận công trình đường sắt, thiết bị lắp đặt vào công trình đường sắt bị hư hỏng, xuống cấp về chất lượng, không đảm bảo an toàn cho việc khai thác, sử dụng",
+            "Không thực hiện các thủ tục theo quy định đối với công trình đường sắt hết thời hạn sử dụng có nhu cầu tiếp tục sử dụng tiếp."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "Không tổ chức thu hẹp bề rộng hoặc xóa bỏ lối đi tự mở là vị trí nguy hiểm đối với an toàn giao thông đường sắt theo quy định",
+            "Không tổ chức cảnh giới, chốt gác tại lối đi tự mở là vị trí nguy hiểm đối với an toàn giao thông đường sắt theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "15000000 - 20000000 VNĐ",
+          "violations": [
+            "Không thực hiện chế độ kiểm tra hoặc thực hiện chế độ kiểm tra không đúng quy định",
+            "Để công trình đường sắt bị hư hỏng mà không kịp thời có biện pháp khắc phục, sửa chữa cần thiết",
+            "Không kịp thời tổ chức sửa chữa, bổ sung, gia cố, thay thế các hư hỏng kết cấu hạ tầng đường sắt để bảo đảm chất lượng theo công lệnh tốc độ, công lệnh tải trọng đã công bố",
+            "Không kiểm tra việc thực hiện phương án tổ chức thi công, biện pháp bảo đảm an toàn giao thông đường sắt tại vị trí thi công trên tuyến đường sắt theo công lệnh tải trọng, công lệnh tốc độ đã công bố.",
+            "Thực hiện hành vi quy định tại khoản 2; điểm a, điểm b khoản 3 Điều này buộc phải thực hiện ngay các biện pháp bảo đảm an toàn giao thông đường sắt theo quy định",
+            "Thực hiện hành vi quy định tại điểm c khoản 3 Điều này buộc phải tổ chức sửa chữa, bổ sung, gia cố, thay thế các hư hỏng kết cấu hạ tầng đường sắt để bảo đảm chất lượng theo công lệnh tốc độ, công lệnh tải trọng đã công bố."
+          ]
+        }
+      ]
+    },
+    "dieu_56": {
+      "title": "Xử phạt các hành vi vi phạm quy định về thi công công trình đường sắt trên đường sắt đang khai thác",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "2000000 - 3000000 VNĐ",
+          "violations": [
+            "Thi công công trình không thông báo bằng văn bản cho tổ chức trực tiếp quản lý công trình đường sắt biết trước khi thi công",
+            "Không bố trí đủ thiết bị an toàn và tín hiệu theo quy định đối với phương tiện, thiết bị thi công",
+            "Không bố trí hoặc bố trí không đúng vị trí quy định, không đủ biển báo, tín hiệu phòng vệ theo quy định, không có biện pháp bảo đảm an toàn giao thông đường sắt trong quá trình thi công",
+            "Điều khiển phương tiện, thiết bị thi công mà không có bằng, chứng chỉ chuyên môn theo quy định",
+            "Thu hồi tín hiệu phòng vệ khi chưa kết thúc thi công, chựa kiểm tra trạng thái đường, chưa kiểm tra giới hạn tiếp giáp kiến trúc đủ điều kiện bảo đảm an toàn chạy tàu",
+            "Thi công công trình đường sắt có Giấy phép thi công nhưng đã hết thời hạn ghi trong Giấy phép hoặc có văn bản chấp thuận của cơ quan có thẩm quyền nhưng đã hết thời hạn thi công ghi trong văn bản",
+            "Để vật tư, vật liệu, máy móc, thiết bị phục vụ thi công, biển phòng vệ, biển báo tạm thời vi phạm khổ giới hạn tiếp giáp kiến trúc đường sắt khi hết thời gian phong tỏa để thi công công trình",
+            "Không thông báo bằng văn bản cho đơn vị quản lý công trình đường sắt biết khi hoàn thành việc thi công công trình",
+            "Thi công công trình khi chưa yêu cầu cấp cảnh báo theo quy định",
+            "Không thực hiện các biện pháp phong tỏa khu gian, biện pháp chạy tàu trên đường sắt theo quy định khi thi công công trình trên đường sắt đang khai thác."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Thi công công trình không có Giấy phép thi công hoặc không có văn bản chấp thuận của cơ quan có thẩm quyền theo quy định ; không thực hiện đúng quy định ghi trong Giấy phép thi công hoặc trong văn bản chấp thuận của cơ quan có thẩm quyền",
+            "Không kịp thời có biện pháp xử lý, biện pháp ngăn ngừa tai nạn khi phát hiện công trình đường sắt đang thi công đe dọa an toàn chạy tàu",
+            "Để phương tiện, vật liệu, thiết bị thi công không đúng quy định gây cản trở chạy tàu, không bảo đảm an toàn giao thông.",
+            "Thực hiện hành vi vi phạm quy định tại điểm b khoản 1 Điều này buộc phải bố trí đủ thiết bị an toàn và tín hiệu theo quy định",
+            "Thực hiện hành vi vi phạm quy định tại điểm c khoản 1 Điều này buộc phải bố trí đủ biển báo, tín hiệu phòng vệ và thực hiện ngay các biện pháp bảo đảm an toàn giao thông đường sắt theo quy định",
+            "Thực hiện hành vi vi phạm quy định tại điểm g khoản 1 Điều này buộc phải di chuyển vật tư, vật liệu, máy móc, thiết bị phục vụ thi công, biển phòng vệ, biển báo tạm thời ra khỏi khổ giới hạn tiếp giáp kiến trúc đường sắt",
+            "Thực hiện hành vi vi phạm quy định tại điểm b khoản 2 Điều này buộc phải thực hiện ngay các biện pháp bảo đảm an toàn giao thông đường sắt theo quy định",
+            "Thực hiện hành vi vi phạm quy định tại điểm c khoản 2 Điều này buộc phải để phương tiện, vật liệu, thiết bị thi công theo đúng quy định, không gây cản trở chạy tàu",
+            "Thực hiện hành vi vi phạm quy định tại điểm e khoản 1, điểm a khoản 2 Điều này buộc phải khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra."
+          ],
+          "additional_measures": [
+            "Tước quyền sử dụng giấy phép lái xe từ 01 đến 03 tháng"
+          ]
+        }
+      ]
+    },
+    "dieu_57": {
+      "title": "Xử phạt các hành vi vi phạm quy định về kết nối các tuyến đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "fine_range": "10000000 - 15000000 VNĐ",
+          "violations": [
+            "Kết nối trái phép các tuyến đường sắt",
+            "Không thực hiện đúng, đủ các nội dung trong Giấy phép kết nối các tuyến đường sắt",
+            "Thực hiện kết nối khi chưa có ý kiến thống nhất bằng văn bản của đơn vị quản lý tuyến đường sắt được kết nổi theo quy định; d) Khi hoàn thành việc kết nối không bàn giao hiện trường, hồ sơ hoàn công công trình trong khu vực kết nối theo quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_58": {
+      "title": "Xử phạt các hành vi vi phạm quy định về điều kiện lưu hành của phương tiện giao thông đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "fine_range": "6000000 - 10000000 VNĐ",
+          "violations": [
+            "Đưa phương tiện không có Giấy chứng nhận đăng ký phương tiện giao thông đường sắt tham gia giao thông trên đường sắt hoặc sử dụng Giấy chứng nhận đăng ký phương tiện giao thông đường sắt không do cơ quan có thẩm quyền cấp",
+            "Đưa phương tiện không có Giấy chứng nhận chất lượng, an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông đường sắt hoặc không có Giấy chứng nhận kiểm tra định kỳ an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông đường sắt tham gia giao thông trên đường sắt sử dụng Giấy chứng nhận chất lượng, an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông đường sắt, Giấy chứng nhận kiểm tra định kỳ an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông đường sắt không do cơ quan có thẩm quyền cấp hoặc đã hết hạn sử dụng",
+            "Đưa phương tiện giao thông đường sắt không được phép vận dụng ra khai thác trên đường sắt",
+            "Sử dụng toa xe chở hàng để vận chuyển hành khách",
+            "Tự ý thay đổi kết cấu, hình dáng, tính năng sử dụng của phương tiện giao thông đường sắt."
+          ],
+          "additional_measures": [
+            "Tịch thu phương tiện",
+            "Buộc khôi phục lại tình trạng ban đầu"
+          ]
+        }
+      ]
+    },
+    "dieu_59": {
+      "title": "Xử phạt các hành vi vi phạm quy định về thông tin, chỉ dẫn cần thiết đối với phương tiện giao thông đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "2000000 - 3000000 VNĐ",
+          "violations": [
+            "Đưa vào khai thác trên đường sắt quốc gia toa xe khách không có bảng niêm yết hoặc có bảng niêm yết nhưng không đầy đủ về nội quy đi tàu, hành trình của tàu, tên ga dừng, đỗ trên tuyến đường, cách xử lý tình huống khi xảy ra hỏa hoạn, sự cố theo quy định",
+            "Đưa vào khai thác phương tiện giao thông đường sắt đô thị không có hoặc có nhưng không đầy đủ thông tin, chỉ dẫn cần thiết cho khách hàng theo quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_60": {
+      "title": "Xử phạt các hành vi vi phạm quy định về thiết bị hãm, ghép nối đầu máy, toa xe",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Trên phương tiện giao thông đường sắt không lắp thiết bị hãm tự động, hãm bằng tay hoặc có lắp thiết bị này nhưng thiết bị không hoạt động theo quy định",
+            "Không lắp van hãm khẩn cấp trên toa xe khách, tại vị trí làm việc của trưởng tàu hoặc có lắp thiết bị này nhưng thiết bị không hoạt động theo quy định",
+            "Không kiểm tra định kỳ và kẹp chì niêm phong van hãm khẩn cấp, đồng hồ áp suất theo quy định",
+            "Không lắp đồng hồ áp suất tại vị trí làm việc của trưởng tàu, trên một số toa xe khách theo quy định hoặc có lắp thiết bị này nhưng thiết bị không hoạt động theo quy định; đ) Để thiết bị ghép nối đầu máy, toa xe không đúng quy định.",
+            "Thực hiện hành vi quy định tại điểm a khoản 1 Điều này buộc phải lắp đầy đủ theo đúng quy định hoặc thay thế thiết bị đủ tiêu chuẩn an toàn kỹ thuật hoặc khôi phục lại tính năng kỹ thuật của các thiết bị, gồm: thiết bị hãm tự động, hãm bằng tay",
+            "Thực hiện hành vi quy định tại điểm b khoản 1 Điều này buộc phải lắp đầy đủ theo đúng quy định hoặc thay thế thiết bị đủ tiêu chuẩn an toàn kỹ thuật hoặc khôi phục lại tính năng kỹ thuật của các thiết bị, gồm: van hãm khẩn cấp tại vị trí làm việc của trưởng tàu và trên toa xe khách",
+            "Thực hiện hành vi quy định tại điểm d khoản 1 Điều này buộc phải lắp đầy đủ theo đúng quy định hoặc thay thế thiết bị đủ tiêu chuẩn an toàn kỹ thuật hoặc khôi phục lại tính năng kỹ thuật của các thiết bị, gồm: đồng hồ áp suất tại vị trí làm việc của trưởng tàu, trên một số toa xe khách",
+            "Thực hiện hành vi quy định tại điểm đ khoản 1 Điều này buộc phải lắp thiết bị ghép nối đầu máy, toa xe theo đúng quy định",
+            "Thực hiện hành vi quy định tại khoản 2 Điều này buộc phải thay thế hoặc khôi phục lại tính năng kỹ thuật của thiết bị tín hiệu đuôi tàu theo đúng quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_61": {
+      "title": "Xử phạt các hành vi vi phạm quy định về trang thiết bị trên phương tiện giao thông đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": [
+            "Không có hoặc có không đầy đủ theo quy định trên tàu hàng về: thiết bị, dụng cụ, vật liệu chữa cháy; thuốc sơ, cấp cứu; dụng cụ chèn tàu; tín hiệu cầm tay",
+            "Không có hoặc có không đầy đủ theo quy định trên tàu khách về: thiết bị, dụng cụ, vật liệu chữa cháy; thuốc sơ, cấp cứu; dụng cụ thoát hiểm; dụng cụ chèn tàu; dụng cụ, vật liệu để sửa chữa đơn giản; tín hiệu cầm tay",
+            "Không thông báo bằng phương tiện thông tin khác cho hành khách về nội quy đi tàu, hành trình của tàu, tên ga dừng, đỗ trên tuyến đường, cách xử lý tình huống khi xảy ra hỏa hoạn, sự cố trên tàu khách theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "Đầu máy, phương tiện động lực chuyên dùng không có đồng hồ báo tốc độ, thiết bị ghi tốc độ và các thông tin liên quan đến việc điều hành chạy tàu , thiết bị cảnh báo để lái tàu tỉnh táo trong khi lái tàu hoặc có các thiết bị này nhưng thiết bị không hoạt động theo quy định",
+            "Không có thiết bị đo tốc độ tàu, thiết bị thông tin liên lạc giữa trưởng tàu và lái tàu tại vị trí làm việc của trưởng tàu theo quy định hoặc có lắp thiết bị này nhưng thiết bị không hoạt động theo quy định.",
+            "Thực hiện hành vi quy định tại điểm a khoản 1 Điều này buộc phải bổ sung đầy đủ theo quy định trên tàu hàng về: thiết bị, dụng cụ, vật liệu chữa cháy; thuốc sơ, cấp cứu; dụng cụ chèn tàu; tín hiệu cầm tay",
+            "Thực hiện hành vi quy định tại điểm b khoản 1 Điều này buộc phải bổ sung đầy đủ theo quy định trên tàu khách về: thiết bị, dụng cụ, vật liệu chữa cháy; thuốc sơ, cấp cứu; dụng cụ thoát hiểm; dụng cụ chèn tàu; dụng cụ, vật liệu để sửa chữa đơn giản; tín hiệu cầm tay",
+            "Thực hiện hành vi quy định tại điểm a khoản 3 Điều này buộc phải lắp đầy đủ theo đúng quy định hoặc thay thế thiết bị đủ tiêu chuẩn an toàn kỹ thuật hoặc khôi phục lại tính năng kỹ thuật của các thiết bị, gồm: đồng hồ báo"
+          ],
+          "additional_measures": [
+            "Buộc khôi phục lại tình trạng ban đầu"
+          ]
+        }
+      ]
+    },
+    "dieu_62": {
+      "title": "Xử phạt nhân viên đường sắt trực tiếp phục vụ chạy tàu vi phạm quy định về Giấy phép lái tàu, bằng, chứng chỉ chuyên môn",
+      "sections": []
+    },
+    "dieu_63": {
+      "title": "Xử phạt nhân viên đường sắt trực tiếp phục vụ chạy tàu (trừ lái tàu và phụ lái tàu) vi phạm quy định về nồng độ cồn hoặc sử dụng các chất kích thích khác mà pháp luật cấm sử dụng",
+      "sections": []
+    },
+    "dieu_64": {
+      "title": "Xử phạt nhân viên đường sắt vi phạm quy định về bảo đảm an toàn giao thông đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "fine_range": "500000 - 1000000 VNĐ",
+          "violations": [
+            "Trưởng tàu để người đi, đứng, nằm, ngồi trên nóc toa xe, đu bám ngoài thành toa xe, đầu máy, chỗ nối hai đầu toa xe",
+            "Trưởng tàu hoặc lái tàu phụ trách đoàn tàu để người đi trên tàu hàng trái quy định",
+            "Trưởng tàu, nhân viên phục vụ hành khách để người bán hàng rong trên tàu, để người không có vé đi tàu, để người lên, xuống tàu khi tàu đang chạy; để hành lý, hàng hóa ở hai đầu toa xe, bậc lên xuống hai đầu toa xe khi tàu đang chạy",
+            "Nhân viên tuần đường, tuần cầu, tuần hầm không kiểm tra, phát hiện kịp thời những hư hỏng của hầm, cầu, đường sắt, phạm vi bảo vệ công trình đường sắt, hành lang an toàn giao thông đường sắt hoặc đã phát hiện mà không có biện pháp xử lý theo thẩm quyền, không báo cáo người có thẩm quyền giải quyết",
+            "Nhân viên đường sắt không tuân thủ quy trình tác nghiệp."
+          ]
+        }
+      ]
+    },
+    "dieu_65": {
+      "title": "Xử phạt hành vi vi phạm quy định về số người được phép chở, tải trọng cho phép chở của phương tiện giao thông đường sắt, tải trọng cho phép khai thác của cầu đường",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Vận chuyển hàng hóa trên mỗi toa xe vượt quá tải trọng cho phép chở của toa xe trên 5% đến 40%",
+            "Đưa vào khai thác phương tiện giao thông đường sắt có tải trọng rải đều hoặc tải trọng trục của mỗi phương tiện vượt quá tải trọng cho phép của cầu đường được quy định trong Công lệnh tải trọng đến 10%",
+            "Không thực hiện việc công bố công khai phương án bán ghế phụ, chuyển đổi giường nằm thành ghế ngồi trong các dịp cao điểm theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "5000000 - 10000000 VNĐ",
+          "violations": [
+            "Vận chuyển hàng hóa trên mỗi toa xe vượt quá tải trọng cho phép chở của toa xe trên 40% đến 100%",
+            "Đưa vào khai thác phương tiện giao thông đường sắt có tải trọng rải đều hoặc tải trọng trục của mỗi phương tiện vượt quá tải trọng cho phép của cầu đường được quy định trong Công lệnh tải trọng trên 10% đến 20%."
+          ]
+        },
+        {
+          "section": "Khoản 4",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "Vận chuyển hàng hóa trên mỗi toa xe vượt quá tải trọng cho phép chở của toa xe trên 100%",
+            "Đưa vào khai thác phương tiện giao thông đường sắt có tải trọng rải đều hoặc tải trọng trục của mỗi phương tiện vượt quá tải trọng cho phép của cầu đường được quy định trong Công lệnh tải trọng trên 20%."
+          ]
+        }
+      ]
+    },
+    "dieu_66": {
+      "title": "Xử phạt đối với lái tàu, phụ lái tàu",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "fine_range": "500000 - 1000000 VNĐ",
+          "violations": [
+            "Rời vị trí lái máy khi đầu máy đang hoạt động",
+            "Chở người không có trách nhiệm hoặc chở hàng hóa trên đầu máy",
+            "Làm mất tác dụng của thiết bị cảnh báo để lái tàu tỉnh táo trong khi lái tàu",
+            "Không chấp hành hiệu lệnh hoặc chỉ dẫn của tín hiệu, biển hiệu, của người chỉ huy chạy tàu",
+            "Không có hoặc có không đầy đủ cờ, đèn tín hiệu, pháo, chèn trên đầu máy khi lên ban theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "1000000 - 2000000 VNĐ",
+          "violations": [
+            "Dừng tàu không đúng quy định mà không có lý do chính đáng",
+            "Điều khiển tàu chạy vượt quá tín hiệu ngừng",
+            "Điều khiển tàu chạy quá tốc độ quy định của Công lệnh tốc độ đến 10 km/h."
+          ]
+        },
+        {
+          "section": "Khoản 5",
+          "fine_range": "6000000 - 8000000 VNĐ",
+          "violations": [
+            "Điều khiển tàu chạy quá tốc độ quy định của Công lệnh tốc độ trên 20 km/h",
+            "Khi làm nhiệm vụ mà trong máu hoặc hơi thở có nồng độ cồn nhưng chưa vượt quá 50 miligam/100 mililít máu hoặc chưa vượt quá 0,25 miligam/1 lít khí thở."
+          ]
+        },
+        {
+          "section": "Khoản 7",
+          "fine_range": "30000000 - 40000000 VNĐ",
+          "violations": [
+            "Khi làm nhiệm vụ mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở",
+            "Không chấp hành yêu cầu kiểm tra về nồng độ cồn, chất kích thích khác mà pháp luật cầm sử dụng của người thi hành công vụ",
+            "Khi làm nhiệm vụ mà trong cơ thể có chất kích thích khác mà pháp luật cầm sử dụng.",
+            "Thực hiện hành vi quy định tại khoản 3, khoản 4 Điều này bị tước quyền sử dụng Giấy phép lái tàu từ 01 tháng đến 03 tháng",
+            "Thực hiện hành vi quy định tại khoản 5 Điều này bị tước quyền sử dụng Giấy phép lái tàu từ 03 tháng đến 05 tháng",
+            "Thực hiện hành vi quy định tại khoản 6 Điều này bị tước quyền sử dụng Giấy phép lái tàu từ 10 tháng đến 12 tháng",
+            "Thực hiện hành vi quy định tại khoản 7 Điều này bị tước quyền sử dụng Giấy phép lái tàu từ 22 tháng đến 24 tháng."
+          ]
+        }
+      ]
+    },
+    "dieu_67": {
+      "title": "Xử phạt các hành vi vi phạm quy định về sử dụng nhân viên đường sắt trực tiếp phục vụ chạy tàu",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "6000000 - 8000000 VNĐ",
+          "violations": [
+            "Không tổ chức kiểm tra sức khỏe cho nhân viên đường sắt trực tiếp phục vụ chạy tàu trong phạm vi quản lý của doanh nghiệp",
+            "Không tổ chức kiểm tra, sát hạch nghiệp vụ định kỳ hàng năm đối với nhân viên đường sắt trực tiếp phục vụ chạy tàu theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "8000000 - 10000000 VNĐ",
+          "violations": [
+            "Sử dụng nhân viên không có bằng, chứng chỉ chuyên môn, Giấy phép lái tàu phù hợp theo quy định",
+            "Sử dụng nhân viên không đủ tiêu chuẩn sức khỏe theo quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_68": {
+      "title": "Xử phạt cơ sở đào tạo các chức danh nhân viên đường sắt trực tiếp phục vụ chạy tàu vi phạm quy định về đào tạo, cấp bằng, chứng chỉ chuyên môn",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Không bảo đảm điều kiện, tiêu chuẩn đối với cơ sở đào tạo các chức danh nhân viên đường sắt trực tiếp phục vụ chạy tàu theo quy định",
+            "Không thực hiện đúng, đầy đủ quy chế tuyển sinh, nội dung, chương trình đào tạo, quy chế thi, cấp, đổi bằng, chứng chỉ chuyên môn theo quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_69": {
+      "title": "Xử phạt hành vi vi phạm quy định về xây dựng Quy trình chạy tàu và công tác dồn, Quy tắc quản lý kỹ thuật ga, niêm yết Bản trích lục Quy tắc quản lý kỹ thuật ga, trạm đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Không thực hiện việc xây dựng Quy tắc quản lý kỹ thuật ga; không xây dựng Quy trình chạy tàu và công tác dồn đường sắt; không xây dựng Quy trình khai thác sử dụng đối với thiết bị tín hiệu đuôi tàu khi sử dụng trên các đoàn tàu hàng theo quy định",
+            "Không thực hiện việc xây dựng Quy trình tác nghiệp của lái tàu và phụ lái tàu; không xây dựng mẫu sổ đăng ký phục vụ công tác chạy tàu và cấp cảnh báo; không quy định biện pháp chạy tàu tại điểm giao tiếp giữa đường sắt quốc gia với đường sắt chuyên dùng theo quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_70": {
+      "title": "Xử phạt các hành vi vi phạm quy định về điều kiện kinh doanh đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "Doanh nghiệp kinh doanh vận tải đường sắt không bố trí người phụ trách công tác an toàn, người chịu trách nhiệm chính về quản lý, kỹ thuật khai thác vận tải hoặc có bố trí nhưng không đủ điều kiện theo quy định",
+            "Doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt không bố trí người phụ trách bộ phận an toàn, người quản lý doanh nghiệp hoặc có bố trí nhưng không đủ điều kiện theo quy định",
+            "Doanh nghiệp kinh doanh đường sắt đô thị không bố trí người phụ trách bộ phận an toàn kết cấu hạ tầng đường sắt hoặc có bố trí nhưng không đủ điều kiện theo quy định",
+            "Doanh nghiệp kinh doanh đường sắt đô thị không bố trí người phụ trách bộ phận an toàn vận tải đường sắt, người quản lý, điều hành doanh nghiệp hoặc có bố trí nhưng không đủ điều kiện theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "20000000 - 30000000 VNĐ",
+          "violations": [
+            "Doanh nghiệp kinh doanh vận tải đường sắt không có bộ phận phụ trách công tác an toàn vận tải đường sắt theo quy định",
+            "Doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt không có bộ phận phụ trách công tác an toàn theo quy định",
+            "Doanh nghiệp kinh doanh đường sắt đô thị không có bộ phận phụ trách công tác an toàn kết cấu hạ tầng đường sắt theo quy định",
+            "Doanh nghiệp kinh doanh đường sắt đô thị không có bộ phận phụ trách công tác an toàn vận tải đường sắt theo quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_71": {
+      "title": "Xử phạt các hành vi vi phạm quy định về kinh doanh vận tải đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "3000000 - 5000000 VNĐ",
+          "violations": [
+            "Vận chuyển thi hài, hài cốt trái quy định",
+            "Vận chuyển động vật sống không đúng quy định",
+            "Không thực hiện việc niêm yết, công bố, công khai trên phương tiện thông tin đại chúng hoặc trên trang thông tin điện tử của doanh nghiệp hoặc niêm yết không đúng quy định về: Giờ tàu, giá vận tải hành khách, giá vận tải hành lý, giá vận tải hàng hóa, các loại chi phí khác, kế hoạch bán vé, danh mục hàng hóa cấm vận chuyển bằng tàu khách, các quy định của doanh nghiệp về trách nhiệm phục vụ hành khách",
+            "Không thực hiện việc thông báo số chỗ còn lại cho hành khách đối với các tàu bán vé bằng hệ thống điện tử theo quy định."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "10000000 - 20000000 VNĐ",
+          "violations": [
+            "Không thực hiện các nhiệm vụ vận tải đặc biệt, an sinh xã hội theo yêu cầu của người đứng đầu cơ quan quản lý nhà nước có thẩm quyền theo quy định của pháp luật",
+            "Không thực hiện đúng quy định về vận tải hàng siêu trường, siêu trọng",
+            "Không thực hiện đúng các quy định về xếp, dỡ, vận chuyển hàng nguy hiểm",
+            "Không bảo đảm các điều kiện sinh hoạt tối thiểu của hành khách trong trường hợp vận tải bị gián đoạn do tai nạn giao thông hoặc thiên tai, địch họa",
+            "Không thực hiện đúng quy định về xếp hàng và gia cố hàng trên toa xe",
+            "Không bố trí đủ nhân viên công tác trên tàu theo quy định",
+            "Không xây dựng quy trình tác nghiệp đối với các chức danh nhân viên công tác trên tàu theo quy định.",
+            "Thực hiện hành vi quy định tại điểm a, điểm b khoản 1 Điều này buộc phải đưa thi hài, hài cốt, động vật sống xuống tàu tại ga đến gần nhất để xử lý theo quy định",
+            "Thực hiện hành vi quy định tại điểm a khoản 3 Điều này buộc phải thực hiện ngay nhiệm vụ vận tải đặc biệt, an sinh xã hội theo yêu cầu của người đứng đầu cơ quan quản lý nhà nước có thẩm quyền theo quy định",
+            "Thực hiện hành vi quy định tại điểm b, điểm c, điểm đ khoản 3 Điều này buộc phải thực hiện các biện pháp bảo đảm an toàn theo quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_72": {
+      "title": "Xử phạt các hành vi vi phạm về sử dụng vé tàu giả và bán vé tàu trái quy định",
+      "sections": [
+        {
+          "section": "Khoản 2",
+          "fine_range": "2000000 - 4000000 VNĐ",
+          "violations": [
+            "Nhân viên bán vé của nhà ga, nhân viên bán vé của đại lý bán vé tàu, nhân viên bán vé trên tàu bán vé tàu trái quy định",
+            "Mua, bán vé tàu nhằm mục đích thu lợi bất chính."
+          ]
+        },
+        {
+          "section": "Khoản 3",
+          "fine_range": "10000000 - 15000000 VNĐ",
+          "violations": [
+            "Vận chuyển vé tàu giả",
+            "Bán vé tàu giả",
+            "Tàng trữ vé tàu giả.",
+            "Thực hiện hành vi quy định tại khoản 1 Điều này bị tịch thu vé tàu giả",
+            "Thực hiện hành vi quy định tại điểm b khoản 2 Điều này bị tịch thu toàn bộ số vé tàu hiện có",
+            "Thực hiện hành vi quy định tại khoản 3 Điều này bị tịch thu toàn bộ vé tàu giả."
+          ]
+        }
+      ]
+    },
+    "dieu_73": {
+      "title": "Xử phạt các hành vi vi phạm quy định khác có liên quan đến an ninh, trật tự, an toàn giao thông đường sắt",
+      "sections": [
+        {
+          "section": "Khoản 1",
+          "fine_range": "100000 - 200000 VNĐ",
+          "violations": [
+            "Bán hàng rong trên tàu, dưới ga",
+            "Không chấp hành nội quy đi tàu",
+            "Ném đất, đá hoặc vật khác từ trên tàu xuống."
+          ]
+        },
+        {
+          "section": "Khoản 2",
+          "fine_range": "300000 - 500000 VNĐ",
+          "violations": [
+            "Gây mất trật tự, an toàn trên tàu, dưới ga",
+            "Đổ, để rác thải sinh hoạt lên phương tiện giao thông đường sắt",
+            "Mang theo động vật có dịch bệnh vào ga, lên tàu",
+            "Mang chất dễ cháy, dễ nổ, vũ khí, hàng nguy hiểm vào ga, lên tàu trái quy định",
+            "Mang theo động vật sống lên tàu trái quy định",
+            "Mang thi hài, hài cốt vào ga, lên tàu đường sắt đô thị; mang thi hài, hài cốt vào ga, lên tàu đường sắt quốc gia trái quy định."
+          ]
+        }
+      ]
+    },
+    "dieu_74": {
+      "title": "Phân định thẩm quyền xử phạt hành chính trong lĩnh vực giao thông đường bộ, đường sắt",
+      "sections": []
+    },
+    "dieu_75": {
+      "title": "Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân các cấp",
+      "sections": []
+    },
+    "dieu_76": {
+      "title": "Thẩm quyền xử phạt của Công an nhân dân",
+      "sections": []
+    },
+    "dieu_77": {
+      "title": "Thẩm quyền xử phạt của Thanh tra chuyên ngành, Cảng vụ hàng hải, Cảng vụ hàng không, Cảng vụ đường thủy nội địa",
+      "sections": []
+    },
+    "dieu_78": {
+      "title": "Nguyên tắc xác định thẩm quyền xử phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả",
+      "sections": []
+    },
+    "dieu_79": {
+      "title": "Thẩm quyền lập biên bản vi phạm hành chính",
+      "sections": []
+    },
+    "dieu_80": {
+      "title": "Thủ tục xử phạt đối với chủ phương tiện, người điều khiển phương tiện vi phạm quy định liên quan đến giao thông đường bộ, đường sắt",
+      "sections": []
+    },
+    "dieu_81": {
+      "title": "Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn trong lĩnh vực giao thông đường bộ, đường sắt",
+      "sections": []
+    },
+    "dieu_82": {
+      "title": "Tạm giữ phương tiện, giấy tờ có liên quan đến người điều khiển và phương tiện vi phạm",
+      "sections": []
+    },
+    "dieu_83": {
+      "title": "Sử dụng kết quả thu được từ phương tiện, thiết bị kỹ thuật nghiệp vụ do các tổ chức được giao quản lý, khai thác, bảo trì kết cấu hạ tầng giao thông đường bộ, đường sắt cung cấp làm căn cứ để xác định vi phạm hành chính và xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt",
+      "sections": []
+    },
+    "dieu_84": {
+      "title": "Hiệu lực thi hành",
+      "sections": []
+    },
+    "dieu_85": {
+      "title": "Điều khoản chuyển tiếp Đối với các hành vi vi phạm hành chính trong lĩnh vực giao thông đường bộ, đường sắt xảy ra trước ngày Nghị định này có hiệu lực thi hành mà sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng các quy định có lợi cho tổ chức, cá nhân vi phạm.",
+      "sections": []
+    },
+    "dieu_86": {
+      "title": "Trách nhiệm thi hành 152 Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này.",
+      "sections": []
     }
   },
   "penalty_levels": {
