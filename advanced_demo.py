@@ -19,7 +19,7 @@ def main():
     print("=" * 60)
     
     # Initialize system
-    violations_path = Path(__file__).parent.parent / "data" / "processed" / "violations.json"
+    violations_path = Path(__file__).parent / "data" / "processed" / "violations.json"
     
     try:
         print("🔄 Initializing QA System...")

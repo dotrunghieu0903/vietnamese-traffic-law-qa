@@ -130,7 +130,16 @@ Access at: **http://localhost:8501**
 
 #### Method 2: Command Line Demo
 ```bash
-python demo.py
+python advanced_demo.py && python -m streamlit run streamlit_app.py
+```
+#### Option 2: Full Web Interface (Recommended)
+```bash
+$env:PYTHONPATH = "src"; python -m streamlit run src/traffic_law_qa/ui/streamlit_app.py
+```
+
+##### Verify the installed streamlit
+```bash
+pip list | findstr streamlit
 ```
 
 #### Method 3: Python Integration

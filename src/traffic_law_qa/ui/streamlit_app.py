@@ -16,12 +16,9 @@ import pandas as pd
 from datetime import datetime
 
 # Add src to path for imports
-src_path = Path(__file__).parent.parent.parent
+project_root = Path(__file__).parent.parent.parent.parent
+src_path = project_root / "src"
 sys.path.insert(0, str(src_path))
-
-# Also try adding the project root
-project_root = Path(__file__).parent.parent.parent.parent / "src"
-sys.path.insert(0, str(project_root))
 
 from traffic_law_qa.knowledge.qa_system import TrafficLawQASystem
 from traffic_law_qa.knowledge.knowledge_graph import NodeType
@@ -38,7 +35,7 @@ st.set_page_config(
 logging.basicConfig(level=logging.INFO)
 
 # Constants
-VIOLATIONS_DATA_PATH = Path(__file__).parent.parent.parent.parent / "data" / "processed" / "violations.json"
+VIOLATIONS_DATA_PATH = project_root / "data" / "processed" / "violations.json"
 
 @st.cache_resource
 def load_qa_system():
