@@ -137,6 +137,10 @@ python advanced_demo.py && python -m streamlit run streamlit_app.py
 $env:PYTHONPATH = "src"; python -m streamlit run src/traffic_law_qa/ui/streamlit_app.py
 ```
 
+``` bash
+python -m streamlit run src/traffic_law_qa/ui/streamlit_app.py --server.port 8502
+```
+
 ##### Verify the installed streamlit
 ```bash
 pip list | findstr streamlit
@@ -415,6 +419,19 @@ This project is for educational and research purposes. Please ensure compliance 
 - ✅ Legal citation support
 - ✅ "Unknown" handling với contextual suggestions
 - ✅ Benchmark comparison với LLM systems
+
+The system has successfully loaded:
+
+✅ 1,110 traffic violations
+✅ 2,220 knowledge graph nodes
+✅ 18,640 relations
+✅ Semantic reasoning engine with Vietnamese NLP capabilities
+You can now access the full web interface with 4 tabs:
+
+Hỏi đáp thông minh - Smart Q&A Interface
+Khám phá tri thức - Knowledge Graph Explorer
+Phân tích hệ thống - System Analytics
+Đánh giá hiệu suất - Performance Benchmarks
 
 🚀 **Beyond Requirements**:
 - 🚀 Advanced 4-tab web interface

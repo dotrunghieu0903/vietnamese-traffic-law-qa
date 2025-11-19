@@ -31,11 +31,99 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Custom CSS for better styling
+st.markdown("""
+<style>
+    .legal-basis-card {
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        border-left: 4px solid #007bff;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 10px 0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .penalty-card {
+        background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+        border-left: 4px solid #ffc107;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 10px 0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .violation-card {
+        background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+        border-left: 4px solid #dc3545;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 10px 0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .legal-reference {
+        font-family: 'Courier New', monospace;
+        background: rgba(0,123,255,0.1);
+        padding: 8px;
+        border-radius: 4px;
+        color: #0056b3;
+        font-weight: bold;
+    }
+    
+    .metric-card {
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+</style>
+""", unsafe_allow_html=True)
+
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
 # Constants
 VIOLATIONS_DATA_PATH = project_root / "data" / "processed" / "violations.json"
+
+def extract_legal_details(case_data: Dict[str, Any]) -> Dict[str, str]:
+    """Extract detailed legal information including points from case data."""
+    legal_details = {
+        'document': 'N/A',
+        'article': 'N/A', 
+        'section': 'N/A',
+        'point': 'N/A',
+        'full_reference': 'N/A'
+    }
+    
+    # Get basic legal basis
+    legal_basis = case_data.get('legal_basis', {})
+    if legal_basis:
+        legal_details.update({
+            'document': legal_basis.get('document', 'N/A'),
+            'article': legal_basis.get('article', 'N/A'),
+            'section': legal_basis.get('section', 'N/A'),
+            'full_reference': legal_basis.get('full_reference', 'N/A')
+        })
+    
+    # Try to extract point information from description
+    description = case_data.get('description', '')
+    if description:
+        import re
+        # Look for patterns like "điểm a", "điểm b", "điểm 1", etc.
+        point_patterns = [
+            r'điểm\s+([a-zđ])\b',  # điểm a, điểm b, điểm đ
+            r'điểm\s+([0-9]+)\b',   # điểm 1, điểm 2
+            r'điểm\s+([a-zđ][0-9]*)\b'  # điểm a1, điểm b2
+        ]
+        
+        for pattern in point_patterns:
+            match = re.search(pattern, description.lower())
+            if match:
+                legal_details['point'] = match.group(1)
+                break
+    
+    return legal_details
 
 @st.cache_resource
 def load_qa_system():
@@ -221,14 +309,128 @@ def display_intelligent_results(results: Dict[str, Any], search_time: float):
         answer = results.get('answer', '')
         st.markdown(f"### 💬 Trả lời:\n{answer}")
         
-        # Similar cases
+        # Extract and display penalty information prominently
         similar_cases = results.get('similar_cases', [])
+        if similar_cases:
+            first_case = similar_cases[0]
+            penalty = first_case.get('penalty')
+            additional_measures = first_case.get('additional_measures', [])
+            
+            if penalty:
+                penalty_html = f"""
+                <div class="penalty-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                        <span style="font-size: 1.2em; font-weight: bold; color: #856404;">💰 Mức phạt tiền:</span>
+                    </div>
+                    <div style="margin-left: 20px; font-size: 1.3em; font-weight: bold; color: #856404;">
+                        {penalty.get('fine_text', f"{penalty.get('fine_min', 0):,} - {penalty.get('fine_max', 0):,} {penalty.get('currency', 'VNĐ')}")}
+                    </div>
+                """
+                
+                if additional_measures:
+                    penalty_html += f"""
+                    <div style="margin-top: 15px;">
+                        <span style="font-weight: bold; color: #856404;">🚫 Biện pháp bổ sung:</span>
+                        <ul style="margin: 5px 0; padding-left: 20px;">
+                    """
+                    
+                    for measure in additional_measures[:3]:  # Show max 3 measures
+                        penalty_html += f"<li style='margin: 3px 0; color: #856404;'>{measure}</li>"
+                    
+                    penalty_html += "</ul></div>"
+                
+                penalty_html += "</div>"
+                st.markdown(penalty_html, unsafe_allow_html=True)
+        
+        # Legal basis section - NEW
+        similar_cases = results.get('similar_cases', [])
+        if similar_cases:
+            # Extract detailed legal information from the first (most relevant) case
+            first_case = similar_cases[0]
+            legal_details = extract_legal_details(first_case)
+            
+            if legal_details['document'] != 'N/A':
+                st.markdown("### ⚖️ Căn cứ pháp lý:")
+                
+                # Create a comprehensive legal basis display
+                legal_info_html = f"""
+                <div class="legal-basis-card">
+                    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                        <span style="font-size: 1.3em; font-weight: bold; color: #007bff;">📋 Trích từ:</span>
+                    </div>
+                    <div style="margin-left: 20px;">
+                        <div style="margin: 8px 0; font-size: 1.1em;">
+                            <strong>📄 Nghị định:</strong> 
+                            <span style="color: #0056b3; font-weight: 600;">{legal_details['document']}</span>
+                        </div>
+                        <div style="margin: 8px 0; font-size: 1.1em;">
+                            <strong>📑 Điều:</strong> 
+                            <span style="color: #0056b3; font-weight: 600;">{legal_details['article']}</span>
+                        </div>
+                        <div style="margin: 8px 0; font-size: 1.1em;">
+                            <strong>📋 Khoản:</strong> 
+                            <span style="color: #0056b3; font-weight: 600;">{legal_details['section']}</span>
+                        </div>
+                """
+                
+                # Add point information if available
+                if legal_details['point'] != 'N/A':
+                    legal_info_html += f"""
+                        <div style="margin: 8px 0; font-size: 1.1em;">
+                            <strong>🔹 Điểm:</strong> 
+                            <span style="color: #0056b3; font-weight: 600;">{legal_details['point']}</span>
+                        </div>
+                    """
+                
+                # Build full reference with all components
+                full_ref_parts = [legal_details['full_reference']]
+                if legal_details['point'] != 'N/A':
+                    full_ref_parts.append(f"điểm {legal_details['point']}")
+                full_reference = ' - '.join(full_ref_parts)
+                
+                legal_info_html += f"""
+                        <div class="legal-reference" style="margin: 15px 0;">
+                            <strong>🔗 Tham chiếu đầy đủ:</strong><br>
+                            {full_reference}
+                        </div>
+                    </div>
+                </div>
+                """
+                st.markdown(legal_info_html, unsafe_allow_html=True)
+        
+        # Similar cases
         if similar_cases:
             st.markdown("### 🔄 Các trường hợp tương tự:")
             for i, case in enumerate(similar_cases[:3]):
                 with st.expander(f"Trường hợp {i+1} - Độ tương đồng: {case['similarity']:.2f}"):
                     st.write(f"**Mô tả:** {case['description']}")
                     st.write(f"**Phân loại:** {case.get('category', 'N/A')}")
+                    
+                    # Show penalty information
+                    penalty = case.get('penalty')
+                    if penalty:
+                        st.write(f"**💰 Mức phạt:** {penalty.get('fine_text', 'N/A')}")
+                    
+                    # Show additional measures
+                    additional_measures = case.get('additional_measures', [])
+                    if additional_measures:
+                        st.write("**🚫 Biện pháp bổ sung:**")
+                        for measure in additional_measures[:2]:  # Show max 2 measures
+                            st.write(f"• {measure}")
+                    
+                    # Show detailed legal basis for each case
+                    case_legal_details = extract_legal_details(case)
+                    if case_legal_details['document'] != 'N/A':
+                        legal_parts = []
+                        legal_parts.append(f"**{case_legal_details['document']}**")
+                        legal_parts.append(f"{case_legal_details['article']}")
+                        legal_parts.append(f"{case_legal_details['section']}")
+                        
+                        if case_legal_details['point'] != 'N/A':
+                            legal_parts.append(f"điểm {case_legal_details['point']}")
+                        
+                        legal_text = " - ".join(legal_parts)
+                        st.markdown(f"**⚖️ Căn cứ:** {legal_text}")
         
         # Citations and legal references
         citations = results.get('citations', [])
@@ -360,7 +562,22 @@ def display_knowledge_explorer(qa_system: TrafficLawQASystem):
                 if law_articles:
                     st.markdown("**⚖️ Căn cứ pháp lý:**")
                     for law in law_articles:
-                        st.write(f"• {law.label}")
+                        # Try to extract structured legal info from label
+                        law_text = law.label
+                        if 'Điều' in law_text and 'Khoản' in law_text:
+                            st.markdown(f"""
+                            <div style="
+                                background: #f8f9fa; 
+                                border-left: 3px solid #28a745; 
+                                padding: 10px; 
+                                margin: 5px 0; 
+                                border-radius: 4px;
+                            ">
+                                📋 {law_text}
+                            </div>
+                            """, unsafe_allow_html=True)
+                        else:
+                            st.write(f"• {law_text}")
                 
                 # Additional measures
                 additional_measures = chain.get('additional_measures', [])

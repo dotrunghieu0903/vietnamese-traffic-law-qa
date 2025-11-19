@@ -29,6 +29,11 @@ class TrafficLawQASystem:
         """
         self.logger = logging.getLogger(__name__)
         
+        # Store path to violations data for direct access
+        self.violations_data_path = violations_data_path
+        self.violations_data = None
+        self.violations_by_id = {}  # For quick lookup
+        
         # Initialize knowledge graph
         self.knowledge_graph = TrafficLawKnowledgeGraph()
         
@@ -50,10 +55,16 @@ class TrafficLawQASystem:
         """Load violations data and build knowledge graph."""
         try:
             with open(data_path, 'r', encoding='utf-8') as f:
-                violations_data = json.load(f)
+                self.violations_data = json.load(f)
                 
-            self.knowledge_graph.build_from_violations_data(violations_data)
-            self.logger.info(f"Loaded {len(violations_data.get('violations', []))} violations")
+            # Build lookup dictionary for quick access
+            violations = self.violations_data.get('violations', [])
+            for violation in violations:
+                violation_id = str(violation.get('id', ''))
+                self.violations_by_id[violation_id] = violation
+                
+            self.knowledge_graph.build_from_violations_data(self.violations_data)
+            self.logger.info(f"Loaded {len(violations)} violations")
             
         except Exception as e:
             self.logger.error(f"Failed to load violations data: {e}")
@@ -164,15 +175,76 @@ class TrafficLawQASystem:
         # Combine answer parts
         main_answer = "\n\n".join(answer_parts) if answer_parts else "Đã tìm thấy thông tin liên quan."
         
-        # Add similar cases if available
+        # Add similar cases if available - including the primary result for UI display
         similar_cases = []
-        if len(results) > 1:
-            for result in results[1:4]:  # Top 3 similar cases
-                similar_cases.append({
-                    'description': result['behavior']['description'],
-                    'similarity': result['similarity_score'],
-                    'category': result['behavior'].get('category', '')
-                })
+        all_results_to_process = [primary_result] + results[1:4] if len(results) > 1 else [primary_result]
+        
+        for result in all_results_to_process:
+            behavior_data = result.get('behavior', {})
+            
+            # Get original violation data using the behavior ID
+            original_id = behavior_data.get('id', '').replace('behavior_', '') if behavior_data.get('id', '').startswith('behavior_') else behavior_data.get('id', '')
+            
+            # Try to find the original violation data
+            original_violation = None
+            if original_id in self.violations_by_id:
+                original_violation = self.violations_by_id[original_id]
+            else:
+                # Fallback: search by description match
+                description = behavior_data.get('description', '')
+                if description and self.violations_data:
+                    for violation in self.violations_data.get('violations', []):
+                        if violation.get('description', '').strip() == description.strip():
+                            original_violation = violation
+                            break
+            
+            # Default values
+            legal_basis = {}
+            penalty_data = {}
+            additional_measures = []
+            
+            if original_violation:
+                # Extract legal basis from original data
+                legal_basis_data = original_violation.get('legal_basis', {})
+                if legal_basis_data:
+                    legal_basis = {
+                        'document': legal_basis_data.get('document', 'N/A'),
+                        'article': legal_basis_data.get('article', 'N/A'),
+                        'section': legal_basis_data.get('section', 'N/A'),
+                        'full_reference': legal_basis_data.get('full_reference', 'N/A')
+                    }
+                
+                # Extract penalty information
+                penalty_info = original_violation.get('penalty', {})
+                if penalty_info:
+                    penalty_data = {
+                        'fine_min': penalty_info.get('fine_min', 0),
+                        'fine_max': penalty_info.get('fine_max', 0),
+                        'currency': penalty_info.get('currency', 'VNĐ'),
+                        'fine_text': penalty_info.get('fine_text', 'N/A')
+                    }
+                
+                # Extract additional measures
+                additional_measures = original_violation.get('additional_measures', [])
+                
+                # Use original violation data for other fields too
+                description = original_violation.get('description', behavior_data.get('description', 'N/A'))
+                category = original_violation.get('category', behavior_data.get('category', 'N/A'))
+            else:
+                # Fallback to behavior data
+                description = behavior_data.get('description', 'N/A')
+                category = behavior_data.get('category', 'N/A')
+            
+            similar_case = {
+                'description': description,
+                'similarity': result.get('similarity_score', 0.0),
+                'category': category,
+                'legal_basis': legal_basis,
+                'penalty': penalty_data,
+                'additional_measures': additional_measures
+            }
+            
+            similar_cases.append(similar_case)
                 
         confidence_level = 'high' if primary_result['similarity_score'] > 0.8 else 'medium'
         

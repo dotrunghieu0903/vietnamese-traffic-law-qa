@@ -11586,7 +11586,7 @@
     },
     {
       "id": 431,
-      "description": "Đèn báo hãm",
+      "description": "Đèn báo hiệu",
       "category": "Xe mô tô, xe máy",
       "penalty": {
         "fine_min": 100000,
@@ -11603,7 +11603,7 @@
       },
       "severity": "Nhẹ",
       "keywords": [],
-      "search_text": "Đèn báo hãm Xe mô tô, xe máy Điều 17 Xử phạt người điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện), các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
+      "search_text": "Đèn báo hiệu Xe mô tô, xe máy Điều 17 Xử phạt người điều khiển xe mô tô, xe gắn máy (kể cả xe máy điện), các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy định về điều kiện của phương tiện khi tham gia giao thông",
       "metadata": {
         "source": "ND100-2019.docx",
         "processed_date": "2025-11-19T22:37:21.121350",
