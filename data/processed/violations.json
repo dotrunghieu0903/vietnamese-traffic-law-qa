@@ -11112,7 +11112,7 @@
     },
     {
       "id": 413,
-      "description": "Không thực hiện đúng quy trình quản lý, vận hành theo quy định để thời gian đi qua trạm thu phí của một xe ô tô bất kỳ kể từ lúc dừng xe chờ thu phí đến lúc ra khỏi trạm thu phí lớn hơn 30 phút. 9. Phạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với tổ chức quản lý, vận hành trạm thu phí đường bộ thực hiện một trong các hành vi vi phạm sau đây:",
+      "description": "Không thực hiện đúng quy trình quản lý, vận hành theo quy định để thời gian đi qua trạm thu phí của một xe ô tô bất kỳ kể từ lúc dừng xe chờ thu phí đến lúc ra khỏi trạm thu phí lớn hơn 30 phút.",
       "category": "Xe ô tô",
       "penalty": {
         "fine_min": 30000000,
@@ -11131,7 +11131,7 @@
       "keywords": [
         "dừng xe"
       ],
-      "search_text": "Không thực hiện đúng quy trình quản lý, vận hành theo quy định để thời gian đi qua trạm thu phí của một xe ô tô bất kỳ kể từ lúc dừng xe chờ thu phí đến lúc ra khỏi trạm thu phí lớn hơn 30 phút. 9. Phạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với tổ chức quản lý, vận hành trạm thu phí đường bộ thực hiện một trong các hành vi vi phạm sau đây: Xe ô tô Điều 15 Xử phạt các hành vi vi phạm quy định về quản lý, khai thác, bảo trì, bảo vệ kết cấu hạ tầng giao thông đường bộ",
+      "search_text": "Không thực hiện đúng quy trình quản lý, vận hành theo quy định để thời gian đi qua trạm thu phí của một xe ô tô bất kỳ kể từ lúc dừng xe chờ thu phí đến lúc ra khỏi trạm thu phí lớn hơn 30 phút.",
       "metadata": {
         "source": "ND100-2019.docx",
         "processed_date": "2025-11-19T22:37:21.121350",
@@ -11143,17 +11143,17 @@
       "description": "Vi phạm khoản 6, khoản 7, khoản 8 Điều này mà không chấp hành yêu cầu của cơ quan quản lý nhà nước có thẩm quyền về việc triển khai các giải pháp để khắc phục ùn tắc giao thông tại khu vực trạm thu phí",
       "category": "Quản lý nhà nước",
       "penalty": {
-        "fine_min": 30000000,
-        "fine_max": 40000000,
+        "fine_min": 50000000,
+        "fine_max": 70000000,
         "currency": "VNĐ",
-        "fine_text": "30000000 - 40000000 VNĐ"
+        "fine_text": "50000000 - 70000000 VNĐ"
       },
       "additional_measures": [],
       "legal_basis": {
         "article": "Điều 15",
-        "section": "Khoản 8",
+        "section": "Khoản 9",
         "document": "Nghị định 100/2019/NĐ-CP",
-        "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 15, Khoản 8"
+        "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 15, Khoản 9"
       },
       "severity": "Rất nặng",
       "keywords": [],
@@ -11169,17 +11169,17 @@
       "description": "Không thực hiện việc kết nối, chia sẻ dữ liệu từ trạm thu phí cho cơ quan quản lý nhà nước có thẩm quyền theo quy định.",
       "category": "Quản lý nhà nước",
       "penalty": {
-        "fine_min": 30000000,
-        "fine_max": 40000000,
+        "fine_min": 50000000,
+        "fine_max": 70000000,
         "currency": "VNĐ",
-        "fine_text": "30000000 - 40000000 VNĐ"
+        "fine_text": "50000000 - 70000000 VNĐ"
       },
       "additional_measures": [],
       "legal_basis": {
         "article": "Điều 15",
-        "section": "Khoản 8",
+        "section": "Khoản 9",
         "document": "Nghị định 100/2019/NĐ-CP",
-        "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 15, Khoản 8"
+        "full_reference": "Nghị định 100/2019/NĐ-CP, Điều 15, Khoản 9"
       },
       "severity": "Rất nặng",
       "keywords": [],
