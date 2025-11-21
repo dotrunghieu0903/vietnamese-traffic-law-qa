@@ -1,63 +1,55 @@
+#!/usr/bin/env python3
 """
-Streamlit launcher script for Vietnamese Traffic Law QA System.
-This script sets up the correct Python path and runs Streamlit.
+Python launcher for Vietnamese Traffic Law QA Streamlit UI.
+Alternative to the bash script for cross-platform compatibility.
 """
 
-import sys
-import os
-from pathlib import Path
 import subprocess
+import sys
+from pathlib import Path
 
 def main():
-    """Main launcher function."""
-    print("🚦 Vietnamese Traffic Law QA System - Streamlit Launcher")
-    print("=" * 55)
+    """Launch Streamlit app."""
     
-    # Set up paths
-    current_dir = Path(__file__).parent
-    src_dir = current_dir / "src"
-    streamlit_app = src_dir / "traffic_law_qa" / "ui" / "streamlit_app.py"
+    # Get project root
+    project_root = Path(__file__).parent
+    app_path = project_root / "src" / "traffic_law_qa" / "ui" / "streamlit_app.py"
     
-    # Check if streamlit app exists
-    if not streamlit_app.exists():
-        print(f"❌ Error: Streamlit app not found at {streamlit_app}")
-        return 1
+    # Check if app file exists
+    if not app_path.exists():
+        print(f"❌ Error: Streamlit app not found at {app_path}")
+        sys.exit(1)
     
-    # Check if data exists
-    violations_path = current_dir / "data" / "processed" / "violations.json"
-    if not violations_path.exists():
-        print("⚠️ Warning: violations.json not found!")
-        print(f"Expected at: {violations_path}")
-        print("The app may not work properly without data.")
-    else:
-        print("✅ Data file found")
-    
-    # Set environment variable for Python path
-    env = os.environ.copy()
-    current_python_path = env.get('PYTHONPATH', '')
-    if current_python_path:
-        new_python_path = f"{src_dir}{os.pathsep}{current_python_path}"
-    else:
-        new_python_path = str(src_dir)
-    
-    env['PYTHONPATH'] = new_python_path
-    
-    print("🔄 Starting Streamlit...")
-    print(f"📂 App location: {streamlit_app}")
-    print("🌐 Open your browser to: http://localhost:8501")
-    print("-" * 55)
+    print("🚦 Starting Vietnamese Traffic Law QA System...")
+    print("=" * 60)
+    print()
+    print("System: Neo4j-based Hybrid Search (Vector + BM25)")
+    print("UI: Streamlit Web Interface")
+    print()
+    print("Once started, the app will be available at:")
+    print("  🌐 http://localhost:9001")
+    print()
+    print("=" * 60)
+    print()
     
     try:
-        # Run streamlit with the correct environment
-        cmd = [sys.executable, "-m", "streamlit", "run", str(streamlit_app)]
-        subprocess.run(cmd, env=env, cwd=str(current_dir))
-        
+        # Launch Streamlit
+        subprocess.run([
+            sys.executable, "-m", "streamlit", "run",
+            str(app_path),
+            "--server.port=9001",
+            "--server.address=localhost"
+        ], check=True)
     except KeyboardInterrupt:
-        print("\n👋 Shutting down Streamlit...")
-        return 0
-    except Exception as e:
-        print(f"❌ Error running Streamlit: {e}")
-        return 1
+        print("\n\n👋 Shutting down gracefully...")
+        sys.exit(0)
+    except subprocess.CalledProcessError as e:
+        print(f"\n❌ Error launching Streamlit: {e}")
+        sys.exit(1)
+    except FileNotFoundError:
+        print("\n❌ Error: Streamlit is not installed.")
+        print("Please install it with: pip install streamlit")
+        sys.exit(1)
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

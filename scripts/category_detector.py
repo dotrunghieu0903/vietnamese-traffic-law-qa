@@ -139,7 +139,7 @@ class VehicleCategoryDetector:
             "Quản lý nhà nước": ["cơ quan", "thanh tra", "kiểm tra", "quản lý nhà nước"]
         }
     
-    def detect_category(self, text, article_title="", article_number=""):
+    def detect_category(self, text, article_title="", article_number="", using_fallback=True):
         """Detect category for a violation text"""
         combined_text = f"{text} {article_title}".lower()
         
@@ -177,11 +177,14 @@ class VehicleCategoryDetector:
             return detected_types[0]["type"]
         
         # Check fallback categories
-        for category, keywords in self.fallback_categories.items():
-            if any(keyword in combined_text for keyword in keywords):
-                return category
+        if using_fallback:
+            for category, keywords in self.fallback_categories.items():
+                if any(keyword in combined_text for keyword in keywords):
+                    return category
         
-        return "Vi phạm khác"
+            return "Vi phạm khác"
+        else:
+            return None
 
 class ViolationProcessor:
     """Process violations from raw to categorized format"""

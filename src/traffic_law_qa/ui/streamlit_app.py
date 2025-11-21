@@ -18,10 +18,19 @@ from datetime import datetime
 # Add src to path for imports
 project_root = Path(__file__).parent.parent.parent.parent
 src_path = project_root / "src"
+sys.path.insert(0, str(project_root))
 sys.path.insert(0, str(src_path))
 
-from traffic_law_qa.knowledge.qa_system import TrafficLawQASystem
-from traffic_law_qa.knowledge.knowledge_graph import NodeType
+# Import the Neo4j-based QA adapter
+from system.qa_adapter import Neo4jQAAdapter
+
+# Keep old imports for compatibility (some features may be disabled)
+try:
+    from traffic_law_qa.knowledge.qa_system import TrafficLawQASystem
+    from traffic_law_qa.knowledge.knowledge_graph import NodeType
+except ImportError:
+    TrafficLawQASystem = None
+    NodeType = None
 
 # Page configuration
 st.set_page_config(
@@ -86,6 +95,12 @@ logging.basicConfig(level=logging.INFO)
 # Constants
 VIOLATIONS_DATA_PATH = project_root / "data" / "processed" / "violations.json"
 
+# Neo4j Configuration
+NEO4J_URI = "neo4j+s://7aa78485.databases.neo4j.io"
+NEO4J_USER = "neo4j"
+NEO4J_PASSWORD = "iX59KTgWRNyZvmkh3dDBGe0Dwbm-_XQGdP1KCW_m7rs"
+EMBEDDING_MODEL = "minhquan6203/paraphrase-vietnamese-law"
+
 def extract_legal_details(case_data: Dict[str, Any]) -> Dict[str, str]:
     """Extract detailed legal information including points from case data."""
     legal_details = {
@@ -127,11 +142,17 @@ def extract_legal_details(case_data: Dict[str, Any]) -> Dict[str, str]:
 
 @st.cache_resource
 def load_qa_system():
-    """Load and cache the QA system."""
+    """Load and cache the QA system (Neo4j-based)."""
     try:
-        return TrafficLawQASystem(str(VIOLATIONS_DATA_PATH))
+        # Use Neo4j-based QA adapter
+        return Neo4jQAAdapter(
+            neo4j_uri=NEO4J_URI,
+            neo4j_auth=(NEO4J_USER, NEO4J_PASSWORD),
+            embedding_model=EMBEDDING_MODEL
+        )
     except Exception as e:
         st.error(f"Không thể khởi tạo hệ thống: {e}")
+        logging.error(f"Failed to initialize Neo4j QA system: {e}", exc_info=True)
         return None
 
 
@@ -160,15 +181,6 @@ def main():
             max_value=20,
             value=5,
             help="Số lượng kết quả tối đa hiển thị"
-        )
-        
-        similarity_threshold = st.slider(
-            "Ngưỡng tương đồng ngữ nghĩa",
-            min_value=0.3,
-            max_value=0.9,
-            value=0.6,
-            step=0.05,
-            help="Ngưỡng tối thiểu cho độ tương đồng (0.6 = khuyến nghị)"
         )
         
         st.markdown("---")
@@ -203,7 +215,7 @@ def main():
     ])
     
     with tab1:
-        display_smart_search_interface(qa_system, max_results, similarity_threshold)
+        display_smart_search_interface(qa_system, max_results)
         
     with tab2:
         display_knowledge_explorer(qa_system)
@@ -215,7 +227,7 @@ def main():
         display_benchmark_interface(qa_system)
 
 
-def display_smart_search_interface(qa_system: TrafficLawQASystem, max_results: int, similarity_threshold: float):
+def display_smart_search_interface(qa_system: Any, max_results: int):
     """Display the main search interface with advanced features."""
     
     st.header("🔍 Tìm kiếm thông minh với Suy luận Ngữ nghĩa")
@@ -270,7 +282,6 @@ def display_smart_search_interface(qa_system: TrafficLawQASystem, max_results: i
                     results = qa_system.ask_question(
                         query, 
                         max_results=max_results,
-                        similarity_threshold=similarity_threshold
                     )
                     
                     search_time = time.time() - start_time
@@ -474,7 +485,7 @@ def display_intelligent_results(results: Dict[str, Any], search_time: float):
                     st.write(f"• {entity.get('text', 'N/A')} ({entity.get('type', 'N/A')})")
 
 
-def display_knowledge_explorer(qa_system: TrafficLawQASystem):
+def display_knowledge_explorer(qa_system: Any):
     """Display knowledge graph exploration interface."""
     
     st.header("🧠 Khám phá Đồ thị Tri thức")
@@ -522,8 +533,16 @@ def display_knowledge_explorer(qa_system: TrafficLawQASystem):
     # Sample exploration
     st.subheader("🔍 Khám phá mẫu")
     
-    behavior_nodes = qa_system.knowledge_graph.find_nodes_by_type(NodeType.BEHAVIOR)
-    if behavior_nodes:
+    # Check if knowledge graph exploration is available
+    if NodeType is not None:
+        try:
+            behavior_nodes = qa_system.knowledge_graph.find_nodes_by_type(NodeType.BEHAVIOR)
+        except:
+            behavior_nodes = []
+    else:
+        behavior_nodes = []
+    
+    if behavior_nodes and len(behavior_nodes) > 0:
         selected_behavior = st.selectbox(
             "Chọn một hành vi để khám phá:",
             options=[(node.id, node.label) for node in behavior_nodes[:20]],
@@ -588,16 +607,21 @@ def display_knowledge_explorer(qa_system: TrafficLawQASystem):
             
             # Similar behaviors
             st.markdown("### 🔄 Hành vi tương tự")
-            similar_behaviors = qa_system.reasoning_engine.get_similar_behaviors(behavior_id, limit=5)
-            
-            if similar_behaviors:
-                for similar_node, similarity in similar_behaviors:
-                    st.write(f"• **{similar_node.label}** (độ tương đồng: {similarity:.3f})")
-            else:
-                st.write("Không tìm thấy hành vi tương tự.")
+            try:
+                similar_behaviors = qa_system.reasoning_engine.get_similar_behaviors(behavior_id, limit=5)
+                
+                if similar_behaviors:
+                    for similar_node, similarity in similar_behaviors:
+                        st.write(f"• **{similar_node.label}** (độ tương đồng: {similarity:.3f})")
+                else:
+                    st.write("Không tìm thấy hành vi tương tự.")
+            except:
+                st.info("Tính năng này không khả dụng với Neo4j backend.")
+    else:
+        st.info("⚠️ **Tính năng khám phá Knowledge Graph không khả dụng**\n\nHệ thống hiện đang sử dụng Neo4j backend. Tính năng khám phá chi tiết đồ thị tri thức chỉ khả dụng với local knowledge graph.\n\nBạn vẫn có thể sử dụng đầy đủ tính năng tìm kiếm thông minh ở tab 'Tìm kiếm thông minh'.")
 
 
-def display_system_dashboard(qa_system: TrafficLawQASystem):
+def display_system_dashboard(qa_system: Any):
     """Display comprehensive system dashboard."""
     
     st.header("📊 Dashboard Hệ thống")
@@ -682,7 +706,7 @@ def display_system_dashboard(qa_system: TrafficLawQASystem):
         """)
 
 
-def display_benchmark_interface(qa_system: TrafficLawQASystem):
+def display_benchmark_interface(qa_system: Any):
     """Display system benchmarking interface."""
     
     st.header("🔬 Đánh giá Hiệu suất Hệ thống")
