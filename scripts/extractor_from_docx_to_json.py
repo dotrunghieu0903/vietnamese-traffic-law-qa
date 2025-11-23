@@ -35,6 +35,8 @@ class ND168Extractor:
                 r"(\d+)\.\s*Phạt tiền từ\s*([\d.,]+)\s*VNĐ đến\s*([\d.,]+)\s*VNĐ",
                 r"Khoản\s+(\d+)\.\s*Phạt tiền từ\s*([\d.,]+)\s*đến\s*([\d.,]+)",
                 r"(\d+)\.\s*Phạt tiền.*?từ\s*([\d.,]+).*?đến\s*([\d.,]+)",
+                r"(\d+)\.?\s*Phạt tiền từ\s*([\d.,]+)\s*đồng\s*đến\s*([\d.,]+)\s*đồng",
+                r"(\d+)\.?\s*Phạt tiền từ\s*([\d.,]+)\s*VNĐ\s*đến\s*([\d.,]+)\s*VNĐ",
             ],
             "violation_patterns": [
                 r"^([a-z]|đ)\)\s*(.*)",
@@ -42,6 +44,8 @@ class ND168Extractor:
                 r"^\+\s*(.*)",
                 r"^\*\s*(.*)",
                 r"^\d+\)\s*(.*)",
+                r"đối với hành vi.*?(.*)",
+                r".*đối với.*?(vi phạm.*)",
             ],
             "measure_patterns": [
                 r"tước quyền sử dụng.*từ\s+(\d+).*đến\s+(\d+)\s+tháng",
@@ -92,6 +96,7 @@ class ND168Extractor:
         current_violations = []
         current_fine_range = None
         current_additional_measures = []
+        current_article_content = []
         
         for i, line in enumerate(text_lines):
             line = line.strip()
@@ -106,95 +111,131 @@ class ND168Extractor:
                     break
             
             if article_match:
-                # Save previous section
-                if current_article and current_section is not None:
-                    self._save_current_section(
-                        parsed_articles, current_article, current_section,
-                        current_fine_range, current_violations, current_additional_measures
-                    )
+                # Save previous article
+                if current_article:
+                    # Save any pending section
+                    if current_section is not None:
+                        self._save_current_section(
+                            parsed_articles, current_article, current_section,
+                            current_fine_range, current_violations, current_additional_measures
+                        )
+                    # If no sections but has content, save as general content
+                    elif current_article_content and not parsed_articles[current_article]["sections"]:
+                        parsed_articles[current_article]["content"] = "\n".join(current_article_content)
                 
                 # Start new article
                 article_num = article_match.group(1)
                 article_title = article_match.group(2).strip()
                 current_article = f"dieu_{article_num}"
                 
-                if current_article not in parsed_articles:
-                    parsed_articles[current_article] = {
-                        "title": article_title,
-                        "sections": []
-                    }
+                parsed_articles[current_article] = {
+                    "title": article_title,
+                    "sections": [],
+                    "article_number": int(article_num)
+                }
                 
                 current_section = None
                 current_violations = []
                 current_fine_range = None
                 current_additional_measures = []
+                current_article_content = []
                 continue
             
-            # Try section patterns
-            section_match = None
-            for pattern in self.patterns["section_patterns"]:
-                section_match = re.search(pattern, line)
+            # If we're in an article, collect content
+            if current_article:
+                # Try section patterns
+                section_match = None
+                for pattern in self.patterns["section_patterns"]:
+                    section_match = re.search(pattern, line)
+                    if section_match:
+                        break
+                
                 if section_match:
-                    break
-            
-            if section_match:
-                # Save previous section
-                if current_article and current_section is not None:
-                    self._save_current_section(
-                        parsed_articles, current_article, current_section,
-                        current_fine_range, current_violations, current_additional_measures
-                    )
+                    # Save previous section
+                    if current_section is not None:
+                        self._save_current_section(
+                            parsed_articles, current_article, current_section,
+                            current_fine_range, current_violations, current_additional_measures
+                        )
+                    
+                    # Start new section
+                    current_section = section_match.group(1)
+                    min_fine = self._clean_number(section_match.group(2))
+                    max_fine = self._clean_number(section_match.group(3))
+                    current_fine_range = f"{min_fine} - {max_fine} VNĐ"
+                    current_violations = []
+                    current_additional_measures = []
+                    continue
                 
-                # Start new section
-                current_section = section_match.group(1)
-                min_fine = self._clean_number(section_match.group(2))
-                max_fine = self._clean_number(section_match.group(3))
-                current_fine_range = f"{min_fine} - {max_fine} VNĐ"
-                current_violations = []
-                current_additional_measures = []
-                continue
-            
-            # Try violation patterns
-            violation_match = None
-            for pattern in self.patterns["violation_patterns"]:
-                violation_match = re.match(pattern, line)
-                if violation_match:
-                    break
-            
-            if violation_match:
-                violation_text = violation_match.group(2) if len(violation_match.groups()) > 1 else violation_match.group(1)
-                violation_text = self._clean_violation_text(violation_text)
+                # Try violation patterns (only if we have a section)
+                if current_section is not None:
+                    # Special handling for "đối với hành vi" and "đối với người" format
+                    if "đối với hành vi" in line.lower():
+                        # Extract the violation description after "đối với hành vi"
+                        violation_match = re.search(r"đối với hành vi\s*(.*)", line, re.IGNORECASE)
+                        if violation_match:
+                            violation_text = self._clean_violation_text(violation_match.group(1))
+                            if violation_text and len(violation_text) > 10:
+                                current_violations.append(violation_text)
+                            continue
+                    elif "đối với người" in line.lower():
+                        # Extract the violation description after "đối với người"
+                        violation_match = re.search(r"đối với người\s*(.*)", line, re.IGNORECASE)
+                        if violation_match:
+                            violation_text = self._clean_violation_text(violation_match.group(1))
+                            if violation_text and len(violation_text) > 10:
+                                current_violations.append(violation_text)
+                            continue
+                    
+                    # Regular violation patterns
+                    violation_match = None
+                    for pattern in self.patterns["violation_patterns"]:
+                        violation_match = re.match(pattern, line)
+                        if violation_match:
+                            break
+                    
+                    if violation_match:
+                        violation_text = violation_match.group(2) if len(violation_match.groups()) > 1 else violation_match.group(1)
+                        violation_text = self._clean_violation_text(violation_text)
+                        
+                        if violation_text and len(violation_text) > 10:  # Filter out very short entries
+                            current_violations.append(violation_text)
+                        continue
+                    
+                    # Check for additional measures
+                    for pattern in self.patterns["measure_patterns"]:
+                        if re.search(pattern, line, re.IGNORECASE):
+                            measure = self._extract_measure(line, pattern)
+                            if measure and measure not in current_additional_measures:
+                                current_additional_measures.append(measure)
                 
-                if violation_text and len(violation_text) > 10:  # Filter out very short entries
-                    current_violations.append(violation_text)
-                continue
-            
-            # Check for additional measures
-            for pattern in self.patterns["measure_patterns"]:
-                if re.search(pattern, line, re.IGNORECASE):
-                    measure = self._extract_measure(line, pattern)
-                    if measure and measure not in current_additional_measures:
-                        current_additional_measures.append(measure)
+                # Collect general article content (for articles without sections)
+                if current_section is None and len(line) > 20:  # Only meaningful content
+                    current_article_content.append(line)
         
-        # Save the last section
-        if current_article and current_section is not None:
-            self._save_current_section(
-                parsed_articles, current_article, current_section,
-                current_fine_range, current_violations, current_additional_measures
-            )
+        # Save the last article/section
+        if current_article:
+            if current_section is not None:
+                self._save_current_section(
+                    parsed_articles, current_article, current_section,
+                    current_fine_range, current_violations, current_additional_measures
+                )
+            elif current_article_content and not parsed_articles[current_article]["sections"]:
+                parsed_articles[current_article]["content"] = "\n".join(current_article_content)
         
         return parsed_articles
     
     def _save_current_section(self, parsed_articles, article_key, section_num, 
                              fine_range, violations, measures):
         """Save current section data"""
-        if not violations and not measures:  # Skip empty sections
+        # Always save if we have a fine_range (indicating a valid penalty section)
+        if not fine_range:
             return
             
         section_data = {
             "section": f"Khoản {section_num}",
             "fine_range": fine_range,
-            "violations": violations.copy()
+            "violations": violations.copy() if violations else ["Nội dung vi phạm không được chỉ định cụ thể"]
         }
         
         if measures:
@@ -300,13 +341,23 @@ class ND168Extractor:
         
         # Add parsed articles to key_articles
         for article_key, article_data in parsed_articles.items():
-            if article_data.get("sections"):  # Only include articles with content
-                document_structure["key_articles"][article_key] = {
+            # Include all articles that have either sections or content
+            if article_data.get("sections") or article_data.get("content"):
+                article_entry = {
                     "title": article_data["title"],
-                    "sections": article_data["sections"],
                     "source_document": "ND168-2024.docx",
                     "extraction_date": datetime.now().strftime("%Y-%m-%d")
                 }
+                
+                # Add sections if available
+                if article_data.get("sections"):
+                    article_entry["sections"] = article_data["sections"]
+                
+                # Add general content if available (for articles without fine structure)
+                if article_data.get("content"):
+                    article_entry["content"] = article_data["content"]
+                
+                document_structure["key_articles"][article_key] = article_entry
         
         return document_structure
     
