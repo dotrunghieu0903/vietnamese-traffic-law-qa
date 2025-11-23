@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tra Cứu Vi Phạm Luật Giao Thông</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    /* Thiết lập font, màu nền, màu chữ mặc định cho body */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f3f3f3;
+      color: #222;
+      line-height: 1.5;
+      font-size: 15;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    /* Biến CSS – theme mặc định (light) */
+    :root {
+      --primary: #f7941d;
+      --primary-dark: #e1571a;
+      --accent: #d52027;
+      --border: #ddd;
+      --bg-card: #ffffff;
+      --bg-body: #f3f3f3;
+      --text-main: #222;
+      --text-muted: #666;
+      --score-bar: #1e90ff;
+    }
+
+    /* Khi body có class .dark-mode → override biến màu */
+    body.dark-mode {
+      --bg-body: #111827;
+      --bg-card: #1f2933;
+      --border: #374151;
+      --text-main: #e5e7eb;
+      --text-muted: #9ca3af;
+      --primary: #f59e0b;
+      --primary-dark: #ea580c;
+      --accent: #f97316;
+      --score-bar: #3b82f6;
+      background: var(--bg-body);
+      color: var(--text-main);
+    }
+
+    /* Wrapper chính, giới hạn max-width và canh giữa */
+    .container {
+      width: 100%;       
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 0px;
+    }
+
+    /* TOPBAR (thanh trên cùng) */
+    .topbar {
+      background: linear-gradient(90deg, var(--primary-dark), var(--primary));
+      color: #fff;
+      font-size: 13px;
+      padding: 6px 0;
+    }
+    body.dark-mode .topbar {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+    .topbar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+    .topbar-left span {
+      margin-right: 20px;
+      opacity: 0.9;
+    }
+    .topbar-right a {
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    /* HEADER (logo + nút dark mode + mô tả) */
+    .header {
+      background: #fff;
+      border-bottom: 2px solid var(--primary);
+      padding: 10px 0;
+    }
+    body.dark-mode .header {
+      background: #111827;
+      border-bottom-color: #374151;
+    }
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo-circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 4px solid var(--primary-dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: var(--primary-dark);
+      font-size: 13px;
+      text-align: center;
+    }
+    .logo-text h1 {
+      font-size: 20px;
+      text-transform: uppercase;
+      color: var(--primary-dark);
+    }
+    body.dark-mode .logo-text h1 {
+      color: #f9fafb;
+    }
+    .logo-text span {
+      font-size: 15px;
+      color: #555;
+    }
+    body.dark-mode .logo-text span {
+      color: var(--text-muted);
+    }
+    .header-actions {
+      font-size: 13px;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 6px;
+    }
+
+    /* Nút bật/tắt dark mode */
+    .dark-toggle-btn {
+      padding: 4px 10px;
+      font-size: 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #f3f0f2;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease,
+                  transform 0.08s ease, box-shadow 0.15s ease;
+    }
+    .dark-toggle-btn span {
+      font-size: 14px;
+    }
+    .dark-toggle-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    }
+    body.dark-mode .dark-toggle-btn {
+      background: #111827;
+      color: #e5e7eb;
+      border-color: #4b5563;
+    }
+
+    /* NAV – thanh menu dưới header */
+    .nav {
+      background: var(--primary);
+      border-bottom: 4px solid var(--primary-dark);
+    }
+    body.dark-mode .nav {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+    .nav ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .nav li {
+      padding: 10px 18px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #fff;
+      border-right: 1px solid rgba(255,255,255,0.3);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .nav li:hover {
+      background: rgba(0,0,0,0.06);
+    }
+    .nav li.active {
+      background: #fff4e5;
+      color: var(--primary-dark);
+    }
+
+    /* SEARCH BAR – phần nhập câu hỏi */
+    .search-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 14px 0 10px;
+    }
+    body.dark-mode .search-bar {
+      background: #111827;
+      border-bottom-color: #374151;
+    }
+    .search-form {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .search-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .search-row input {
+      flex: 1;
+      min-width: 220px;
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      font-size: 15px;
+      background: #ffffff;
+      color: var(--text-main);
+    }
+    body.dark-mode .search-row input {
+      background: #111827;
+      border-color: #4b5563;
+      color: #e5e7eb;
+    }
+    .search-row button {
+      background: #ffdd00;
+      border: 1px solid #f0c200;
+      padding: 8px 20px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      text-transform: uppercase;
+      border-radius: 3px;
+    }
+    .search-row button:hover {
+      filter: brightness(0.97);
+    }
+    .search-meta {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    /* LAYOUT 3 CỘT – trái / giữa / phải */
+    .layout {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+    .columns {
+      display: grid;
+      grid-template-columns:
+        minmax(160px, 0.25fr)   /* 20% */
+        minmax(0, 0.55fr)       /* 55–60% */
+        minmax(130px, 0.20fr);  /* 20% */
+      gap: 16px;
+    }
+
+    /* Card chung cho các khối giao diện */
+    .card {
+      background: var(--bg-card);
+      border-radius: 3px;
+      border: 1px solid var(--border);
+      box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+      padding: 10px;
+      transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    body.dark-mode .card {
+      box-shadow: 0 1px 3px rgba(0,0,0,0.35);
+    }
+
+    /* Header trong mỗi card */
+    .card-header {
+      border-bottom: 1px solid var(--border);
+      padding: 10px 14px;  
+      margin: -10px -10px 12px -10px;  
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--bg-card);
+      border-radius: 3px 3px 0 0; 
+  }
+    body.dark-mode .card-header {
+      border-bottom-color: #374151;
+    }
+    .card-header h2 {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: var(--primary-dark);
+    }
+    .badge-hot {
+      background: var(--accent);
+      color: #fff;
+      padding: 1px 6px;
+      font-size: 11px;
+      border-radius: 3px;
+      text-transform: uppercase;
+    }
+
+    /* SIDEBAR – SVG + ANIMATION */
+    .sidebar-menu {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .sidebar-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 8px;
+      border-radius: 10px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition:
+        background 0.18s ease,
+        border-color 0.18s ease,
+        transform 0.12s ease,
+        box-shadow 0.18s ease;
+      font-size: 13px;
+      background: var(--bg-card);
+      color: var(--text-main);
+    }
+
+    .sidebar-item:hover {
+      background: #fff7ec;
+      border-color: #ffe0b5;
+      transform: translateX(2px);
+      box-shadow: 0 3px 6px rgba(0,0,0,0.04);
+    }
+    body.dark-mode .sidebar-item:hover {
+      background: #111827;
+      border-color: #4b5563;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+    }
+
+    .sidebar-item.active {
+      background: #fff3d4;
+      border-color: #f7941d;
+      box-shadow: 0 3px 8px rgba(247,148,29,0.18);
+    }
+    body.dark-mode .sidebar-item.active {
+      background: #111827;
+      border-color: #f59e0b;
+      box-shadow: 0 3px 10px rgba(245,158,11,0.35);
+    }
+
+    .sidebar-icon-wrapper {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #f97316, #fb923c);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: #fff;
+      transition:
+        transform 0.15s ease,
+        box-shadow 0.18s ease,
+        background 0.18s ease;
+    }
+
+    .sidebar-item:hover .sidebar-icon-wrapper,
+    .sidebar-item.active .sidebar-icon-wrapper {
+      transform: scale(1.05) rotate(-2deg);
+      box-shadow: 0 3px 6px rgba(249,115,22,0.35);
+      background: linear-gradient(135deg, #fb923c, #f97316);
+    }
+
+    .sidebar-icon-wrapper svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .sidebar-number {
+      font-weight: 700;
+      color: #f97316;
+      min-width: 18px;
+      text-align: right;
+    }
+
+    .sidebar-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      text-align: left;
+    }
+
+    .sidebar-label {
+      font-weight: 600;
+    }
+
+    .sidebar-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    /* KẾT QUẢ – text meta, danh sách, v.v. */
+    .answer-meta {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+    .highlight {
+      color: var(--primary-dark);
+      font-weight: 600;
+    }
+    body.dark-mode .highlight {
+      color: #fbbf24;
+    }
+    .result-list {
+      margin-top: 4px;
+    }
+    .result-item {
+      padding: 8px 4px;
+      border-bottom: 1px solid #f3f3f3;
+      font-size: 13px;
+    }
+    body.dark-mode .result-item {
+      border-bottom-color: #374151;
+    }
+    .result-item:last-child {
+      border-bottom: none;
+    }
+    .result-title {
+      font-weight: 600;
+      color: #d17015;
+      margin-bottom: 2px;
+    }
+    body.dark-mode .result-title {
+      color: #d17015;
+    }
+    .result-law {
+      font-size: 12px;
+      color: #555;
+      margin-top: 2px;
+    }
+    body.dark-mode .result-law {
+      color: #af6d41;
+    }
+    .result-penalty {
+      font-size: 12px;
+      color: #333;
+      margin-top: 2px;
+    }
+    body.dark-mode .result-penalty {
+      color: #e5e7eb;
+    }
+    .result-extra {
+      font-size: 12px;
+      color: #aa0000;
+      margin-top: 2px;
+    }
+    body.dark-mode .result-extra {
+      color: #fca5a5;
+    }
+    .no-result {
+      font-style: italic;
+      color: #888;
+      padding: 4px 0;
+    }
+    body.dark-mode .no-result {
+      color: #9ca3af;
+    }
+
+    /* SCORE / RANKING UI */
+    .score-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 4px 0;
+    }
+    .score-bar {
+      flex: 1;
+      height: 6px;
+      border-radius: 4px;
+      background: #eee;
+      overflow: hidden;
+    }
+    body.dark-mode .score-bar {
+      background: #111827;
+    }
+    .score-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      background: var(--score-bar);       /* xanh biển */
+      transition: width 0.25s ease-out;
+    }
+    .score-text {
+      font-size: 12px;
+      color: #555;
+      white-space: nowrap;
+    }
+    body.dark-mode .score-text {
+      color: #e5e7eb;
+    }
+
+     /* Filter loại phương tiện (dropdown) */
+    .filter-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      flex-wrap: wrap;
+    }
+    .filter-row label {
+      font-weight: 500;
+    }
+    .filter-select {
+      padding: 4px 8px;
+      font-size: 12px;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      color: var(--text-main);
+    }
+    body.dark-mode .filter-select {
+      background: #111827;
+      border-color: #4b5563;
+      color: #e5e7eb;
+    }
+
+    /* CỘT PHẢI – banner info, lịch sử, ... */
+    .info-banner {
+      font-size: 13px;
+      padding: 8px;
+      background: #fff7eb;
+      border-radius: 3px;
+      border: 1px dashed #f1b770;
+    }
+    body.dark-mode .info-banner {
+      background: #111827;
+      border-color: #4b5563;
+      color: #e5e7eb;
+    }
+    .info-banner strong {
+      color: var(--primary-dark);
+    }
+    .history-item {
+      padding: 6px 0;
+      border-bottom: 1px solid #f3f3f3;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    body.dark-mode .history-item {
+      border-bottom-color: #374151;
+    }
+    .history-item:hover {
+      background: #fff8ec;
+    }
+    body.dark-mode .history-item:hover {
+      background: #111827;
+    }
+
+    /* FOOTER */
+    .footer {
+      background: #fff;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: #666;
+      padding: 12px 0 18px;
+    }
+    body.dark-mode .footer {
+      background: #111827;
+      border-top-color: #374151;
+      color: #9ca3af;
+    }
+
+    /* 
+    Màn hình lớn (PC 1920px)
+    Màn hình trung bình (Laptop 1366px)
+    Máy tính bảng (~768px)
+    Điện thoại (375px–414px)
+
+    => Nếu không responsive, giao diện sẽ bị: vỡ bố cục, tràn chữ, nút bấm nhỏ, layout 3 cột k thể hiển thị trên điện thoại
+    */
+
+    /* Responsive dưới 960px: chuyển layout 3 cột → 1 cột */
+    @media (max-width: 960px) {
+      .columns {
+        grid-template-columns: 1fr;
+      }
+    }
+    /* Responsive dưới 720px: điều chỉnh header, nav, search button, ... */
+    @media (max-width: 720px) {
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .nav ul {
+        overflow-x: auto;
+      }
+      .search-row {
+        flex-direction: column;
+      }
+      .search-row button {
+        width: 100%;
+      }
+      .header-actions {
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="topbar-inner container">
+      <div class="topbar-left">
+        <span>Hệ thống tra cứu vi phạm Luật giao thông Việt Nam</span>
+      </div>
+      <div class="topbar-right">
+        <span>Hỗ trợ: 1900 0000</span>
+        <a href="#">Hướng dẫn</a>
+        <a href="#">Góp ý</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER: logo + mô tả + dark mode toggle -->
+  <header class="header">
+    <div class="header-inner container">
+      <div class="logo-area">
+        <div class="logo-circle">
+          GT<br/>LAW
+        </div>
+        <div class="logo-text">
+          <h1>Thư Viện Luật Giao Thông</h1>
+          <span>Tra cứu lỗi, mức phạt và căn cứ pháp lý theo Nghị định 100/2019.</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div>Phiên bản demo dùng backend <strong>vietnamese-traffic-law-qa</strong></div>
+        <!-- Nút bật/tắt dark mode -->
+        <button id="dark-toggle" class="dark-toggle-btn" type="button">
+          <span id="dark-toggle-icon">🌙</span>
+          <span id="dark-toggle-text">Bật dark mode</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="container">
+      <ul>
+        <li class="active">Tra cứu vi phạm</li>
+        <li>Tra cứu mức phạt</li>
+        <li>Văn bản pháp luật</li>
+        <li>Thống kê</li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- SEARCH BAR -->
+  <section class="search-bar">
+    <div class="container">
+      <form class="search-form" onsubmit="return false;">
+        <div class="search-row">
+          <input
+            id="query-input"
+            type="text"
+            placeholder="Nhập hành vi vi phạm hoặc câu hỏi. Ví dụ: 'Chạy quá tốc độ 15km/h trong khu dân cư bị phạt bao nhiêu?'"
+          />
+          <button id="search-btn" type="button">Tìm kiếm</button>
+        </div>
+        <div class="search-meta">
+          Gợi ý: mô tả hành vi càng cụ thể (loại xe, địa điểm, mức vi phạm) thì kết quả càng chính xác.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- MAIN LAYOUT -->
+  <main class="layout">
+    <div class="container columns">
+      <!-- CỘT TRÁI: SIDEBAR -->
+      <aside class="card">
+        <div class="card-header">
+          <h2>Nhóm lỗi phổ biến</h2>
+        </div>
+
+        <div class="sidebar-menu">
+          <!-- 1. Tốc độ / Làn đường -->
+          <button class="sidebar-item" type="button"
+                  data-query="chạy quá tốc độ trong khu dân cư">
+            <span class="sidebar-number">1.</span>
+            <div class="sidebar-icon-wrapper">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="11" width="14" height="6" rx="2"
+                      fill="none" stroke="currentColor" stroke-width="1.6"/>
+                <circle cx="7" cy="18" r="2"
+                        fill="none" stroke="currentColor" stroke-width="1.6"/>
+                <circle cx="15" cy="18" r="2"
+                        fill="none" stroke="currentColor" stroke-width="1.6"/>
+                <line x1="2" y1="6" x2="22" y2="6"
+                      stroke="currentColor" stroke-width="1.4"
+                      stroke-linecap="round" />
+                <line x1="8" y1="6" x2="12" y2="6"
+                      stroke="#ffffff" stroke-width="1.4"
+                      stroke-linecap="round" />
+              </svg>
+            </div>
+            <div class="sidebar-content">
+              <div class="sidebar-label">Tốc độ / Làn đường</div>
+              <div class="sidebar-sub">Chạy quá tốc độ, đi sai làn, vào đường cấm…</div>
+            </div>
+          </button>
+
+          <!-- 2. Nồng độ cồn / Ma túy -->
+          <button class="sidebar-item" type="button"
+                  data-query="vi phạm nồng độ cồn khi lái xe">
+            <span class="sidebar-number">2.</span>
+            <div class="sidebar-icon-wrapper">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 3h10v5a5 5 0 0 1-5 5 5 5 0 0 1-5-5V3z"
+                      fill="none" stroke="currentColor" stroke-width="1.6"
+                      stroke-linejoin="round"/>
+                <line x1="12" y1="13" x2="12" y2="19"
+                      stroke="currentColor" stroke-width="1.6"
+                      stroke-linecap="round" />
+                <line x1="9" y1="19" x2="15" y2="19"
+                      stroke="currentColor" stroke-width="1.6"
+                      stroke-linecap="round" />
+                <path d="M8 5h8" stroke="#ffffff" stroke-width="1.2"
+                      stroke-linecap="round" />
+              </svg>
+            </div>
+            <div class="sidebar-content">
+              <div class="sidebar-label">Nồng độ cồn / Ma túy</div>
+              <div class="sidebar-sub">Uống rượu bia, chất kích thích khi điều khiển xe.</div>
+            </div>
+          </button>
+
+          <!-- 3. Dừng / Đỗ xe -->
+          <button class="sidebar-item" type="button"
+                  data-query="dừng đỗ xe sai quy định trên phố">
+            <span class="sidebar-number">3.</span>
+            <div class="sidebar-icon-wrapper">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="4" y="3" width="16" height="18" rx="2"
+                      fill="none" stroke="currentColor" stroke-width="1.6"/>
+                <path d="M10 16V8h3a3 3 0 0 1 0 6h-3"
+                      fill="none" stroke="currentColor" stroke-width="1.6"
+                      stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="sidebar-content">
+              <div class="sidebar-label">Dừng đỗ / Đỗ xe</div>
+              <div class="sidebar-sub">Dừng, đỗ sai nơi quy định, gây cản trở giao thông.</div>
+            </div>
+          </button>
+
+          <!-- 4. Giấy tờ / GPLX -->
+          <button class="sidebar-item" type="button"
+                  data-query="không mang theo giấy tờ xe và giấy phép lái xe">
+            <span class="sidebar-number">4.</span>
+            <div class="sidebar-icon-wrapper">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="5" y="4" width="12" height="16" rx="1.8"
+                      fill="none" stroke="currentColor" stroke-width="1.6"/>
+                <line x1="8" y1="9" x2="14" y2="9"
+                      stroke="currentColor" stroke-width="1.4"
+                      stroke-linecap="round"/>
+                <line x1="8" y1="12" x2="14" y2="12"
+                      stroke="currentColor" stroke-width="1.4"
+                      stroke-linecap="round"/>
+                <line x1="8" y1="15" x2="12" y2="15"
+                      stroke="currentColor" stroke-width="1.4"
+                      stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="sidebar-content">
+              <div class="sidebar-label">Giấy tờ / Giấy phép lái xe</div>
+              <div class="sidebar-sub">Thiếu giấy tờ, không có hoặc không mang GPLX.</div>
+            </div>
+          </button>
+
+          <!-- 5. Mũ bảo hiểm -->
+          <button class="sidebar-item" type="button"
+                  data-query="không đội mũ bảo hiểm khi đi xe máy">
+            <span class="sidebar-number">5.</span>
+            <div class="sidebar-icon-wrapper">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 13a8 8 0 0 1 16 0v1H4z"
+                      fill="none" stroke="currentColor" stroke-width="1.6"
+                      stroke-linejoin="round" />
+                <path d="M18 12h3"
+                      stroke="currentColor" stroke-width="1.6"
+                      stroke-linecap="round" />
+                <path d="M9 14v2a2 2 0 0 0 2 2"
+                      fill="none" stroke="currentColor" stroke-width="1.6"
+                      stroke-linecap="round" />
+              </svg>
+            </div>
+            <div class="sidebar-content">
+              <div class="sidebar-label">Không đội mũ bảo hiểm</div>
+              <div class="sidebar-sub">Không đội hoặc đội sai quy cách khi đi mô tô, xe máy.</div>
+            </div>
+          </button>
+
+          <!-- 6. Chở quá người / hàng -->
+          <button class="sidebar-item" type="button"
+                  data-query="chở quá số người quy định trên xe máy">
+            <span class="sidebar-number">6.</span>
+            <div class="sidebar-icon-wrapper">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="8" cy="8" r="2.4"
+                        fill="none" stroke="currentColor" stroke-width="1.6"/>
+                <circle cx="15" cy="8" r="2.4"
+                        fill="none" stroke="currentColor" stroke-width="1.6"/>
+                <path d="M5.5 16a3.5 3.5 0 0 1 7 0v2H5.5z"
+                      fill="none" stroke="currentColor" stroke-width="1.6"
+                      stroke-linejoin="round"/>
+                <path d="M12.5 16a3.5 3.5 0 0 1 7 0v2h-7z"
+                      fill="none" stroke="currentColor" stroke-width="1.6"
+                      stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="sidebar-content">
+              <div class="sidebar-label">Chở người / chở hàng quá quy định</div>
+              <div class="sidebar-sub">Chở quá người, quá tải hoặc hàng cồng kềnh.</div>
+            </div>
+          </button>
+
+          <!-- 7. Đèn đỏ / tín hiệu -->
+          <button class="sidebar-item" type="button"
+                  data-query="vượt đèn đỏ khi tham gia giao thông">
+            <span class="sidebar-number">7.</span>
+            <div class="sidebar-icon-wrapper">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="9" y="3" width="6" height="14" rx="2"
+                      fill="none" stroke="currentColor" stroke-width="1.6"/>
+                <circle cx="12" cy="7" r="1.6"
+                        fill="none" stroke="currentColor" stroke-width="1.4"/>
+                <circle cx="12" cy="11" r="1.6"
+                        fill="none" stroke="currentColor" stroke-width="1.4"/>
+                <circle cx="12" cy="15" r="1.6"
+                        fill="none" stroke="currentColor" stroke-width="1.4"/>
+                <line x1="12" y1="17" x2="12" y2="20"
+                      stroke="currentColor" stroke-width="1.6"
+                      stroke-linecap="round"/>
+                <line x1="9" y1="20" x2="15" y2="20"
+                      stroke="currentColor" stroke-width="1.6"
+                      stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="sidebar-content">
+              <div class="sidebar-label">Vượt đèn đỏ / Tín hiệu giao thông</div>
+              <div class="sidebar-sub">Không chấp hành tín hiệu đèn, biển báo, vạch kẻ đường.</div>
+            </div>
+          </button>
+
+          <!-- 8. Lỗi khác -->
+          <button class="sidebar-item" type="button"
+                  data-query="hành vi vi phạm giao thông khác">
+            <span class="sidebar-number">8.</span>
+            <div class="sidebar-icon-wrapper">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 19h16L12 4z"
+                      fill="none" stroke="currentColor" stroke-width="1.6"
+                      stroke-linejoin="round"/>
+                <line x1="12" y1="10" x2="12" y2="14"
+                      stroke="currentColor" stroke-width="1.6"
+                      stroke-linecap="round"/>
+                <circle cx="12" cy="17" r="1"
+                        fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="sidebar-content">
+              <div class="sidebar-label">Các lỗi khác</div>
+              <div class="sidebar-sub">Các hành vi vi phạm khác trong Luật giao thông.</div>
+            </div>
+          </button>
+        </div>
+      </aside>
+
+      <!-- CỘT GIỮA: KẾT QUẢ -->
+      <section class="card">
+        <div class="card-header">
+          <h2>Kết quả tra cứu</h2>
+          <span class="badge-hot" id="status-label">Sẵn sàng</span>
+        </div>
+
+        <!-- Filter loại xe -->
+        <div class="filter-row">
+          <label for="vehicle-filter">Lọc theo loại xe:</label>
+          <select id="vehicle-filter" class="filter-select">
+            <option value="all">Tất cả phương tiện</option>
+          </select>
+        </div>
+
+        <div class="answer-meta" id="meta-line">
+          Chưa có truy vấn nào.
+        </div>
+
+        <div class="answer-meta" id="intent-line" style="margin-bottom:8px;"></div>
+
+        <div class="result-list" id="result-list">
+          <div class="no-result">
+            Hãy nhập mô tả hành vi vi phạm ở trên và bấm "Tìm kiếm".
+          </div>
+        </div>
+      </section>
+
+      <!-- CỘT PHẢI: LỊCH SỬ / LƯU Ý -->
+      <aside>
+        <div class="card">
+          <div class="card-header">
+            <h2>Lịch sử tra cứu</h2>
+          </div>
+          <div id="history-list">
+            <!-- render bằng JS -->
+          </div>
+        </div>
+
+        <div class="card info-banner" style="margin-top:10px;">
+          <strong>Lưu ý:</strong><br/>
+          Kết quả được trích xuất tự động từ đồ thị Neo4j Nghị định 100/2019/NĐ-CP.
+          Trong trường hợp có nhiều điều luật liên quan, bạn nên đọc kỹ nội dung
+          điều khoản trước khi áp dụng.
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      © 2025 Hệ thống Tra Cứu Vi Phạm Giao Thông – chạy trên backend Neo4j + SentenceTransformer.
+    </div>
+  </footer>
+
+  <script>
+    // URL API backend FastAPI (endpoint /search)
+    const API_ENDPOINT = "http://localhost:8000/search";
+
+    const queryInput   = document.getElementById("query-input");
+    const searchBtn    = document.getElementById("search-btn");
+    const statusLabel  = document.getElementById("status-label");
+    const metaLine     = document.getElementById("meta-line");
+    const intentLine   = document.getElementById("intent-line");
+    const resultList   = document.getElementById("result-list");
+    const historyList  = document.getElementById("history-list");
+    const vehicleFilter = document.getElementById("vehicle-filter");
+
+    const darkToggleBtn   = document.getElementById("dark-toggle");
+    const darkToggleIcon  = document.getElementById("dark-toggle-icon");
+    const darkToggleText  = document.getElementById("dark-toggle-text");
+
+    const historyData = [];
+
+    // Lưu last query & data để filter lại
+    let lastQuery = "";
+    let lastData = null;
+    let currentFilter = "all";
+
+    async function doSearch() {
+      const q = queryInput.value.trim();
+      if (!q) {
+        alert("Vui lòng nhập mô tả hành vi vi phạm hoặc câu hỏi.");
+        return;
+      }
+
+      statusLabel.textContent = "Đang tra cứu...";
+      statusLabel.style.background = "#999";
+
+      try {
+        const res = await fetch(API_ENDPOINT, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question: q, top_k: 10 })
+        });
+
+        if (!res.ok) {
+          throw new Error("HTTP " + res.status);
+        }
+
+        // Cập nhật dropdown filter vehicle
+        const data = await res.json();
+        lastQuery = q;
+        lastData  = data;
+        currentFilter = "all";
+
+        populateVehicleFilter(data);
+        renderResults();
+        pushHistory(q, data);
+
+        statusLabel.textContent = "Hoàn thành";
+        statusLabel.style.background = "#28a745";
+      } catch (err) {
+        console.error(err);
+        statusLabel.textContent = "Lỗi";
+        statusLabel.style.background = "#d52027";
+        metaLine.textContent = "Đã xảy ra lỗi khi gọi API backend. Vui lòng kiểm tra lại api.py hoặc Neo4j.";
+        intentLine.textContent = "";
+        resultList.innerHTML = '<div class="no-result">Không lấy được dữ liệu từ API.</div>';
+      }
+    }
+
+    /**
+     * Hàm render toàn bộ kết quả (dựa trên lastData + currentFilter)
+    */
+
+    function renderResults() {
+      if (!lastData) {
+        resultList.innerHTML = '<div class="no-result">Chưa có truy vấn nào.</div>';
+        return;
+      }
+
+      const data = lastData;
+      let results = data.results || [];
+
+      // Áp dụng filter loại xe
+      if (currentFilter !== "all") {
+        results = results.filter(r => (r.vehicle_category || "") === currentFilter);
+      }
+
+      const intent   = data.detected_intent;
+      const category = data.detected_category;
+
+      metaLine.innerHTML =
+        'Câu hỏi: <span class="highlight">' + escapeHtml(lastQuery) + "</span>";
+
+      let intentText = "";
+      if (intent) {
+        intentText += 'Ý định truy vấn: <span class="highlight">' + escapeHtml(intent) + "</span>";
+      }
+      if (category) {
+        if (intentText) intentText += " &nbsp;|&nbsp; ";
+        intentText += 'Nhóm đối tượng: <span class="highlight">' + escapeHtml(category) + "</span>";
+      }
+      if (currentFilter !== "all") {
+        if (intentText) intentText += " &nbsp;|&nbsp; ";
+        intentText += 'Đang lọc theo loại xe: <span class="highlight">' + escapeHtml(currentFilter) + "</span>";
+      }
+      intentLine.innerHTML = intentText;
+
+      if (!results.length) {
+        resultList.innerHTML =
+          '<div class="no-result">Không tìm thấy điều luật phù hợp với bộ lọc hiện tại. Hãy thử bỏ lọc hoặc mô tả chi tiết hơn.</div>';
+        autoHighlightWithResult(data);
+        return;
+      }
+
+      // Tìm maxScore để tính % độ liên quan nếu backend không trả sẵn relevance_percent
+      let maxScore = 0;
+      results.forEach(r => {
+        if (typeof r.score === "number" && r.score > maxScore) {
+          maxScore = r.score;
+        }
+      });
+
+      resultList.innerHTML = "";
+      results.forEach((r, idx) => {
+        const div = document.createElement("div");
+        div.className = "result-item";
+
+        // --- Title với thứ hạng ---
+        const title = document.createElement("div");
+        title.className = "result-title";
+        title.innerHTML = "<strong>" + (idx + 1) + ".</strong> " +
+          escapeHtml(r.description || "(Không có mô tả)");
+
+        // --- Tính % độ liên quan ---
+        let relevancePercent = null;
+        if (typeof r.relevance_percent === "number") {
+          relevancePercent = r.relevance_percent;
+        } else if (maxScore > 0 && typeof r.score === "number") {
+          relevancePercent = +(r.score / maxScore * 100).toFixed(2);
+        }
+
+        // --- Score row: thanh % + text ---
+        if (relevancePercent !== null) {
+          const scoreRow = document.createElement("div");
+          scoreRow.className = "score-row";
+
+          const scoreBar = document.createElement("div");
+          scoreBar.className = "score-bar";
+
+          const fill = document.createElement("div");
+          fill.className = "score-bar-fill";
+          const width = Math.max(0, Math.min(relevancePercent, 100));
+          fill.style.width = width + "%";
+
+          scoreBar.appendChild(fill);
+
+          const scoreText = document.createElement("div");
+          scoreText.className = "score-text";
+          scoreText.textContent = "Độ liên quan: " + relevancePercent + "%";
+
+          scoreRow.appendChild(scoreBar);
+          scoreRow.appendChild(scoreText);
+
+          div.appendChild(title);
+          div.appendChild(scoreRow);
+        } else {
+          div.appendChild(title);
+        }
+
+        // --- Law info ---
+        const law = document.createElement("div");
+        law.className = "result-law";
+        law.textContent =
+          "Căn cứ: " +
+          (r.law_article || "") +
+          (r.law_clause ? ", " + r.law_clause : "") +
+          (r.vehicle_category ? " – Đối tượng: " + r.vehicle_category : "");
+
+        div.appendChild(law);
+
+        // --- Fine ---
+        if (r.fine_text) {
+          const penalty = document.createElement("div");
+          penalty.className = "result-penalty";
+          penalty.textContent = "Mức phạt: " + r.fine_text;
+          div.appendChild(penalty);
+        }
+
+        // --- Extra penalties ---
+        if (Array.isArray(r.extra_penalties) && r.extra_penalties.length) {
+          const extra = document.createElement("div");
+          extra.className = "result-extra";
+          extra.textContent = "Hình phạt bổ sung: " + r.extra_penalties.join("; ");
+          div.appendChild(extra);
+        }
+
+        resultList.appendChild(div);
+      });
+
+      autoHighlightWithResult(data);
+    }
+
+    function populateVehicleFilter(data) {
+      const results = data.results || [];
+      const categories = new Set();
+      results.forEach(r => {
+        if (r.vehicle_category) {
+          categories.add(r.vehicle_category);
+        }
+      });
+
+      vehicleFilter.innerHTML = "";
+      const optAll = document.createElement("option");
+      optAll.value = "all";
+      optAll.textContent = "Tất cả phương tiện";
+      vehicleFilter.appendChild(optAll);
+
+      Array.from(categories).forEach(cat => {
+        const opt = document.createElement("option");
+        opt.value = cat;
+        opt.textContent = cat;
+        vehicleFilter.appendChild(opt);
+      });
+    }
+
+    function pushHistory(query, data) {
+      historyData.unshift({
+        query,
+        time: new Date(),
+        data
+      });
+
+      // Nếu quá 10 thì bỏ bớt cuối
+      if (historyData.length > 10) historyData.pop();
+
+      // Xóa danh sách lịch sử cũ
+      // Tạo danh sách lịch sử mới
+      historyList.innerHTML = "";
+      // Render lại danh sách lịch sử mới
+      historyData.forEach(item => {
+        const div = document.createElement("div");
+        div.className = "history-item";
+        // Click lên item lịch sử → hiển thị lại kết quả đã lưu
+        div.onclick = () => {
+          lastQuery = item.query;
+          lastData  = item.data;
+          currentFilter = "all";
+          populateVehicleFilter(item.data);
+          renderResults();
+        };
+
+        const q = document.createElement("div");
+        q.textContent = item.query;
+
+        const t = document.createElement("div");
+        t.style.fontSize = "11px";
+        t.style.color = "#999";
+        // Hiển thị thời gian lưu lịch sử theo định dạng "HH:MM:SS"
+        t.textContent = item.time.toLocaleTimeString("vi-VN");
+
+        div.appendChild(q);
+        div.appendChild(t);
+        historyList.appendChild(div);
+      });
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+    }
+
+    // Gắn sự kiện cho sidebar: click → điền query + gọi tìm kiếm
+    function setupSidebar() {
+      const sidebarItems = document.querySelectorAll(".sidebar-item");
+      sidebarItems.forEach(item => {
+        item.addEventListener("click", () => {
+          sidebarItems.forEach(i => i.classList.remove("active"));
+          item.classList.add("active");
+
+          const q = item.dataset.query || "";
+          queryInput.value = q;
+          if (q) {
+            doSearch();
+          }
+        });
+      });
+    }
+
+    // Sidebar mapping dựa trên từ khóa để auto-highlight
+    const SIDEBAR_KEYWORDS = [
+      { index: 1, keywords: ["tốc độ", "quá tốc độ", "làn đường", "đường cấm", "chuyển làn"] },
+      { index: 2, keywords: ["nồng độ cồn", "rượu bia", "ma túy"] },
+      { index: 3, keywords: ["dừng đỗ", "dừng xe", "đỗ xe", "chắn lối"] },
+      { index: 4, keywords: ["giấy tờ", "gplx", "bằng lái", "đăng ký xe"] },
+      { index: 5, keywords: ["mũ bảo hiểm", "không đội mũ"] },
+      { index: 6, keywords: ["chở người", "quá số người", "quá tải", "cồng kềnh"] },
+      { index: 7, keywords: ["đèn đỏ", "vượt đèn", "tín hiệu giao thông"] },
+      { index: 8, keywords: ["vi phạm", "giao thông"] } // fallback
+    ];
+
+    /**
+     * Tự động highlight item sidebar phù hợp,
+     * dựa trên intent, category hoặc description kết quả đầu tiên.
+     */
+
+    function autoHighlightWithResult(data) {
+      const sidebarItems = document.querySelectorAll(".sidebar-item");
+      sidebarItems.forEach(i => i.classList.remove("active"));
+
+      let targetIndex = null;
+      const intent = (data.detected_intent || "").toLowerCase();
+      const category = (data.detected_category || "").toLowerCase();
+      let firstDescription = "";
+      if (data.results && data.results.length > 0) {
+        firstDescription = (data.results[0].description || "").toLowerCase();
+      }
+
+      function tryMatch(sourceText) {
+        if (!sourceText) return;
+        SIDEBAR_KEYWORDS.forEach(group => {
+          if (!targetIndex && group.keywords.some(kw => sourceText.includes(kw))) {
+            targetIndex = group.index;
+          }
+        });
+      }
+
+      // Ưu tiên: intent → category → mô tả lỗi
+      // 1. intent
+      tryMatch(intent);
+      // 2. category
+      tryMatch(category);
+      // 3. mô tả lỗi
+      tryMatch(firstDescription);
+
+      // Nếu không match được gì thì chọn item số 8 (các lỗi khác)
+      if (!targetIndex) targetIndex = 8;
+
+      const targetItem = document.querySelector(`.sidebar-item:nth-child(${targetIndex})`);
+      if (targetItem) {
+        targetItem.classList.add("active");
+      }
+    }
+
+    // Dark mode toggle + lưu localStorage
+    function applyThemeFromStorage() {
+      const theme = localStorage.getItem("gtlaw_theme");
+      if (theme === "dark") {
+        document.body.classList.add("dark-mode");
+        darkToggleIcon.textContent = "☀️";
+        darkToggleText.textContent = "Tắt dark mode";
+      } else {
+        document.body.classList.remove("dark-mode");
+        darkToggleIcon.textContent = "🌙";
+        darkToggleText.textContent = "Bật dark mode";
+      }
+    }
+
+    darkToggleBtn.addEventListener("click", () => {
+      const isDark = document.body.classList.toggle("dark-mode");
+      localStorage.setItem("gtlaw_theme", isDark ? "dark" : "light");
+      applyThemeFromStorage();
+    });
+
+    // Filter dropdown change
+    vehicleFilter.addEventListener("change", () => {
+      currentFilter = vehicleFilter.value;
+      renderResults();
+    });
+
+    // event listeners
+    searchBtn.addEventListener("click", doSearch);
+    queryInput.addEventListener("keydown", e => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        doSearch();
+      }
+    });
+
+    // init
+    setupSidebar();
+    applyThemeFromStorage();
+  </script>
+</body>
+</html>
