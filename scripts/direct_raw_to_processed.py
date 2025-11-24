@@ -95,6 +95,28 @@ def get_severity_level(fine_min, fine_max):
     else:
         return "Rất nặng"
 
+def extract_point_from_violation(violation_text):
+    """Extract point (a, b, c, d, đ) from violation text"""
+    if not violation_text:
+        return None
+    
+    # Match patterns like "a)", "b)", "c)", "d)", "đ)" at the beginning
+    point_match = re.match(r'^([a-z]|đ)\)', violation_text.strip())
+    if point_match:
+        point_letter = point_match.group(1)
+        return f"Điểm {point_letter}"
+    
+    return None
+
+def clean_point_prefix(text):
+    """Remove point prefix from text (a), b), c), d), đ), etc.)"""
+    if not text:
+        return text
+    
+    # Match pattern like "a) ", "b) ", "c) ", "d) ", "đ) ", etc. at the beginning
+    cleaned = re.sub(r'^([a-z]|đ)\)\s*', '', text.strip())
+    return cleaned
+
 def extract_keywords(violation_text):
     """Extract keywords for search"""
     keywords = []
@@ -138,7 +160,7 @@ def convert_raw_to_processed():
     violation_id = 1
     
     # Process each article
-    for article_key, article_data in raw_data.get('key_articles', {}).items():
+    for article_key, article_data in raw_data.get('articles', {}).items():
         if not isinstance(article_data, dict) or 'sections' not in article_data:
             continue
         
@@ -173,14 +195,20 @@ def convert_raw_to_processed():
                 if len(violation_text) < 10:
                     continue
                 
-                # Check for duplicates
-                violation_hash = create_violation_hash(violation_text, f"Điều {article_number}", section_name)
+                # Extract point from violation text BEFORE cleaning (a, b, c, d, đ)
+                point = extract_point_from_violation(violation_text)
+                
+                # Clean the point prefix from description
+                cleaned_violation_text = clean_point_prefix(violation_text)
+                
+                # Check for duplicates using cleaned text
+                violation_hash = create_violation_hash(cleaned_violation_text, f"Điều {article_number}", section_name)
                 if violation_hash in seen_hashes:
                     continue
                 seen_hashes.add(violation_hash)
                 
-                # Categorize violation
-                category = categorize_violation(violation_text, article_title)
+                # Categorize violation using cleaned text
+                category = categorize_violation(cleaned_violation_text, article_title)
                 
                 # Skip uncategorized violations with no penalty
                 if category == "Vi phạm khác" and fine_min == 0 and fine_max == 0:
@@ -189,7 +217,7 @@ def convert_raw_to_processed():
                 # Create processed violation record
                 violation_record = {
                     "id": violation_id,
-                    "description": violation_text,
+                    "description": cleaned_violation_text,
                     "category": category,
                     "penalty": {
                         "fine_min": fine_min,
@@ -201,12 +229,13 @@ def convert_raw_to_processed():
                     "legal_basis": {
                         "article": f"Điều {article_number}",
                         "section": section_name,
+                        "point": point,
                         "document": "Nghị định 100/2019/NĐ-CP",
-                        "full_reference": f"Nghị định 100/2019/NĐ-CP, Điều {article_number}, {section_name}"
+                        "full_reference": f"Nghị định 100/2019/NĐ-CP, Điều {article_number}, {section_name}" + (f", {point}" if point else "")
                     },
                     "severity": get_severity_level(fine_min, fine_max),
-                    "keywords": extract_keywords(violation_text),
-                    "search_text": f"{violation_text} {category} Điều {article_number} {article_title}",
+                    "keywords": extract_keywords(cleaned_violation_text),
+                    "search_text": f"{cleaned_violation_text} {category} Điều {article_number} {article_title}",
                     "metadata": {
                         "source": document_source,
                         "processed_date": datetime.now().isoformat(),
