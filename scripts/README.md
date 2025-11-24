@@ -97,7 +97,6 @@ The processed `violations.json` contains:
   "metadata": {
     "total_violations": 1110,
     "processed_date": "2025-11-19T...",
-    "categorization_method": "enhanced_vehicle_detection_v3",
     "categories": ["Xe ô tô", "Xe mô tô, xe máy", ...],
     "validation_summary": {...}
   },

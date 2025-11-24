@@ -191,8 +191,8 @@ class ViolationProcessor:
     
     def __init__(self):
         self.detector = VehicleCategoryDetector()
-        self.raw_path = r"C:\Users\Mr Hieu\Documents\vietnamese-traffic-law-qa\data\raw\legal_documents\nghi_dinh_100_2019.json"
-        self.processed_path = r"C:\Users\Mr Hieu\Documents\vietnamese-traffic-law-qa\data\processed\violations.json"
+        self.raw_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "raw", "legal_documents", "nghi_dinh_100_2019.json")
+        self.processed_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "processed", "violations.json")
     
     def clean_text(self, text):
         """Clean and normalize text"""
@@ -354,8 +354,7 @@ class ViolationProcessor:
                         "search_text": f"{violation_text} {category} Điều {article_number} {article_title}",
                         "metadata": {
                             "source": "ND100-2019.docx",
-                            "processed_date": datetime.now().isoformat(),
-                            "categorization_method": "enhanced_vehicle_detection_v3"
+                            "processed_date": datetime.now().isoformat()
                         }
                     }
                     
@@ -371,7 +370,6 @@ class ViolationProcessor:
                 "source_documents": ["Nghị định 100/2019/NĐ-CP"],
                 "data_sources": [self.raw_path],
                 "processing_pipeline": "raw->processed (enhanced_direct)",
-                "categorization_method": "enhanced_vehicle_detection_v3",
                 "validation_summary": {
                     "total_violations": len(processed_violations),
                     "valid_legal_references": len(processed_violations),
