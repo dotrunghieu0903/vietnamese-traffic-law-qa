@@ -31,6 +31,7 @@ class Penalty:
     fine_amount_min: int
     fine_amount_max: int
     additional_measures: List[str]
+    additional_penalties: Optional[List[str]] = None
     legal_basis: str
     penalty_type: PenaltyType = PenaltyType.FINE
 

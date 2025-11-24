@@ -56,9 +56,9 @@ class VietnameseTrafficLawExtractor:
                 r"Khoản\s+(\d+)\.\s*Phạt tiền từ\s*([\d.,]+)\s*đến\s*([\d.,]+).*:",
             ],
             
-            # Violation patterns
+            # Violation patterns - preserve letter indicators
             "violation_patterns": [
-                r"^([a-z]|đ)\)\s*(.*)",     # a) violation
+                r"^([a-z]|đ|e|g|h|i|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z)\)\s*(.*)",     # a) b) c) đ) e) g) h) etc - preserve letter
                 r"^-\s*(.*)",               # - violation  
                 r"^\+\s*(.*)",              # + violation
                 r"^\*\s*(.*)",              # * violation
@@ -70,6 +70,12 @@ class VietnameseTrafficLawExtractor:
                 r"tịch thu.*phương tiện",
                 r"buộc.*khôi phục",
                 r"tạm giữ.*phương tiện"
+            ],
+            
+            # Additional penalty patterns (hình thức phạt bổ sung)
+            "additional_penalty_patterns": [
+                r"^([a-z]|đ|e|g|h)\)\s*Thực hiện hành vi.*bị\s*(tịch thu|tước quyền|buộc phải).*",
+                r"Thực hiện hành vi.*bị\s*(tịch thu|tước quyền|buộc phải).*",
             ],
             
             # Amendment patterns (for updates)
@@ -202,6 +208,7 @@ class VietnameseTrafficLawExtractor:
         current_violations = []
         current_fine_range = None
         current_additional_measures = []
+        current_additional_penalties = []
         
         for i, line in enumerate(text_lines):
             line = line.strip()
@@ -260,6 +267,7 @@ class VietnameseTrafficLawExtractor:
                 current_fine_range = f"{min_fine} - {max_fine} VNĐ"
                 current_violations = []
                 current_additional_measures = []
+                current_additional_penalties = []
                 continue
             
             # Try violation patterns
@@ -270,13 +278,21 @@ class VietnameseTrafficLawExtractor:
                     break
             
             if violation_match:
-                violation_text = violation_match.group(2) if len(violation_match.groups()) > 1 else violation_match.group(1)
-                
-                # Clean up violation text
-                violation_text = self._clean_violation_text(violation_text)
-                
-                if violation_text:
-                    current_violations.append(violation_text)
+                # Check if it's a lettered violation (a), b), c), etc.)
+                if len(violation_match.groups()) > 1 and violation_match.group(1):
+                    # Keep the letter indicator for lettered violations
+                    letter_indicator = violation_match.group(1)
+                    violation_text = violation_match.group(2)
+                    violation_text = self._clean_violation_text(violation_text)
+                    if violation_text:
+                        full_violation = f"{letter_indicator}) \"{violation_text}\""
+                        current_violations.append(full_violation)
+                else:
+                    # For non-lettered violations (-, +, *, etc.)
+                    violation_text = violation_match.group(1)
+                    violation_text = self._clean_violation_text(violation_text)
+                    if violation_text:
+                        current_violations.append(violation_text)
                 continue
             
             # Check for additional measures
@@ -296,7 +312,7 @@ class VietnameseTrafficLawExtractor:
         return parsed_articles
     
     def _save_current_section(self, parsed_articles, article_key, section_num, 
-                             fine_range, violations, measures):
+                             fine_range, violations, measures, penalties=None):
         """Helper to save current section data"""
         section_data = {
             "section": f"Khoản {section_num}",
@@ -306,6 +322,9 @@ class VietnameseTrafficLawExtractor:
         
         if measures:
             section_data["additional_measures"] = measures.copy()
+        
+        if penalties:
+            section_data["additional_penalties"] = penalties.copy()
         
         parsed_articles[article_key]["sections"].append(section_data)
     
