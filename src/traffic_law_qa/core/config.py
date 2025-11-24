@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     
     # Database settings
     vector_db_path: str = "./data/embeddings/chroma_db"
-    violations_data_path: str = "./data/processed/violations.json"
+    violations_data_path: str = "./data/processed/violations_100.json"
     
     # NLP Model settings
     embedding_model: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"

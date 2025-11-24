@@ -18,9 +18,9 @@ try:
     print("=" * 50)
     
     # Check if data exists
-    violations_path = current_dir / "data" / "processed" / "violations.json"
+    violations_path = current_dir / "data" / "processed" / "violations_100.json"
     if not violations_path.exists():
-        print("❌ Error: violations.json not found!")
+        print("❌ Error: violations_100.json not found!")
         print(f"Expected at: {violations_path}")
         print("\nPlease ensure the data processing pipeline has been run.")
         sys.exit(1)

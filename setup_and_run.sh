@@ -42,8 +42,8 @@ fi
 echo "✅ Dependencies installed successfully"
 
 # Check if data exists
-if [ ! -f "data/processed/violations.json" ]; then
-    echo "⚠️  Warning: violations.json not found"
+if [ ! -f "data/processed/violations_100.json" ]; then
+    echo "⚠️  Warning: violations_100.json not found"
     echo "Please ensure data is properly processed"
 fi
 

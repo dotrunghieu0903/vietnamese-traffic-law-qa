@@ -267,7 +267,7 @@ def convert_raw_to_processed():
     }
     
     # Save processed data
-    output_path = r"C:\Users\Mr Hieu\Documents\vietnamese-traffic-law-qa\data\processed\violations.json"
+    output_path = r"C:\Users\Mr Hieu\Documents\vietnamese-traffic-law-qa\data\processed\violations_100.json"
     
     try:
         with open(output_path, 'w', encoding='utf-8') as f:
@@ -300,11 +300,11 @@ def cleanup_data_folder():
     # Files to keep
     keep_files = [
         "raw/legal_documents/nghi_dinh_100_2019.json",
-        "processed/violations.json"
+        "processed/violations_100.json"
     ]
     
     # Optional: backup existing processed file
-    processed_path = os.path.join(base_dir, "processed", "violations.json")
+    processed_path = os.path.join(base_dir, "processed", "violations_100.json")
     if os.path.exists(processed_path):
         backup_path = processed_path.replace(".json", f"_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
         os.rename(processed_path, backup_path)

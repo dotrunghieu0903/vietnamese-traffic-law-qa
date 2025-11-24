@@ -93,7 +93,7 @@ st.markdown("""
 logging.basicConfig(level=logging.INFO)
 
 # Constants
-VIOLATIONS_DATA_PATH = project_root / "data" / "processed" / "violations.json"
+VIOLATIONS_DATA_PATH = project_root / "data" / "processed" / "violations_100.json"
 
 # Neo4j Configuration
 NEO4J_URI = "neo4j+s://7aa78485.databases.neo4j.io"

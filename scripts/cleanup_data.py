@@ -18,7 +18,7 @@ def cleanup_data_folder():
     # Essential files to keep
     essential_files = [
         "raw/legal_documents/nghi_dinh_100_2019.json",
-        "processed/violations.json"
+        "processed/violations_100.json"
     ]
     
     # Get all current files and folders
@@ -124,7 +124,7 @@ def verify_essential_files():
     
     essential_files = {
         "raw/legal_documents/nghi_dinh_100_2019.json": "Raw legal document",
-        "processed/violations.json": "Processed violations"
+        "processed/violations_100.json": "Processed violations"
     }
     
     print("\n🔍 Verifying essential files:")

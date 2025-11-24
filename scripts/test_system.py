@@ -59,7 +59,7 @@ def test_category_detection():
     print(f"\n📁 Testing file paths:")
     
     raw_path = r"C:\Users\Mr Hieu\Documents\vietnamese-traffic-law-qa\data\raw\legal_documents\nghi_dinh_100_2019.json"
-    processed_path = r"C:\Users\Mr Hieu\Documents\vietnamese-traffic-law-qa\data\processed\violations.json"
+    processed_path = r"C:\Users\Mr Hieu\Documents\vietnamese-traffic-law-qa\data\processed\violations_100.json"
     
     if os.path.exists(raw_path):
         print("✅ Raw data file exists")

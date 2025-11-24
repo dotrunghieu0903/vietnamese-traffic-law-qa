@@ -46,8 +46,8 @@ if errorlevel 1 (
 echo ✅ Dependencies installed successfully
 
 REM Check if data exists
-if not exist "data\processed\violations.json" (
-    echo ⚠️  Warning: violations.json not found
+if not exist "data\processed\violations_100.json" (
+    echo ⚠️  Warning: violations_100.json not found
     echo Please ensure data is properly processed
 )
 

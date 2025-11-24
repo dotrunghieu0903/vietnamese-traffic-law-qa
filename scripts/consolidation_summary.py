@@ -58,7 +58,7 @@ def generate_consolidation_summary():
     print("-" * 25)
     
     # Check processed file if exists
-    processed_path = r"C:\Users\Mr Hieu\Documents\vietnamese-traffic-law-qa\data\processed\violations.json"
+    processed_path = r"C:\Users\Mr Hieu\Documents\vietnamese-traffic-law-qa\data\processed\violations_100.json"
     
     if os.path.exists(processed_path):
         try:

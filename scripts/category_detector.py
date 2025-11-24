@@ -192,7 +192,7 @@ class ViolationProcessor:
     def __init__(self):
         self.detector = VehicleCategoryDetector()
         self.raw_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "raw", "legal_documents", "nghi_dinh_100_2019.json")
-        self.processed_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "processed", "violations.json")
+        self.processed_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "processed", "violations_100.json")
     
     def clean_text(self, text):
         """Clean and normalize text"""
@@ -500,7 +500,7 @@ def main():
         print(f"📋 {stats['other_categories']} other categories detected")
         print(f"🎯 {stats['vehicle_percentage']:.1f}% are vehicle-specific violations")
         
-        print(f"\n📁 Output saved to: data/processed/violations.json")
+        print(f"\n📁 Output saved to: data/processed/violations_100.json")
         print(f"🔍 Ready for Q&A system usage!")
     else:
         print(f"\n❌ Categorization failed. Please check the error messages above.")

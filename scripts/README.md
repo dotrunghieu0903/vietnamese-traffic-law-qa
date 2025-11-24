@@ -17,7 +17,7 @@ This single script will:
 - ✅ Load raw legal documents from `data/raw/legal_documents/nghi_dinh_100_2019.json`
 - ✅ Detect and categorize violations by vehicle types
 - ✅ Remove duplicates and invalid entries
-- ✅ Generate clean `data/processed/violations.json`
+- ✅ Generate clean `data/processed/violations_100.json`
 - ✅ Provide comprehensive analysis report
 
 ## 🔧 Core Scripts (Active)
@@ -91,7 +91,7 @@ The system automatically detects these vehicle categories:
 
 ## 📊 Output Format
 
-The processed `violations.json` contains:
+The processed `violations_100.json` contains:
 ```json
 {
   "metadata": {
@@ -131,7 +131,7 @@ The processed `violations.json` contains:
 1. **Add raw document**: Place new JSON in `data/raw/legal_documents/`
 2. **Run detection**: `python scripts/category_detector.py`  
 3. **Review results**: Check the analysis report
-4. **Use processed data**: File ready at `data/processed/violations.json`
+4. **Use processed data**: File ready at `data/processed/violations_100.json`
 
 ### For Category Improvements
 

@@ -112,7 +112,7 @@ pip install streamlit sentence-transformers
 ```
 
 #### If data files missing:
-- Ensure `data/processed/violations.json` exists
+- Ensure `data/processed/violations_100.json` exists
 - If not, run data processing pipeline
 
 #### If slow loading:
@@ -151,7 +151,7 @@ pip list | findstr streamlit
 from traffic_law_qa.knowledge.qa_system import TrafficLawQASystem
 
 # Initialize system
-qa_system = TrafficLawQASystem("data/processed/violations.json")
+qa_system = TrafficLawQASystem("data/processed/violations_100.json")
 
 # Ask question
 result = qa_system.ask_question("Đi xe máy vượt đèn đỏ bị phạt bao nhiêu?")
@@ -270,7 +270,7 @@ vietnamese-traffic-law-qa/
 │   └── ui/                      # 🖥️ Advanced Streamlit interface
 ├── data/
 │   ├── processed/
-│   │   └── violations.json      # 📊 436+ processed violations
+│   │   └── violations_100.json  # 📊 1027+ processed violations
 │   └── raw/legal_documents/     # Original legal documents
 ├── demo.py                      # 🎯 Quick demo script
 ├── test_knowledge_system.py     # 🧪 Comprehensive test suite
