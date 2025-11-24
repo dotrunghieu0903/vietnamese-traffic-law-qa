@@ -111,10 +111,8 @@
           "fine_range": "200000 - 400000 VNĐ",
           "violations": [
             "Không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường điểm a, điểm d, điểm đ, điểm e, điểm k, điểm 1, điểm o, điểm r, điểm s khoản 3",
-            "Chuyển hướng không nhường quyền đi trước cho: Người đi bộ, xe lăn của người khuyết tật qua đường tại nơi có vạch kẻ đường dành cho người đi bộ",
-            "Xe thô sơ đang đi trên phần đường dành cho xe thô sơ",
-            "Chuyển hướng không nhường đường cho: Các xe đi ngược chiều",
-            "Người đi bộ, xe lăn của người khuyết tật đang qua đường tại nơi không có vạch kẻ đường cho người đi bộ",
+            "Chuyển hướng không nhường quyền đi trước cho: người đi bộ, xe lăn của người khuyết tật qua đường tại nơi có vạch kẻ đường dành cho người đi bộ, xe thô sơ đang đi trên phần đường dành cho xe thô sơ",
+            "Chuyển hướng không nhường đường cho: các xe đi ngược chiều, người đi bộ, xe lăn của người khuyết tật đang qua đường tại nơi không có vạch kẻ đường cho người đi bộ",
             "Khi dừng xe, đỗ xe không có tín hiệu báo cho người điều khiển phương tiện khác biết",
             "Khi đỗ xe chiếm một phần đường xe chạy không đặt ngay báo hiệu ngụy hiểm theo quy định",
             "Không gắn biển báo hiệu ở phía trước xe kéo, phía sau xe được kéo",
