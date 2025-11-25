@@ -103,11 +103,11 @@
     .logo-area {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 18px;
     }
     .logo-circle {
-      width: 60px;
-      height: 60px;
+      width: 75px;
+      height: 75px;
       border-radius: 50%;
       border: 4px solid var(--primary-dark);
       display: flex;
@@ -569,7 +569,7 @@
     .footer {
       background: #fff;
       border-top: 1px solid var(--border);
-      font-size: 12px;
+      font-size: 15px;
       color: #666;
       padding: 12px 0 18px;
     }
@@ -577,6 +577,142 @@
       background: #111827;
       border-top-color: #374151;
       color: #9ca3af;
+    }
+
+    /* TAB CONTENT */
+    .tab-content {
+      display: block;
+    }
+    .tab-content.active {
+      display: block;
+    }
+
+    /* STATISTICS DASHBOARD */
+    .stat-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .stat-box:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    body.dark-mode .stat-box:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+    .stat-icon {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+    .stat-value {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--primary-dark);
+      margin-bottom: 4px;
+    }
+    body.dark-mode .stat-value {
+      color: var(--primary);
+    }
+    .stat-label {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+    .stat-help {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .capability-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 12px;
+      text-align: center;
+    }
+    .capability-icon {
+      font-size: 24px;
+      margin-bottom: 6px;
+    }
+    .capability-name {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    /* Refresh button */
+    .refresh-btn {
+      background: transparent;
+      border: none;
+      font-size: 14px;
+      cursor: pointer;
+      padding: 2px 6px;
+      border-radius: 4px;
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+    .refresh-btn:hover {
+      background: rgba(0,0,0,0.05);
+      transform: rotate(90deg);
+    }
+    body.dark-mode .refresh-btn:hover {
+      background: rgba(255,255,255,0.1);
+    }
+    .refresh-btn:active {
+      transform: rotate(180deg);
+    }
+
+    /* MINI STATS in Sidebar */
+    .mini-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      padding: 4px;
+    }
+    .mini-stat-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px;
+      background: var(--bg-body);
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .mini-stat-item:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    body.dark-mode .mini-stat-item:hover {
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+    .mini-stat-icon {
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .mini-stat-content {
+      flex: 1;
+      min-width: 0;
+    }
+    .mini-stat-value {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--primary-dark);
+      line-height: 1.2;
+    }
+    body.dark-mode .mini-stat-value {
+      color: var(--primary);
+    }
+    .mini-stat-label {
+      font-size: 10px;
+      color: var(--text-muted);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
     }
 
     /* 
@@ -623,7 +759,7 @@
         <span>Hệ thống tra cứu vi phạm Luật giao thông Việt Nam</span>
       </div>
       <div class="topbar-right">
-        <span>Hỗ trợ: 1900 0000</span>
+        <span>Hỗ trợ: 1900 8099</span>
         <a href="#">Hướng dẫn</a>
         <a href="#">Góp ý</a>
       </div>
@@ -635,7 +771,7 @@
     <div class="header-inner container">
       <div class="logo-area">
         <div class="logo-circle">
-          GT<br/>LAW
+          TRAFFIC<br/>LAW
         </div>
         <div class="logo-text">
           <h1>Thư Viện Luật Giao Thông</h1>
@@ -643,7 +779,7 @@
         </div>
       </div>
       <div class="header-actions">
-        <div>Phiên bản demo dùng backend <strong>vietnamese-traffic-law-qa</strong></div>
+        <!-- <div>Phiên bản demo dùng backend <strong>vietnamese-traffic-law-qa</strong></div> -->
         <!-- Nút bật/tắt dark mode -->
         <button id="dark-toggle" class="dark-toggle-btn" type="button">
           <span id="dark-toggle-icon">🌙</span>
@@ -657,10 +793,10 @@
   <nav class="nav">
     <div class="container">
       <ul>
-        <li class="active">Tra cứu vi phạm</li>
-        <li>Tra cứu mức phạt</li>
-        <li>Văn bản pháp luật</li>
-        <li>Thống kê</li>
+        <li class="nav-tab active" data-tab="search">Tra cứu vi phạm</li>
+        <li class="nav-tab" data-tab="fine">Tra cứu mức phạt</li>
+        <li class="nav-tab" data-tab="law">Văn bản pháp luật</li>
+        <li class="nav-tab" data-tab="stats">Thống kê</li>
       </ul>
     </div>
   </nav>
@@ -686,6 +822,8 @@
 
   <!-- MAIN LAYOUT -->
   <main class="layout">
+    <!-- TAB: Tra cứu vi phạm -->
+    <div id="tab-search" class="tab-content active">
     <div class="container columns">
       <!-- CỘT TRÁI: SIDEBAR -->
       <aside class="card">
@@ -696,7 +834,7 @@
         <div class="sidebar-menu">
           <!-- 1. Tốc độ / Làn đường -->
           <button class="sidebar-item" type="button"
-                  data-query="chạy quá tốc độ trong khu dân cư">
+                  data-query="chạy quá tốc độ trong khu dân cư thì bị phạt gì?">
             <span class="sidebar-number">1.</span>
             <div class="sidebar-icon-wrapper">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -722,7 +860,7 @@
 
           <!-- 2. Nồng độ cồn / Ma túy -->
           <button class="sidebar-item" type="button"
-                  data-query="vi phạm nồng độ cồn khi lái xe">
+                  data-query="uống rượu, bia khi lái xe máy thì bị phạt gì?">
             <span class="sidebar-number">2.</span>
             <div class="sidebar-icon-wrapper">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -747,7 +885,7 @@
 
           <!-- 3. Dừng / Đỗ xe -->
           <button class="sidebar-item" type="button"
-                  data-query="dừng đỗ xe sai quy định trên phố">
+                  data-query="dừng đỗ xe sai quy định trên phố thì bị phạt gì?">
             <span class="sidebar-number">3.</span>
             <div class="sidebar-icon-wrapper">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -766,7 +904,7 @@
 
           <!-- 4. Giấy tờ / GPLX -->
           <button class="sidebar-item" type="button"
-                  data-query="không mang theo giấy tờ xe và giấy phép lái xe">
+                  data-query="không mang theo giấy tờ xe và giấy phép lái xe thì bị phạt gì?">
             <span class="sidebar-number">4.</span>
             <div class="sidebar-icon-wrapper">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -791,7 +929,7 @@
 
           <!-- 5. Mũ bảo hiểm -->
           <button class="sidebar-item" type="button"
-                  data-query="không đội mũ bảo hiểm khi đi xe máy">
+                  data-query="không đội mũ bảo hiểm khi đi xe máy thì bị phạt gì?">
             <span class="sidebar-number">5.</span>
             <div class="sidebar-icon-wrapper">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -814,7 +952,7 @@
 
           <!-- 6. Chở quá người / hàng -->
           <button class="sidebar-item" type="button"
-                  data-query="chở quá số người quy định trên xe máy">
+                  data-query="chở quá số người quy định trên xe máy thì bị phạt gì?">
             <span class="sidebar-number">6.</span>
             <div class="sidebar-icon-wrapper">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -838,7 +976,7 @@
 
           <!-- 7. Đèn đỏ / tín hiệu -->
           <button class="sidebar-item" type="button"
-                  data-query="vượt đèn đỏ khi tham gia giao thông">
+                  data-query="vượt đèn đỏ khi tham gia giao thông thì bị phạt gì?">
             <span class="sidebar-number">7.</span>
             <div class="sidebar-icon-wrapper">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -866,7 +1004,7 @@
 
           <!-- 8. Lỗi khác -->
           <button class="sidebar-item" type="button"
-                  data-query="hành vi vi phạm giao thông khác">
+                  data-query="buôn bán trên vỉa hè thì bị phạt gì?">
             <span class="sidebar-number">8.</span>
             <div class="sidebar-icon-wrapper">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -916,8 +1054,47 @@
         </div>
       </section>
 
-      <!-- CỘT PHẢI: LỊCH SỬ / LƯU Ý -->
+      <!-- CỘT PHẢI: THỐNG KÊ / LỊCH SỬ / LƯU Ý -->
       <aside>
+        <!-- Thống kê hệ thống -->
+        <div class="card" style="margin-bottom: 10px;">
+          <div class="card-header">
+            <h2>📊 Thống kê hệ thống</h2>
+            <button id="refresh-stats-btn" class="refresh-btn" type="button" title="Làm mới thống kê">🔄</button>
+          </div>
+          <div class="mini-stats">
+            <div class="mini-stat-item">
+              <span class="mini-stat-icon">📝</span>
+              <div class="mini-stat-content">
+                <div class="mini-stat-value" id="mini-stat-violations">-</div>
+                <div class="mini-stat-label">Vi phạm</div>
+              </div>
+            </div>
+            <div class="mini-stat-item">
+              <span class="mini-stat-icon">🧠</span>
+              <div class="mini-stat-content">
+                <div class="mini-stat-value" id="mini-stat-nodes">-</div>
+                <div class="mini-stat-label">Nodes</div>
+              </div>
+            </div>
+            <div class="mini-stat-item">
+              <span class="mini-stat-icon">🔗</span>
+              <div class="mini-stat-content">
+                <div class="mini-stat-value" id="mini-stat-relations">-</div>
+                <div class="mini-stat-label">Relations</div>
+              </div>
+            </div>
+            <div class="mini-stat-item">
+              <span class="mini-stat-icon">📊</span>
+              <div class="mini-stat-content">
+                <div class="mini-stat-value" id="mini-stat-density">-</div>
+                <div class="mini-stat-label">Density</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lịch sử tra cứu -->
         <div class="card">
           <div class="card-header">
             <h2>Lịch sử tra cứu</h2>
@@ -935,18 +1112,175 @@
         </div>
       </aside>
     </div>
+    </div>
+    <!-- End tab-search -->
+
+    <!-- TAB: Thống kê hệ thống -->
+    <div id="tab-stats" class="tab-content" style="display: none;">
+      <div class="container">
+        <h2 style="color: var(--primary-dark); margin-bottom: 20px;">📊 Dashboard Hệ thống</h2>
+        
+        <!-- System Overview -->
+        <div class="card" style="margin-bottom: 16px;">
+          <div class="card-header">
+            <h2>🏗️ Tổng quan hệ thống</h2>
+          </div>
+          
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; padding: 10px;">
+            <div class="stat-box">
+              <div class="stat-icon">📝</div>
+              <div class="stat-value" id="stat-violations">-</div>
+              <div class="stat-label">Tổng Vi phạm</div>
+              <div class="stat-help">Số lượng hành vi vi phạm trong cơ sở dữ liệu</div>
+            </div>
+            
+            <div class="stat-box">
+              <div class="stat-icon">🧠</div>
+              <div class="stat-value" id="stat-nodes">-</div>
+              <div class="stat-label">Knowledge Nodes</div>
+              <div class="stat-help">Tổng số nodes trong knowledge graph</div>
+            </div>
+            
+            <div class="stat-box">
+              <div class="stat-icon">🔗</div>
+              <div class="stat-value" id="stat-relations">-</div>
+              <div class="stat-label">Relations</div>
+              <div class="stat-help">Tổng số mối quan hệ giữa các nodes</div>
+            </div>
+            
+            <div class="stat-box">
+              <div class="stat-icon">📊</div>
+              <div class="stat-value" id="stat-density">-</div>
+              <div class="stat-label">Graph Density</div>
+              <div class="stat-help">Mật độ kết nối của knowledge graph (0-1)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Capabilities -->
+        <div class="card" style="margin-bottom: 16px;">
+          <div class="card-header">
+            <h2>🚀 Khả năng hệ thống</h2>
+          </div>
+          
+          <div id="capabilities-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; padding: 10px;">
+            <!-- Capabilities will be rendered here by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End tab-stats -->
+
+    <!-- TAB: Tra cứu mức phạt (placeholder) -->
+    <div id="tab-fine" class="tab-content" style="display: none;">
+      <div class="container">
+        <div class="card">
+          <div class="card-header">
+            <h2>Tra cứu mức phạt</h2>
+          </div>
+          <div style="padding: 20px; text-align: center; color: var(--text-muted);">
+            <p>Tính năng đang được phát triển...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB: Văn bản pháp luật (placeholder) -->
+    <div id="tab-law" class="tab-content" style="display: none;">
+      <div class="container">
+        <div class="card">
+          <div class="card-header">
+            <h2>Văn bản pháp luật</h2>
+          </div>
+          <div style="padding: 20px; text-align: center; color: var(--text-muted);">
+            <p>Tính năng đang được phát triển...</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
-      © 2025 Hệ thống Tra Cứu Vi Phạm Giao Thông – chạy trên backend Neo4j + SentenceTransformer.
+      © 2025 Hệ thống Tra Cứu Vi Phạm Giao Thông.
+Đồ án môn học “Mô hình tri thức quan hệ và ứng dụng” – Nhóm 10 – GVHD: PGS.TS. Nguyễn Đình Hiển.
     </div>
   </footer>
 
   <script>
-    // URL API backend FastAPI (endpoint /search)
-    const API_ENDPOINT = "http://localhost:8000/search";
+    // ============================================
+    // Auto-detect API URL based on environment
+    // ============================================
+    function getApiUrl() {
+      const hostname = window.location.hostname;
+      
+      // Local development
+      if (hostname === 'localhost' || hostname === '127.0.0.1') {
+        return 'http://localhost:8000';
+      }
+      
+      // Ngrok deployment
+      if (hostname.includes('ngrok-free.app') || hostname.includes('ngrok.io')) {
+        // TODO: Update this URL after deploying with ngrok
+        // Run: ngrok http 8000
+        // Then copy the URL here (e.g., 'https://abc123.ngrok-free.app')
+        const ngrokBackendUrl = 'https://YOUR_BACKEND_URL.ngrok-free.app';
+        if (ngrokBackendUrl.includes('YOUR_BACKEND_URL')) {
+          console.warn('⚠️ NGROK: Please update the backend URL in index.html!');
+          // Fallback to localhost
+          return 'http://localhost:8000';
+        }
+        return ngrokBackendUrl;
+      }
+      
+      // Railway deployment
+      if (hostname.includes('railway.app')) {
+        // TODO: Update this URL after deploying to Railway
+        const railwayBackendUrl = 'https://traffic-law-api-production.up.railway.app';
+        if (railwayBackendUrl.includes('traffic-law-api-production')) {
+          console.warn('⚠️ RAILWAY: Please update the backend URL in index.html!');
+        }
+        return railwayBackendUrl;
+      }
+      
+      // Render deployment
+      if (hostname.includes('onrender.com')) {
+        // TODO: Update this URL after deploying to Render
+        const renderBackendUrl = 'https://traffic-law-api.onrender.com';
+        if (renderBackendUrl.includes('traffic-law-api.onrender')) {
+          console.warn('⚠️ RENDER: Please update the backend URL in index.html!');
+        }
+        return renderBackendUrl;
+      }
+      
+      // Vercel or other platforms
+      if (hostname.includes('vercel.app')) {
+        // TODO: Update this URL to point to your backend
+        const vercelBackendUrl = 'https://YOUR_BACKEND_URL.up.railway.app';
+        if (vercelBackendUrl.includes('YOUR_BACKEND_URL')) {
+          console.warn('⚠️ VERCEL: Please update the backend URL in index.html!');
+          // Fallback to localhost for testing
+          return 'http://localhost:8000';
+        }
+        return vercelBackendUrl;
+      }
+      
+      // Default fallback
+      console.warn('⚠️ Unknown hosting environment. Using localhost.');
+      return 'http://localhost:8000';
+    }
+
+    // Get API base URL and construct endpoint
+    const API_BASE_URL = getApiUrl();
+    const API_ENDPOINT = `${API_BASE_URL}/search`;
+    const API_STATS_ENDPOINT = `${API_BASE_URL}/stats`;
+    
+    // Log for debugging
+    console.log('🌐 Hostname:', window.location.hostname);
+    console.log('🔗 API Base URL:', API_BASE_URL);
+    console.log('📡 API Endpoint:', API_ENDPOINT);
+    console.log('📊 Stats Endpoint:', API_STATS_ENDPOINT);
 
     const queryInput   = document.getElementById("query-input");
     const searchBtn    = document.getElementById("search-btn");
@@ -1051,7 +1385,10 @@
 
       if (!results.length) {
         resultList.innerHTML =
-          '<div class="no-result">Không tìm thấy điều luật phù hợp với bộ lọc hiện tại. Hãy thử bỏ lọc hoặc mô tả chi tiết hơn.</div>';
+          // '<div class="no-result">Không tìm thấy điều luật phù hợp với bộ lọc hiện tại. Hãy thử bỏ lọc hoặc mô tả chi tiết hơn.</div>';
+          '<div class="no-result">Không tìm thấy điều luật phù hợp với câu hỏi này trong dữ liệu Nghị định 100/2019/NĐ-CP.</div>';
+          '<div class="no-result">Không tìm thấy điều luật phù hợp với câu hỏi này trong dữ liệu.</div>';
+
         autoHighlightWithResult(data);
         return;
       }
@@ -1322,9 +1659,160 @@
       }
     });
 
+    // ============================================
+    // TAB NAVIGATION
+    // ============================================
+    function setupTabs() {
+      const navTabs = document.querySelectorAll(".nav-tab");
+      const tabContents = document.querySelectorAll(".tab-content");
+      
+      navTabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+          const targetTab = tab.dataset.tab;
+          
+          // Update active nav tab
+          navTabs.forEach(t => t.classList.remove("active"));
+          tab.classList.add("active");
+          
+          // Show target tab content
+          tabContents.forEach(content => {
+            content.style.display = "none";
+          });
+          
+          const targetContent = document.getElementById(`tab-${targetTab}`);
+          if (targetContent) {
+            targetContent.style.display = "block";
+          }
+          
+          // Load stats if stats tab is selected (use cache if available)
+          if (targetTab === "stats") {
+            loadSystemStats(false); // false = use cache
+          }
+        });
+      });
+    }
+
+    // ============================================
+    // LOAD SYSTEM STATISTICS
+    // ============================================
+    let cachedStats = null; // Cache stats to avoid multiple API calls
+
+    async function loadSystemStats(forceRefresh = false) {
+      // Use cached stats if available and not forcing refresh
+      if (cachedStats && !forceRefresh) {
+        renderSystemStats(cachedStats);
+        renderMiniStats(cachedStats);
+        return;
+      }
+
+      try {
+        const res = await fetch(API_STATS_ENDPOINT);
+        
+        if (!res.ok) {
+          throw new Error("HTTP " + res.status);
+        }
+        
+        const stats = await res.json();
+        cachedStats = stats; // Cache the results
+        renderSystemStats(stats);
+        renderMiniStats(stats);
+      } catch (err) {
+        console.error("Error loading stats:", err);
+        showStatsError();
+        showMiniStatsError();
+      }
+    }
+
+    function renderSystemStats(stats) {
+      const kg = stats.knowledge_graph || {};
+      const info = stats.system_info || {};
+      
+      // System Overview
+      // Support both 'behavior' and 'violation' labels
+      document.getElementById("stat-violations").textContent = 
+        kg.node_types?.behavior || kg.node_types?.violation || 
+        kg.node_types?.Behavior || kg.node_types?.Violation || 0;
+      document.getElementById("stat-nodes").textContent = 
+        kg.total_nodes || 0;
+      document.getElementById("stat-relations").textContent = 
+        kg.total_relations || 0;
+      document.getElementById("stat-density").textContent = 
+        (kg.graph_density || 0).toFixed(3);
+      
+      // Capabilities
+      renderCapabilities(info.capabilities || {});
+    }
+
+    function renderCapabilities(capabilities) {
+      const container = document.getElementById("capabilities-container");
+      container.innerHTML = "";
+      
+      for (const [name, enabled] of Object.entries(capabilities)) {
+        const box = document.createElement("div");
+        box.className = "capability-box";
+        
+        const icon = document.createElement("div");
+        icon.className = "capability-icon";
+        icon.textContent = enabled ? "✅" : "❌";
+        
+        const label = document.createElement("div");
+        label.className = "capability-name";
+        label.textContent = name.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+        
+        box.appendChild(icon);
+        box.appendChild(label);
+        container.appendChild(box);
+      }
+    }
+
+    function renderMiniStats(stats) {
+      const kg = stats.knowledge_graph || {};
+      
+      // Update mini stats in sidebar
+      const violations = kg.node_types?.behavior || kg.node_types?.violation || 
+                        kg.node_types?.Behavior || kg.node_types?.Violation || 0;
+      const totalNodes = kg.total_nodes || 0;
+      const totalRelations = kg.total_relations || 0;
+      const density = (kg.graph_density || 0).toFixed(3);
+      
+      document.getElementById("mini-stat-violations").textContent = violations.toLocaleString();
+      document.getElementById("mini-stat-nodes").textContent = totalNodes.toLocaleString();
+      document.getElementById("mini-stat-relations").textContent = totalRelations.toLocaleString();
+      document.getElementById("mini-stat-density").textContent = density;
+    }
+
+    function showStatsError() {
+      document.getElementById("stat-violations").textContent = "Error";
+      document.getElementById("stat-nodes").textContent = "Error";
+      document.getElementById("stat-relations").textContent = "Error";
+      document.getElementById("stat-density").textContent = "Error";
+      
+      const capContainer = document.getElementById("capabilities-container");
+      capContainer.innerHTML = '<p style="text-align: center; color: var(--text-muted);">Không thể tải dữ liệu. Vui lòng kiểm tra kết nối API.</p>';
+    }
+
+    function showMiniStatsError() {
+      document.getElementById("mini-stat-violations").textContent = "?";
+      document.getElementById("mini-stat-nodes").textContent = "?";
+      document.getElementById("mini-stat-relations").textContent = "?";
+      document.getElementById("mini-stat-density").textContent = "?";
+    }
+
+    // Refresh stats button
+    const refreshStatsBtn = document.getElementById("refresh-stats-btn");
+    if (refreshStatsBtn) {
+      refreshStatsBtn.addEventListener("click", () => {
+        loadSystemStats(true); // true = force refresh (no cache)
+      });
+    }
+
     // init
     setupSidebar();
+    setupTabs();
     applyThemeFromStorage();
+    
+    // Load mini stats on page load
+    loadSystemStats();
   </script>
 </body>
 </html>
