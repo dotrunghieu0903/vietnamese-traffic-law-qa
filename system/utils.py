@@ -31,7 +31,7 @@ def analyze_traffic_query(user_query, tokenizer, model):
         generated_ids = model.generate(
             **model_inputs,
             max_new_tokens=1024,
-            temperature=0.0,    
+            temperature=0.1,    
             do_sample=True
         )
 
@@ -51,17 +51,9 @@ def analyze_traffic_query(user_query, tokenizer, model):
 
 
 
-def extract_entities_with_llm(query, vehicle_patterns, business_patterns, fallback_patterns, open_source=False):
-    if open_source:
-        model_name = "Qwen/Qwen3-4B"
-
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
-        model = AutoModelForCausalLM.from_pretrained(
-            model_name,
-            torch_dtype="auto",
-            device_map="auto"
-        )
-        thinking_content, content = analyze_traffic_query(query, tokenizer, model)
+def extract_entities_with_llm(query, vehicle_patterns, business_patterns, fallback_patterns, model_llm=[None, None]):
+    if model_llm[0] is not None and model_llm[1] is not None:
+        thinking_content, content = analyze_traffic_query(query, model_llm[0], model_llm[1])
         clean_json = content.replace("```json", "").replace("```", "").strip()
         extraction = json.loads(clean_json)
     else:
@@ -100,7 +92,8 @@ def print_results(results):
         print(f"Description: {result['data']['text']}")
         print(f"Category: {result['data']['category']}")
         print(f"Fine: {result['data']['fine_min']} - {result['data']['fine_max']} VNĐ")
-        print(f"Law: {result['data']['law_article']}, {result['data']['law_clause']}")
+        # print(f"Law: {result['data']['law_article']}, {result['data']['law_clause']}", f", {result['data']['law_point'] if result['data'].get('law_point') else ''}")
+        print(f"Law: {result['data']['full_ref']}")
         print(f"Document: {result['data'].get('document', 'N/A')}")
         print(f"Extra: {result['data']['extra']}")
         print("--------------------------------")
