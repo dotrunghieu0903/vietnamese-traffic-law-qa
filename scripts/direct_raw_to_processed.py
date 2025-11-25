@@ -69,8 +69,9 @@ def categorize_violation(violation_text, article_title=""):
         "Vi phạm mũ bảo hiểm": ["mũ bảo hiểm", "helmet"],
         "Vi phạm dây an toàn": ["dây an toàn", "thắt dây", "seat belt"],
         "Vi phạm chở người/hàng": ["chở người", "chở hàng", "quá tải", "overload"],
-        "Vi phạm về xe máy": ["xe máy", "mô tô", "xe gắn máy"],
-        "Vi phạm về ô tô": ["ô tô", "xe hơi", "car"],
+        # Sửa thứ tự: kiểm tra xe mô tô trước xe ô tô để tránh false positive
+        "Vi phạm về xe máy": ["xe mô tô", "mô tô", "xe máy", "xe gắn máy"],
+        "Vi phạm về ô tô": ["xe ô tô", "xe hơi", "car"],  # loại bỏ "ô tô" đơn lẻ
         "Vi phạm người đi bộ": ["đi bộ", "người đi bộ", "pedestrian"]
     }
     
