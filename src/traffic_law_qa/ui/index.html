@@ -141,6 +141,11 @@
       align-items: flex-end;
       gap: 6px;
     }
+    .law-viewer {
+      margin-top: 8px;
+      width: 100%;
+      max-height: 80vh;
+    }
 
     /* Nút bật/tắt dark mode */
     .dark-toggle-btn {
@@ -196,6 +201,31 @@
     .nav li.active {
       background: #fff4e5;
       color: var(--primary-dark);
+    }
+
+    .search-row--compact {
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .decree-label {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-right: 4px;
+      white-space: nowrap;
+    }
+    .decree-select {
+      padding: 6px 8px;
+      font-size: 13px;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      color: var(--text-main);
+    }
+    body.dark-mode .decree-select {
+      background: #111827;
+      border-color: #4b5563;
+      color: #e5e7eb;
     }
 
     /* SEARCH BAR – phần nhập câu hỏi */
@@ -775,7 +805,7 @@
         </div>
         <div class="logo-text">
           <h1>Thư Viện Luật Giao Thông</h1>
-          <span>Tra cứu lỗi, mức phạt và căn cứ pháp lý theo Nghị định 100/2019.</span>
+          <span>Tra cứu lỗi, mức phạt và căn cứ pháp lý theo Nghị định 100/2019 và 168/2024.</span>
         </div>
       </div>
       <div class="header-actions">
@@ -794,17 +824,29 @@
     <div class="container">
       <ul>
         <li class="nav-tab active" data-tab="search">Tra cứu vi phạm</li>
-        <li class="nav-tab" data-tab="fine">Tra cứu mức phạt</li>
+        <li class="nav-tab" data-tab="fine">Cập nhật dữ liệu</li>
         <li class="nav-tab" data-tab="law">Văn bản pháp luật</li>
-        <li class="nav-tab" data-tab="stats">Thống kê</li>
+        <!-- <li class="nav-tab" data-tab="stats">Thống kê</li> -->
       </ul>
     </div>
   </nav>
 
+
+
   <!-- SEARCH BAR -->
-  <section class="search-bar">
+  <section class="search-bar" id="search-bar">
     <div class="container">
       <form class="search-form" onsubmit="return false;">
+        <!-- HÀNG MỚI: CHỌN NGHỊ ĐỊNH -->
+        <div class="search-row search-row--compact">
+          <label for="decree-select" class="decree-label">Nghị định:</label>
+          <select id="decree-select" class="decree-select">
+            <option value="ND100">NĐ 100/2019/NĐ-CP</option>
+            <option value="ND168" selected>NĐ 168/2024/NĐ-CP</option>
+          </select>
+        </div>
+
+        <!-- Ô TÌM KIẾM -->
         <div class="search-row">
           <input
             id="query-input"
@@ -813,6 +855,7 @@
           />
           <button id="search-btn" type="button">Tìm kiếm</button>
         </div>
+
         <div class="search-meta">
           Gợi ý: mô tả hành vi càng cụ thể (loại xe, địa điểm, mức vi phạm) thì kết quả càng chính xác.
         </div>
@@ -1056,7 +1099,7 @@
 
       <!-- CỘT PHẢI: THỐNG KÊ / LỊCH SỬ / LƯU Ý -->
       <aside>
-        <!-- Thống kê hệ thống -->
+        <!-- Thống kê hệ thống
         <div class="card" style="margin-bottom: 10px;">
           <div class="card-header">
             <h2>📊 Thống kê hệ thống</h2>
@@ -1092,7 +1135,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Lịch sử tra cứu -->
         <div class="card">
@@ -1106,7 +1149,7 @@
 
         <div class="card info-banner" style="margin-top:10px;">
           <strong>Lưu ý:</strong><br/>
-          Kết quả được trích xuất tự động từ đồ thị Neo4j Nghị định 100/2019/NĐ-CP.
+          Kết quả được trích xuất tự động từ đồ thị Neo4j trong các Nghị định 100/2019/NĐ-CP và 168/2024/NĐ-CP.
           Trong trường hợp có nhiều điều luật liên quan, bạn nên đọc kỹ nội dung
           điều khoản trước khi áp dụng.
         </div>
@@ -1176,7 +1219,7 @@
       <div class="container">
         <div class="card">
           <div class="card-header">
-            <h2>Tra cứu mức phạt</h2>
+            <h2>Cập nhật dữ liệu</h2>
           </div>
           <div style="padding: 20px; text-align: center; color: var(--text-muted);">
             <p>Tính năng đang được phát triển...</p>
@@ -1192,8 +1235,29 @@
           <div class="card-header">
             <h2>Văn bản pháp luật</h2>
           </div>
-          <div style="padding: 20px; text-align: center; color: var(--text-muted);">
-            <p>Tính năng đang được phát triển...</p>
+          <div style="padding: 10px;">
+            <!-- Chọn văn bản -->
+            <div class="filter-row">
+              <label for="law-select">Chọn văn bản:</label>
+              <select id="law-select" class="filter-select">
+                <option value="ND100">NĐ 100/2019/NĐ-CP</option>
+                <option value="ND168" selected>NĐ 168/2024/NĐ-CP</option>
+              </select>
+            </div>
+        
+            <!-- Viewer PDF -->
+            <div class="law-viewer">
+              <iframe
+                id="law-pdf-frame"
+                src=""
+                width="100%"
+                height="600"
+                style="border: 1px solid var(--border); border-radius: 4px;"
+              ></iframe>
+            </div>
+
+          <!-- <div style="padding: 20px; text-align: center; color: var(--text-muted);">
+            <p>Tính năng đang được phát triển...</p> -->
           </div>
         </div>
       </div>
@@ -1283,6 +1347,7 @@
     console.log('📊 Stats Endpoint:', API_STATS_ENDPOINT);
 
     const queryInput   = document.getElementById("query-input");
+    const searchBar = document.getElementById("search-bar");
     const searchBtn    = document.getElementById("search-btn");
     const statusLabel  = document.getElementById("status-label");
     const metaLine     = document.getElementById("meta-line");
@@ -1290,6 +1355,7 @@
     const resultList   = document.getElementById("result-list");
     const historyList  = document.getElementById("history-list");
     const vehicleFilter = document.getElementById("vehicle-filter");
+    const decreeSelect  = document.getElementById("decree-select");
 
     const darkToggleBtn   = document.getElementById("dark-toggle");
     const darkToggleIcon  = document.getElementById("dark-toggle-icon");
@@ -1297,10 +1363,21 @@
 
     const historyData = [];
 
+
+
     // Lưu last query & data để filter lại
     let lastQuery = "";
     let lastData = null;
     let currentFilter = "all";
+    if (vehicleFilter) {
+      vehicleFilter.addEventListener("change", () => {
+        currentFilter = vehicleFilter.value;  // cập nhật loại xe đang chọn
+        renderResults();                      // render lại danh sách kết quả
+      });
+    }
+
+    let lastDecree = ""; // ND100, ND168 hoặc ""
+    let isProgrammaticDecreeChange = false; // 🔹 đánh dấu đổi nghị định bằng code
 
     async function doSearch() {
       const q = queryInput.value.trim();
@@ -1308,6 +1385,7 @@
         alert("Vui lòng nhập mô tả hành vi vi phạm hoặc câu hỏi.");
         return;
       }
+      const decree = decreeSelect.value // "ND100", "ND168"
 
       statusLabel.textContent = "Đang tra cứu...";
       statusLabel.style.background = "#999";
@@ -1316,7 +1394,11 @@
         const res = await fetch(API_ENDPOINT, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ question: q, top_k: 10 })
+          body: JSON.stringify({
+            question: q,
+            top_k: 10,
+            document_name: decree   // 🔑 gửi nghị định lên backend
+          })
         });
 
         if (!res.ok) {
@@ -1328,10 +1410,11 @@
         lastQuery = q;
         lastData  = data;
         currentFilter = "all";
+        lastDecree = decree;
 
         populateVehicleFilter(data);
         renderResults();
-        pushHistory(q, data);
+        pushHistory(q, data, decree);
 
         statusLabel.textContent = "Hoàn thành";
         statusLabel.style.background = "#28a745";
@@ -1381,12 +1464,16 @@
         if (intentText) intentText += " &nbsp;|&nbsp; ";
         intentText += 'Đang lọc theo loại xe: <span class="highlight">' + escapeHtml(currentFilter) + "</span>";
       }
+      if (lastDecree) {
+        if (intentText) intentText += " &nbsp;|&nbsp; ";
+        intentText += 'Nghị định: <span class="highlight">' + escapeHtml(lastDecree) + "</span>";
+      }
       intentLine.innerHTML = intentText;
 
       if (!results.length) {
         resultList.innerHTML =
           // '<div class="no-result">Không tìm thấy điều luật phù hợp với bộ lọc hiện tại. Hãy thử bỏ lọc hoặc mô tả chi tiết hơn.</div>';
-          '<div class="no-result">Không tìm thấy điều luật phù hợp với câu hỏi này trong dữ liệu Nghị định 100/2019/NĐ-CP.</div>';
+          // '<div class="no-result">Không tìm thấy điều luật phù hợp với câu hỏi này trong dữ liệu Nghị định 100/2019/NĐ-CP.</div>';
           '<div class="no-result">Không tìm thấy điều luật phù hợp với câu hỏi này trong dữ liệu.</div>';
 
         autoHighlightWithResult(data);
@@ -1455,6 +1542,7 @@
           "Căn cứ: " +
           (r.law_article || "") +
           (r.law_clause ? ", " + r.law_clause : "") +
+          (r.law_point ? ", " + r.law_point : "") +
           (r.vehicle_category ? " – Đối tượng: " + r.vehicle_category : "");
 
         div.appendChild(law);
@@ -1504,11 +1592,12 @@
       });
     }
 
-    function pushHistory(query, data) {
+    function pushHistory(query, data, decree) {
       historyData.unshift({
         query,
         time: new Date(),
-        data
+        data,
+        decree: decree || ""
       });
 
       // Nếu quá 10 thì bỏ bớt cuối
@@ -1523,9 +1612,19 @@
         div.className = "history-item";
         // Click lên item lịch sử → hiển thị lại kết quả đã lưu
         div.onclick = () => {
-          lastQuery = item.query;
-          lastData  = item.data;
+          lastQuery   = item.query;
+          lastData    = item.data;
+          lastDecree  = item.decree || "";
           currentFilter = "all";
+
+          // Điền lại câu hỏi lên input
+          queryInput.value = lastQuery;
+
+          // Cập nhật lại dropdown nghị định cho đúng nhưng KHÔNG gọi doSearch()
+          isProgrammaticDecreeChange = true;
+          decreeSelect.value = lastDecree || "ND100";
+          isProgrammaticDecreeChange = false;
+
           populateVehicleFilter(item.data);
           renderResults();
         };
@@ -1644,53 +1743,66 @@
       applyThemeFromStorage();
     });
 
-    // Filter dropdown change
-    vehicleFilter.addEventListener("change", () => {
-      currentFilter = vehicleFilter.value;
-      renderResults();
-    });
+    // Khi đổi Nghị định (ND100 / ND168)
+    decreeSelect.addEventListener("change", () => {
+      // Nếu đang đổi bằng code (click lịch sử) thì bỏ qua
+      if (isProgrammaticDecreeChange) return;
 
-    // event listeners
-    searchBtn.addEventListener("click", doSearch);
-    queryInput.addEventListener("keydown", e => {
-      if (e.key === "Enter") {
-        e.preventDefault();
-        doSearch();
+      // Nếu ô input đang trống nhưng đã có lastQuery thì dùng lại lastQuery
+      if (!queryInput.value.trim() && lastQuery) {
+        queryInput.value = lastQuery;
       }
+
+      const q = queryInput.value.trim();
+      if (!q) return; // chưa có câu hỏi thì không gọi API
+
+      // Gọi lại search với nghị định mới
+      doSearch();
     });
 
     // ============================================
     // TAB NAVIGATION
     // ============================================
     function setupTabs() {
-      const navTabs = document.querySelectorAll(".nav-tab");
-      const tabContents = document.querySelectorAll(".tab-content");
-      
-      navTabs.forEach(tab => {
-        tab.addEventListener("click", () => {
-          const targetTab = tab.dataset.tab;
-          
-          // Update active nav tab
-          navTabs.forEach(t => t.classList.remove("active"));
-          tab.classList.add("active");
-          
-          // Show target tab content
-          tabContents.forEach(content => {
-            content.style.display = "none";
-          });
-          
-          const targetContent = document.getElementById(`tab-${targetTab}`);
-          if (targetContent) {
-            targetContent.style.display = "block";
-          }
-          
-          // Load stats if stats tab is selected (use cache if available)
-          if (targetTab === "stats") {
-            loadSystemStats(false); // false = use cache
-          }
+    const navTabs = document.querySelectorAll(".nav-tab");
+    const tabContents = document.querySelectorAll(".tab-content");
+    
+    navTabs.forEach(tab => {
+      tab.addEventListener("click", () => {
+        const targetTab = tab.dataset.tab;
+        
+        // Update active nav tab
+        navTabs.forEach(t => t.classList.remove("active"));
+        tab.classList.add("active");
+        
+        // Show target tab content
+        tabContents.forEach(content => {
+          content.style.display = "none";
         });
+        
+        const targetContent = document.getElementById(`tab-${targetTab}`);
+        if (targetContent) {
+          targetContent.style.display = "block";
+        }
+
+        // 🔹 Ẩn/hiện thanh tìm kiếm:
+        // - Hiện ở tab "Tra cứu vi phạm" (search)
+        // - Ẩn ở tab "Tra cứu mức phạt" (fine) và "Văn bản pháp luật" (law)
+        if (searchBar) {
+          if (targetTab === "search") {
+            searchBar.style.display = "block";
+          } else {
+            searchBar.style.display = "none";
+          }
+        }
+        
+        // Load stats nếu mở tab thống kê
+        if (targetTab === "stats") {
+          loadSystemStats(false); // false = dùng cache
+        }
       });
-    }
+    });
+  }
 
     // ============================================
     // LOAD SYSTEM STATISTICS
@@ -1803,6 +1915,54 @@
     if (refreshStatsBtn) {
       refreshStatsBtn.addEventListener("click", () => {
         loadSystemStats(true); // true = force refresh (no cache)
+      });
+    }
+
+    // ============================================
+    // LAW PDF VIEWER
+    // ============================================
+    const lawSelect   = document.getElementById("law-select");
+    const lawPdfFrame = document.getElementById("law-pdf-frame");
+    // const lawFileInput = document.getElementById("law-file-input"); // nếu dùng upload
+
+    // Map value -> đường dẫn file PDF trên server
+    function getLawPdfUrl(code) {
+      switch (code) {
+        case "ND100":
+          return "pdf/ND100_2019_ND-CP.pdf";
+        case "ND168":
+          return "pdf/ND168_2024_ND-CP.pdf";
+        default:
+          return "";
+      }
+    }
+
+    function updateLawPdf() {
+      if (!lawSelect || !lawPdfFrame) return;
+      const url = getLawPdfUrl(lawSelect.value);
+      lawPdfFrame.src = url;
+    }
+
+    // Đổi văn bản trong dropdown -> đổi file PDF
+    if (lawSelect && lawPdfFrame) {
+      lawSelect.addEventListener("change", updateLawPdf);
+      
+      // Load mặc định khi mở trang
+      updateLawPdf();
+    }
+
+    if (searchBtn) {
+      searchBtn.addEventListener("click", () => {
+        doSearch();
+      });
+    }
+
+    if (queryInput) {
+      queryInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          doSearch();
+        }
       });
     }
 
