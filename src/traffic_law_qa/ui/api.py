@@ -1,18 +1,34 @@
 # api.py
 import os
+import json
 import sys
 from pathlib import Path
+from typing import Optional 
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+# Lấy thư mục gốc của project
 project_root = Path(__file__).parent.parent.parent.parent
 sys.path.insert(0, str(project_root))
 
 from system.model import Model
 from scripts.category_detector import VehicleCategoryDetector
 from system.utils import extract_entities_with_llm
+
+
+# Import the Neo4j-based QA adapter
+from system.qa_adapter import Neo4jQAAdapter
+
+
+def remove_duplicates(input_list):
+    """
+    Loại bỏ trùng lặp và giữ nguyên thứ tự.
+    """
+    if not input_list:
+        return []
+    return list(dict.fromkeys(input_list))
 
 
 # --------- KHỞI TẠO FastAPI App ----------
@@ -51,6 +67,7 @@ class SearchRequest(BaseModel):
     question: str
     top_k: int = 10
     verbose: bool = False
+    document_name: Optional[str]
 
 
 @app.post("/search")
@@ -76,8 +93,26 @@ def search(req: SearchRequest):
         fallback_patterns,
         top_k=req.top_k,
         verbose=req.verbose,
+        decree_filter=req.document_name
     )
-    # print('raw_results: ', raw_results)
+    
+
+    if req.document_name == "ND168":
+        with open("/mnt/mmlabworkspace/WorkSpaces/ngaptb/HumanActionMimic/vietnamese-traffic-law-qa-master/data/processed/article2category_ND168.json", "r") as f:
+            article2category = json.load(f)
+    elif req.document_name == "ND100":
+        with open("/mnt/mmlabworkspace/WorkSpaces/ngaptb/HumanActionMimic/vietnamese-traffic-law-qa-master/data/processed/article2category_ND100.json", "r") as f:
+            article2category = json.load(f)
+    for result in raw_results:
+        result['data']['category'] = article2category[result['data']['law_article']]
+        if result['data']['document'] == "ND168":
+            result['data']['document'] = "Nghị định 168/2024/NĐ-CP"
+        elif result['data']['document'] == "ND100":
+            result['data']['document'] = "Nghị định 100/2019/NĐ-CP"
+        result['data']['extra'] = remove_duplicates(result['data']['extra'])
+    print('raw_results: ', raw_results)
+
+
     # hybrid_search trả về list các phần tử:
     # { "data": item, "score": tổng RRF }
     # trong đó item có: id, text, category, fine_min, fine_max, law_article, law_clause, extra, vector_score/bm25_score
@@ -95,6 +130,18 @@ def search(req: SearchRequest):
         else:
             fine_text = ""
 
+        # Extract law_point from full_ref if available
+        law_point = None
+        full_ref = data.get("full_ref", "")
+        if full_ref and "Điểm" in full_ref:
+            # Extract "Điểm x" from full_ref (e.g., "Nghị định 168/2024/NĐ-CP, Điều 6, Khoản 5, Điểm p")
+            parts = full_ref.split(", ")
+            for part in parts:
+                if part.startswith("Điểm"):
+                    law_point = part
+                    break
+
+        # print("req.document_name: ", req.document_name)
         # print('results: ', results)
         results.append(
             {
@@ -106,6 +153,7 @@ def search(req: SearchRequest):
                 "fine_text": fine_text,
                 "law_article": data.get("law_article"),
                 "law_clause": data.get("law_clause"),
+                "law_point": law_point,
                 "extra_penalties": data.get("extra") or [],
                 "score": score,
             }
@@ -115,6 +163,7 @@ def search(req: SearchRequest):
         "query": req.question,
         "detected_category": target_category,
         "detected_intent": query_intent,
+        "document_filter": req.document_name,
         "results": results,
     }
 
@@ -124,6 +173,8 @@ def health():
     return {"status": "ok"}
 
 
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("api:app", host="0.0.0.0", port=8000, reload=True)
+
