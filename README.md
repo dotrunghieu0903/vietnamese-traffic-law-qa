@@ -243,25 +243,35 @@ print(f"Average time: {benchmark['average_processing_time']:.3f}s")
 
 ```
 vietnamese-traffic-law-qa/
-├── src/traffic_law_qa/
-│   ├── knowledge/               # 🧠 Knowledge Graph & Semantic Reasoning
-│   │   ├── knowledge_graph.py   # Knowledge Graph implementation
-│   │   ├── semantic_reasoning.py # Semantic reasoning engine
-│   │   └── qa_system.py         # Integrated QA system
-│   ├── api/                     # FastAPI application
-│   ├── core/                    # Configuration and settings  
-│   ├── data/                    # Data models
-│   ├── nlp/                     # Vietnamese NLP utilities
-│   ├── search/                  # Semantic search engine
-│   └── ui/                      # 🖥️ Advanced Streamlit interface
-├── data/
+├── 🧠 src/traffic_law_qa/          # Knowledge Graph System
+│   ├── knowledge/                  # Core AI components
+│   │   ├── knowledge_graph.py      # NetworkX graph engine
+│   │   ├── semantic_reasoning.py   # NLP reasoning
+│   │   └── qa_system.py           # Integrated QA system
+│   ├── ui/                        # Streamlit web interface
+│   │   ├── streamlit_app.py       # 4-tab advanced UI
+│   │   └── index.html             # Standalone web UI
+│   └── [api/, core/, data/, nlp/, search/]  # Supporting modules
+├── 🗄️ system/                      # Neo4j Production System  
+│   ├── main.py                     # CLI interface
+│   ├── model.py                    # Neo4j hybrid search
+│   ├── database_loader.py          # Data ingestion
+│   └── utils.py                    # Helper functions
+├── 📊 data/
 │   ├── processed/
-│   │   └── violations_100.json  # 📊 1027+ processed violations
-│   └── raw/legal_documents/     # Original legal documents
-├── demo.py                      # 🎯 Quick demo script
-├── test_knowledge_system.py     # 🧪 Comprehensive test suite
-├── KNOWLEDGE_GRAPH_DESIGN.md    # 📖 Technical documentation
-└── requirements-knowledge.txt   # Additional ML dependencies
+│   │   └── violations_100.json     # 1,027 violations (28MB)
+│   └── raw/legal_documents/        # Source documents
+├── 🔧 scripts/                     # Data processing pipeline
+│   ├── category_detector.py        # Vehicle categorization
+│   ├── extractor.py               # DOCX → JSON conversion  
+│   └── [30+ processing scripts]   # Data transformation
+├── ⚡ Setup & Demo
+│   ├── setup_and_run.bat          # One-click setup (Windows)
+│   ├── advanced_demo.py           # Knowledge graph demo
+│   ├── run_streamlit.py           # Neo4j UI launcher
+│   └── requirements.txt           # Dependencies
+└── 📋 evaluation/                  # Testing & benchmarks
+    └── evaluate.py                # System performance testing
 ```
 
 ## 🔬 Testing & Development
