@@ -21,9 +21,9 @@ class Model:
         self.auth = auth
         self.embedding_model = embedding_model
 
-    def vector_search(self, query, vehicle_patterns, business_patterns, fallback_patterns, top_k=10, verbose=False):
+    def vector_search(self, query, vehicle_patterns, business_patterns, fallback_patterns, model_llm=[None, None], decree_filter=None, top_k=10, verbose=False):
         driver = GraphDatabase.driver(self.uri, auth=self.auth)
-        extraction = extract_entities_with_llm(query, vehicle_patterns, business_patterns, fallback_patterns)
+        extraction = extract_entities_with_llm(query, vehicle_patterns, business_patterns, fallback_patterns, model_llm)
         target_category = extraction['category']
         query_intent = extraction['intent']
         if query_intent == None:
@@ -37,23 +37,24 @@ class Model:
             category_filters = [target_category.capitalize()]
         print(f"🔍 Filter: {category_filters or 'All'} | Search: {query} | Intent: {query_intent}")
         vector_query_template = """
-        CALL db.index.vector.queryNodes('violation_index', 50, $embedding)
+        CALL db.index.vector.queryNodes('violation_index', {vector_limit}, $embedding)
         YIELD node, score
+        {filters} 
         MATCH (node)-[:HAS_FINE]->(fine:Fine)
         MATCH (node)-[:APPLIES_TO]->(veh:VehicleType)
-        MATCH (node)-[:DEFINED_IN]->(clause:Clause)-[:BELONGS_TO]->(article:Article)
+        MATCH (node)-[:DEFINED_IN]->(clause:Clause)-[:BELONGS_TO]->(article:Article)-[:PART_OF]->(doc:LegalDocument)
         OPTIONAL MATCH (node)-[:HAS_ADDITIONAL_PENALTY]->(sup:SupplementaryPenalty)
-        {category_filter}
-        WHERE node
+        
         RETURN node.id as id, 
-               node.description as text, 
-               veh.name as category, 
-               fine.min as fine_min, 
-               fine.max as fine_max, 
-               article.name as law_article, 
-               clause.name as law_clause, 
-               collect(sup.text) as extra, 
-               score as score
+            node.description as text, 
+            veh.name as category, 
+            fine.min as fine_min, 
+            fine.max as fine_max, 
+            article.name as law_article, 
+            clause.name as law_clause, 
+            doc.name as document,
+            collect(sup.text) as extra, 
+            score as vector_score
         """
         with driver.session() as session:
             category_clause = ""
@@ -69,9 +70,9 @@ class Model:
         sorted_results = sorted(final_scores.values(), key=lambda x: x['score'], reverse=True)
         return sorted_results[:top_k]
 
-    def hybrid_search(self, query, vehicle_patterns, business_patterns, fallback_patterns, decree_filter=None, top_k=10, verbose=False):
+    def hybrid_search(self, query, vehicle_patterns, business_patterns, fallback_patterns, model_llm=[None, None], decree_filter=None, top_k=10, verbose=False):
         driver = GraphDatabase.driver(self.uri, auth=self.auth)
-        extraction = extract_entities_with_llm(query, vehicle_patterns, business_patterns, fallback_patterns)
+        extraction = extract_entities_with_llm(query, vehicle_patterns, business_patterns, fallback_patterns, model_llm)
         target_category = extraction['category']
         query_intent = extraction['intent']
 
@@ -111,7 +112,8 @@ class Model:
             fine.max as fine_max, 
             article.name as law_article, 
             clause.name as law_clause, 
-            doc.name as document,
+            clause.full_ref as full_ref,
+            node.doc_id as document,
             collect(sup.text) as extra, 
             score as vector_score
         """
@@ -135,7 +137,8 @@ class Model:
             fine.max as fine_max, 
             article.name as law_article, 
             clause.name as law_clause, 
-            doc.name as document,
+            clause.full_ref as full_ref,
+            node.doc_id as document,
             collect(sup.text) as extra, 
             score as bm25_score
         LIMIT {keyword_limit}
@@ -163,9 +166,9 @@ class Model:
                 filter_conditions.append("node.doc_id = $decree_id")
                 params["decree_id"] = decree_filter
 
-            if category_filters:
-                filter_conditions.append("EXISTS { (node)-[:APPLIES_TO]->(v:VehicleType) WHERE v.name IN $categories }")
-                params["categories"] = category_filters
+            # if category_filters:
+            #     filter_conditions.append("EXISTS { (node)-[:APPLIES_TO]->(v:VehicleType) WHERE v.name IN $categories }")
+            #     params["categories"] = category_filters
             
             # Tạo mệnh đề WHERE
             filter_clause = "WHERE " + " AND ".join(filter_conditions) if filter_conditions else ""
